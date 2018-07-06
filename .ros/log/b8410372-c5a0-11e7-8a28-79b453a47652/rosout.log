@@ -1,0 +1,4 @@
+
+
+1510267973.757209503  Node Startup
+1510268009.770376316 INFO [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic_node.cpp:54(main) [topics: /rosout] Successfully connected to can0.

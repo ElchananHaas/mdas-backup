@@ -1,0 +1,380 @@
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_widget_get_accessible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (nm-applet:2171): CRITICAL **: atk_object_add_relationship: assertion 'ATK_IS_OBJECT (target)' failed
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_table_attach: assertion 'GTK_IS_WIDGET (child)' failed
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_widget_get_accessible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (nm-applet:2171): CRITICAL **: atk_object_add_relationship: assertion 'ATK_IS_OBJECT (target)' failed
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_table_attach: assertion 'GTK_IS_WIDGET (child)' failed
+nm-applet-Message: No keyring secrets found for Wyatt’s iPhone/802-11-wireless-security; asking user.
+
+(nm-applet:2171): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-applet:2171): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-applet:2171): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-applet:2171): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-applet:2171): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-applet:2171): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-applet:2171): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-applet:2171): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-applet:2171): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-applet:2171): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-applet:2171): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-applet:2171): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-applet:2171): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-applet:2171): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-applet:2171): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-applet:2171): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-applet:2171): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-applet:2171): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-applet:2171): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_widget_get_accessible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (nm-applet:2171): CRITICAL **: atk_object_add_relationship: assertion 'ATK_IS_OBJECT (target)' failed
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_table_attach: assertion 'GTK_IS_WIDGET (child)' failed
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_widget_get_accessible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (nm-applet:2171): CRITICAL **: atk_object_add_relationship: assertion 'ATK_IS_OBJECT (target)' failed
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_table_attach: assertion 'GTK_IS_WIDGET (child)' failed
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_widget_get_accessible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (nm-applet:2171): CRITICAL **: atk_object_add_relationship: assertion 'ATK_IS_OBJECT (target)' failed
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_table_attach: assertion 'GTK_IS_WIDGET (child)' failed
+
+(nm-connection-editor:2833): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-connection-editor:2833): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-connection-editor:2833): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-connection-editor:2833): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-connection-editor:2833): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-connection-editor:2833): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-connection-editor:2833): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-connection-editor:2833): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-connection-editor:2833): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-connection-editor:2833): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-connection-editor:2833): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-connection-editor:2833): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-connection-editor:2833): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-connection-editor:2833): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-connection-editor:2833): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-connection-editor:2833): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-connection-editor:2833): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-connection-editor:2833): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-connection-editor:2833): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+** (nm-connection-editor:2833): WARNING **: Invalid setting IPv4 Settings: addresses
+
+** (nm-connection-editor:2833): WARNING **: Invalid setting IPv4 Settings: addresses
+
+** (nm-connection-editor:2833): WARNING **: ui_to_setting: IPv4 address '<none>' missing or invalid!
+
+** (nm-connection-editor:2833): WARNING **: Invalid setting IPv4 Settings
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_widget_get_accessible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (nm-applet:2171): CRITICAL **: atk_object_add_relationship: assertion 'ATK_IS_OBJECT (target)' failed
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_table_attach: assertion 'GTK_IS_WIDGET (child)' failed
+
+** (nm-connection-editor:2833): WARNING **: ui_to_setting: IPv4 prefix '<none>' missing!
+
+** (nm-connection-editor:2833): WARNING **: Invalid setting IPv4 Settings
+
+** (nm-connection-editor:2833): WARNING **: ui_to_setting: IPv4 prefix '<none>' missing!
+
+** (nm-connection-editor:2833): WARNING **: Invalid setting IPv4 Settings
+
+** (nm-connection-editor:2833): WARNING **: ui_to_setting: IPv4 address '' missing or invalid!
+
+** (nm-connection-editor:2833): WARNING **: Invalid setting IPv4 Settings
+
+(nm-connection-editor:2845): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-connection-editor:2845): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-connection-editor:2845): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-connection-editor:2845): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-connection-editor:2845): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-connection-editor:2845): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-connection-editor:2845): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-connection-editor:2845): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-connection-editor:2845): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-connection-editor:2845): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-connection-editor:2845): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-connection-editor:2845): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-connection-editor:2845): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-connection-editor:2845): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-connection-editor:2845): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-connection-editor:2845): GLib-GIO-CRITICAL **: g_settings_new_with_path: assertion 'path_is_valid (path)' failed
+
+(nm-connection-editor:2845): GLib-GIO-CRITICAL **: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_get_type: assertion 'value != NULL' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(nm-connection-editor:2845): GLib-CRITICAL **: g_variant_unref: assertion 'value != NULL' failed
+
+(nm-connection-editor:2845): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+** (nm-connection-editor:2845): WARNING **: Invalid setting IPv4 Settings: addresses
+
+** (nm-connection-editor:2845): WARNING **: Invalid setting IPv4 Settings: addresses
+
+** (nm-connection-editor:2845): WARNING **: ui_to_setting: IPv4 address '<none>' missing or invalid!
+
+** (nm-connection-editor:2845): WARNING **: Invalid setting IPv4 Settings
+
+** (nm-connection-editor:2845): WARNING **: ui_to_setting: IPv4 prefix '<none>' missing!
+
+** (nm-connection-editor:2845): WARNING **: Invalid setting IPv4 Settings
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_widget_get_accessible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (nm-applet:2171): CRITICAL **: atk_object_add_relationship: assertion 'ATK_IS_OBJECT (target)' failed
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_table_attach: assertion 'GTK_IS_WIDGET (child)' failed
+
+(deja-dup-monitor:2546): GLib-CRITICAL **: Source ID 45 was not found when attempting to remove it
+
+(deja-dup-monitor:2546): GLib-CRITICAL **: Source ID 45 was not found when attempting to remove it
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_widget_get_accessible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (nm-applet:2171): CRITICAL **: atk_object_add_relationship: assertion 'ATK_IS_OBJECT (target)' failed
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_table_attach: assertion 'GTK_IS_WIDGET (child)' failed
+
+(deja-dup-monitor:2546): GLib-CRITICAL **: Source ID 92 was not found when attempting to remove it
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_widget_get_accessible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (nm-applet:2171): CRITICAL **: atk_object_add_relationship: assertion 'ATK_IS_OBJECT (target)' failed
+
+(nm-applet:2171): Gtk-CRITICAL **: gtk_table_attach: assertion 'GTK_IS_WIDGET (child)' failed
+
+(gnome-terminal:3120): GLib-GIO-CRITICAL **: g_settings_get: the format string may not contain '&' (key 'monospace-font-name' from schema 'org.gnome.desktop.interface'). This call will probably stop working with a future version of glib.
+
+(deja-dup-monitor:2546): GLib-CRITICAL **: Source ID 135 was not found when attempting to remove it
+
+(deja-dup-monitor:2546): GLib-CRITICAL **: Source ID 135 was not found when attempting to remove it
+ERROR 2017-12-05 13:47:31 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-12-05 13:47:31 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-12-05 13:47:31 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2017-12-05 13:52:50 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-12-05 13:52:50 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-12-05 13:52:50 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2017-12-05 14:20:13 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-12-05 14:20:13 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-12-05 14:20:13 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nautilus:2161): GLib-CRITICAL **: Source ID 274 was not found when attempting to remove it
+
+(nautilus:2161): GLib-CRITICAL **: Source ID 275 was not found when attempting to remove it
+
+(nautilus:2161): GLib-CRITICAL **: Source ID 276 was not found when attempting to remove it
+
+(unity-fallback-mount-helper:2163): Gdk-WARNING **: unity-fallback-mount-helper: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(telepathy-indicator:2311): Gdk-WARNING **: telepathy-indicator: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(nm-applet:2171): Gdk-WARNING **: nm-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(update-notifier:2512): Gdk-WARNING **: update-notifier: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+gnome-session[1981]: Gdk-WARNING: gnome-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+

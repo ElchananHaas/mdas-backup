@@ -1,0 +1,14 @@
+Package: b43-fwcutter
+Version: 1:015-9
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Fabrizio Regalli <fabreg@fabreg.it>
+Installed-Size: 82
+Depends: libc6 (>= 2.4)
+Section: contrib/utils
+Priority: optional
+Homepage: http://wireless.kernel.org/en/users/Drivers/b43
+Description: Utility for extracting Broadcom 43xx firmware
+ fwcutter is a tool which can extract firmware from various source files.
+ It's written for BCM43xx driver files.
+ It grabs firmware for BCM43xx from website and install it.

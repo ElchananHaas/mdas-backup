@@ -1,0 +1,150 @@
+[rosmaster.main][INFO] 2017-11-30 17:35:21,573: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-11-30 17:35:21,573: Starting ROS Master Node
+[xmlrpc][INFO] 2017-11-30 17:35:21,574: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-11-30 17:35:21,574: Started XML-RPC server [http://mdas-Meerkat:11311/]
+[xmlrpc][INFO] 2017-11-30 17:35:21,574: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-11-30 17:35:21,574: Master initialized: port[11311], uri[http://mdas-Meerkat:11311/]
+[rosmaster.master][INFO] 2017-11-30 17:35:21,598: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-30 17:35:21,599: +PARAM [/roslaunch/uris/host_mdas_meerkat__41261] by /roslaunch
+[rosmaster.master][INFO] 2017-11-30 17:35:21,661: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-11-30 17:35:21,661: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-11-30 17:35:21,680: +SERVICE [/rosout/get_loggers] /rosout http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:35:21,681: +SERVICE [/rosout/set_logger_level] /rosout http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:35:21,682: +PUB [/rosout_agg] /rosout http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:35:21,684: +SUB [/rosout] /rosout http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:36:14,747: +PUB [/rosout] /socketcan_to_topic_node http://mdas-Meerkat:44251/
+[rosmaster.master][INFO] 2017-11-30 17:36:14,748: +SERVICE [/socketcan_to_topic_node/get_loggers] /socketcan_to_topic_node http://mdas-Meerkat:44251/
+[rosmaster.master][INFO] 2017-11-30 17:36:14,748: +SERVICE [/socketcan_to_topic_node/set_logger_level] /socketcan_to_topic_node http://mdas-Meerkat:44251/
+[rosmaster.master][INFO] 2017-11-30 17:36:14,749: +PUB [/received_messages] /socketcan_to_topic_node http://mdas-Meerkat:44251/
+[rosmaster.master][INFO] 2017-11-30 17:36:14,797: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:38:05,389: +PUB [/rosout] /rostopic_4506_1512081485266 http://mdas-Meerkat:33143/
+[rosmaster.master][INFO] 2017-11-30 17:38:05,398: +SERVICE [/rostopic_4506_1512081485266/get_loggers] /rostopic_4506_1512081485266 http://mdas-Meerkat:33143/
+[rosmaster.master][INFO] 2017-11-30 17:38:05,402: +SERVICE [/rostopic_4506_1512081485266/set_logger_level] /rostopic_4506_1512081485266 http://mdas-Meerkat:33143/
+[rosmaster.master][INFO] 2017-11-30 17:38:05,418: +SUB [/received_messages] /rostopic_4506_1512081485266 http://mdas-Meerkat:33143/
+[rosmaster.master][INFO] 2017-11-30 17:38:05,446: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:42:23,325: -SUB [/received_messages] /rostopic_4506_1512081485266 http://mdas-Meerkat:33143/
+[rosmaster.master][INFO] 2017-11-30 17:42:23,325: -PUB [/rosout] /rostopic_4506_1512081485266 http://mdas-Meerkat:33143/
+[rosmaster.master][INFO] 2017-11-30 17:42:23,326: -SERVICE [/rostopic_4506_1512081485266/get_loggers] /rostopic_4506_1512081485266 rosrpc://mdas-Meerkat:46753
+[rosmaster.master][INFO] 2017-11-30 17:42:23,326: -SERVICE [/rostopic_4506_1512081485266/set_logger_level] /rostopic_4506_1512081485266 rosrpc://mdas-Meerkat:46753
+[rosmaster.master][INFO] 2017-11-30 17:42:23,407: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:51:08,645: +PUB [/rosout] /rostopic_4556_1512082268523 http://mdas-Meerkat:42787/
+[rosmaster.master][INFO] 2017-11-30 17:51:08,653: +SERVICE [/rostopic_4556_1512082268523/get_loggers] /rostopic_4556_1512082268523 http://mdas-Meerkat:42787/
+[rosmaster.master][INFO] 2017-11-30 17:51:08,656: +SERVICE [/rostopic_4556_1512082268523/set_logger_level] /rostopic_4556_1512082268523 http://mdas-Meerkat:42787/
+[rosmaster.master][INFO] 2017-11-30 17:51:08,668: +SUB [/received_messages] /rostopic_4556_1512082268523 http://mdas-Meerkat:42787/
+[rosmaster.master][INFO] 2017-11-30 17:51:08,697: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:51:13,669: -SUB [/received_messages] /rostopic_4556_1512082268523 http://mdas-Meerkat:42787/
+[rosmaster.master][INFO] 2017-11-30 17:51:13,669: -PUB [/rosout] /rostopic_4556_1512082268523 http://mdas-Meerkat:42787/
+[rosmaster.master][INFO] 2017-11-30 17:51:13,670: -SERVICE [/rostopic_4556_1512082268523/set_logger_level] /rostopic_4556_1512082268523 rosrpc://mdas-Meerkat:37165
+[rosmaster.master][INFO] 2017-11-30 17:51:13,670: -SERVICE [/rostopic_4556_1512082268523/get_loggers] /rostopic_4556_1512082268523 rosrpc://mdas-Meerkat:37165
+[rosmaster.master][INFO] 2017-11-30 17:51:13,707: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:52:03,664: +PUB [/rosout] /rostopic_4578_1512082323541 http://mdas-Meerkat:33395/
+[rosmaster.master][INFO] 2017-11-30 17:52:03,673: +SERVICE [/rostopic_4578_1512082323541/get_loggers] /rostopic_4578_1512082323541 http://mdas-Meerkat:33395/
+[rosmaster.master][INFO] 2017-11-30 17:52:03,677: +SERVICE [/rostopic_4578_1512082323541/set_logger_level] /rostopic_4578_1512082323541 http://mdas-Meerkat:33395/
+[rosmaster.master][INFO] 2017-11-30 17:52:03,691: +SUB [/received_messages] /rostopic_4578_1512082323541 http://mdas-Meerkat:33395/
+[rosmaster.master][INFO] 2017-11-30 17:52:03,719: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:52:15,060: -SUB [/received_messages] /rostopic_4578_1512082323541 http://mdas-Meerkat:33395/
+[rosmaster.master][INFO] 2017-11-30 17:52:15,060: -PUB [/rosout] /rostopic_4578_1512082323541 http://mdas-Meerkat:33395/
+[rosmaster.master][INFO] 2017-11-30 17:52:15,060: -SERVICE [/rostopic_4578_1512082323541/set_logger_level] /rostopic_4578_1512082323541 rosrpc://mdas-Meerkat:40741
+[rosmaster.master][INFO] 2017-11-30 17:52:15,061: -SERVICE [/rostopic_4578_1512082323541/get_loggers] /rostopic_4578_1512082323541 rosrpc://mdas-Meerkat:40741
+[rosmaster.master][INFO] 2017-11-30 17:52:15,140: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:53:47,398: +PUB [/rosout] /rostopic_4600_1512082427275 http://mdas-Meerkat:35763/
+[rosmaster.master][INFO] 2017-11-30 17:53:47,407: +SERVICE [/rostopic_4600_1512082427275/get_loggers] /rostopic_4600_1512082427275 http://mdas-Meerkat:35763/
+[rosmaster.master][INFO] 2017-11-30 17:53:47,410: +SERVICE [/rostopic_4600_1512082427275/set_logger_level] /rostopic_4600_1512082427275 http://mdas-Meerkat:35763/
+[rosmaster.master][INFO] 2017-11-30 17:53:47,423: +SUB [/received_messages] /rostopic_4600_1512082427275 http://mdas-Meerkat:35763/
+[rosmaster.master][INFO] 2017-11-30 17:53:47,443: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:53:59,971: -SUB [/received_messages] /rostopic_4600_1512082427275 http://mdas-Meerkat:35763/
+[rosmaster.master][INFO] 2017-11-30 17:53:59,972: -PUB [/rosout] /rostopic_4600_1512082427275 http://mdas-Meerkat:35763/
+[rosmaster.master][INFO] 2017-11-30 17:53:59,972: -SERVICE [/rostopic_4600_1512082427275/get_loggers] /rostopic_4600_1512082427275 rosrpc://mdas-Meerkat:46449
+[rosmaster.master][INFO] 2017-11-30 17:53:59,973: -SERVICE [/rostopic_4600_1512082427275/set_logger_level] /rostopic_4600_1512082427275 rosrpc://mdas-Meerkat:46449
+[rosmaster.master][INFO] 2017-11-30 17:54:00,067: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:55:59,199: +PUB [/rosout] /rostopic_4623_1512082559076 http://mdas-Meerkat:37935/
+[rosmaster.master][INFO] 2017-11-30 17:55:59,207: +SERVICE [/rostopic_4623_1512082559076/get_loggers] /rostopic_4623_1512082559076 http://mdas-Meerkat:37935/
+[rosmaster.master][INFO] 2017-11-30 17:55:59,211: +SERVICE [/rostopic_4623_1512082559076/set_logger_level] /rostopic_4623_1512082559076 http://mdas-Meerkat:37935/
+[rosmaster.master][INFO] 2017-11-30 17:55:59,216: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:55:59,224: +SUB [/received_messages] /rostopic_4623_1512082559076 http://mdas-Meerkat:37935/
+[rosmaster.master][INFO] 2017-11-30 17:56:01,117: -SUB [/received_messages] /rostopic_4623_1512082559076 http://mdas-Meerkat:37935/
+[rosmaster.master][INFO] 2017-11-30 17:56:01,118: -PUB [/rosout] /rostopic_4623_1512082559076 http://mdas-Meerkat:37935/
+[rosmaster.master][INFO] 2017-11-30 17:56:01,118: -SERVICE [/rostopic_4623_1512082559076/set_logger_level] /rostopic_4623_1512082559076 rosrpc://mdas-Meerkat:37149
+[rosmaster.master][INFO] 2017-11-30 17:56:01,118: -SERVICE [/rostopic_4623_1512082559076/get_loggers] /rostopic_4623_1512082559076 rosrpc://mdas-Meerkat:37149
+[rosmaster.master][INFO] 2017-11-30 17:56:01,121: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:57:48,784: +PUB [/rosout] /rostopic_4645_1512082668661 http://mdas-Meerkat:40883/
+[rosmaster.master][INFO] 2017-11-30 17:57:48,792: +SERVICE [/rostopic_4645_1512082668661/get_loggers] /rostopic_4645_1512082668661 http://mdas-Meerkat:40883/
+[rosmaster.master][INFO] 2017-11-30 17:57:48,796: +SERVICE [/rostopic_4645_1512082668661/set_logger_level] /rostopic_4645_1512082668661 http://mdas-Meerkat:40883/
+[rosmaster.master][INFO] 2017-11-30 17:57:48,801: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:57:48,811: +SUB [/received_messages] /rostopic_4645_1512082668661 http://mdas-Meerkat:40883/
+[rosmaster.master][INFO] 2017-11-30 17:57:55,661: -SUB [/received_messages] /rostopic_4645_1512082668661 http://mdas-Meerkat:40883/
+[rosmaster.master][INFO] 2017-11-30 17:57:55,662: -PUB [/rosout] /rostopic_4645_1512082668661 http://mdas-Meerkat:40883/
+[rosmaster.master][INFO] 2017-11-30 17:57:55,662: -SERVICE [/rostopic_4645_1512082668661/set_logger_level] /rostopic_4645_1512082668661 rosrpc://mdas-Meerkat:39011
+[rosmaster.master][INFO] 2017-11-30 17:57:55,662: -SERVICE [/rostopic_4645_1512082668661/get_loggers] /rostopic_4645_1512082668661 rosrpc://mdas-Meerkat:39011
+[rosmaster.master][INFO] 2017-11-30 17:57:55,695: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:59:25,184: +PUB [/rosout] /rostopic_4668_1512082765061 http://mdas-Meerkat:37579/
+[rosmaster.master][INFO] 2017-11-30 17:59:25,193: +SERVICE [/rostopic_4668_1512082765061/get_loggers] /rostopic_4668_1512082765061 http://mdas-Meerkat:37579/
+[rosmaster.master][INFO] 2017-11-30 17:59:25,196: +SERVICE [/rostopic_4668_1512082765061/set_logger_level] /rostopic_4668_1512082765061 http://mdas-Meerkat:37579/
+[rosmaster.master][INFO] 2017-11-30 17:59:25,198: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 17:59:25,210: +SUB [/received_messages] /rostopic_4668_1512082765061 http://mdas-Meerkat:37579/
+[rosmaster.master][INFO] 2017-11-30 17:59:32,573: -SUB [/received_messages] /rostopic_4668_1512082765061 http://mdas-Meerkat:37579/
+[rosmaster.master][INFO] 2017-11-30 17:59:32,573: -PUB [/rosout] /rostopic_4668_1512082765061 http://mdas-Meerkat:37579/
+[rosmaster.master][INFO] 2017-11-30 17:59:32,574: -SERVICE [/rostopic_4668_1512082765061/set_logger_level] /rostopic_4668_1512082765061 rosrpc://mdas-Meerkat:41539
+[rosmaster.master][INFO] 2017-11-30 17:59:32,574: -SERVICE [/rostopic_4668_1512082765061/get_loggers] /rostopic_4668_1512082765061 rosrpc://mdas-Meerkat:41539
+[rosmaster.master][INFO] 2017-11-30 17:59:32,615: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 18:01:01,809: +PUB [/rosout] /rostopic_4692_1512082861686 http://mdas-Meerkat:46063/
+[rosmaster.master][INFO] 2017-11-30 18:01:01,817: +SERVICE [/rostopic_4692_1512082861686/get_loggers] /rostopic_4692_1512082861686 http://mdas-Meerkat:46063/
+[rosmaster.master][INFO] 2017-11-30 18:01:01,821: +SERVICE [/rostopic_4692_1512082861686/set_logger_level] /rostopic_4692_1512082861686 http://mdas-Meerkat:46063/
+[rosmaster.master][INFO] 2017-11-30 18:01:01,825: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 18:01:01,836: +SUB [/received_messages] /rostopic_4692_1512082861686 http://mdas-Meerkat:46063/
+[rosmaster.master][INFO] 2017-11-30 18:01:08,955: -SUB [/received_messages] /rostopic_4692_1512082861686 http://mdas-Meerkat:46063/
+[rosmaster.master][INFO] 2017-11-30 18:01:08,955: -PUB [/rosout] /rostopic_4692_1512082861686 http://mdas-Meerkat:46063/
+[rosmaster.master][INFO] 2017-11-30 18:01:08,955: -SERVICE [/rostopic_4692_1512082861686/set_logger_level] /rostopic_4692_1512082861686 rosrpc://mdas-Meerkat:43229
+[rosmaster.master][INFO] 2017-11-30 18:01:08,955: -SERVICE [/rostopic_4692_1512082861686/get_loggers] /rostopic_4692_1512082861686 rosrpc://mdas-Meerkat:43229
+[rosmaster.master][INFO] 2017-11-30 18:01:09,040: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 18:02:32,974: +PUB [/rosout] /rostopic_4714_1512082952852 http://mdas-Meerkat:35367/
+[rosmaster.master][INFO] 2017-11-30 18:02:32,980: +SERVICE [/rostopic_4714_1512082952852/get_loggers] /rostopic_4714_1512082952852 http://mdas-Meerkat:35367/
+[rosmaster.master][INFO] 2017-11-30 18:02:32,983: +SERVICE [/rostopic_4714_1512082952852/set_logger_level] /rostopic_4714_1512082952852 http://mdas-Meerkat:35367/
+[rosmaster.master][INFO] 2017-11-30 18:02:32,993: +SUB [/received_messages] /rostopic_4714_1512082952852 http://mdas-Meerkat:35367/
+[rosmaster.master][INFO] 2017-11-30 18:02:33,029: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 18:03:25,933: -SUB [/received_messages] /rostopic_4714_1512082952852 http://mdas-Meerkat:35367/
+[rosmaster.master][INFO] 2017-11-30 18:03:25,934: -PUB [/rosout] /rostopic_4714_1512082952852 http://mdas-Meerkat:35367/
+[rosmaster.master][INFO] 2017-11-30 18:03:25,934: -SERVICE [/rostopic_4714_1512082952852/get_loggers] /rostopic_4714_1512082952852 rosrpc://mdas-Meerkat:36211
+[rosmaster.master][INFO] 2017-11-30 18:03:25,934: -SERVICE [/rostopic_4714_1512082952852/set_logger_level] /rostopic_4714_1512082952852 rosrpc://mdas-Meerkat:36211
+[rosmaster.master][INFO] 2017-11-30 18:03:25,938: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 18:05:03,014: +PUB [/rosout] /rostopic_4737_1512083102891 http://mdas-Meerkat:40563/
+[rosmaster.master][INFO] 2017-11-30 18:05:03,022: +SERVICE [/rostopic_4737_1512083102891/get_loggers] /rostopic_4737_1512083102891 http://mdas-Meerkat:40563/
+[rosmaster.master][INFO] 2017-11-30 18:05:03,026: +SERVICE [/rostopic_4737_1512083102891/set_logger_level] /rostopic_4737_1512083102891 http://mdas-Meerkat:40563/
+[rosmaster.master][INFO] 2017-11-30 18:05:03,038: +SUB [/received_messages] /rostopic_4737_1512083102891 http://mdas-Meerkat:40563/
+[rosmaster.master][INFO] 2017-11-30 18:05:03,067: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 18:05:07,546: -SUB [/received_messages] /rostopic_4737_1512083102891 http://mdas-Meerkat:40563/
+[rosmaster.master][INFO] 2017-11-30 18:05:07,547: -PUB [/rosout] /rostopic_4737_1512083102891 http://mdas-Meerkat:40563/
+[rosmaster.master][INFO] 2017-11-30 18:05:07,547: -SERVICE [/rostopic_4737_1512083102891/set_logger_level] /rostopic_4737_1512083102891 rosrpc://mdas-Meerkat:46395
+[rosmaster.master][INFO] 2017-11-30 18:05:07,548: -SERVICE [/rostopic_4737_1512083102891/get_loggers] /rostopic_4737_1512083102891 rosrpc://mdas-Meerkat:46395
+[rosmaster.master][INFO] 2017-11-30 18:05:07,576: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 18:06:30,081: +PUB [/rosout] /rostopic_4759_1512083189958 http://mdas-Meerkat:46671/
+[rosmaster.master][INFO] 2017-11-30 18:06:30,083: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 18:06:30,093: +SERVICE [/rostopic_4759_1512083189958/get_loggers] /rostopic_4759_1512083189958 http://mdas-Meerkat:46671/
+[rosmaster.master][INFO] 2017-11-30 18:06:30,098: +SERVICE [/rostopic_4759_1512083189958/set_logger_level] /rostopic_4759_1512083189958 http://mdas-Meerkat:46671/
+[rosmaster.master][INFO] 2017-11-30 18:06:30,111: +SUB [/received_messages] /rostopic_4759_1512083189958 http://mdas-Meerkat:46671/
+[rosmaster.master][INFO] 2017-11-30 18:06:35,357: -SUB [/received_messages] /rostopic_4759_1512083189958 http://mdas-Meerkat:46671/
+[rosmaster.master][INFO] 2017-11-30 18:06:35,358: -PUB [/rosout] /rostopic_4759_1512083189958 http://mdas-Meerkat:46671/
+[rosmaster.master][INFO] 2017-11-30 18:06:35,358: -SERVICE [/rostopic_4759_1512083189958/set_logger_level] /rostopic_4759_1512083189958 rosrpc://mdas-Meerkat:34933
+[rosmaster.master][INFO] 2017-11-30 18:06:35,359: -SERVICE [/rostopic_4759_1512083189958/get_loggers] /rostopic_4759_1512083189958 rosrpc://mdas-Meerkat:34933
+[rosmaster.master][INFO] 2017-11-30 18:06:35,370: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 18:10:01,709: +PUB [/rosout] /rostopic_4792_1512083401587 http://mdas-Meerkat:40391/
+[rosmaster.master][INFO] 2017-11-30 18:10:01,719: +SERVICE [/rostopic_4792_1512083401587/get_loggers] /rostopic_4792_1512083401587 http://mdas-Meerkat:40391/
+[rosmaster.master][INFO] 2017-11-30 18:10:01,723: +SERVICE [/rostopic_4792_1512083401587/set_logger_level] /rostopic_4792_1512083401587 http://mdas-Meerkat:40391/
+[rosmaster.master][INFO] 2017-11-30 18:10:01,737: +SUB [/received_messages] /rostopic_4792_1512083401587 http://mdas-Meerkat:40391/
+[rosmaster.master][INFO] 2017-11-30 18:10:01,742: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 18:10:46,591: -SUB [/received_messages] /rostopic_4792_1512083401587 http://mdas-Meerkat:40391/
+[rosmaster.master][INFO] 2017-11-30 18:10:46,591: -PUB [/rosout] /rostopic_4792_1512083401587 http://mdas-Meerkat:40391/
+[rosmaster.master][INFO] 2017-11-30 18:10:46,592: -SERVICE [/rostopic_4792_1512083401587/set_logger_level] /rostopic_4792_1512083401587 rosrpc://mdas-Meerkat:37053
+[rosmaster.master][INFO] 2017-11-30 18:10:46,592: -SERVICE [/rostopic_4792_1512083401587/get_loggers] /rostopic_4792_1512083401587 rosrpc://mdas-Meerkat:37053
+[rosmaster.master][INFO] 2017-11-30 18:10:46,623: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 18:11:59,665: +PUB [/rosout] /rostopic_4817_1512083519542 http://mdas-Meerkat:46615/
+[rosmaster.master][INFO] 2017-11-30 18:11:59,674: +SERVICE [/rostopic_4817_1512083519542/get_loggers] /rostopic_4817_1512083519542 http://mdas-Meerkat:46615/
+[rosmaster.master][INFO] 2017-11-30 18:11:59,678: +SERVICE [/rostopic_4817_1512083519542/set_logger_level] /rostopic_4817_1512083519542 http://mdas-Meerkat:46615/
+[rosmaster.master][INFO] 2017-11-30 18:11:59,691: +SUB [/received_messages] /rostopic_4817_1512083519542 http://mdas-Meerkat:46615/
+[rosmaster.master][INFO] 2017-11-30 18:11:59,691: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+[rosmaster.master][INFO] 2017-11-30 18:12:30,554: -SUB [/received_messages] /rostopic_4817_1512083519542 http://mdas-Meerkat:46615/
+[rosmaster.master][INFO] 2017-11-30 18:12:30,555: -PUB [/rosout] /rostopic_4817_1512083519542 http://mdas-Meerkat:46615/
+[rosmaster.master][INFO] 2017-11-30 18:12:30,555: -SERVICE [/rostopic_4817_1512083519542/get_loggers] /rostopic_4817_1512083519542 rosrpc://mdas-Meerkat:33165
+[rosmaster.master][INFO] 2017-11-30 18:12:30,555: -SERVICE [/rostopic_4817_1512083519542/set_logger_level] /rostopic_4817_1512083519542 rosrpc://mdas-Meerkat:33165
+[rosmaster.master][INFO] 2017-11-30 18:12:30,567: publisherUpdate[/rosout] -> http://mdas-Meerkat:44499/
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

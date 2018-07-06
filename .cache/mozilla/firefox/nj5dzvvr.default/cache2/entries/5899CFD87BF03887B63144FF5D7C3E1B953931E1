@@ -1,0 +1,451 @@
+{
+	"title": "System Registration Wizard",
+	"description": "This will take you through the steps necessary to register your computer on the Case campus network",
+	"authentication": "yes",
+	"start": "acceptable_use",
+	
+	"steps": [
+	
+		{
+			"id": "acceptable_use",
+			"title": "Acceptable Use Policy for the Case campus network",
+			"progress": "1/6",
+			"eula": {
+				"url": "/its/policy/aup-text.html",
+       			"title": "Acceptable Use Policy for the Case campus network",
+        		"next": "user_responsibility"
+			}
+		},
+		
+		{
+      "id": "user_responsibility",
+      "title": "This is the User Responsibility Policy",
+      "progress": "2/6",
+      "eula": {
+        "url": "/webservices/setup/urp.html",
+        "title": "User Responsibility Policy",
+        "next": "os_select"
+      }
+    },
+    
+    {
+    	"id": "os_select",
+    	"title": "What type of computer system are you using?",
+    	"progress": "3/6",
+    	"choices": [
+    		{ 
+    			"id": "macos",
+    			"text": "Macintosh: Mac OS X",
+    			"next": "macos_instructions"
+    		},
+    		{
+    			"id": "win_xp",
+    			"text": "PC: Windows XP",
+    			"next": "xp_instructions"
+    		},
+    		{
+    			"id": "win_vista",
+    			"text": "PC: Windows Vista",
+    			"next": "vista_instructions"
+    		},
+    		{
+    			"id": "win7",
+    			"text": "PC: Windows 7",
+    			"next": "win7_instructions"
+    		},
+    		{
+    			"id": "win8",
+    			"text": "PC: Windows 8",
+    			"next": "win8_instructions"
+    		},
+    		{
+    			"id": "other",
+    			"text": "Other",
+    			"next": "other_instructions"
+    		}
+    	]
+    },
+    
+    {
+    	"id": "macos_instructions",
+    	"title": "Setup and Securing Mac OS X",
+    	"next": "get_mac_address",
+    	"progress": "4/6",
+    	"elements": [
+    		{ 
+    			"textbox": {
+    				"url": "/webservices/setup/mac10.html"
+    			}
+    		},
+    		{
+    			"choices": [
+    				{
+    					"id": "reg_inst_ok",
+    					"text": "I understand, have completed these steps, and wish to continue.",
+    					"next": "get_mac_address"
+    				}, 
+    				{
+    					"id": "reg_inst_not_ok",
+    					"text": "I do not understand and require additional assistance.",
+    					"next": "help_desk"
+    				}
+    			]
+    		}
+    	]
+    },
+    
+    {
+    	"id": "xp_instructions",
+    	"title": "Setup and Securing Windows XP",
+    	"next": "get_mac_address",
+    	"progress": "4/6",
+			"elements": [
+    		{ 
+    			"textbox": {
+    				"url": "/webservices/setup/xp.html"
+    			}
+    		},
+    		{
+    			"choices": [
+    				{
+    					"id": "reg_inst_ok",
+    					"text": "I understand, have completed these steps, and wish to continue.",
+    					"next": "get_mac_address"
+    				}, 
+    				{
+    					"id": "reg_inst_not_ok",
+    					"text": "I do not understand and require additional assistance.",
+    					"next": "help_desk"
+    				}
+    			]
+    		}
+    	]
+    },
+    
+    {
+    	"id": "vista_instructions",
+    	"title": "Setup and Securing Windows Vista",
+    	"next": "get_mac_address",
+    	"progress": "4/6",
+			"elements": [
+    		{ 
+    			"textbox": {
+    				"url": "/webservices/setup/vista.html"
+    			}
+    		},
+    		{
+    			"choices": [
+    				{
+    					"id": "reg_inst_ok",
+    					"text": "I understand, have completed these steps, and wish to continue.",
+    					"next": "get_mac_address"
+    				}, 
+    				{
+    					"id": "reg_inst_not_ok",
+    					"text": "I do not understand and require additional assistance.",
+    					"next": "help_desk"
+    				}
+    			]
+    		}
+    	]
+    },
+    
+    {
+    	"id": "win7_instructions",
+    	"title": "Setup and Securing Windows 7",
+    	"next": "get_mac_address",
+    	"progress": "4/6",
+			"elements": [
+    		{ 
+    			"textbox": {
+    				"url": "/webservices/setup/win7.html"
+    			}
+    		},
+    		{
+    			"choices": [
+    				{
+    					"id": "reg_inst_ok",
+    					"text": "I understand, have completed these steps, and wish to continue.",
+    					"next": "get_mac_address"
+    				}, 
+    				{
+    					"id": "reg_inst_not_ok",
+    					"text": "I do not understand and require additional assistance.",
+    					"next": "help_desk"
+    				}
+    			]
+    		}
+    	]
+    },
+    
+    {
+    	"id": "win8_instructions",
+    	"title": "Setup and Securing Windows 7",
+    	"next": "get_mac_address",
+    	"progress": "4/6",
+			"elements": [
+    		{ 
+    			"textbox": {
+    				"url": "/webservices/setup/win8.html"
+    			}
+    		},
+    		{
+    			"choices": [
+    				{
+    					"id": "reg_inst_ok",
+    					"text": "I understand, have completed these steps, and wish to continue.",
+    					"next": "get_mac_address"
+    				}, 
+    				{
+    					"id": "reg_inst_not_ok",
+    					"text": "I do not understand and require additional assistance.",
+    					"next": "help_desk"
+    				}
+    			]
+    		}
+    	]
+    },
+    
+    {
+    	"id": "other_instructions",
+    	"title": "Setup and Securing Your Computer",
+    	"next": "get_mac_address",
+    	"progress": "4/6",
+			"elements": [
+    		{ 
+    			"textbox": {
+    				"url": "/webservices/setup/other.html"
+    			}
+    		},
+    		{
+    			"choices": [
+    				{
+    					"id": "reg_inst_ok",
+    					"text": "I understand, have completed these steps, and wish to continue.",
+    					"next": "get_mac_address"
+    				}, 
+    				{
+    					"id": "reg_inst_not_ok",
+    					"text": "I do not understand and require additional assistance.",
+    					"next": "help_desk"
+    				}
+    			]
+    		}
+    	]
+    },
+    
+    {
+    	"id": "get_mac_address",
+    	"remote_action": {
+    		"rurl": "getmac.pl",
+    		"next": "store_mac_address"
+    	}
+    },
+    
+    {
+    	"id": "store_mac_address",
+    	"script": {
+    		"source": "input_vars.mac_addr = '::mac_addr::'; script_result=true;",
+    		"next": "get_netid_info"
+    	}
+    },
+    
+    {
+    	"id": "get_netid_info",
+    	"remote_action": {
+    		 "rurl": "get_netid_info.pl",
+         "next": "university_association"
+    	}
+ 		},
+  
+  	{
+	   	"id": "university_association",
+	   	"elements": [
+	   		{ "script": {
+					"source": "if (!::cwruEduIpdbMaxSystems:: || parseInt('::cwruEduIpdbMaxSystems::') == 0) {script_result=true;}",
+					"response": "You are not authorized to register a machine on the Case campus network.",
+					"next": "help_desk"
+	   		}},
+	   		{ "script": {
+					"source": "if ('::eduPersonPrimaryAffiliation::' == 'STUDENT') {script_result=true;}",
+					"next": "student_get_info"
+	   		}},
+	   		{	"script": {
+					"source": "if ('::eduPersonPrimaryAffiliation::' != 'STUDENT') {script_result=true;}",
+					"next": "facstaff_get_info"
+				}}
+	   	]
+    },
+    
+    {
+    	"id": "facstaff_get_info",
+    	"remote_action": {
+    		"url": "systemRegistrationForm.pl",
+    		"next": "registration_form_facstaff"
+    	}
+    },
+    
+    {
+    	"id": "student_get_info",
+    	"remote_action": {
+    		"url": "studentRegistrationForm.pl",
+    		"next": "registration_form_student"
+    	}
+    },
+    
+    {
+    	"id": "registration_form_facstaff",
+    	"title": "Please enter information about your computer",
+    	"next": "system_registration",
+    	"progress": "5/6",
+   		"elements": [
+   			{ 
+   				"script": {
+   					"source": "if ('::errorTitle::') { script_result = true; }",
+   					"next": "registration_error"
+   				}
+   			},
+   			{
+   				"header": "System Owner Information"
+   			}, 
+   			{
+   				"dropdown": {
+   					"id": "DEPT",
+   					"text": "Select your department",
+   					"data_src": "depts",
+   					"selected_src": "deptSelected"
+   				 }
+   			},
+   			{
+   				"text": "<ul><li>University Affiliates are limitted to a maximum of four registered machines.</li><li>Please choose the department that you work for.  If your department is not listed, please contact the Help Desk at (216) 368-HELP for further assistance.</li></ul>"
+   			},
+   			{
+   				"header": "Network Card Information"
+   			}, 
+   			{ "text": "Mac Address: ::>mac_addr::" },	
+   			{	
+   				"input": {
+   					"id": "hostname",
+   					"text": "Requested Hostname (optional)",
+   					"size": "17",
+   					"required": "false"
+   				}
+   			},
+   			{
+   				"text": "<p>The host name is the name by which you wish to have your computer known.</p><p>Hostnames MUST:<ul><li>match the <strong>computer name</strong> setting of your computer</li><li>contain no more than 15 characters</li><lI>begin with an alphabetic character (letters 'a' through 'z')</li><li>may contain the characters 'a' through 'z', numbers '0' through '9', and the hyphen ('-') character</li><li>must NOT end with a hyphen ('-')</li><li>must be unique on the Case Network (ie: the host name may not match any other registered computer's host name)</li></ul></p><p>If the Host Name field is left blank, a generic host name will be generated for you.  You may also change the host name after the system is registered using the 'Hostname Change' form.</p>"
+   			}
+			]
+    },
+    
+    {
+    	"id": "registration_form_student",
+    	"title": "Please enter information about your computer",
+    	"next": "system_registration",
+    	"progress": "5/6",
+   		"elements": [
+   			{ 
+   				"script": {
+   					"source": "if ('::errorTitle::') { script_result = true; }",
+   					"next": "registration_error"
+   				}
+   			},
+   			{
+   				"header": "System Owner Information"
+   			}, 
+   			{
+   				"dropdown": {
+   					"id": "DEPT",
+   					"text": "Select your department",
+   					"data_src": "depts",
+   					"selected_src": "deptSelected"
+   				 }
+   			},
+   			{
+   				"text": "<ul><li>Students are limitted to a maximum of four registered machines.</li><li>If you are a student at the School of Medicine, choose <strong>MDST</strong>.</li></ul>"
+   			},
+   			{
+   				"header": "Network Card Information"
+   			}, 
+   			{ "text": "Mac Address: ::>mac_addr::" },	
+   			{	
+   				"input": {
+   					"id": "hostname",
+   					"text": "Requested Hostname (optional)",
+   					"size": "17",
+   					"required": "false"
+   				}
+   			},
+   			{
+   				"text": "<p>The host name is the name by which you wish to have your computer known.</p><p>Hostnames MUST:<ul><li>match the <strong>computer name</strong> setting of your computer</li><li>contain no more than 15 characters</li><lI>begin with an alphabetic character (letters 'a' through 'z')</li><li>may contain the characters 'a' through 'z', numbers '0' through '9', and the hyphen ('-') character</li><li>must NOT end with a hyphen ('-')</li><li>must be unique on the Case Network (ie: the host name may not match any other registered computer's host name)</li></ul></p><p>If the Host Name field is left blank, a generic host name will be generated for you.  You may also change the host name after the system is registered using the 'Hostname Change' form.</p>"
+   			}
+			]
+    },
+		
+		{
+			"id": "system_registration",
+			"remote_action": {
+    		"rurl": "systemRegistration.pl",
+    		"inputs": [ "NetID", "DEPT", "mac_addr", "hostname" ],
+    		"next": "registration_complete"
+    	}
+    },
+		
+		{
+			"id": "registration_complete",
+			"title": "Your system has been registered",
+			"progress": "6/6",
+			"elements": [
+				{ 
+   				"script": {
+   					"source": "if ('::errorTitle::') { script_result = true; }",
+   					"next": "registration_error"
+   				}
+   			},
+   			{
+					"text": "<ul><li>Hostname: ::hostname::</li><li>Mac Address: ::macAddr::</li><li>Expires: ::expires::</li></ul><p>A registered IP address should be available for your use within a few hours.</p><p>DHCP should reset your IP address when it becomes available.  The new IP address should allow you full Internet connectivity.</p><p>If you fail to get a new IP within 24 hours reboot your system.  If that fails please contact the Help Desk at 216-368-HELP for instructions.</p>"
+				}
+			]
+		},
+		
+		{
+			"id": "registration_complete_demo",
+			"title": "Your system has been registered",
+			"progress": "7/7",
+			"elements": [
+				
+   			{
+					"text": "<ul><li>Hostname: hosttest.case.edu</li><li>Mac Address: 00-00-00-00-00-00</li><li>Expires: January 10, 2011</li></ul><p>A registered IP address should be available for your use within a few hours.</p><p>DHCP should reset your IP address when it becomes available.  The new IP address should allow you full Internet connectivity.</p><p>If you fail to get a new IP within 6 hours reboot your system.  If that fails please contact the Help Desk at 216-368-HELP for instructions.</p>"
+				}
+			]
+		},
+		
+		{
+			"id": "registration_error",
+			"next": "university_association",
+			"button": "Retry Registration Form",
+			"progress": "x",
+			"elements": [
+				{ "error": "::errorTitle::"},
+				{ "text": "::errorMsg::"},
+				{ "text": "If you believe you received this message in error or need futher assistance, please conact the Help Desk at (216) 368-HELP."}
+			]
+		},
+    
+    {
+    	"id": "help_desk",
+    	"title": "Please contact the Help Desk at (216) 368-HELP for further assistance.",
+			"progress": "x"
+    }
+     
+   	
+	]
+}
+—¯m4      Yóm—Yóm—>Ye˜Yü¨   7    :https://setup.case.edu/wizard/setup/wizard_config.json necko:classified 1 security-info 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 request-method GET auth Basic response-head HTTP/1.1 200 OK
+Date: Fri, 27 Oct 2017 17:32:07 GMT
+Server: Apache
+Last-Modified: Tue, 04 Feb 2014 18:52:15 GMT
+Etag: "101aadd5f-3289-4f199238435c0"
+Accept-Ranges: bytes
+Content-Length: 12937
+Content-Type: application/json
+   2‰

@@ -1,0 +1,21 @@
+[rosmaster.main][INFO] 2018-07-06 10:55:21,926: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2018-07-06 10:55:21,926: Starting ROS Master Node
+[xmlrpc][INFO] 2018-07-06 10:55:21,927: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2018-07-06 10:55:21,927: Started XML-RPC server [http://mdas-Meerkat:11311/]
+[xmlrpc][INFO] 2018-07-06 10:55:21,927: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2018-07-06 10:55:21,927: Master initialized: port[11311], uri[http://mdas-Meerkat:11311/]
+[rosmaster.master][INFO] 2018-07-06 10:55:21,954: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2018-07-06 10:55:21,955: +PARAM [/roslaunch/uris/host_mdas_meerkat__41093] by /roslaunch
+[rosmaster.master][INFO] 2018-07-06 10:55:22,013: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2018-07-06 10:55:22,013: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2018-07-06 10:55:22,048: +SERVICE [/rosout/get_loggers] /rosout http://mdas-Meerkat:40809/
+[rosmaster.master][INFO] 2018-07-06 10:55:22,049: +SERVICE [/rosout/set_logger_level] /rosout http://mdas-Meerkat:40809/
+[rosmaster.master][INFO] 2018-07-06 10:55:22,051: +PUB [/rosout_agg] /rosout http://mdas-Meerkat:40809/
+[rosmaster.master][INFO] 2018-07-06 10:55:22,057: +SUB [/rosout] /rosout http://mdas-Meerkat:40809/
+[rosmaster.master][INFO] 2018-07-06 10:55:24,856: -PUB [/rosout_agg] /rosout http://mdas-Meerkat:40809/
+[rosmaster.master][INFO] 2018-07-06 10:55:24,856: -SUB [/rosout] /rosout http://mdas-Meerkat:40809/
+[rosmaster.master][INFO] 2018-07-06 10:55:24,857: -SERVICE [/rosout/get_loggers] /rosout rosrpc://mdas-Meerkat:54545
+[rosmaster.master][INFO] 2018-07-06 10:55:24,857: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://mdas-Meerkat:54545
+[rosmaster.main][INFO] 2018-07-06 10:55:24,956: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2018-07-06 10:55:24,957: stopping master...
+[rospy.core][INFO] 2018-07-06 10:55:24,957: signal_shutdown [atexit]

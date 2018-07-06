@@ -1,0 +1,272 @@
+[roslaunch][INFO] 2017-11-04 10:40:14,001: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2017-11-04 10:40:14,003: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2017-11-04 10:40:14,004: roslaunch starting with args ['/opt/ros/indigo/bin/roslaunch', 'launchers', 'full_launch.launch']
+[roslaunch][INFO] 2017-11-04 10:40:14,004: roslaunch env is {'ROS_DISTRO': 'indigo', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '192.168.1.110 49162 22', 'CPATH': '/home/mdas/ros_ws/devel/include:/opt/ros/indigo/include', 'LOGNAME': 'mdas', 'USER': 'mdas', 'PATH': '/opt/ros/indigo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'HOME': '/home/mdas', 'CMAKE_PREFIX_PATH': '/home/mdas/ros_ws/devel:/opt/ros/indigo', 'LD_LIBRARY_PATH': '/home/mdas/ros_ws/devel/lib:/opt/ros/indigo/lib', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'SHLVL': '1', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'ROS_LOG_FILENAME': '/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/roslaunch-mdas-Meerkat-3373.log', 'ROS_ETC_DIR': '/opt/ros/indigo/etc/ros', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/mdas/ros_ws/devel/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/indigo/share/ros', 'PKG_CONFIG_PATH': '/home/mdas/ros_ws/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/mdas/ros_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks', 'ROS_WORKSPACE': '/home/mdas/ros_ws', 'XDG_SESSION_ID': '1', '_': '/opt/ros/indigo/bin/roslaunch', 'SSH_CONNECTION': '192.168.1.110 49162 192.168.1.113 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/9', 'PWD': '/home/mdas', 'ROS_MASTER_URI': 'http://localhost:11311', 'MAIL': '/var/mail/mdas', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:'}
+[roslaunch][INFO] 2017-11-04 10:40:14,004: starting in server mode
+[roslaunch.parent][INFO] 2017-11-04 10:40:14,004: starting roslaunch parent run
+[roslaunch][INFO] 2017-11-04 10:40:14,004: loading roscore config file /opt/ros/indigo/etc/ros/roscore.xml
+[roslaunch][INFO] 2017-11-04 10:40:14,065: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2017-11-04 10:40:14,065: loading config file /home/mdas/ros_ws/src/launchers/full_launch.launch
+[roslaunch][INFO] 2017-11-04 10:40:14,115: Added node of type [sicktoolbox_wrapper/sicklms] in namespace [/]
+[roslaunch][INFO] 2017-11-04 10:40:14,116: Added node of type [novatel/novatel_node] in namespace [/]
+[roslaunch][INFO] 2017-11-04 10:40:14,116: ... selected machine [] for node of type [sicktoolbox_wrapper/sicklms]
+[roslaunch][INFO] 2017-11-04 10:40:14,116: ... selected machine [] for node of type [novatel/novatel_node]
+[roslaunch.pmon][INFO] 2017-11-04 10:40:14,116: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2017-11-04 10:40:14,116: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2017-11-04 10:40:14,117: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2017-11-04 10:40:14,117: starting parent XML-RPC server
+[roslaunch.server][INFO] 2017-11-04 10:40:14,117: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2017-11-04 10:40:14,117: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2017-11-04 10:40:14,117: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-11-04 10:40:14,117: Started XML-RPC server [http://mdas-Meerkat:41615/]
+[xmlrpc][INFO] 2017-11-04 10:40:14,117: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2017-11-04 10:40:14,128: started roslaunch server http://mdas-Meerkat:41615/
+[roslaunch.parent][INFO] 2017-11-04 10:40:14,128: ... parent XML-RPC server started
+[roslaunch][INFO] 2017-11-04 10:40:14,129: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2017-11-04 10:40:14,129: auto-starting new master
+[roslaunch][INFO] 2017-11-04 10:40:14,129: create_master_process: rosmaster, /opt/ros/indigo/share/ros, 11311, 3, None
+[roslaunch][INFO] 2017-11-04 10:40:14,129: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2017-11-04 10:40:14,129: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2017-11-04 10:40:14,129: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2017-11-04 10:40:14,129: process[master]: starting os process
+[roslaunch][INFO] 2017-11-04 10:40:14,129: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/master.log']]
+[roslaunch][INFO] 2017-11-04 10:40:14,129: process[master]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:14,131: process[master]: started with pid [3386]
+[roslaunch][INFO] 2017-11-04 10:40:14,131: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2017-11-04 10:40:14,232: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2017-11-04 10:40:14,233: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2017-11-04 10:40:14,234: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2017-11-04 10:40:14,235: setting /run_id to 115a15fc-c16e-11e7-9a64-f44d306c96a4
+[roslaunch][INFO] 2017-11-04 10:40:14,236: setting /roslaunch/uris/host_mdas_meerkat__41615' to http://mdas-Meerkat:41615/
+[roslaunch][INFO] 2017-11-04 10:40:14,237: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2017-11-04 10:40:14,237: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2017-11-04 10:40:14,237: process[rosout-1]: env[{'ROS_DISTRO': 'indigo', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '192.168.1.110 49162 22', 'CPATH': '/home/mdas/ros_ws/devel/include:/opt/ros/indigo/include', 'LOGNAME': 'mdas', 'USER': 'mdas', 'PATH': '/opt/ros/indigo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'HOME': '/home/mdas', 'CMAKE_PREFIX_PATH': '/home/mdas/ros_ws/devel:/opt/ros/indigo', 'ROS_LOG_FILENAME': '/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/roslaunch-mdas-Meerkat-3373.log', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'SHLVL': '1', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'LD_LIBRARY_PATH': '/home/mdas/ros_ws/devel/lib:/opt/ros/indigo/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/mdas/ros_ws/devel/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/indigo/share/ros', 'PKG_CONFIG_PATH': '/home/mdas/ros_ws/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/mdas/ros_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks', 'ROS_WORKSPACE': '/home/mdas/ros_ws', 'XDG_SESSION_ID': '1', '_': '/opt/ros/indigo/bin/roslaunch', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/9', 'PWD': '/home/mdas', 'ROS_ETC_DIR': '/opt/ros/indigo/etc/ros', 'MAIL': '/var/mail/mdas', 'SSH_CONNECTION': '192.168.1.110 49162 192.168.1.113 22'}]
+[roslaunch][INFO] 2017-11-04 10:40:14,288: process[rosout-1]: args[[u'/opt/ros/indigo/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2017-11-04 10:40:14,288: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2017-11-04 10:40:14,288: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2017-11-04 10:40:14,288: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2017-11-04 10:40:14,288: ... registered process [rosout-1]
+[roslaunch][INFO] 2017-11-04 10:40:14,288: process[rosout-1]: starting os process
+[roslaunch][INFO] 2017-11-04 10:40:14,288: process[rosout-1]: start w/ args [[u'/opt/ros/indigo/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/rosout-1.log']]
+[roslaunch][INFO] 2017-11-04 10:40:14,288: process[rosout-1]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:14,290: process[rosout-1]: started with pid [3399]
+[roslaunch][INFO] 2017-11-04 10:40:14,290: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2017-11-04 10:40:14,290: load_parameters starting ...
+[roslaunch][INFO] 2017-11-04 10:40:14,295: ... load_parameters complete
+[roslaunch][INFO] 2017-11-04 10:40:14,295: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2017-11-04 10:40:14,295: ... preparing to launch node of type [sicktoolbox_wrapper/sicklms]
+[roslaunch][INFO] 2017-11-04 10:40:14,295: create_node_process: package[sicktoolbox_wrapper] type[sicklms] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2017-11-04 10:40:14,295: process[base_laser1-2]: env[{'ROS_DISTRO': 'indigo', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '192.168.1.110 49162 22', 'CPATH': '/home/mdas/ros_ws/devel/include:/opt/ros/indigo/include', 'LOGNAME': 'mdas', 'USER': 'mdas', 'PATH': '/opt/ros/indigo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'HOME': '/home/mdas', 'CMAKE_PREFIX_PATH': '/home/mdas/ros_ws/devel:/opt/ros/indigo', 'ROS_LOG_FILENAME': '/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/roslaunch-mdas-Meerkat-3373.log', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'SHLVL': '1', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'LD_LIBRARY_PATH': '/home/mdas/ros_ws/devel/lib:/opt/ros/indigo/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/mdas/ros_ws/devel/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/indigo/share/ros', 'PKG_CONFIG_PATH': '/home/mdas/ros_ws/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/mdas/ros_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks', 'ROS_WORKSPACE': '/home/mdas/ros_ws', 'XDG_SESSION_ID': '1', '_': '/opt/ros/indigo/bin/roslaunch', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/9', 'PWD': '/home/mdas', 'ROS_ETC_DIR': '/opt/ros/indigo/etc/ros', 'MAIL': '/var/mail/mdas', 'SSH_CONNECTION': '192.168.1.110 49162 192.168.1.113 22'}]
+[roslaunch][INFO] 2017-11-04 10:40:14,296: process[base_laser1-2]: args[[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1']]
+[roslaunch][INFO] 2017-11-04 10:40:14,296: ... created process [base_laser1-2]
+[roslaunch.pmon][INFO] 2017-11-04 10:40:14,296: ProcessMonitor.register[base_laser1-2]
+[roslaunch.pmon][INFO] 2017-11-04 10:40:14,296: ProcessMonitor.register[base_laser1-2] complete
+[roslaunch][INFO] 2017-11-04 10:40:14,296: ... registered process [base_laser1-2]
+[roslaunch][INFO] 2017-11-04 10:40:14,297: process[base_laser1-2]: starting os process
+[roslaunch][INFO] 2017-11-04 10:40:14,297: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:14,297: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:14,298: process[base_laser1-2]: started with pid [3408]
+[roslaunch][INFO] 2017-11-04 10:40:14,299: ... successfully launched [base_laser1-2]
+[roslaunch][INFO] 2017-11-04 10:40:14,299: ... preparing to launch node of type [novatel/novatel_node]
+[roslaunch][INFO] 2017-11-04 10:40:14,299: create_node_process: package[novatel] type[novatel_node] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2017-11-04 10:40:14,299: process[novatel_node-3]: env[{'ROS_DISTRO': 'indigo', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '192.168.1.110 49162 22', 'CPATH': '/home/mdas/ros_ws/devel/include:/opt/ros/indigo/include', 'LOGNAME': 'mdas', 'USER': 'mdas', 'PATH': '/opt/ros/indigo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'HOME': '/home/mdas', 'CMAKE_PREFIX_PATH': '/home/mdas/ros_ws/devel:/opt/ros/indigo', 'ROS_LOG_FILENAME': '/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/roslaunch-mdas-Meerkat-3373.log', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'SHLVL': '1', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'LD_LIBRARY_PATH': '/home/mdas/ros_ws/devel/lib:/opt/ros/indigo/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/mdas/ros_ws/devel/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/indigo/share/ros', 'PKG_CONFIG_PATH': '/home/mdas/ros_ws/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/mdas/ros_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks', 'ROS_WORKSPACE': '/home/mdas/ros_ws', 'XDG_SESSION_ID': '1', '_': '/opt/ros/indigo/bin/roslaunch', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/9', 'PWD': '/home/mdas', 'ROS_ETC_DIR': '/opt/ros/indigo/etc/ros', 'MAIL': '/var/mail/mdas', 'SSH_CONNECTION': '192.168.1.110 49162 192.168.1.113 22'}]
+[roslaunch][INFO] 2017-11-04 10:40:14,300: process[novatel_node-3]: args[[u'/home/mdas/ros_ws/devel/lib/novatel/novatel_node', u'__name:=novatel_node']]
+[roslaunch][INFO] 2017-11-04 10:40:14,301: ... created process [novatel_node-3]
+[roslaunch.pmon][INFO] 2017-11-04 10:40:14,301: ProcessMonitor.register[novatel_node-3]
+[roslaunch.pmon][INFO] 2017-11-04 10:40:14,301: ProcessMonitor.register[novatel_node-3] complete
+[roslaunch][INFO] 2017-11-04 10:40:14,301: ... registered process [novatel_node-3]
+[roslaunch][INFO] 2017-11-04 10:40:14,301: process[novatel_node-3]: starting os process
+[roslaunch][INFO] 2017-11-04 10:40:14,301: process[novatel_node-3]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/novatel/novatel_node', u'__name:=novatel_node', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/novatel_node-3.log']]
+[roslaunch][INFO] 2017-11-04 10:40:14,301: process[novatel_node-3]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:14,303: process[novatel_node-3]: started with pid [3415]
+[roslaunch][INFO] 2017-11-04 10:40:14,303: ... successfully launched [novatel_node-3]
+[roslaunch][INFO] 2017-11-04 10:40:14,303: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2017-11-04 10:40:14,303: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140481408984832)>
+[roslaunch.parent][INFO] 2017-11-04 10:40:14,303: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2017-11-04 10:40:14,304: spin
+[roslaunch][ERROR] 2017-11-04 10:40:14,618: [base_laser1-2] process has died [pid 3408, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:14,619: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:14,619: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:14,620: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:14,621: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:14,628: process[base_laser1-2]: started with pid [3498]
+[roslaunch][ERROR] 2017-11-04 10:40:14,931: [base_laser1-2] process has died [pid 3498, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:14,932: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:14,932: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:14,933: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:14,933: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:14,941: process[base_laser1-2]: started with pid [3539]
+[roslaunch][ERROR] 2017-11-04 10:40:15,243: [base_laser1-2] process has died [pid 3539, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:15,244: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:15,245: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:15,245: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:15,246: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:15,253: process[base_laser1-2]: started with pid [3580]
+[roslaunch][ERROR] 2017-11-04 10:40:15,556: [base_laser1-2] process has died [pid 3580, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:15,556: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:15,557: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:15,557: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:15,558: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:15,565: process[base_laser1-2]: started with pid [3621]
+[roslaunch][ERROR] 2017-11-04 10:40:15,867: [base_laser1-2] process has died [pid 3621, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:15,868: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:15,869: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:15,869: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:15,870: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:15,877: process[base_laser1-2]: started with pid [3662]
+[roslaunch][ERROR] 2017-11-04 10:40:16,180: [base_laser1-2] process has died [pid 3662, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:16,181: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:16,181: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:16,182: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:16,182: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:16,189: process[base_laser1-2]: started with pid [3704]
+[roslaunch][ERROR] 2017-11-04 10:40:16,593: [base_laser1-2] process has died [pid 3704, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:16,594: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:16,594: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:16,595: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:16,595: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:16,602: process[base_laser1-2]: started with pid [3745]
+[roslaunch][ERROR] 2017-11-04 10:40:16,905: [base_laser1-2] process has died [pid 3745, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:16,905: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:16,906: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:16,906: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:16,907: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:16,913: process[base_laser1-2]: started with pid [3786]
+[roslaunch][ERROR] 2017-11-04 10:40:17,216: [base_laser1-2] process has died [pid 3786, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:17,217: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:17,217: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:17,218: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:17,218: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:17,226: process[base_laser1-2]: started with pid [3827]
+[roslaunch][ERROR] 2017-11-04 10:40:17,629: [base_laser1-2] process has died [pid 3827, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:17,630: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:17,630: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:17,631: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:17,631: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:17,638: process[base_laser1-2]: started with pid [3868]
+[roslaunch][ERROR] 2017-11-04 10:40:18,041: [base_laser1-2] process has died [pid 3868, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:18,041: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:18,041: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:18,041: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:18,041: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:18,043: process[base_laser1-2]: started with pid [3953]
+[roslaunch][ERROR] 2017-11-04 10:40:18,444: [base_laser1-2] process has died [pid 3953, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:18,444: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:18,444: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:18,444: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:18,444: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:18,446: process[base_laser1-2]: started with pid [3994]
+[roslaunch][ERROR] 2017-11-04 10:40:18,847: [base_laser1-2] process has died [pid 3994, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:18,847: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:18,847: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:18,847: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:18,847: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:18,849: process[base_laser1-2]: started with pid [4035]
+[roslaunch][ERROR] 2017-11-04 10:40:19,150: [base_laser1-2] process has died [pid 4035, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:19,150: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:19,150: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:19,150: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:19,150: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:19,151: process[base_laser1-2]: started with pid [4076]
+[roslaunch][ERROR] 2017-11-04 10:40:19,452: [base_laser1-2] process has died [pid 4076, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:19,452: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:19,453: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:19,453: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:19,453: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:19,454: process[base_laser1-2]: started with pid [4117]
+[roslaunch][ERROR] 2017-11-04 10:40:19,755: [base_laser1-2] process has died [pid 4117, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:19,755: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:19,755: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:19,755: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:19,755: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:19,757: process[base_laser1-2]: started with pid [4158]
+[roslaunch][ERROR] 2017-11-04 10:40:20,158: [base_laser1-2] process has died [pid 4158, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:20,158: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:20,159: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:20,159: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:20,159: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:20,161: process[base_laser1-2]: started with pid [4199]
+[roslaunch][ERROR] 2017-11-04 10:40:20,462: [base_laser1-2] process has died [pid 4199, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:20,462: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:20,462: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:20,462: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:20,462: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:20,464: process[base_laser1-2]: started with pid [4246]
+[roslaunch][ERROR] 2017-11-04 10:40:20,765: [base_laser1-2] process has died [pid 4246, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:20,765: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:20,765: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:20,766: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:20,766: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:20,769: process[base_laser1-2]: started with pid [4287]
+[roslaunch][ERROR] 2017-11-04 10:40:21,070: [base_laser1-2] process has died [pid 4287, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:21,071: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:21,071: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:21,071: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:21,071: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:21,073: process[base_laser1-2]: started with pid [4328]
+[roslaunch][ERROR] 2017-11-04 10:40:21,373: [base_laser1-2] process has died [pid 4328, exit code 2, cmd /home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms scan:=/sensor_msgs/LaserScan __name:=base_laser1 __log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log].
+log file: /home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2*.log
+[roslaunch][INFO] 2017-11-04 10:40:21,374: [base_laser1-2] restarting process
+[roslaunch][INFO] 2017-11-04 10:40:21,374: process[base_laser1-2]: restarting os process
+[roslaunch][INFO] 2017-11-04 10:40:21,374: process[base_laser1-2]: start w/ args [[u'/home/mdas/ros_ws/devel/lib/sicktoolbox_wrapper/sicklms', u'scan:=/sensor_msgs/LaserScan', u'__name:=base_laser1', u'__log:=/home/mdas/.ros/log/115a15fc-c16e-11e7-9a64-f44d306c96a4/base_laser1-2.log']]
+[roslaunch][INFO] 2017-11-04 10:40:21,374: process[base_laser1-2]: cwd will be [/home/mdas/.ros]
+[roslaunch][INFO] 2017-11-04 10:40:21,375: process[base_laser1-2]: started with pid [4369]
+[roslaunch.pmon][INFO] 2017-11-04 10:40:21,497: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140481408984832)>
+[roslaunch.pmon][INFO] 2017-11-04 10:40:21,576: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140481408984832)>
+[roslaunch.pmon][INFO] 2017-11-04 10:40:21,576: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140481408984832)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7fc4613c4a10>, <roslaunch.nodeprocess.LocalProcess object at 0x7fc4613d8090>, <roslaunch.nodeprocess.LocalProcess object at 0x7fc4609dde90>, <roslaunch.nodeprocess.LocalProcess object at 0x7fc4609dde50>]
+[roslaunch.pmon][INFO] 2017-11-04 10:40:21,576: ProcessMonitor exit: killing novatel_node-3
+[roslaunch][INFO] 2017-11-04 10:40:21,576: [novatel_node-3] killing on exit
+[roslaunch][INFO] 2017-11-04 10:40:21,577: process[novatel_node-3]: killing os process with pid[3415] pgid[3415]
+[roslaunch][INFO] 2017-11-04 10:40:21,577: [novatel_node-3] sending SIGINT to pgid [3415]
+[roslaunch][INFO] 2017-11-04 10:40:21,577: [novatel_node-3] sent SIGINT to pgid [3415]
+[roslaunch.pmon][INFO] 2017-11-04 10:40:21,577: ProcessMonitor exit: killing base_laser1-2
+[roslaunch][INFO] 2017-11-04 10:40:21,577: [base_laser1-2] killing on exit
+[roslaunch][INFO] 2017-11-04 10:40:21,577: process[base_laser1-2]: killing os process with pid[4369] pgid[4369]
+[roslaunch][INFO] 2017-11-04 10:40:21,577: [base_laser1-2] sending SIGINT to pgid [4369]
+[roslaunch][INFO] 2017-11-04 10:40:21,577: [base_laser1-2] sent SIGINT to pgid [4369]
+[roslaunch][INFO] 2017-11-04 10:40:21,778: process[base_laser1-2]: SIGINT killed with return value 2
+[roslaunch][INFO] 2017-11-04 10:40:22,679: process[novatel_node-3]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2017-11-04 10:40:22,679: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2017-11-04 10:40:22,679: [rosout-1] killing on exit
+[roslaunch][INFO] 2017-11-04 10:40:22,679: process[rosout-1]: killing os process with pid[3399] pgid[3399]
+[roslaunch][INFO] 2017-11-04 10:40:22,679: [rosout-1] sending SIGINT to pgid [3399]
+[roslaunch][INFO] 2017-11-04 10:40:22,679: [rosout-1] sent SIGINT to pgid [3399]
+[roslaunch][INFO] 2017-11-04 10:40:22,980: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2017-11-04 10:40:22,980: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2017-11-04 10:40:22,980: [master] killing on exit
+[roslaunch][INFO] 2017-11-04 10:40:22,980: process[master]: killing os process with pid[3386] pgid[3386]
+[roslaunch][INFO] 2017-11-04 10:40:22,980: [master] sending SIGINT to pgid [3386]
+[roslaunch][INFO] 2017-11-04 10:40:22,980: [master] sent SIGINT to pgid [3386]
+[roslaunch][INFO] 2017-11-04 10:40:23,180: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2017-11-04 10:40:23,181: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2017-11-04 10:40:23,181: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2017-11-04 10:40:23,213: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2017-11-04 10:40:23,214: runner.stop()
+[roslaunch][INFO] 2017-11-04 10:40:23,214: shutting down processing monitor...
+[roslaunch][INFO] 2017-11-04 10:40:23,214: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140481408984832)>
+[roslaunch.pmon][INFO] 2017-11-04 10:40:23,214: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140481408984832)>
+[roslaunch][INFO] 2017-11-04 10:40:23,214: ... shutting down processing monitor complete
+[roslaunch][INFO] 2017-11-04 10:40:23,214: done
+[roslaunch.pmon][INFO] 2017-11-04 10:40:23,214: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140481408984832)>
+[rospy.core][INFO] 2017-11-04 10:40:23,214: signal_shutdown [atexit]

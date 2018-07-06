@@ -1,0 +1,32 @@
+[rosmaster.main][INFO] 2017-11-09 15:27:31,548: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-11-09 15:27:31,548: Starting ROS Master Node
+[xmlrpc][INFO] 2017-11-09 15:27:31,548: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-11-09 15:27:31,549: Started XML-RPC server [http://mdas-Meerkat:11311/]
+[xmlrpc][INFO] 2017-11-09 15:27:31,549: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-11-09 15:27:31,549: Master initialized: port[11311], uri[http://mdas-Meerkat:11311/]
+[rosmaster.master][INFO] 2017-11-09 15:27:31,574: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-09 15:27:31,575: +PARAM [/roslaunch/uris/host_mdas_meerkat__36701] by /roslaunch
+[rosmaster.master][INFO] 2017-11-09 15:27:31,634: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-11-09 15:27:31,634: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-11-09 15:27:31,638: +SERVICE [/rosout/get_loggers] /rosout http://mdas-Meerkat:43725/
+[rosmaster.master][INFO] 2017-11-09 15:27:31,638: +SERVICE [/rosout/set_logger_level] /rosout http://mdas-Meerkat:43725/
+[rosmaster.master][INFO] 2017-11-09 15:27:31,639: +PUB [/rosout_agg] /rosout http://mdas-Meerkat:43725/
+[rosmaster.master][INFO] 2017-11-09 15:27:31,641: +SUB [/rosout] /rosout http://mdas-Meerkat:43725/
+[rosmaster.master][INFO] 2017-11-09 15:27:55,721: +PUB [/rosout] /play_1510259275719544477 http://mdas-Meerkat:46835/
+[rosmaster.master][INFO] 2017-11-09 15:27:55,721: +SERVICE [/play_1510259275719544477/get_loggers] /play_1510259275719544477 http://mdas-Meerkat:46835/
+[rosmaster.master][INFO] 2017-11-09 15:27:55,722: +SERVICE [/play_1510259275719544477/set_logger_level] /play_1510259275719544477 http://mdas-Meerkat:46835/
+[rosmaster.master][INFO] 2017-11-09 15:27:55,723: +PUB [/clock] /play_1510259275719544477 http://mdas-Meerkat:46835/
+[rosmaster.master][INFO] 2017-11-09 15:27:55,727: +PUB [/sensor_msgs/LaserScan] /play_1510259275719544477 http://mdas-Meerkat:46835/
+[rosmaster.master][INFO] 2017-11-09 15:27:55,728: +PUB [/gps_fix] /play_1510259275719544477 http://mdas-Meerkat:46835/
+[rosmaster.master][INFO] 2017-11-09 15:27:55,728: +PUB [/gps_odom] /play_1510259275719544477 http://mdas-Meerkat:46835/
+[rosmaster.master][INFO] 2017-11-09 15:27:55,729: +PUB [/gps_fix_psr] /play_1510259275719544477 http://mdas-Meerkat:46835/
+[rosmaster.master][INFO] 2017-11-09 15:27:55,729: +PUB [/diagnostics] /play_1510259275719544477 http://mdas-Meerkat:46835/
+[rosmaster.master][INFO] 2017-11-09 15:27:55,730: +PUB [/rosout_agg] /play_1510259275719544477 http://mdas-Meerkat:46835/
+[rosmaster.master][INFO] 2017-11-09 15:27:55,737: publisherUpdate[/rosout] -> http://mdas-Meerkat:43725/
+[rosmaster.master][INFO] 2017-11-09 15:28:12,186: -PUB [/rosout_agg] /rosout http://mdas-Meerkat:43725/
+[rosmaster.master][INFO] 2017-11-09 15:28:12,186: -SUB [/rosout] /rosout http://mdas-Meerkat:43725/
+[rosmaster.master][INFO] 2017-11-09 15:28:12,187: -SERVICE [/rosout/get_loggers] /rosout rosrpc://mdas-Meerkat:36051
+[rosmaster.master][INFO] 2017-11-09 15:28:12,187: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://mdas-Meerkat:36051
+[rosmaster.main][INFO] 2017-11-09 15:28:12,233: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-11-09 15:28:12,233: stopping master...
+[rospy.core][INFO] 2017-11-09 15:28:12,234: signal_shutdown [atexit]

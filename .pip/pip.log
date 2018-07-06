@@ -1,0 +1,29 @@
+Downloading/unpacking git+https://github.com/cwru-robotics/cwru_scripts/rosbag_to_matlab.git
+  Cloning https://github.com/cwru-robotics/cwru_scripts/rosbag_to_matlab.git to /tmp/pip-9eklPC-build
+  Found command 'git' at '/usr/bin/git'
+  Running command /usr/bin/git clone -q https://github.com/cwru-robotics/cwru_scripts/rosbag_to_matlab.git /tmp/pip-9eklPC-build
+  Complete output from command /usr/bin/git clone -q https://github.com/cwru-robotics/cwru_scripts/rosbag_to_matlab.git /tmp/pip-9eklPC-build:
+  
+----------------------------------------
+Cleaning up...
+  Removing temporary dir /tmp/pip_build_mdas...
+Command /usr/bin/git clone -q https://github.com/cwru-robotics/cwru_scripts/rosbag_to_matlab.git /tmp/pip-9eklPC-build failed with error code 128 in None
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 278, in run
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1198, in prepare_files
+    do_download,
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1361, in unpack_url
+    unpack_vcs_link(link, loc, only_download)
+  File "/usr/lib/python2.7/dist-packages/pip/download.py", line 344, in unpack_vcs_link
+    vcs_backend.unpack(location)
+  File "/usr/lib/python2.7/dist-packages/pip/vcs/__init__.py", line 240, in unpack
+    self.obtain(location)
+  File "/usr/lib/python2.7/dist-packages/pip/vcs/git.py", line 111, in obtain
+    call_subprocess([self.cmd, 'clone', '-q', url, dest])
+  File "/usr/lib/python2.7/dist-packages/pip/util.py", line 715, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+InstallationError: Command /usr/bin/git clone -q https://github.com/cwru-robotics/cwru_scripts/rosbag_to_matlab.git /tmp/pip-9eklPC-build failed with error code 128 in None

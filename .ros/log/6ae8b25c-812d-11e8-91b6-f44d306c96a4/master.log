@@ -1,0 +1,39 @@
+[rosmaster.main][INFO] 2018-07-06 11:01:10,374: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2018-07-06 11:01:10,374: Starting ROS Master Node
+[xmlrpc][INFO] 2018-07-06 11:01:10,374: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2018-07-06 11:01:10,375: Started XML-RPC server [http://mdas-Meerkat:11311/]
+[xmlrpc][INFO] 2018-07-06 11:01:10,375: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2018-07-06 11:01:10,375: Master initialized: port[11311], uri[http://mdas-Meerkat:11311/]
+[rosmaster.master][INFO] 2018-07-06 11:01:10,405: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2018-07-06 11:01:10,406: +PARAM [/roslaunch/uris/host_mdas_meerkat__36435] by /roslaunch
+[rosmaster.master][INFO] 2018-07-06 11:01:10,473: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2018-07-06 11:01:10,474: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2018-07-06 11:01:10,477: +SERVICE [/rosout/get_loggers] /rosout http://mdas-Meerkat:45767/
+[rosmaster.master][INFO] 2018-07-06 11:01:10,478: +SERVICE [/rosout/set_logger_level] /rosout http://mdas-Meerkat:45767/
+[rosmaster.master][INFO] 2018-07-06 11:01:10,478: +PUB [/rosout_agg] /rosout http://mdas-Meerkat:45767/
+[rosmaster.master][INFO] 2018-07-06 11:01:10,480: +SUB [/rosout] /rosout http://mdas-Meerkat:45767/
+[rosmaster.master][INFO] 2018-07-06 11:01:33,836: +PARAM [/gpsd_client/host] by /gpsd_client
+[rosmaster.master][INFO] 2018-07-06 11:01:33,837: +PARAM [/gpsd_client/port] by /gpsd_client
+[rosmaster.master][INFO] 2018-07-06 11:01:33,838: +PUB [/rosout] /gpsd_client http://mdas-Meerkat:34155/
+[rosmaster.master][INFO] 2018-07-06 11:01:33,838: +SERVICE [/gpsd_client/get_loggers] /gpsd_client http://mdas-Meerkat:34155/
+[rosmaster.master][INFO] 2018-07-06 11:01:33,839: +SERVICE [/gpsd_client/set_logger_level] /gpsd_client http://mdas-Meerkat:34155/
+[rosmaster.master][INFO] 2018-07-06 11:01:33,840: +PUB [/extended_fix] /gpsd_client http://mdas-Meerkat:34155/
+[rosmaster.master][INFO] 2018-07-06 11:01:33,840: +PUB [/fix] /gpsd_client http://mdas-Meerkat:34155/
+[rosmaster.master][INFO] 2018-07-06 11:01:33,842: publisherUpdate[/rosout] -> http://mdas-Meerkat:45767/
+[rosmaster.master][INFO] 2018-07-06 11:01:52,779: +PUB [/rosout] /rostopic_9298_1530889312657 http://mdas-Meerkat:42757/
+[rosmaster.master][INFO] 2018-07-06 11:01:52,788: +SERVICE [/rostopic_9298_1530889312657/get_loggers] /rostopic_9298_1530889312657 http://mdas-Meerkat:42757/
+[rosmaster.master][INFO] 2018-07-06 11:01:52,791: +SERVICE [/rostopic_9298_1530889312657/set_logger_level] /rostopic_9298_1530889312657 http://mdas-Meerkat:42757/
+[rosmaster.master][INFO] 2018-07-06 11:01:52,831: +SUB [/fix] /rostopic_9298_1530889312657 http://mdas-Meerkat:42757/
+[rosmaster.master][INFO] 2018-07-06 11:01:52,876: publisherUpdate[/rosout] -> http://mdas-Meerkat:45767/
+[rosmaster.master][INFO] 2018-07-06 11:01:58,264: -SUB [/fix] /rostopic_9298_1530889312657 http://mdas-Meerkat:42757/
+[rosmaster.master][INFO] 2018-07-06 11:01:58,264: -PUB [/rosout] /rostopic_9298_1530889312657 http://mdas-Meerkat:42757/
+[rosmaster.master][INFO] 2018-07-06 11:01:58,264: -SERVICE [/rostopic_9298_1530889312657/set_logger_level] /rostopic_9298_1530889312657 rosrpc://mdas-Meerkat:39663
+[rosmaster.master][INFO] 2018-07-06 11:01:58,265: -SERVICE [/rostopic_9298_1530889312657/get_loggers] /rostopic_9298_1530889312657 rosrpc://mdas-Meerkat:39663
+[rosmaster.master][INFO] 2018-07-06 11:01:58,285: publisherUpdate[/rosout] -> http://mdas-Meerkat:45767/
+[rosmaster.master][INFO] 2018-07-06 11:06:17,622: -PUB [/rosout_agg] /rosout http://mdas-Meerkat:45767/
+[rosmaster.master][INFO] 2018-07-06 11:06:17,623: -SUB [/rosout] /rosout http://mdas-Meerkat:45767/
+[rosmaster.master][INFO] 2018-07-06 11:06:17,623: -SERVICE [/rosout/get_loggers] /rosout rosrpc://mdas-Meerkat:40729
+[rosmaster.master][INFO] 2018-07-06 11:06:17,623: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://mdas-Meerkat:40729
+[rosmaster.main][INFO] 2018-07-06 11:06:17,670: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2018-07-06 11:06:17,670: stopping master...
+[rospy.core][INFO] 2018-07-06 11:06:17,670: signal_shutdown [atexit]

@@ -1,0 +1,352 @@
+ï»¿/* Autocomplete, based on standard JQueryUI plug-in, cloned from ARK. Remove tooltippery bits if they're not needed. */
+(function ($) {
+    $.fn.bindSearch = function (options) {
+        var settings = $.extend({
+            placeholder: "", // Watermark
+            tipsId: "#searchTips", // DOM ID for tips box
+            dropdownContainerId: "#search-downloads-autocomplete", // DOM ID for box to put options in
+            autocompletePath: "", // Environmentally-aware path to intel.com's search suggestions
+            localAutocomplete: "", // our Autocomplete path, used to retain up our culture.
+            fadeDelay: 200,
+            minSearchLength: 2,
+            languageDlc: "", // Download Center's language code
+            languageSearch: "" // Intel.com's search language code
+        }, options);
+        return this.each(function (options) {
+            var $textBox = $(this).find("input:text");
+            var $ddContainer = $(settings.dropdownContainerId);
+            var $tips = $(settings.tipsId);
+
+            $(this).submit(function (e) {
+                if ($textBox.val() === settings.placeholder) { e.preventDefault(); }
+            });
+
+            //$textBox.on("focus", function () {
+            //    if ($(this).val() === "" || $(this).val() === settings.placeholder) {
+            //        $(this).removeClass("watermark").val("");
+            //    }
+            //    $ddContainer.slideDown();
+            //});
+            //
+            //$textBox.on("keypress", function () {
+            //    if ($(this).val().length <= settings.minSearchLength) { $tips.fadeIn(); }
+            //});
+            //
+            //$textBox.on("blur", function () {
+            //    if ($.trim($(this).val()) === "") {
+            //        $(this).addClass("watermark").val(settings.placeholder);
+            //    }
+            //    else { $(this).remove("watermark"); }
+            //    setTimeout(function () {
+            //        $ddContainer.slideUp();
+            //        $tips.show();
+            //    }, settings.fadeDelay);
+            //});
+            //
+            //$textBox.trigger('blur');
+
+            //Hack at the end is to HTML format the results.
+            $textBox.autocomplete({
+                minLength: settings.minSearchLength, cacheLength: 1, delay: settings.fadeDelay, selectFirst: false, matchSubset: false, scroll: false, width: 369,
+                source: function (request, response) {
+                    var downloadSearch = $.getJSON(settings.localAutocomplete, { "userInput": $textBox.val() }, function (products) {
+                        var options1 = $.map(products, function (product) { return { label: product.Label, value: product.Label, url: product.Url }; }).slice(0, 12);
+                        response(options1);
+                    });
+                },
+                response: function (event, ui) {
+                    if (ui.content && ui.content.length) {
+                        $('ul.ui-autocomplete').appendTo(settings.dropdownContainerId).show();
+                        $ddContainer.slideDown();
+                    }
+                },
+                open: function (event, ui) {
+                    $('ul.ui-autocomplete').removeAttr('style').hide().appendTo(settings.dropdownContainerId).show();
+                },
+                select: function (event, ui) {
+                    trackGaEvent('Components', 'click: search-autocomplete', ui.item.url);
+                    // Custom redirection behavior using the also-custom .queryValue property created above.
+                    window.location = ui.item.url;
+                }
+            }).data('ui-autocomplete')._renderItem = function (ul, item) { // Properly render HTML-encoded characters. Default render method uses .text().
+                return $("<li></li>")
+                    .data("item.autocomplete", item)
+                    .append("<a href='" + item.url + "' data-wap_type='wa_skip_track'>" + item.label + "</a>")
+                    .appendTo(ul);
+            };
+        });
+    };
+})(jQuery);
+
+// Extension method for JS Strings so we can form our canonical URLS on the client-side.
+String.prototype.urlifyName = function () {
+    return this.replace(/[^a-zA-Z0-9]+/gi, "-");
+};
+
+
+// Attach handlers for download center
+$(document).ready(function () {
+
+    // Search Filters
+    $('.download-center-filters .filter-type').click(function () {
+        _DownloadCenter.toggleFilter('filter-type');
+    });
+
+    $('.download-center-filters .filter-os').click(function () {
+        _DownloadCenter.toggleFilter('filter-os');
+    });
+
+    $('.download-center-filters .product-selector').click(function () {
+        _DownloadCenter.toggleFilter('product-selector');
+    });
+});
+
+var _DownloadCenter = {
+    toggleFilter: function (filterType) {
+
+        // Hide the other filters
+        //if (filterType != 'filter-type') {
+        //	_DownloadCenter.hideFilter('filter-type');
+        //}
+        //if (filterType != 'filter-os') {
+        //	_DownloadCenter.hideFilter('filter-os');
+        //}
+
+        // Show/hide the menu
+        objFilterMenu = $('.download-center-filters .' + filterType + ' ul.dropdown-menu');
+
+        if (objFilterMenu.is(':visible')) {
+            _DownloadCenter.hideFilter(filterType);
+        } else {
+            _DownloadCenter.showFilter(filterType);
+        }
+    },
+
+    showFilter: function (filterType) {
+        $('.download-center-filters .' + filterType + ' ul.dropdown-menu').slideDown('fast');
+    },
+
+    hideFilter: function (filterType) {
+        $('.download-center-filters .' + filterType + ' ul.dropdown-menu').slideUp('fast');
+    },
+
+    selectFilter: function (filterType, anchor) {
+        //// Get the text of the selection
+        //strSelection = String($(anchor).children(':first').text());
+        //// Update the menu
+        //$('.rwd .download-center-results-filters .' + filterType + ' > a').text(strSelection);
+        //// Toggle the selected class
+        //$(anchor).parent().parent().find('li').removeClass("selected");
+        //$(anchor).parent().addClass("selected");
+
+        //// Toggle the menu
+        //_dcListing.toggleFilter(filterType);
+    }
+};
+
+
+// Search Results paging functions
+//function filterChange(evt, src) {
+//    evt.preventDefault();
+//    postback.filterOS = $('select[id$="osFilterList"]').val();
+//    postback.filterType = $('select[id$="downloadTypeFilterList"]').val();
+//    //postback.sortValue = $('select[id$="sortOrder"]').val();
+//    postback.pageNumber = 1;
+//    $("#results_table tbody").empty();
+//    $('select[id$="downloadTypeFilterList"], select[id$="osFilterList"], select[id$="sortOrder"]').prop("disabled", true);
+//    loadResults(addResults);
+//};
+
+//function loadResults(render) {
+//    // used on filter change
+//    $("<tr><td colspan='5'><div class='please-wait'>&nbsp;</div></td></tr>").appendTo($("#results_table tbody"));
+//    $.getJSON(xref.pageResults, postback)
+//        .done(function (data) {
+//            render(data.ResultsForDisplay);
+//            updateSelector($('select[id$="downloadTypeFilterList"]'), data.TypeFilter);
+//            updateSelector($('select[id$="osFilterList"]'), data.OSFilter);
+//            $('select[id$="downloadTypeFilterList"], select[id$="osFilterList"], select[id$="sortOrder"]').prop("disabled", false);
+//        })
+//        .fail(function (data) { console.log("Loading results failed."); });
+//}
+
+//function updateSelector($filterList, filterOptions) {
+//    var defaultValue = $filterList.val();
+//    $filterList.empty();
+//    $.each(filterOptions, function () {
+//        var thisOption = $("<option>").attr("value", this.Id).text(this.Label);
+//        $filterList.append(thisOption);
+//    });
+//    $filterList.val(defaultValue);
+//}
+
+
+function filterResults(render, $resultTable) {
+    $resultTable.empty();
+    postback.pageNumber = 1;
+    postback.offset = 0;
+    loadMoreResults(render, $resultTable);
+}
+
+function loadMoreResults(render, $resultTable) {
+    // used when loading *more* results
+    $('.download-center-results .show-more a.show-more-items').hide();
+    $('.download-center-results .show-more figure').show();
+    $.getJSON(xref.pageResults, postback)
+        .done(function (data) { render(data.ResultsForDisplay, $resultTable); })
+        .fail(function (data) { console.log("Loading additional results failed."); });
+}
+
+
+function addResults(results, $resultTable) {
+    //$(".please-wait").parents("tr").remove();
+    var downloadUrl = xref.download;
+    var $rowTemplate = $('<tr style="display: none;">' +
+        '<td class="description">' +
+            '<a class="template-link-download"></a>' +
+            '<p class="template-description"></p>' +
+        '</td>' +
+        '<td class="type template-type"></td>' +
+        '<td class="os template-os"></td>' +
+        '<td class="version"><span class="template-version">@result.Version</span><br /><span class="type template-version-status"></span></td>' +
+        '<td class="date template-date"></td>' +
+    '</tr>');
+
+    //var $moreButton = $('<tr class="add-rows"><td colspan="5"><a class="link-more-results" href="javascript:{}">' + xref.textLoadMore + '</a></td></tr>');
+    //var $noMoreButton = $('<tr class="add-rows"><td colspan="5"><div>' + xref.textNoMore + '</div></td></tr>');
+
+    $.map(results, function (result) {
+        $thisRow = $rowTemplate.clone();
+        $thisRow.find("a.template-link-download").attr("href", downloadUrl.substr(0, downloadUrl.length - 1) + result.Id + "/" + result.Title.urlifyName() + (postback.productId ? "?product=" + postback.productId : ""));
+        $thisRow.find("a.template-link-download").text(result.Title);
+        $thisRow.find(".template-description").html(result.SummaryDescription);
+        $thisRow.find(".template-os").html(result.OperatingSystemSet.join("<br />"));
+        $thisRow.find(".template-date").text(result.PublishDate);
+        $thisRow.find(".template-version").text(result.Version);
+        $thisRow.find(".template-version-status").text(result.VersionStatus);
+        $thisRow.find(".template-type").text(result.DownloadType);
+        $thisRow.data("title", result.Title);
+        $thisRow.data("version", result.Version);
+        $thisRow.data("id", result.Id);
+        $thisRow.appendTo($resultTable);
+        $thisRow.fadeIn('slow');
+    });
+    $('.download-center-results .show-more figure').hide();
+    if (results.length >= postback.hitsPerPage || postback.pageNumber === 1)  {
+        postback.pageNumber++; //increment the page #.
+        postback.offset += results.length; //update the offset.
+
+        $('.download-center-results .show-more a.show-more-items').attr("href", "?" + $.param(postback));
+        $('.download-center-results .show-more a.show-more-items').show();
+    } else {
+        $('.download-center-results .show-more a.no-more-items').show();
+    }
+}
+
+
+// jQuery plug-ins
+urlParam = function (name) {
+    var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    if (results != null) {
+        return results[1];
+    }
+    return 0;
+};
+
+
+// Initialize the handlers for the download CTLAs
+$(document).ready(function () {
+    // Show the license for a given download
+    $('.download-center-details .download-file .btn-license').click(function (evt) {
+        evt.preventDefault();
+        _DownloadCenterCTLA.showLicense($(this).data('direct-path'));
+    });
+
+    // Close the dialog if the user clicks outside
+    $('#download-ctla-dialog a.close').click(function (evt) {
+        evt.preventDefault();
+        _DownloadCenterCTLA.closeLicense();
+    });
+
+    // Close the dialog if the user clicks outside
+    $('#download-ctla-shader').click(function (evt) {
+        evt.preventDefault();
+        _DownloadCenterCTLA.closeLicense();
+    });
+
+    $(".feedback-title").click(function () { $(".support-feedback-content").toggle(); });
+    $("#feedback-character-area").on('keyup change blur', function () {
+        if ($(this).val().length > 500) {
+            $(this).val($(this).val().substr(0,500));
+        }
+        $("#feedback-character-count").text(500 - $(this).val().length);
+    });
+    $(".support-feedback-form").submit(function (e) {
+        e.preventDefault();
+        $.post($(this).attr("action"), $(this).serialize(), function (json) { }, "json");
+        $(".support-feedback-sent, .support-feedback-form").toggle();
+    });
+
+    // WAP insists on this for Dashboardery.
+    $("#useful-information-yes").change(function () { $("#useful-information-submit").attr("data-wap_ref", "yes"); });
+    $("#useful-information-no").change(function () { $("#useful-information-submit").attr("data-wap_ref", "no"); });
+
+});
+
+var _DownloadCenterCTLA = {
+    showLicense: function (directPath) {
+        // Reset the buttons
+        $("#license-buttons").show();
+        $("#download-restart").hide();
+
+        // Show the cover
+        $('#download-ctla-shader').fadeIn('fast');
+
+        // Initialize the dialog
+        $('#download-ctla-dialog .btn-accept').data('direct-path', directPath)
+        $('#download-ctla-dialog .btn-accept').click(function () {
+            _DownloadCenterCTLA.acceptLicense($(this).data('direct-path'));
+        });
+        $('#download-ctla-dialog .btn-do-not-accept').click(function () {
+            _DownloadCenterCTLA.doNotAcceptLicense();
+        });
+
+        // Scroll to the top of the page
+        $("html, body").animate({ scrollTop: 0 }, "fast");
+
+        // Show the dialog
+        $('#download-ctla-dialog').slideDown('fast');
+    },
+
+    closeLicense: function () {
+        // Close the dialog
+        $('#download-ctla-dialog').slideUp('fast');
+
+        // Hide the cover
+        $('#download-ctla-shader').fadeOut('fast');
+    },
+
+    acceptLicense: function (directPath) {
+        // Reset the buttons
+        $("#license-buttons").hide();
+        $("#download-restart").show();
+        $("#download-restart a").attr("href", directPath);
+        document.location = directPath;
+    },
+
+    doNotAcceptLicense: function () {
+        _DownloadCenterCTLA.closeLicense();
+    },
+};
+‹?Åèìu      YókùYókù>YdyYü¦y   O    :https://downloadcenter.intel.com/inc/javascript/dlc_site.js?ver=1.0.6507.29080 necko:classified 1 security-info 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 request-method GET response-head HTTP/2.0 200 OK
+Content-Type: application/javascript
+Last-Modified: Wed, 14 Jun 2017 08:47:50 GMT
+Accept-Ranges: bytes
+Etag: "03f3ae7eae4d21:0"
+Server: Microsoft-IIS/8.5
+X-Frame-Options: SAMEORIGIN
+x-powered-by: ASP.NET
+Content-Length: 14443
+Date: Fri, 27 Oct 2017 17:25:13 GMT
+X-Firefox-Spdy: h2
+ uncompressed-len 0   8k

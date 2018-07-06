@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2018-07-06 12:59:15,260: init_node, name[/rostopic_4562_1530896355242], pid[4562]
+[xmlrpc][INFO] 2018-07-06 12:59:15,261: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-07-06 12:59:15,261: Started XML-RPC server [http://mdas-Meerkat:37689/]
+[rospy.init][INFO] 2018-07-06 12:59:15,261: ROS Slave URI: [http://mdas-Meerkat:37689/]
+[rospy.impl.masterslave][INFO] 2018-07-06 12:59:15,261: _ready: http://mdas-Meerkat:37689/
+[rospy.registration][INFO] 2018-07-06 12:59:15,261: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-07-06 12:59:15,261: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-07-06 12:59:15,362: registered with master
+[rospy.rosout][INFO] 2018-07-06 12:59:15,362: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-07-06 12:59:15,368: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-07-06 12:59:15,371: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2018-07-06 12:59:15,429: topic[/gps_fix_psr] adding connection to [http://mdas-Meerkat:35427/], count 0
+[rospy.internal][INFO] 2018-07-06 12:59:15,665: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2018-07-06 13:00:37,276: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-07-06 13:00:37,285: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-07-06 13:00:37,285: topic[/gps_fix_psr] removing connection to http://mdas-Meerkat:35427/
+[rospy.impl.masterslave][INFO] 2018-07-06 13:00:37,285: signal-2
+[rospy.internal][WARNING] 2018-07-06 13:00:37,285: Unknown error initiating TCP/IP socket to mdas-Meerkat:38683 (http://mdas-Meerkat:35427/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2018-07-06 13:00:37,417: signal_shutdown [atexit]

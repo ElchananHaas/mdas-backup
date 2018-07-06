@@ -1,0 +1,8 @@
+prefix=/home/mdas/ros_ws/install
+
+Name: convert_twist
+Description: Description of convert_twist
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mdas/ros_ws/install/lib 
+Requires: roscpp roboteq_msgs std_msgs geometry_msgs tf

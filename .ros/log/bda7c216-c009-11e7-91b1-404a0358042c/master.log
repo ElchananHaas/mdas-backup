@@ -1,0 +1,77 @@
+[rosmaster.main][INFO] 2017-11-02 16:09:32,995: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-11-02 16:09:32,995: Starting ROS Master Node
+[xmlrpc][INFO] 2017-11-02 16:09:32,996: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-11-02 16:09:32,996: Started XML-RPC server [http://mdas-Meerkat:11311/]
+[xmlrpc][INFO] 2017-11-02 16:09:32,996: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-11-02 16:09:32,996: Master initialized: port[11311], uri[http://mdas-Meerkat:11311/]
+[rosmaster.master][INFO] 2017-11-02 16:09:33,011: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,013: +PARAM [/roslaunch/uris/host_mdas_meerkat__36003] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,093: +PARAM [/base_laser1/baud] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,094: +PARAM [/imu_node/magn_x_max] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,094: +PARAM [/imu_node/magn_ellipsoid_center] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,094: +PARAM [/imu_node/port] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,094: +PARAM [/novatel_node/psrpos_topic] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,094: +PARAM [/novatel_node/port] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,094: +PARAM [/imu_node/accel_y_max] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,094: +PARAM [/base_laser1/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,095: +PARAM [/novatel_node/ephem_log] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,095: +PARAM [/imu_node/magn_y_max] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,095: +PARAM [/imu_node/magn_z_max] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,095: +PARAM [/imu_node/accel_y_min] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,095: +PARAM [/imu_node/accel_z_max] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,095: +SERVICE [/rosout/get_loggers] /rosout http://mdas-Meerkat:42381/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,095: +PARAM [/imu_node/gyro_average_offset_z] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,096: +PARAM [/novatel_node/baudrate] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,096: +PARAM [/imu_node/gyro_average_offset_x] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,096: +PARAM [/base_laser1/resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,096: +PARAM [/imu_node/magn_x_min] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,096: +SERVICE [/rosout/set_logger_level] /rosout http://mdas-Meerkat:42381/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,096: +PARAM [/novatel_node/range_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,096: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,096: +PARAM [/imu_node/imu_yaw_calibration] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,097: +PARAM [/imu_node/accel_z_min] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,097: +PARAM [/novatel_node/log_commands] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,097: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,097: +PARAM [/imu_node/calibration_magn_use_extended] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,097: +PARAM [/imu_node/magn_z_min] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,098: +PUB [/rosout_agg] /rosout http://mdas-Meerkat:42381/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,098: +PARAM [/novatel_node/gps_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,098: +PARAM [/novatel_node/psrpos_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,098: +PARAM [/imu_node/magn_ellipsoid_transform] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,098: +PARAM [/imu_node/accel_x_max] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,098: +PARAM [/imu_node/magn_y_min] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,099: +PARAM [/imu_node/accel_x_min] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,099: +PARAM [/novatel_node/odom_topic] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,099: +PARAM [/base_laser1/port] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,099: +PARAM [/novatel_node/span_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,099: +PARAM [/imu_node/gyro_average_offset_y] by /roslaunch
+[rosmaster.master][INFO] 2017-11-02 16:09:33,102: +SUB [/rosout] /rosout http://mdas-Meerkat:42381/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,112: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:43215/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,112: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:43215/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,113: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:43215/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,119: +PUB [/rosout] /novatel_node http://mdas-Meerkat:33205/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,121: +SERVICE [/novatel_node/get_loggers] /novatel_node http://mdas-Meerkat:33205/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,122: +SERVICE [/novatel_node/set_logger_level] /novatel_node http://mdas-Meerkat:33205/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,124: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:43215/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,127: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:43215/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,137: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:43215/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,138: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:43215/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,140: +PUB [/gps_odom] /novatel_node http://mdas-Meerkat:33205/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,141: +PUB [/gps_fix] /novatel_node http://mdas-Meerkat:33205/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,141: +PUB [/ephemeris] /novatel_node http://mdas-Meerkat:33205/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,142: +PUB [/range] /novatel_node http://mdas-Meerkat:33205/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,142: +PUB [/gps_fix_psr] /novatel_node http://mdas-Meerkat:33205/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,143: +PUB [/novatel_node/gps_fix_ecef] /novatel_node http://mdas-Meerkat:33205/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,196: publisherUpdate[/rosout] -> http://mdas-Meerkat:42381/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,197: publisherUpdate[/rosout] -> http://mdas-Meerkat:42381/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,297: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:43215/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,298: publisherUpdate[/rosout] -> http://mdas-Meerkat:42381/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,298: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:40325
+[rosmaster.master][INFO] 2017-11-02 16:09:33,299: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:40325
+[rosmaster.master][INFO] 2017-11-02 16:09:33,608: -PUB [/rosout_agg] /rosout http://mdas-Meerkat:42381/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,609: -SUB [/rosout] /rosout http://mdas-Meerkat:42381/
+[rosmaster.master][INFO] 2017-11-02 16:09:33,610: -SERVICE [/rosout/get_loggers] /rosout rosrpc://mdas-Meerkat:45829
+[rosmaster.master][INFO] 2017-11-02 16:09:33,611: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://mdas-Meerkat:45829
+[rosmaster.main][INFO] 2017-11-02 16:09:33,692: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-11-02 16:09:33,692: stopping master...
+[rospy.core][INFO] 2017-11-02 16:09:33,693: signal_shutdown [atexit]

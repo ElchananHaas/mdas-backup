@@ -1,0 +1,6 @@
+[0m[ INFO] [1509819785.282028664]: rviz version 1.11.18[0m
+[0m[ INFO] [1509819785.282065105]: compiled against Qt version 4.8.6[0m
+[0m[ INFO] [1509819785.282073632]: compiled against OGRE version 1.8.1 (Byatis)[0m
+[0m[ INFO] [1509819785.858360539]: Stereo is NOT SUPPORTED[0m
+[0m[ INFO] [1509819785.858441235]: OpenGl version: 3 (GLSL 1.3).[0m
+[33m[ WARN] [1509819801.377952928]: MessageFilter [target=lidar_link ]: Dropped 100.00% of messages so far. Please turn the [ros.rviz.message_notifier] rosconsole logger to DEBUG for more information.[0m

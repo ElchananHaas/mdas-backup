@@ -1,0 +1,21 @@
+[rospy.client][INFO] 2017-11-29 12:27:38,474: init_node, name[/rostopic_7827_1511976458456], pid[7827]
+[xmlrpc][INFO] 2017-11-29 12:27:38,474: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-11-29 12:27:38,474: Started XML-RPC server [http://mdas-Meerkat:42527/]
+[rospy.init][INFO] 2017-11-29 12:27:38,474: ROS Slave URI: [http://mdas-Meerkat:42527/]
+[rospy.impl.masterslave][INFO] 2017-11-29 12:27:38,475: _ready: http://mdas-Meerkat:42527/
+[rospy.registration][INFO] 2017-11-29 12:27:38,475: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-11-29 12:27:38,475: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-11-29 12:27:38,575: registered with master
+[rospy.rosout][INFO] 2017-11-29 12:27:38,576: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-11-29 12:27:38,581: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-11-29 12:27:38,586: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-11-29 12:27:38,640: topic[/gps_fix_psr] adding connection to [http://mdas-Meerkat:38659/], count 0
+[rospy.internal][INFO] 2017-11-29 12:27:38,799: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][WARNING] 2017-11-29 12:27:46,877: Unknown error initiating TCP/IP socket to mdas-Meerkat:55307 (http://mdas-Meerkat:38659/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2017-11-29 12:27:46,877: topic[/gps_fix_psr] removing connection to http://mdas-Meerkat:38659/

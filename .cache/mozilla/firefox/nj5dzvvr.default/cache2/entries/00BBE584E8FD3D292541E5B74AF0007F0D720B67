@@ -1,0 +1,697 @@
+  body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url(../images/bg_body.jpg) repeat-x #fff;
+    font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+    font-size: 11px;
+  }
+  
+  img {
+    border: none;
+  }
+  
+  a {
+    color: #02487e;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+/*----------------------------- frame definitions ----------------------------*/  
+
+  .frame_top {
+    width: 100%;
+    height: 11px;
+    top: 0px;
+    left: 0px;
+    background: #f00;
+    font-size: 1px;
+  }
+  
+  .frame_bottom {
+    width: 100%;
+    height: 11px;
+    left: 0px;
+    bottom: 0px;
+    background: #f00;
+    font-size: 1px;
+  }
+  
+  .frame_left {
+    position: absolute;
+    width: 11px;
+    height: 100%;
+    left: 0px;
+    background: #0f0;
+  }
+  
+  .frame_right {
+    position: absolute;
+    width: 11px;
+    height: 100%;
+    right: 0px;
+    background: #0f0;
+  }
+  
+  .corner_left {
+    display: block;
+    float: left;
+    height: 11px;
+    width: 11px;
+    background: #00f;
+  }
+  
+  .corner_right {
+    display: block;
+    float: right;
+    height: 11px;
+    width: 11px;
+    background: #00f;
+  }
+
+/*------------------------- main block definitions ------------------------------*/  
+
+  #main {
+    position: relative;
+    display: block;
+    width: 960px;
+    top: 0px;
+    margin: auto;
+    padding: 0 10px;
+  }
+  
+  *html #main { width: 980px; }
+  
+  #header {
+    z-index: 2;
+    width: 960px;
+    height: 284px;
+    text-align: left;
+    background: url(../images/bg_header.jpg) 0px 125px no-repeat;
+  }
+  
+  #header #logo {
+    width: 220px;
+    height: 90px;
+    background: url(../images/logo.gif) 10px 27px no-repeat;
+  }
+  
+  #header #menu_areas {
+    width: 100%;
+    height: 35px;
+  }
+  
+  #header #advertising {
+    width: 100%;
+    height: 25px;
+    margin-top: 20px;
+  }
+  
+  #header #menu_main {
+    width: 100%;
+    height: 29px;
+    margin-top: 67px;
+  }
+  
+  #content {
+    display: block;
+    z-index: 2;
+    width: 960px;
+    min-height: 300px;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: left;
+  }
+  
+  #footer {
+    display: block;
+    width: 960px;
+    height: 29px;
+    margin-top: 16px;
+    padding-top: 8px;
+    border-top: solid 1px #02487E;
+    font-size: 11px;
+  }
+  
+  *html footer { height: 35px; }
+  
+/* ------------------------------- content blocks -------------------------------------- */
+  #content .one_column {
+    display: block;
+    float: left;
+    width: 240px;
+    padding: 0;
+  }
+  
+  *html #content .one_column { width: 240px; }
+  
+  #content .two_columns {
+    display: block;
+    float: left;
+    width: 458px;
+    padding: 0 11px;
+  }
+  
+  *html #content .two_columns { width: 480px; }
+
+  #content .three_columns {
+    display: block;
+    float: left;
+    width: 698px;
+    padding: 0 11px;
+  }
+  
+  *html #content .three_columns { width: 698px; }
+
+  #content .four_columns {
+    display: block;
+    float: left;
+    width: 938px;
+    padding: 0 11px;
+  }
+  
+  *html #content .four_columns { width: 960px; }
+
+  #content .boxed_column {
+    display: block;
+    float: left;
+    width: 240px;
+    padding: 0;
+    background: url(../images/bg_info.gif) repeat-y #f0f0f0;
+  }
+  
+  #content .one_column .content {
+  	width: 218px;
+  	margin: 0 11px;
+  }
+  
+  #content .boxed_column .frame_top,
+  #content .advertising .frame_top {
+    background: url(../images/bg_info_top.gif) repeat-x top;
+  }
+  
+  #content .boxed_column .frame_bottom,
+  #content .advertising .frame_bottom {
+    background: url(../images/bg_info_bottom.gif) repeat-x bottom;
+  }
+  
+  #content .boxed_column .frame_top .corner_left,
+  #content .advertising .frame_top .corner_left { background: url(../images/corner_info_ol.gif) no-repeat; }
+  #content .boxed_column .frame_top .corner_right,
+  #content .advertising .frame_top .corner_right { background: url(../images/corner_info_or.gif) right no-repeat; }
+  #content .boxed_column .frame_bottom .corner_left,
+  #content .advertising .frame_bottom .corner_left { background: url(../images/corner_info_ul.gif) no-repeat; }
+  #content .boxed_column .frame_bottom .corner_right,
+  #content .advertising .frame_bottom .corner_right { background: url(../images/corner_info_ur.gif) right no-repeat; }
+  
+  .advertising {
+    background: url(../images/bg_advertising_hor.gif) repeat-y #f0f0f0;
+  }
+  
+/* --------------------------------- tag classes --------------------------------------- */
+  #content .one_column h1,
+  #content .two_columns h1,
+  #content .three_columns h1,
+  #content .four_columns h1,
+  #content .contentheading {
+    margin: 10px 0 8px 0;
+    padding: 0 0 4px 0;
+    color: #747474;
+    font-size: 14px;
+    border-bottom: solid 1px #d8d8d8;
+  }
+  
+  #content .one_column_info h1 {
+    margin: 0;
+    padding: 0 0 2px 0;
+    font-size: 14px;
+    border-bottom: solid 1px #d8d8d8;
+  }
+  
+  #content .boxed_column h1,
+  #content .boxed_column h2 {
+    margin: 0 0 8px 0;
+  }
+  
+  #content .infolink a {
+    padding: 2px 0 2px 14px;
+    background: url(../images/bg_link.gif) 0 7px no-repeat;
+    text-decoration: none;
+  }
+  
+  #content .infolink a:hover {
+    text-decoration: underline;
+  }
+
+/* --------------------------------------- menus ---------------------------------------- */  
+  #header #menu_areas ul {
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #header #menu_areas li {
+    float: left;
+    margin: 3px 11px 0 0;
+    font-size: 13px;
+  }
+  
+  #header #menu_areas li a {
+    display: block;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  #header #menu_areas li a span {
+    display: block;
+    padding: 7px 20px 7px 0;
+  }
+  
+  #header #menu_areas .active a,
+  #header #menu_areas li a:hover {
+    color: #fff;
+    background: url(../images/bg_menu_area_left.gif) left no-repeat;
+  }
+  
+  #header #menu_areas .active a span,
+  #header #menu_areas li a:hover span {
+    background: url(../images/bg_menu_area_right.gif) right no-repeat;
+  }
+  
+  #header #menu_areas .active ul li { display: none; }
+  
+  #header #menu_main ul {
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0 0 0 11px;
+  }
+  
+  #header #menu_main li {
+    float: left;
+    margin: 0 11px 0 0;
+    font-size: 13px;
+  }
+  
+  #header #menu_main a {
+    display: block;
+    padding: 0 0 0 13px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  #header #menu_main a span {
+    display: block;
+    padding: 7px 13px 7px 0;
+  }
+  
+  #header #menu_main .active a,
+  #header #menu_main a:hover {
+    color: #000;
+    background: url(../images/bg_menu_main_left.gif) top left no-repeat;
+  }
+  
+  #header #menu_main .active a span,
+  #header #menu_main a:hover span {
+    background: url(../images/bg_menu_main_right.gif) top right no-repeat;
+  }
+  
+  #content .content #options {
+    position: absolute;
+    display: block;
+    width: 133px;
+    top: 0px;
+    bottom: 0px;
+    left: 619px;
+    padding: 22px 12px 12px 10px;
+    text-align: left;
+    border-left: solid 2px #b6c618;
+  }
+  
+  *html #content .content #options { width: 155px; height: 100%; }
+  
+  #footer #menu_info ul {
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #footer #menu_info li {
+    float: left;
+    margin: 0 10px 0 0;
+  }
+  
+  #footer #menu_info li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  #footer #menu_info li a:hover {
+    text-decoration: underline;
+  }
+
+/* ----------------------------------- joomla related ----------------------------------- */  
+  .blog .leading {
+  
+  }
+  
+  .blog .article_column {
+    display: block;
+    float: left;
+    width: 49%;
+  }
+  
+  .blog .column1 {
+    float: left;
+  }
+  
+  .blog .column2 {
+    float: right;
+  }
+  
+  .blog .row_separator {
+    clear: both;
+    height: 20px;
+  }
+  
+  #content .blog .date_author_heading {
+    margin: 10px 0 0 0;
+    color: #747474;
+  }
+  
+  #content .blog .contentheading {
+    margin: 2px 0 8px 0;
+    padding: 0 0 4px 0;
+    color: #747474;
+    font-size: 14px;
+    border-bottom: solid 1px #d8d8d8;
+  }
+  
+  #content .blog .contentheading_wo_iteminfo {
+    margin: 10px 0 8px 0;
+    padding: 0 0 4px 0;
+    color: #747474;
+    font-size: 14px;
+    border-bottom: solid 1px #d8d8d8;
+  }
+  
+  #content .blog ul {
+    list-style: none url(../images/list_arrow.gif);
+    margin: 0;
+    padding: 0 0 0 11px;
+  }
+  
+  #content .blog li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper_frame_left {
+    margin: 0;
+    padding: 0;
+  }
+  
+/* --------------------------------------- forum ---------------------------------------- */  
+  .forum {
+  
+  }
+  
+  .forum #header {
+    width: 960px;
+    height: 274px;
+    background: url(../images/bg_forum_header.jpg) 0px 125px no-repeat;
+  }
+  
+  .forum #header #header_ads {
+    width: 100%;
+    height: 90px;
+    margin: 11px 0 0 0;
+    text-align: center;
+  }
+  
+  .forum #header #menu_main {
+    margin-top: 10px;
+  }
+  
+  #content #menu_forum ul {
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0 0 0 11px;
+  }
+  
+  #content #menu_forum li {
+    float: left;
+    margin: 3px 11px 0 0;
+    font-size: 13px;
+  }
+  
+  #content #menu_forum li a {
+    display: block;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  #content #menu_forum li a span {
+    display: block;
+    padding:4px 20px 7px 0;
+    color: #666;
+  }
+  
+  #content #menu_forum .active,
+  #content #menu_forum li a:hover {
+    background: url(../images/bg_menu_forum_left.gif) top left no-repeat;
+  }
+  
+  #content #menu_forum .active span,
+  #content #menu_forum li a:hover span {
+    color: #fff;
+    background: url(../images/bg_menu_forum_right.gif) top right no-repeat;
+  }
+  
+  .forum #content #forum_content {
+    width: 960px;
+    margin: 8px 0 0 0;
+    padding: 0;
+  }
+  
+  .forum #content .frame_top {
+    background: url(../images/bg_forum_top.gif) repeat-x top;
+  }
+  
+  .forum #content .frame_bottom {
+    background: url(../images/bg_forum_bottom.gif) repeat-x bottom;
+  }
+  
+  .forum #content .corner_left { background: url(../images/corner_forum_ol.gif) no-repeat #fff; }
+  .forum #content .corner_right { background: url(../images/corner_forum_or.gif) right no-repeat #fff; }
+  .forum #content .frame_bottom .corner_left { background: url(../images/corner_forum_ul.gif) no-repeat #fff; }
+  .forum #content .frame_bottom .corner_right { background: url(../images/corner_forum_ur.gif) right no-repeat #fff; }
+  
+  .forum #content .content {
+    margin: 0;
+    padding: 0 11px;
+    background: #f0f0f0;
+    border-top: solid 1px #f0f0f0;
+    border-left: solid 1px #a5a5a5;
+    border-right: solid 1px #a5a5a5;
+    border-bottom: solid 1px #f0f0f0;
+  }
+  
+  #content #forum_content td,
+  #content #forum_content th {
+    font-size: 11px;
+  }
+  
+  /* remove */
+  #content h2 {
+    margin: 10px 0 8px 0;
+    padding: 0 0 4px 0;
+    color: #747474;
+    font-size: 14px;
+    border-bottom: solid 1px #d8d8d8;
+  }
+  
+  .forum #content h2 {
+    margin: 0;
+    padding: 0 0 4px 0;
+    color: #585858;
+    font-size: 14px;
+    border-bottom: solid 1px #585858;
+  }
+  
+  #content h2 a {
+    color: #747474;
+    text-decoration: none;
+  }
+  
+  .forum #content fieldset {
+    margin: 0;
+    border: solid 1px #b3b3b3;
+  }
+  
+  #content fieldset {
+    border: solid 1px #d8d8d8;
+    margin: 0 0 5px 0;
+  }
+  
+  #content fieldset legend {
+    font-size: 12px;
+  	font-weight: bold;
+  }
+  
+  #content fieldset legend a {
+    text-decoration: none;
+    color: #666;
+  }
+  
+  #content fieldset legend a:hover {
+    text-decoration: underline;
+  }
+  
+  #content fieldset .thLeft,
+  #content fieldset .thRight {
+    text-align: left;
+  }
+  
+  #content fieldset .row1 {
+    background: #f5f5f5;
+  }
+  
+  #content fieldset .row2 {
+    background: #fafafa;
+  }
+  
+  #content fieldset th,
+  #content fieldset .row1 td,
+  #content fieldset .row2 td {
+    border-bottom: solid 1px #d8d8d8;
+  }
+  
+  #content fieldset .row1 td td,
+  #content fieldset .row2 td td {
+   border: none;
+  }
+  
+  .forum_login {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .forum_login label {
+    display: block;
+    float: left;
+    padding: 4px 0;
+    font-weight: bold;
+  }
+  
+  .forum_login .post {
+    display: block;
+    float: right;
+  }
+  
+  .forum #content .posting,
+  .forum #content .block {
+    border: solid 1px #c1ae91;
+    background: #dbccb6;
+    padding: 3px;
+  }
+  
+  .forum #content .catHead a {
+    color: #63605c;
+  }
+  
+  .forum #content .posting th,
+  .forum #content .block th {
+    padding: 3px 4px;
+    text-align: left;
+    background: #c8b79e;
+    border-bottom: solid 1px #787878;
+  }
+  
+  .forum #content .row1 td,
+  .forum #content .block td {
+    padding: 3px 4px;
+    background: #e8dcca;
+  }
+  
+  .forum #content .row2 td {
+    padding: 3px 4px;
+    background: #ede2d1;
+  }
+  
+  .forum #content .posting .info td {
+    border-bottom: solid 1px #787878;
+  }
+  
+  .forum #content .posting .navigation td,
+  .forum #content .block .row1 td {
+    border-top: solid 1px #dbccb6;
+  }
+  
+  .forum #content .block {
+    margin: 8px 0 11px 0;
+  }
+  
+  .forum #content .row1 .col2 {
+    background: #ede2d1;
+  }
+  
+  .forum #content .posting .quote {
+    border: solid 1px #c8b79e;
+    background: #dbccb6;
+  }
+  
+/* ---------------------------------- forum quick links --------------------------------- */  
+  .forum #content #quick_links {
+    position: absolute;
+    top: 277px;
+    left: 718px;
+    width: 240px;
+  }
+  
+  .forum #content #quick_links #toggle {
+    position: absolute;
+    padding: 3px 0 0 11px;
+  }
+  
+  .forum #content #quick_links .frame_top {
+    height: 12px;
+    line-height: 1px;
+    background: url(../images/bg_forum_ql_top.gif) no-repeat;
+  }
+  
+  .forum #content #quick_links .frame_bottom {
+    height: 12px;
+    line-height: 1px;
+    background: url(../images/bg_forum_ql_bottom.gif) no-repeat;
+  }
+  
+  .forum #content #quick_links #quick_link_infos {
+    display: none;
+    visibility: hidden;
+    padding: 12px 11px 0 11px;
+    background: url(../images/bg_forum_ql_middle.gif) repeat-y;
+  }
+
+/* ----------------------------------- plugins - slimbox --------------------------------- */  
+  .slimbox img {
+    margin: 0 5px 5px 0;
+    padding: 2px;
+    border: solid 1px #999;
+  }OÌçâ;      YórÔYórÕ>Yi:Yü­T   @    :http://www.dd-wrt.com/dd-wrtv3/templates/dd-wrt/css/default.css necko:classified 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Fri, 27 Oct 2017 17:54:29 GMT
+Server: Apache
+Last-Modified: Wed, 27 Feb 2008 18:41:06 GMT
+Etag: "5c101e8-3785-4472825d7b480"
+Accept-Ranges: bytes
+Content-Length: 14213
+Content-Type: text/css
+ uncompressed-len 0   7…

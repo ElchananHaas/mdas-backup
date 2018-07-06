@@ -1,0 +1,1257 @@
+/*
+  Javascipt source file for process wizards
+*/
+
+var config;
+var steps;
+
+var title_div;
+var desc_div;
+var progress_div;
+var status_div;
+var question_div;
+var button_div;
+var continue_div;
+var error_div;
+
+var complete_pic;
+var dot_pic;
+var fail_pic;
+var current_pic;
+var loading_pic;
+
+var progress_bar_width = 700;
+
+var current_step;
+var next_step;
+
+var auto_next_step = false;
+
+var action_in_progress = false;
+
+var status_text = "";
+
+var wizard_id="";
+
+//var current_step_id;
+//var current_step_type;
+//var total_steps;
+
+var action_response;
+var input_vars=new Object();
+
+var log_store = [];
+
+var step_error = false;
+
+function init_wizard() {
+	// get HTML elements we'll need
+  title_div = document.getElementById('its_template_title_span');
+  desc_div = document.getElementById('wizard_description_div');
+  progress_div = document.getElementById('wizard_progress_div');
+  status_div = document.getElementById('wizard_status_div');
+  question_div = document.getElementById('wizard_question_div');
+  button_div = document.getElementById('wizard_button_div');
+  continue_div = document.getElementById('wizard_continue_div');
+  error_div = document.getElementById('wizard_error_div');
+
+	// preload the bar images
+  dot_pic = new Image(16, 16);
+  dot_pic = "/wizard/images/dot.gif";
+  current_pic = new Image(16, 16);
+  current_pic = "/wizard/images/current2.gif";
+  complete_pic = new Image(16, 16);
+  complete_pic = "/wizard/images/green-complete.gif";
+  fail_pic = new Image(16, 16);
+  fail_pic = "/wizard/images/fail3.gif";
+  finished_pic = new Image(16, 16);
+  finished_pic = "/wizard/images/finished2.gif";
+  loading_pic = new Image(32, 32);
+  loading_pic = "/wizard/images/loading.gif";
+
+  if (!wizard_id || wizard_id == "")
+  	wizard_id = window.location.search.substring(1);
+
+	if (!config) 
+		config = "wizard_config";
+
+	// load the config file
+	var request = YAHOO.util.Connect.asyncRequest('GET', '/wizard/' + wizard_id + '/' + config + '.json', {
+	
+    success: function (o) {
+      try {
+        config = YAHOO.lang.JSON.parse(o.responseText);
+      }
+      catch (x) {
+        error_div.innerHTML = 'Something went wrong with the wizard (json error): ' + x;
+        return;
+      }
+	
+			/* This code was needed when the wizard was on www.case.edu to force
+				redirection to the SSL server and require authentication.  It is no longer
+				required.
+			*/
+			/*
+			if (window.location.pathname.indexOf("_s.html") == -1) {
+				if (config.authentication) {
+					if (config.authentication == 'yes') {
+						window.location = window.location.protocol + '//' + window.location.host + window.location.pathname.replace(/\.html$/, "_s.html")
+						
+						if (window.location.search.substring(1)) 
+							window.location + '?' + window.location.search.substring(1);
+						
+						return;
+					}
+				}
+			}
+			*/
+			
+			if (config.progress_width) {
+				progress_bar_width = config.progress_width;
+			}
+			progress_div.style.width = progress_bar_width + "px";
+			
+      // display the title and description
+      var title = config.title.toLowerCase();
+      title_div.innerHTML = title;
+      desc_div.innerHTML = config.description;
+
+      // get the steps
+      steps = config.steps;
+	  do_wizard_step(config.start);
+    },
+
+    failure: function(o) {
+      title_div.innerHTML = 'Wizard Initialization Error';
+      error_div.innerHTML = 'Something went wrong while initilizing the wizard: ' + o.status + ' ' + o.statusText;
+    }
+  } ); // YAHOO.util.Connect.asyncRequest
+}
+
+function do_wizard_step(step, is_reset) {
+
+  var need_continue_button = false;
+
+	if (!is_reset || is_reset === null) { is_reset = false; }
+
+  if (step == -1) { return; }  // nothing to do
+
+  // reset everything (but status...that is set at the end of the prev step)
+  error_div.innerHTML = "";
+  question_div.innerHTML = "";
+  button_div.innerHTML = "";
+  continue_div.innerHTML = "";
+  current_step = null;
+
+  // find the step we're interested in
+  for (var j=0; j<steps.length; j++ ) {
+    if (steps[j].id == step) {
+      current_step = steps[j];
+      //current_step_id = j+1;
+      continue;
+    }
+  }
+    
+  if (current_step == null)  { error_div.innerHTML = "Wizard Configuration Error: Unknown step id ("+step+")"; return; }
+  
+ 	// keep track of the 'next_step'....if we end up with one defined we 
+	// will display the Continue button
+	next_step = -1;
+	if (current_step.next) {
+		next_step = current_step.next;
+	}
+
+	if (!is_reset) {
+		status_div.innerHTML = status_text;
+		status_text = "";
+	}
+
+	if (current_step.remote_action) {
+		do_remote_action(current_step.remote_action);
+		return;
+	}
+
+  // update the progress bar
+  if (current_step.progress && !is_reset) {
+		update_progress_bar(current_step.progress);
+	}
+	
+	// reset the step error flag
+	step_error = false;
+ 	
+ 	/*
+ 		Before we display the step, display whatever step header text we have
+ 	*/
+	if (current_step.title) {
+		question_div.innerHTML = response_replace(current_step.title) + "<br />";
+	} // end step text display
+	
+	auto_next_step = false;
+
+	// check for pretty output
+	var pretty = false;
+	if (current_step.pretty) {
+		if (current_step.pretty == 'yes') {
+			pretty = true;
+		}
+	}
+
+	var element_html = "";
+	if (current_step.elements) {
+		element_html = do_display_elements(current_step.elements, pretty);	
+	} else {
+		element_html = do_display_element(current_step, pretty);
+	}
+	
+	if (auto_next_step) {
+		do_wizard_step(next_step);
+	} else {
+		button_div.innerHTML = element_html;
+	
+		if (next_step != -1) {
+			do_continue_button(current_step);
+		}
+	}
+}
+
+function do_display_elements(elements, pretty) {
+	var sb = [];
+		
+	sb[sb.length] = '<div class="wizard_form_div">';
+		
+	// we have multiple elements to display...loop through them
+	for (var i=0; i<elements.length; i++) {
+		// headers are special in element groupings....they close/open a new wizard_form_div
+		if	(elements[i].header) {
+			sb[sb.length] = '</div>';
+			sb[sb.length] = '<div class="wizard_form_element">' + do_header(elements[i].header) + '</div>';
+			sb[sb.length] = '<div class="wizard_form_div">';
+		} else {
+			sb[sb.length] = '<div class="wizard_form_element">' + do_display_element(elements[i], pretty) + '</div>';
+		}
+		
+		// stop working through the list of elements if the next step has been triggered.
+		if (auto_next_step) { break; }
+	}
+		
+	sb[sb.length] = '</div>';
+
+	return sb.join("");
+}
+
+function do_display_element(step, pretty) {
+	if (step.script) {
+		return do_script(step.script);
+	}
+
+	else if (step.link) {
+		return do_link(step.link);
+	}
+
+	else if (step.eula) {
+		return do_eula(step.eula);
+	}
+	
+	else if (step.textbox) {
+		return do_textbox(step.textbox);
+	}
+	
+	else if (step.header) {
+		return do_header(step.header);
+	}
+	
+	else if (step.text) {
+		return do_text(step.text);
+	}
+	
+	else if (step.error) {
+		return do_error(step.error);
+	}
+	
+	else if (step.choices) {
+		return do_choices(step.choices, pretty);
+	}
+	
+	else if (step.checkbox) {
+		return do_checkbox(step.checkbox, pretty);
+	}
+	
+	else if (step.input) {
+		return do_input(step.input, pretty);
+	}
+	
+	else if (step.dropdown) {
+		return do_dropdown(step.dropdown, pretty);
+	}
+	
+	else {
+		return "";
+	}
+	
+	
+	/* else {
+		error_div.innerHTML = "Wizard Configuration Error: Unknown element in step " + step.id; return;
+	}*/
+
+}
+do_remote_action
+/* 
+	
+	
+	Perform a remote action to the specified URL
+*/
+
+function do_remote_action(action) {
+
+	if (! (action.url || action.rurl) ) {
+		error_div.innerHTML = "Wizard Configuration Error: missing url in action in step";
+	}
+	
+	if (action.next) {
+		next_step = action.next;
+	}
+	
+	auto_next_step = true;
+	
+	action_url(action);
+	// display the "waiting" graphic
+	question_div.innerHTML = "<img src=" + loading_pic + " />";
+	remote_action_watcher();  // stall while we wait for the async request to return	
+}
+
+function remote_action_watcher() {
+	if (action_in_progress) {
+		setTimeout(remote_action_watcher, 1000);
+	} else {
+		// turn off the loading pic
+		question_div.innerHTML = "";
+		do_wizard_step(next_step);
+	}
+}
+
+/*
+	do_script
+
+	Scripts are snippits of javascript code that trigger the next step.  Example:
+	
+	"if ('::active::' == 'true') { script_result=true; }"
+	
+	setting 'script_result' to true will trigger the next step.
+
+*/
+function do_script(script) {
+
+	var script_result = false;
+	if (script.source) {
+		eval(response_replace(script.source, true));
+		if (script_result) {
+			// the script returned true....trigger the next step
+			if (script.next) {
+				next_step = script.next;
+			}
+			
+			if (script.response) {
+				status_text = script.response;
+			}
+		
+			auto_next_step = true;
+		}
+	} 
+	
+	return "";
+}
+
+/*
+	do_header
+	
+	displays the header text
+*/
+function do_header(header) {
+	return '<div class="wizard_form_header">' + response_replace(header) + '</div>';
+}
+
+
+/* 
+	do_text
+
+	Display text
+*/
+function do_text(text) {
+	return '<div class="wizard_form_element">'+response_replace(text, true)+'</div>';
+}
+
+
+/* 
+	do_error
+	
+	Places text in the error div
+*/
+function do_error(error) {
+	error_div.innerHTML = response_replace(error);
+		
+	return "";
+}
+
+/*
+	do_link
+	
+	Displays a page directing the user to a site not within the wizard
+*/
+function do_link(link) {
+  sb = [];
+  
+  sb[sb.length] = '<input type="button" id="link_button" value="';
+  
+  if (link.button) {
+    sb[sb.length] =link.button;
+  } else {
+    sb[sb.length] = 'Go >>>';
+  }
+
+  sb[sb.length] = '" onclick="window.location=\''+link.url+'\'" /><br />';
+  
+  return sb.join("");
+}
+
+
+/*
+	do_eula
+	
+	Displays text in a EULA style block with an "accept" checkbox
+*/
+function do_eula(eula) {
+	var sb = [];
+	
+	if (eula.next) {
+		next_step = eula.next;
+	}
+	
+	sb[sb.length] = "<iframe id='wizard_eula_iframe' src='"+eula.url+"'></iframe>";
+	
+	sb[sb.length] = "<input type='checkbox' id='eula_accept_checkbox'> I accept the ";
+  	if (eula.title) {
+    	sb[sb.length] = eula.title;
+  	} else {
+   		sb[sb.length] = "above statement";
+  	}
+
+  	sb[sb.length] = "</input>";
+  
+  	return sb.join("");
+}
+
+function do_eula_div(eula) {  
+  var sb = [];
+  sb[sb.length] = "<div id='wizard_eula_div'></div>";
+
+	if (eula.next) {
+		next_step = eula.next;
+	}
+
+  if (eula.url) {
+    YAHOO.util.Event.onContentReady('wizard_eula_div', function() { get_url(eula.url, 'wizard_eula_div') });
+  } else if (eula.text) {
+    YAHOO.util.Event.onContentReady('wizard_eula_div', function() {
+      var div = document.getElementById('wizard_eula_div');
+      div.innerHTML = eula.text;
+    });
+  }
+
+  sb[sb.length] = "<input type='checkbox' id='eula_accept_checkbox'> I accept the ";
+  if (eula.title) {
+    sb[sb.length] = eula.title;
+  } else {
+    sb[sb.length] = "above statement";
+  }
+
+  sb[sb.length] = "</input>";
+  
+  return sb.join("");
+}
+
+
+/*
+	do_textbox
+	
+	Displays text in a EULA style block.  Unlike the EULA, the textbox does nothing 
+	but display the text (ie, no "accept" box, no "next", etc).  This is just a text element
+*/
+function do_textbox(textbox) {  
+  var sb = [];
+
+  if (textbox.url) {
+  	sb[sb.length] = "<iframe id='wizard_textbox_iframe' src='"+textbox.url+"'></iframe>";
+//    YAHOO.util.Event.onContentReady('wizard_textbox_div', function() { get_url(textbox.url, 'wizard_textbox_div') });
+  } else if (textbox.text) {
+	sb[sb.length] = "<div id='wizard_textbox_div'></div>";
+    YAHOO.util.Event.onContentReady('wizard_textbox_div', function() {
+      var div = document.getElementById('wizard_textbox_div');
+      div.innerHTML = textbox.text;
+    });
+  }
+  
+  return sb.join("");
+}
+
+
+/* 
+	do_choices
+	
+	Choices are more complicated than the basic elements.  Each choice can have an optional elements
+	array which will be displayed when the particular radio button is selected.
+*/
+
+function do_choices(choices) {
+	var sb = [];
+	
+	var choice_id = "wizard_choice";
+	
+	// display each choice
+	for (var i=0; i<choices.length; i++) {
+		
+		if(choices[i].choice_id) {
+			choice_id = choices[i].choice_id;
+		}
+		
+		if (choices[i].next) {
+			next_step = choices[i].next;
+		}
+		
+		sb[sb.length] = '<input type="radio" name="'+choice_id+'" id="'+choice_id+'" value="'+choices[i].id+'" onclick="display_choice_block();" />'+choices[i].text + '<br />';
+		
+		if (choices[i].elements) {
+			// there are elements associted with this choice that should be shown when the choice
+			// is selected.
+						
+			sb[sb.length] = '<div id="wizard_choice_block_'+choices[i].id+'" name="wizard_choice_block_'+choices[i
+			].id+'" class="wizard_choice_block" style="display: none;">';
+			sb[sb.length] = do_display_elements(choices[i].elements);
+			sb[sb.length] = '</div>';
+		}
+		
+	} // choices loop
+		
+	return sb.join("");
+}
+
+/*
+	display_choice_block
+	
+	update the choices and display the block connected to the 'checked' radio button
+*/
+function display_choice_block() {
+
+  var choice_radio = document.wizard_form.wizard_choice;
+  if (choice_radio) {
+    for (var i=0; i<choice_radio.length; i++) {
+	
+			choice_block = document.getElementById("wizard_choice_block_"+ choice_radio[i].value);
+						
+			if (choice_block) {
+				if (choice_radio[i].checked) {
+					choice_block.style.display="block";
+				} else {
+					choice_block.style.display="none";
+				}
+			}
+			
+		}
+	}		
+}
+
+
+/* 
+	do_input
+	
+	Displays a text input field.
+*/
+function do_input(input, pretty) {
+		var sb = [];
+		
+		var value = "";
+		if (input.value) { 
+			value = input.value;;
+		} else if (input.value_src) {
+			eval('value = action_response.'+input.value_src);
+		}
+		
+		sb[sb.length] = '<div class="wizard_form_element">';
+		if (pretty) { sb[sb.length] = '<label class="wizard_form_title_pretty" for="'+input.id+'">';}
+		sb[sb.length] = input.text + ': ';
+		if (pretty) { sb[sb.length] = '</label>'; }
+		sb[sb.length] = '<input type="text" id="'+input.id+'" name="'+input.id+'" size="'+input.size+'" value="'+value+'" />';
+		
+		if (input.example) {
+			sb[sb.length] = '<span class="wizard_input_example">' + input.example + '</span>';
+		}
+		
+		if (!input.required || input.required == 'true') {
+			sb[sb.length] = '<span class="wizard_input_required">(required)</span>';
+		}
+		
+		sb[sb.length] = '</div>\n';
+		
+		return sb.join("");
+}
+
+/*
+	do_checkbox
+	
+	Displays a checkbox element
+*/
+function do_checkbox(checkbox) {
+	var sb = [];
+
+	sb[sb.length] = '<div class="wizard_form_element">';
+
+	sb[sb.length] = '<input type="checkbox" name="'+checkbox.id+'" id="'+checkbox.id+'"';
+	if (checkbox.checked) {
+		sb[sb.length] = ' checked';
+	} 
+	
+	sb[sb.length] = ' /> ' + checkbox.text;
+	
+	if (!checkbox.required || checkbox.required == 'true') {
+		sb[sb.length] = '<span class="wizard_input_required">(required)</span>';
+	}
+	
+	sb[sb.length] = '</div>';
+	
+	return sb.join("");
+}
+
+/*
+	do_dropdown
+	
+	Displays the dropdown element
+*/
+function do_dropdown(dropdown, pretty) {
+	
+	var sb = [];
+	var dropdown_data;
+	var selected = 0;
+	
+	sb[sb.length] = '<div class="wizard_form_element">';
+	
+	if (dropdown.title) {
+			if (pretty) { sb[sb.length] = '<label class="wizard_form_title_pretty" for="'+dropdown.id+'">';}
+			sb[sb.length] = dropdown.title+': ';
+			if (pretty) { sb[sb.length] = '</label>'; }
+	}
+	
+	// where are we getting the data for the dropdown?
+	if (dropdown.data_src) {
+		// dropdown data comes from an action
+		eval('dropdown_data = action_response.'+dropdown.data_src);
+	} else if (dropdown.data) {
+		// dropdown data is in the config file
+		dropdown_data = dropdown.data;
+	}
+	
+	// what should be selected and where does that info come from
+	if (dropdown.selected_src) {
+		// selected comes from an action
+		eval('selected = action_response.'+dropdown.selected_src);
+	} else if (dropdown.selected) {
+		// selected is in the config file
+		selected = dropdown.selected;
+	}
+	
+	sb[sb.length] = '<select name="' + dropdown.id + '" id="' + dropdown.id + '">\n';
+	
+	var option_selected = "";
+	
+	for (var i=0; i<dropdown_data.length; i++) {
+		if (i == selected) {
+			option_selected = ' selected="selected"';
+		} else {
+			option_selected = '';
+		}
+		
+		if (typeof dropdown_data[i] == 'string') {
+			option_value=dropdown_data[i];
+			option_text=dropdown_data[i];
+		} else {
+			option_value=dropdown_data[i][0];
+			option_text=dropdown_data[i][1];
+		}
+		sb[sb.length] = '<option value="'+option_value+'" '+option_selected+'>'+option_text+'</option>';
+	}
+	
+	sb[sb.length] = "</select>";
+	
+	if (!dropdown.required || dropdown.required == 'true') {
+		sb[sb.length] = '<span class="wizard_input_required">(required)</span>';
+	}
+		
+	sb[sb.length] = "</div>\n";
+	
+	return sb.join("");
+	
+	//alert(action_response);
+	
+}
+
+
+/*
+	do_continue_button
+	
+	Displays the continue and reset button
+*/
+function do_continue_button(step) {
+
+  var sb=[];
+
+	var button_text = "Continue";
+	
+	if (step.button) {
+		button_text = step.button;
+	}
+
+  sb[sb.length] = '<input type="submit" id="continue_button" value="'+button_text+'" onclick="do_wizard_response();" /> ';
+	
+	sb[sb.length] = '<input type="reset" value="Reset This Step" onclick="do_wizard_step(\''+current_step.id+'\', true);">';
+		
+  continue_div.innerHTML = sb.join("");
+
+}
+
+
+/*****
+	RESPONSE HANDLER
+*****/
+
+/* 
+	do_wizard_response
+	
+	This does 2 things:
+	1) verifies all required fields are filled in 
+	2) adds any form variables to the input_vars array
+*/
+function do_wizard_response() {
+	
+	next_step = -1;  // reset the next step pointer (-1 == no next step)
+
+	// verify form inputs
+	error_div.innerHTML = "";
+	var response_errors = process_elements(current_step, false);
+	if (response_errors != "") {
+		error_div.innerHTML = 'Please correct the following errors: <ul style="padding-top: 5px;">' + response_errors + "</ul>";
+	}
+	
+	// set the next_step pointer -- if this step has a next defined
+	if (current_step.next) {
+		next_step = current_step.next;
+	}
+	
+	// store form input values
+	process_elements(current_step, true);
+	
+	// move to the next step
+	if (!step_error) {
+		do_wizard_step(next_step);
+	}
+	
+	step_error = false;
+}	
+
+function process_elements(step, store_vars) {
+	var response_errors = "";
+	
+	if (step.elements) {
+		for (var i=0; i<step.elements.length; i++) {
+			response_errors += process_element(step.elements[i], store_vars);
+		}
+	} else {
+		response_errors += process_element(step, store_vars);
+	}
+	
+	return response_errors;
+}
+
+function process_element(step, store_vars) {
+	if (step.eula) {
+		return process_eula(step.eula, store_vars);
+	} 
+	
+	else if (step.choices) {
+		return process_choices(step.choices, store_vars);
+	} 
+	
+	else if (step.input) {
+		return process_input(step.input, store_vars);
+	} 
+	
+	else if (step.checkbox) {
+		return process_checkbox(step.checkbox, store_vars);
+	}
+	
+	else if (step.dropdown) {
+		return process_dropdown(step.dropdown, store_vars);
+	} 
+	
+	else {
+		return "";
+	}
+}
+
+// process_error is a convenience function to make sure all errors are formatted the same.
+function process_error(error) {
+	step_error = true;
+	return "<li>" + error + "</li>";
+}
+
+function process_eula(eula, store_vars) {
+	var eula_checkbox = document.wizard_form.eula_accept_checkbox;
+
+	if (! eula_checkbox.checked) {
+		var eula_error = "";
+		
+		if (eula.no_accept) {
+			eula_error = eula.no_accept;
+		} else if (eula.title) {
+			eula_error = "You must accept the " + eula.title + " to continue.";
+		} else {
+			eula_error = "You must accept the agreement text to continue.";
+		}
+		
+		return process_error(eula_error);
+	} 
+	
+	else {
+		if (eula.title) {
+			do_log("The EULA " + eula.title + " was accepted");
+		} else {
+			do_log("The EULA was accepted");
+		}
+	}	
+	
+	// if the eula has a 'next', set the next_step pointer
+	if (store_vars) {
+		next_step = eula.next;
+	}
+	
+	if (eula.response) {
+		status_text = eula.response;
+	}
+	
+	return "";
+}
+
+function process_choices(choices, store_vars) {
+	// this gets a little weird since we may have embedded elements
+	
+	// see if a choice_id has been defined (it will be in the first choice definition)
+	var choice_id = "wizard_choice";
+	if (choices[0].choice_id) {
+		choice_id = choices[0].choice_id;
+	}
+	
+	// check to see if a choice is required (it will also be in the first def)
+	var choice_required = "true";
+	if (choices[0].required) {
+		choice_required = choices[0].required;
+	}
+	
+	// first make sure at least one choice has been selected.  
+	var choice_selected = "";
+	eval("var choice_radio = document.wizard_form."+choice_id);
+  if (choice_radio) {
+    for (var i=0; i<choice_radio.length; i++) {
+    	if (choice_radio[i].checked) {
+    		choice_selected = choice_radio[i].value;
+    		break;
+    	}
+    }
+  }
+  
+  if (choice_selected == "") {
+  	if (choice_required != 'false') {
+	  	// oops...no radio was selected
+  		return process_error("You must select one of the choices below");
+  	} else {
+  		return ""; // nothing to do....no choice and it isn't required.
+  	}
+  }
+
+	// now that we know what choice is selected....gets it's record from the config file
+	var choice;
+	for (var i=0; i<choices.length; i++) {
+		if (choice_selected == choices[i].id) {
+			// found it!
+			choice = choices[i];
+		}
+	}
+	
+	// if this choice has a 'next', set the next_step pointer
+	if (store_vars) {
+		store_input_vars(choice_id, choice.id);
+		if (choice.next) next_step = choice.next;
+	}
+	
+	if (choice.response) {
+		status_text = choice.response;
+	}
+	
+	if (choice.elements) {	
+		// we've got sub-elements to process
+		return process_elements(choice, store_vars);
+	}
+	
+	return "";		
+}
+
+function process_dropdown(dropdown, store_vars) {
+	var dropdown_sel = document.getElementById(dropdown.id).selectedIndex;
+	var dropdown_val = document.getElementById(dropdown.id)[dropdown_sel].value;
+	
+	if (dropdown_val == "" && dropdown.required != "false") {
+		return process_error("You must select a choice for \""+dropdown.title+"\".");
+	}
+	
+	if (store_vars) {
+		store_input_vars(dropdown.id, dropdown_val);
+	}
+	
+	if (dropdown.response) {
+		status_text = dropdown.response;
+	}
+	
+	return "";
+}
+
+
+function process_input(input, store_vars) {
+	var input_val = document.getElementById(input.id).value;
+
+	if (input_val == "" && input.required != "false") {
+		return process_error("The input field \""+input.text+"\" requires a value.");
+	}
+
+	if (store_vars) {
+		store_input_vars(input.id, input_val);
+	}
+	
+	return "";
+}	
+	
+function process_checkbox(checkbox, store_vars) {
+	var checkbox_el = document.getElementById(checkbox.id);
+	
+	if (checkbox.required == 'yes') {
+		if (!checkbox_el.checked) {
+			return process_error("The checkbox \""+checkbox.text+"\" must be selected.");
+		}
+	}
+	
+	if (store_vars) {
+		store_input_vars(checkbox.id, checkbox_el.checked);
+	}
+	
+	if (checkbox.response) {
+		status_text = checkbox.response;
+	}
+	
+	return "";
+	
+}
+
+function store_input_vars(id, val) {
+	eval('input_vars.'+id+'="'+val+'"');
+}
+
+/*****
+	Network Request Functions
+*****/
+
+/* 
+	action_url
+		
+	contact the specified URL, using AJAX/POST for local urls or the script eval/GET trick
+	for remote urls.  send the params as input variables in the request and store response
+	variables in the 'action_response' object.
+*/
+
+function action_url(action) {
+	var data;
+	
+	// assemble the param string
+	var sb = [];
+	var tmp_data;
+	var param_str = "";
+	
+	if (action.parameters) {
+		
+	}
+	
+	if (action.inputs) {
+		if (input_vars) {  // make sure we actually have an input_vars object
+			for (var i=0; i<action.inputs.length; i++) {
+				
+				if (typeof action.inputs[i] == 'string') {
+					eval("tmp_data = input_vars." + action.inputs[i]);
+					
+					if (!tmp_data && action_response) {
+						// if the var is not in the input_vars, check the previous actions response vars
+						eval("tmp_data = action_response." + action.inputs[i]);
+					}
+					
+					else if (!tmp_data) {
+						// no value is available....send a blank string
+						tmp_data = "";
+					}
+					
+					if (tmp_data) {
+						sb[sb.length] = action.inputs[i] + "=" + escape(tmp_data);
+					} 
+				}
+				
+				else {
+					// this is a static parameter stored as an array
+					sb[sb.length] = action.inputs[i][0] + "=" + action.inputs[i][1];
+				}
+
+			}
+		}
+		
+		param_str = sb.join("&");
+	}		
+	if (action.url) {
+		action_in_progress = true;
+	  var request = YAHOO.util.Connect.asyncRequest('POST', action.url, {
+		success: function(o) {
+		  try {
+				action_response = YAHOO.lang.JSON.parse(o.responseText);
+		  }
+		  catch (x) {
+				error_div.innerHTML = 'Something went wrong with the wizard (json error): ' + x;
+		  }
+		  
+		  action_url_complete();
+		},
+	
+		failure: function(o) {
+		  error_div.innerHTML = 'Something went wrong with the wizard: ' + o.status + ' ' + o.statusText;
+		}
+	  }, param_str);
+	} 
+	
+	else if (action.rurl) {
+		action_in_progress = true;
+
+		var remote_url = action.rurl + "?callback=action_url_callback&" + param_str;
+		current_choice = action;
+	
+		var objTransaction = YAHOO.util.Get.script(remote_url, {
+			onSuccess: function(o) { 
+				;
+			},
+				
+			onFailure: function(o) {
+				error_div.innerHTML = 'Something went wrong with the wizard: ' + o.status + ' ' + o.statusText;
+			}
+		});
+	
+	}
+				
+}
+
+function action_url_callback(json) {
+	action_response=json;
+	
+	action_url_complete();
+}
+
+function action_url_complete() {
+	action_in_progress = false;
+}
+	
+
+/*
+	get_url
+	
+	Retrieve the given url and place the response test in the specified div.
+*/
+function get_url(url, div_id) {
+  var url_response = "";
+
+  var div = document.getElementById(div_id);
+
+  var request = YAHOO.util.Connect.asyncRequest('GET', url, {
+    success: function(o) {
+      try {
+        div.innerHTML = o.responseText;
+      }
+      catch (x) {
+        div.innerHTML = "URL Inclusion failure (" + o.statusText + ")";
+      }
+    },
+    failure: function(o) {
+      div.innerHTML = "URL Inclusion failure (" + o.statusText + ")";
+    }
+  });
+}
+
+/*****
+	Assorted Utility Functions
+*****/
+
+
+// response_replace looks in the text for 'response::<variable> ' and replaces it
+// with the value for variable in the action_resposne global.
+function response_replace(text, null_is_blank) {
+  var sb=[];
+  var resp_begin;
+  var resp_end;
+  var pos = 0;
+  var var_name;
+  var var_value;
+  while(pos < text.length) {
+    resp_begin = text.indexOf('::', pos);
+    if (resp_begin == -1) {
+      // nothing else to replace.  dump the rest to the buffer and bail
+      sb[sb.length] = text.substring(pos);
+      pos = text.length;
+      break;
+    }
+
+    sb[sb.length] = text.substring(pos, resp_begin);
+    //pos = resp_begin + 2;  // set pos past the 'response::' tag
+
+    resp_end = text.indexOf('::', resp_begin+2);
+    if (resp_end == -1) {
+      // no terminator....not a response substitution.
+      sb[sb.length] = text.substring(resp_begin);
+      break;
+    } else {
+      var_name = text.substring(resp_begin+2, resp_end);
+    }
+
+		if (var_name.charAt(0) == '>') {
+			// looking for an input var....check input_vars for the value
+			var_name = var_name.substring(1);
+			if (input_vars) {
+				eval('var_value = input_vars.'+var_name);
+			} else {
+				var_value = "<em>[no input variables available]</em>";
+			}
+
+			if (!var_value) {
+				if (null_is_blank) {
+					var_value = "";
+				} else {
+					var_value = "<em>[unknown input variable]</em>";
+				}
+			}
+			
+		} else {
+			// looking for a response variable
+			if (action_response) {
+    		eval('var_value = action_response.'+var_name);
+			} else {
+				var_value = "<em>[no response variables available]</em>";
+			}
+			
+			if (!var_value) {
+				if (null_is_blank) {
+					var_value = "";
+				} else {
+					var_value = "<em>[unknown response variable]</em>";
+				}
+			}
+		}
+
+    // add the variable value to the buffer
+		sb[sb.length] = var_value;
+    
+    if (resp_end == -1) {
+      // nothing after the response....bail
+      pos = text.length;
+      break;
+    } else {
+      pos = resp_end+2;
+    }
+  }
+  return sb.join("");
+}
+
+
+/*
+	update_progress_bar
+*/
+var total_steps = 1;
+var prev_progress_step = 1;
+function update_progress_bar(progress) {
+  var step = [];
+  var sb = [];
+  
+  if (progress) {
+    
+    /* If progress contains just 'x' this is an error step.  Display the 'X' progress indicator on the last step attempted.  If progress is '+', increment the step based on the previous step performed.  Otherwise, note the current step in the prev_progress_step.*/
+    
+    if (progress == 'x') {
+    	step[0] = prev_progress_step;
+    	step[1] = total_steps;
+    } else if (progress == '+') {
+    	step[0] = ++prev_progress_step;
+    	step[1] = total_steps;
+    } else {
+    	step = progress.split('/');
+    	
+    	if (step[0] == '+') {
+    		step[0] = ++prev_progress_step;
+    	} else {
+	    	prev_progress_step = step[0];
+  		}
+	
+			if (step[1] == '+') {
+				step[1] = ++total_steps;
+			} else {
+				total_steps = step[1];
+  		}
+  	}
+
+    var distance = Math.floor( (progress_bar_width - (total_steps*16)) / (total_steps - 1));
+    var remaining = progress_bar_width - ( (distance + 16) * (total_steps - 1) ) - 16;
+    var the_pic;
+    
+    for (var i=1; i<=total_steps; i++) {
+      if (i == 1) {
+        offset = 0;
+      } else if (i == total_steps) {
+        offset = distance + remaining;
+      } else {
+        offset = distance;
+      }
+    
+    	sb[sb.length] = '<img width="16" height="16" style="border: 0; padding-left: ' + offset + 'px;" ';
+    	    	
+      if ((i < step[0])) { sb[sb.length] = 'src="'+complete_pic+'"'; }
+     	else if (i == step[0]) {
+        
+        if (progress == 'x') { sb[sb.length] = 'src="'+fail_pic+'"'; }
+        else if (i == total_steps) { sb[sb.length] = 'src="'+finished_pic+'"'; }
+       	else { sb[sb.length] = 'src="'+current_pic+'"'; }
+      
+      } else { sb[sb.length] = 'src="'+dot_pic+'"'; }
+
+      sb[sb.length] = ">";
+    }
+    progress_div.innerHTML = sb.join("");
+  }
+}
+
+function do_log(entry) {
+	log_store[log_store.length] = entry;
+}
+
+
+*‹üµ_‡      Yóm—Yóm—>Ye˜Yü¨   ,    :https://setup.case.edu/wizard/lib/wizard.js necko:classified 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Date: Fri, 27 Oct 2017 17:32:07 GMT
+Server: Apache
+Last-Modified: Tue, 20 Aug 2013 14:26:32 GMT
+Etag: "101aadd5b-77f0-4e461d7e65600"
+Accept-Ranges: bytes
+Content-Length: 30704
+Content-Type: application/javascript
+ uncompressed-len 0   wð

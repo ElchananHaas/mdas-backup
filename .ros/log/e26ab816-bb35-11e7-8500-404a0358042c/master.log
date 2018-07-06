@@ -1,0 +1,29 @@
+[rosmaster.main][INFO] 2017-10-27 12:42:56,661: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-10-27 12:42:56,661: Starting ROS Master Node
+[xmlrpc][INFO] 2017-10-27 12:42:56,662: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-10-27 12:42:56,662: Started XML-RPC server [http://mdas-Meerkat:11311/]
+[xmlrpc][INFO] 2017-10-27 12:42:56,662: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-10-27 12:42:56,662: Master initialized: port[11311], uri[http://mdas-Meerkat:11311/]
+[rosmaster.master][INFO] 2017-10-27 12:42:56,668: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-10-27 12:42:56,669: +PARAM [/roslaunch/uris/host_mdas_meerkat__40429] by /roslaunch
+[rosmaster.master][INFO] 2017-10-27 12:42:56,712: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-10-27 12:42:56,712: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2017-10-27 12:42:56,712: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-10-27 12:42:56,717: +SERVICE [/rosout/get_loggers] /rosout http://mdas-Meerkat:37808/
+[rosmaster.master][INFO] 2017-10-27 12:42:56,717: +SERVICE [/rosout/set_logger_level] /rosout http://mdas-Meerkat:37808/
+[rosmaster.master][INFO] 2017-10-27 12:42:56,722: +SUB [/clock] /rosout http://mdas-Meerkat:37808/
+[rosmaster.master][INFO] 2017-10-27 12:42:56,724: +PUB [/rosout_agg] /rosout http://mdas-Meerkat:37808/
+[rosmaster.master][INFO] 2017-10-27 12:42:56,731: +SUB [/rosout] /rosout http://mdas-Meerkat:37808/
+[rosmaster.master][INFO] 2017-10-27 12:42:56,900: +PUB [/rosout] /gazebo http://mdas-Meerkat:33633/
+[rosmaster.master][INFO] 2017-10-27 12:42:56,901: +SERVICE [/gazebo/get_loggers] /gazebo http://mdas-Meerkat:33633/
+[rosmaster.master][INFO] 2017-10-27 12:42:56,901: +SERVICE [/gazebo/set_logger_level] /gazebo http://mdas-Meerkat:33633/
+[rosmaster.master][INFO] 2017-10-27 12:42:56,904: +SUB [/clock] /gazebo http://mdas-Meerkat:33633/
+[rosmaster.master][INFO] 2017-10-27 12:42:56,962: publisherUpdate[/rosout] -> http://mdas-Meerkat:37808/
+[rosmaster.master][INFO] 2017-10-27 12:43:19,504: -PUB [/rosout_agg] /rosout http://mdas-Meerkat:37808/
+[rosmaster.master][INFO] 2017-10-27 12:43:19,505: -SUB [/clock] /rosout http://mdas-Meerkat:37808/
+[rosmaster.master][INFO] 2017-10-27 12:43:19,505: -SUB [/rosout] /rosout http://mdas-Meerkat:37808/
+[rosmaster.master][INFO] 2017-10-27 12:43:19,505: -SERVICE [/rosout/get_loggers] /rosout rosrpc://mdas-Meerkat:44774
+[rosmaster.master][INFO] 2017-10-27 12:43:19,506: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://mdas-Meerkat:44774
+[rosmaster.main][INFO] 2017-10-27 12:43:19,515: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-10-27 12:43:19,515: stopping master...
+[rospy.core][INFO] 2017-10-27 12:43:19,516: signal_shutdown [atexit]

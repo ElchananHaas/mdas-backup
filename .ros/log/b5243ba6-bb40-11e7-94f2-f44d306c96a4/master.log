@@ -1,0 +1,21 @@
+[rosmaster.main][INFO] 2017-10-27 14:00:25,183: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-10-27 14:00:25,183: Starting ROS Master Node
+[xmlrpc][INFO] 2017-10-27 14:00:25,184: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-10-27 14:00:25,184: Started XML-RPC server [http://mdas-Meerkat:11311/]
+[xmlrpc][INFO] 2017-10-27 14:00:25,184: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-10-27 14:00:25,184: Master initialized: port[11311], uri[http://mdas-Meerkat:11311/]
+[rosmaster.master][INFO] 2017-10-27 14:00:25,221: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-10-27 14:00:25,224: +PARAM [/roslaunch/uris/host_mdas_meerkat__41529] by /roslaunch
+[rosmaster.master][INFO] 2017-10-27 14:00:25,285: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-10-27 14:00:25,285: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-10-27 14:00:25,305: +SERVICE [/rosout/get_loggers] /rosout http://mdas-Meerkat:34577/
+[rosmaster.master][INFO] 2017-10-27 14:00:25,306: +SERVICE [/rosout/set_logger_level] /rosout http://mdas-Meerkat:34577/
+[rosmaster.master][INFO] 2017-10-27 14:00:25,307: +PUB [/rosout_agg] /rosout http://mdas-Meerkat:34577/
+[rosmaster.master][INFO] 2017-10-27 14:00:25,309: +SUB [/rosout] /rosout http://mdas-Meerkat:34577/
+[rosmaster.master][INFO] 2017-10-27 14:01:58,697: -PUB [/rosout_agg] /rosout http://mdas-Meerkat:34577/
+[rosmaster.master][INFO] 2017-10-27 14:01:58,698: -SUB [/rosout] /rosout http://mdas-Meerkat:34577/
+[rosmaster.master][INFO] 2017-10-27 14:01:58,698: -SERVICE [/rosout/get_loggers] /rosout rosrpc://mdas-Meerkat:48999
+[rosmaster.master][INFO] 2017-10-27 14:01:58,699: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://mdas-Meerkat:48999
+[rosmaster.main][INFO] 2017-10-27 14:01:58,714: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-10-27 14:01:58,714: stopping master...
+[rospy.core][INFO] 2017-10-27 14:01:58,714: signal_shutdown [atexit]

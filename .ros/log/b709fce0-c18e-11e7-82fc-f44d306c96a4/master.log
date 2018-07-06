@@ -1,0 +1,1135 @@
+[rosmaster.main][INFO] 2017-11-04 14:33:56,081: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-11-04 14:33:56,081: Starting ROS Master Node
+[xmlrpc][INFO] 2017-11-04 14:33:56,082: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-11-04 14:33:56,082: Started XML-RPC server [http://mdas-Meerkat:11311/]
+[xmlrpc][INFO] 2017-11-04 14:33:56,082: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-11-04 14:33:56,082: Master initialized: port[11311], uri[http://mdas-Meerkat:11311/]
+[rosmaster.master][INFO] 2017-11-04 14:33:56,109: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,110: +PARAM [/roslaunch/uris/host_mdas_meerkat__44513] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,166: +PARAM [/usb_cam_1/image_width] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,166: +PARAM [/usb_cam_1/video_device] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,167: +PARAM [/base_laser1/baud] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,167: +PARAM [/novatel_node/psrpos_topic] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,167: +PARAM [/novatel_node/port] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,167: +PARAM [/base_laser1/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,167: +PARAM [/novatel_node/ephem_log] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,167: +PARAM [/novatel_node/baudrate] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,167: +PARAM [/usb_cam_1/framerate] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,167: +PARAM [/base_laser1/resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,167: +PARAM [/novatel_node/range_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,167: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,167: +PARAM [/usb_cam_1/pixel_format] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,167: +PARAM [/novatel_node/log_commands] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,168: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,168: +PARAM [/novatel_node/gps_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,168: +PARAM [/novatel_node/psrpos_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,168: +PARAM [/usb_cam_1/camera_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,168: +PARAM [/usb_cam_1/io_method] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,168: +PARAM [/novatel_node/odom_topic] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,168: +PARAM [/base_laser1/port] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,168: +PARAM [/novatel_node/span_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,168: +PARAM [/usb_cam_1/image_height] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:33:56,172: +SERVICE [/rosout/get_loggers] /rosout http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,175: +SERVICE [/rosout/set_logger_level] /rosout http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,180: +PUB [/rosout_agg] /rosout http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,181: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:38857/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,182: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:38857/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,184: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:38857/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,185: +SUB [/rosout] /rosout http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,190: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:38857/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,190: +PUB [/rosout] /novatel_node http://mdas-Meerkat:38055/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,191: +SERVICE [/novatel_node/get_loggers] /novatel_node http://mdas-Meerkat:38055/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,192: +PUB [/rosout] /usb_cam_1 http://mdas-Meerkat:35167/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,192: +SERVICE [/novatel_node/set_logger_level] /novatel_node http://mdas-Meerkat:38055/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,193: +SERVICE [/usb_cam_1/get_loggers] /usb_cam_1 http://mdas-Meerkat:35167/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,193: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:38857/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,194: +SERVICE [/usb_cam_1/set_logger_level] /usb_cam_1 http://mdas-Meerkat:35167/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,211: +PUB [/gps_odom] /novatel_node http://mdas-Meerkat:38055/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,212: +PUB [/gps_fix] /novatel_node http://mdas-Meerkat:38055/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,212: +PUB [/ephemeris] /novatel_node http://mdas-Meerkat:38055/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,212: +PUB [/range] /novatel_node http://mdas-Meerkat:38055/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,213: +PUB [/gps_fix_psr] /novatel_node http://mdas-Meerkat:38055/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,213: +PUB [/novatel_node/gps_fix_ecef] /novatel_node http://mdas-Meerkat:38055/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,243: +PUB [/usb_cam_1/image_raw] /usb_cam_1 http://mdas-Meerkat:35167/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,243: +PUB [/usb_cam_1/camera_info] /usb_cam_1 http://mdas-Meerkat:35167/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,254: +SERVICE [/usb_cam_1/set_camera_info] /usb_cam_1 http://mdas-Meerkat:35167/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,255: +SERVICE [/usb_cam_1/start_capture] /usb_cam_1 http://mdas-Meerkat:35167/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,255: +SERVICE [/usb_cam_1/stop_capture] /usb_cam_1 http://mdas-Meerkat:35167/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,284: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:33:56,285: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:34:05,909: +PUB [/rosout] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:05,919: +SERVICE [/rviz_1509820446131819774/get_loggers] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:05,927: +SERVICE [/rviz_1509820446131819774/set_logger_level] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:05,998: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:34:06,115: +SUB [/tf] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:06,171: +SUB [/tf_static] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:06,249: +PUB [/initialpose] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:06,268: +PUB [/goal] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:06,299: -PUB [/goal] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:06,312: -PUB [/initialpose] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:06,320: +PUB [/initialpose] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:06,327: +PUB [/goal] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:06,337: +PUB [/move_base_simple/goal] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:06,345: -PUB [/goal] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:06,353: +PUB [/clicked_point] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:06,378: +SERVICE [/rviz_1509820446131819774/reload_shaders] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:14,527: +SUB [/usb_cam_1/image_raw] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:26,162: +SUB [/sensor_msgs/LaserScan] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,458: +PARAM [/roslaunch/uris/host_mdas_meerkat__42711] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,467: +PARAM [/move_base/DWAPlannerROS/acc_lim_x] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,467: +PARAM [/move_base/local_costmap/laser_scan_sensor/sensor_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,467: +PARAM [/move_base/DWAPlannerROS/sim_time] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,467: +PARAM [/move_base/global_costmap/laser_scan_sensor/sensor_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,467: +PARAM [/move_base/DWAPlannerROS/trans_stopped_vel] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,467: +PARAM [/move_base/DWAPlannerROS/acc_lim_theta] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,467: +PARAM [/move_base/DWAPlannerROS/min_rot_vel] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/DWAPlannerROS/max_vel_x] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/local_costmap/observation_sources] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/DWAPlannerROS/path_distance_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/local_costmap/laser_scan_sensor/data_type] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/global_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/DWAPlannerROS/yaw_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/local_costmap/height] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/global_costmap/laser_scan_sensor/marking] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/DWAPlannerROS/publish_traj_pc] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/DWAPlannerROS/stop_time_buffer] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/DWAPlannerROS/min_vel_y] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/DWAPlannerROS/min_trans_vel] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/DWAPlannerROS/vy_samples] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/DWAPlannerROS/oscillation_reset_dist] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/DWAPlannerROS/global_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/global_costmap/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,468: +PARAM [/move_base/local_costmap/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/move_base/local_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/move_base/local_costmap/footprint] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/move_base/global_costmap/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/move_base/local_costmap/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/move_base/DWAPlannerROS/vtheta_samples] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/move_base/DWAPlannerROS/latch_xy_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/move_base/DWAPlannerROS/occdist_scale] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/slam_gmapping/map_update_interval] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/slam_gmapping/xmax] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/move_base/local_costmap/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/move_base/global_costmap/observation_sources] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/move_base/planner_frequency] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/move_base/DWAPlannerROS/scaling_speed] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/move_base/local_costmap/laser_scan_sensor/clearing] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/move_base/DWAPlannerROS/xy_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/slam_gmapping/xmin] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,469: +PARAM [/move_base/DWAPlannerROS/forward_point_distance] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/global_costmap/footprint] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/slam_gmapping/delta] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/global_costmap/laser_scan_sensor/topic] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/global_costmap/rolling_window] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/DWAPlannerROS/acc_lim_y] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/global_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/local_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/global_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/DWAPlannerROS/rot_stopped_vel] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/DWAPlannerROS/max_rot_vel] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/DWAPlannerROS/holonomic_robot] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/local_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/local_costmap/resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/global_costmap/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/local_costmap/laser_scan_sensor/marking] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/global_costmap/laser_scan_sensor/data_type] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/local_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,470: +PARAM [/move_base/DWAPlannerROS/vx_samples] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/slam_gmapping/ymin] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/move_base/global_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/slam_gmapping/ymax] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/move_base/DWAPlannerROS/min_vel_x] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/move_base/DWAPlannerROS/max_vel_y] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/move_base/local_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/move_base/global_costmap/height] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/move_base/DWAPlannerROS/max_trans_vel] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/move_base/base_local_planner] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/move_base/global_costmap/width] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/move_base/local_costmap/laser_scan_sensor/topic] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/slam_gmapping/linearUpdate] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/move_base/local_costmap/width] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/move_base/DWAPlannerROS/max_scaling_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/move_base/local_costmap/rolling_window] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/move_base/global_costmap/resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/move_base/global_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,471: +PARAM [/move_base/controller_frequency] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,472: +PARAM [/move_base/DWAPlannerROS/goal_distance_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,472: +PARAM [/move_base/global_costmap/laser_scan_sensor/clearing] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,472: +PARAM [/move_base/local_costmap/publish_voxel_map] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,472: +PARAM [/move_base/DWAPlannerROS/publish_cost_grid_pc] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 14:34:57,535: +PUB [/rosout] /base_laser1_broadcaster http://mdas-Meerkat:44677/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,536: +SERVICE [/base_laser1_broadcaster/get_loggers] /base_laser1_broadcaster http://mdas-Meerkat:44677/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,539: +SERVICE [/base_laser1_broadcaster/set_logger_level] /base_laser1_broadcaster http://mdas-Meerkat:44677/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,544: +PUB [/tf] /base_laser1_broadcaster http://mdas-Meerkat:44677/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,551: +PUB [/rosout] /robot_state_publisher http://mdas-Meerkat:38603/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,551: +PUB [/rosout] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,553: +SERVICE [/pub_des_state_startup/get_loggers] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,559: +PUB [/rosout] /odom_tf http://mdas-Meerkat:39427/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,561: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://mdas-Meerkat:38603/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,562: +SERVICE [/pub_des_state_startup/set_logger_level] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,562: +PARAM [/slam_gmapping/base_frame] by /slam_gmapping
+[rosmaster.master][INFO] 2017-11-04 14:34:57,564: +SERVICE [/odom_tf/get_loggers] /odom_tf http://mdas-Meerkat:39427/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,564: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://mdas-Meerkat:38603/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,565: +PUB [/rosout] /navigation_goals http://mdas-Meerkat:41437/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,566: +PUB [/rosout] /move_base http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,566: +SERVICE [/odom_tf/set_logger_level] /odom_tf http://mdas-Meerkat:39427/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,567: +PUB [/rosout] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,568: +PUB [/tf] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,568: +SERVICE [/navigation_goals/get_loggers] /navigation_goals http://mdas-Meerkat:41437/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,569: +SERVICE [/move_base/get_loggers] /move_base http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,569: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,570: +SERVICE [/slam_gmapping/get_loggers] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,570: publisherUpdate[/tf] -> http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,570: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,571: +PUB [/tf] /odom_tf http://mdas-Meerkat:39427/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,571: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,572: +SERVICE [/navigation_goals/set_logger_level] /navigation_goals http://mdas-Meerkat:41437/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,572: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,572: +SERVICE [/move_base/set_logger_level] /move_base http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,573: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,574: +SERVICE [/slam_gmapping/set_logger_level] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,574: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,575: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,579: +PUB [/tf] /robot_state_publisher http://mdas-Meerkat:38603/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,581: +PUB [/tf_static] /robot_state_publisher http://mdas-Meerkat:38603/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,583: +SUB [/tf] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,586: +SUB [/tf] /odom_tf http://mdas-Meerkat:39427/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,588: +SUB [/clicked_point] /navigation_goals http://mdas-Meerkat:41437/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,588: +SUB [/tf] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,589: +SUB [/tf] /move_base http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,594: +SUB [/tf_static] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,596: +SUB [/tf_static] /odom_tf http://mdas-Meerkat:39427/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,597: +PUB [/desState] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,598: +SUB [/tf_static] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,598: +SUB [/joint_states] /robot_state_publisher http://mdas-Meerkat:38603/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,599: +PUB [/desPsi] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,599: +SUB [/tf_static] /move_base http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,600: +PUB [/tf] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,603: +PUB [/motion_mode] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,604: +SERVICE [/estop_service] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,605: +SERVICE [/clear_estop_service] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,606: +SERVICE [/lidar_alarm_service] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,607: +SERVICE [/pop_path_queue_service] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,608: +SERVICE [/flush_path_queue_service] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,609: +SERVICE [/append_path_queue_service] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,613: +SUB [/odom] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,617: +SUB [/cmd_mode] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,621: +SUB [/go_home] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,627: +PUB [/slam_gmapping/entropy] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,628: +PUB [/map] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,629: +PUB [/map_metadata] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,630: +SERVICE [/dynamic_map] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,630: +PUB [/cmd_vel] /move_base http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,632: +PUB [/move_base/current_goal] /move_base http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,632: +PUB [/move_base/goal] /move_base http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,634: +SUB [/sensor_msgs/LaserScan] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,636: +SUB [/move_base_simple/goal] /move_base http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,674: publisherUpdate[/tf] -> http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,675: publisherUpdate[/tf] -> http://mdas-Meerkat:39427/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,675: publisherUpdate[/tf] -> http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:34:57,676: publisherUpdate[/tf] -> http://mdas-Meerkat:39425/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:35:00,637: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 113] No route to host
+
+[rosmaster.master][INFO] 2017-11-04 14:35:00,637: publisherUpdate[/tf] -> http://192.168.1.15:45397/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:35:03,708: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 113] No route to host
+
+[rosmaster.master][INFO] 2017-11-04 14:35:03,708: publisherUpdate[/tf] -> http://192.168.1.15:45397/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:35:06,780: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 113] No route to host
+
+[rosmaster.master][INFO] 2017-11-04 14:35:06,780: publisherUpdate[/tf] -> http://192.168.1.15:45397/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:35:09,852: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 113] No route to host
+
+[rosmaster.master][INFO] 2017-11-04 14:35:09,852: publisherUpdate[/tf_static] -> http://192.168.1.15:45397/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:35:12,924: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 113] No route to host
+
+[rosmaster.master][INFO] 2017-11-04 14:35:12,924: publisherUpdate[/tf] -> http://192.168.1.15:45397/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:35:15,996: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 113] No route to host
+
+[rosmaster.master][INFO] 2017-11-04 14:36:08,754: -PUB [/rosout] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:36:08,777: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:36:10,070: -PUB [/initialpose] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:36:10,992: -PUB [/move_base_simple/goal] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:36:11,082: publisherUpdate[/move_base_simple/goal] -> http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:36:11,355: -PUB [/clicked_point] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:36:11,384: publisherUpdate[/clicked_point] -> http://mdas-Meerkat:41437/
+[rosmaster.master][INFO] 2017-11-04 14:36:11,704: -SUB [/tf] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:36:11,710: -SUB [/tf_static] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:36:11,716: -SUB [/usb_cam_1/image_raw] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:36:11,730: -SUB [/sensor_msgs/LaserScan] /rviz_1509820446131819774 http://192.168.1.15:45397/
+[rosmaster.master][INFO] 2017-11-04 14:36:11,759: -SERVICE [/rviz_1509820446131819774/get_loggers] /rviz_1509820446131819774 rosrpc://192.168.1.15:55223
+[rosmaster.master][INFO] 2017-11-04 14:36:11,767: -SERVICE [/rviz_1509820446131819774/set_logger_level] /rviz_1509820446131819774 rosrpc://192.168.1.15:55223
+[rosmaster.master][INFO] 2017-11-04 14:36:11,773: -SERVICE [/rviz_1509820446131819774/reload_shaders] /rviz_1509820446131819774 rosrpc://192.168.1.15:55223
+[rosmaster.master][INFO] 2017-11-04 14:36:25,066: +PUB [/rosout] /rostopic_14314_1509820584944 http://mdas-Meerkat:40063/
+[rosmaster.master][INFO] 2017-11-04 14:36:25,073: +SERVICE [/rostopic_14314_1509820584944/get_loggers] /rostopic_14314_1509820584944 http://mdas-Meerkat:40063/
+[rosmaster.master][INFO] 2017-11-04 14:36:25,076: +SERVICE [/rostopic_14314_1509820584944/set_logger_level] /rostopic_14314_1509820584944 http://mdas-Meerkat:40063/
+[rosmaster.master][INFO] 2017-11-04 14:36:25,108: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:36:25,114: +SUB [/sensor_msgs/LaserScan] /rostopic_14314_1509820584944 http://mdas-Meerkat:40063/
+[rosmaster.master][INFO] 2017-11-04 14:36:28,648: -SUB [/sensor_msgs/LaserScan] /rostopic_14314_1509820584944 http://mdas-Meerkat:40063/
+[rosmaster.master][INFO] 2017-11-04 14:36:28,648: -PUB [/rosout] /rostopic_14314_1509820584944 http://mdas-Meerkat:40063/
+[rosmaster.master][INFO] 2017-11-04 14:36:28,649: -SERVICE [/rostopic_14314_1509820584944/get_loggers] /rostopic_14314_1509820584944 rosrpc://mdas-Meerkat:35205
+[rosmaster.master][INFO] 2017-11-04 14:36:28,649: -SERVICE [/rostopic_14314_1509820584944/set_logger_level] /rostopic_14314_1509820584944 rosrpc://mdas-Meerkat:35205
+[rosmaster.master][INFO] 2017-11-04 14:36:28,714: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,348: +PUB [/rosout] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,355: +SERVICE [/record_1509820667592238315/get_loggers] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,361: +SERVICE [/record_1509820667592238315/set_logger_level] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,420: +SUB [/map_metadata] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,432: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,463: +SUB [/move_base/current_goal] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,512: +SUB [/gps_fix] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,548: +SUB [/usb_cam_1/camera_info] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,594: +SUB [/rosout_agg] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,625: +SUB [/novatel_node/gps_fix_ecef] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,659: +SUB [/tf_static] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,721: +SUB [/sensor_msgs/LaserScan] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,769: +SUB [/map] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,822: +SUB [/diagnostics] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,871: +SUB [/motion_mode] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,907: +SUB [/ephemeris] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:47,939: +SUB [/rosout] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:48,036: +SUB [/gps_odom] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:48,091: +SUB [/gps_fix_psr] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:48,173: +SUB [/range] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:48,218: +SUB [/tf] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:48,432: +SUB [/desState] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:48,590: +SUB [/usb_cam_1/image_raw] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:48,651: +SUB [/move_base/goal] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:48,768: +SUB [/cmd_vel] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:48,840: +SUB [/desPsi] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:48,887: +SUB [/slam_gmapping/entropy] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:58,249: -PUB [/rosout] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:58,250: publisherUpdate[/rosout] -> http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:58,250: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,152: -SUB [/map_metadata] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,289: -SUB [/move_base/current_goal] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,344: -SUB [/gps_fix] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,350: -SUB [/usb_cam_1/camera_info] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,385: -SUB [/rosout_agg] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,449: -SUB [/novatel_node/gps_fix_ecef] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,457: -SUB [/tf_static] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,473: -SUB [/sensor_msgs/LaserScan] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,481: -SUB [/map] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,487: -SUB [/diagnostics] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,493: -SUB [/motion_mode] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,498: -SUB [/ephemeris] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,503: -SUB [/rosout] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,513: -SUB [/gps_odom] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,523: -SUB [/gps_fix_psr] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,550: -SUB [/range] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,576: -SUB [/tf] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,585: -SUB [/desState] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,594: -SUB [/usb_cam_1/image_raw] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,599: -SUB [/move_base/goal] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,606: -SUB [/cmd_vel] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,613: -SUB [/desPsi] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,618: -SUB [/slam_gmapping/entropy] /record_1509820667592238315 http://192.168.1.15:45684/
+[rosmaster.master][INFO] 2017-11-04 14:37:59,628: -SERVICE [/record_1509820667592238315/get_loggers] /record_1509820667592238315 rosrpc://192.168.1.15:34856
+[rosmaster.master][INFO] 2017-11-04 14:37:59,633: -SERVICE [/record_1509820667592238315/set_logger_level] /record_1509820667592238315 rosrpc://192.168.1.15:34856
+[rosmaster.threadpool][ERROR] 2017-11-04 14:38:01,308: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 113] No route to host
+
+[rosmaster.master][INFO] 2017-11-04 14:38:29,411: +PUB [/rosout] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,411: +SERVICE [/record_1509820709409571720/get_loggers] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,412: +SERVICE [/record_1509820709409571720/set_logger_level] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,415: +SUB [/map_metadata] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,417: +SUB [/move_base/current_goal] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,419: +SUB [/gps_fix] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,421: +SUB [/usb_cam_1/camera_info] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,423: +SUB [/rosout_agg] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,425: +SUB [/novatel_node/gps_fix_ecef] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,427: +SUB [/tf_static] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,429: +SUB [/sensor_msgs/LaserScan] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,431: +SUB [/map] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,433: +SUB [/diagnostics] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,435: +SUB [/motion_mode] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,438: +SUB [/ephemeris] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,440: +SUB [/rosout] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,442: +SUB [/gps_odom] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,444: +SUB [/gps_fix_psr] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,446: +SUB [/range] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,448: +SUB [/tf] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,450: +SUB [/desState] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,452: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,453: +SUB [/usb_cam_1/image_raw] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,455: +SUB [/move_base/goal] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,457: +SUB [/cmd_vel] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,460: +SUB [/desPsi] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:29,462: +SUB [/slam_gmapping/entropy] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,795: -PUB [/rosout] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,796: -SUB [/map_metadata] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,796: -SUB [/move_base/current_goal] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,797: -SUB [/gps_fix] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,797: -SUB [/usb_cam_1/camera_info] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,798: -SUB [/rosout_agg] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,798: -SUB [/novatel_node/gps_fix_ecef] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,799: -SUB [/tf_static] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,799: -SUB [/sensor_msgs/LaserScan] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,800: -SUB [/map] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,800: -SUB [/diagnostics] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,801: -SUB [/motion_mode] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,801: -SUB [/ephemeris] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,802: -SUB [/rosout] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,803: -SUB [/gps_odom] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,803: -SUB [/gps_fix_psr] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,804: -SUB [/range] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,804: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,805: publisherUpdate[/rosout] -> http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,805: -SUB [/tf] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,806: -SUB [/desState] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:38:32,807: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:38:32,807: -SUB [/usb_cam_1/image_raw] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,808: -SUB [/move_base/goal] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,808: -SUB [/cmd_vel] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,809: -SUB [/desPsi] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,809: -SUB [/slam_gmapping/entropy] /record_1509820709409571720 http://mdas-Meerkat:38609/
+[rosmaster.master][INFO] 2017-11-04 14:38:32,810: -SERVICE [/record_1509820709409571720/get_loggers] /record_1509820709409571720 rosrpc://mdas-Meerkat:56959
+[rosmaster.master][INFO] 2017-11-04 14:38:32,810: -SERVICE [/record_1509820709409571720/set_logger_level] /record_1509820709409571720 rosrpc://mdas-Meerkat:56959
+[rosmaster.master][INFO] 2017-11-04 14:39:14,951: -PUB [/rosout] /move_base http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:39:14,952: -PUB [/cmd_vel] /move_base http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:39:14,952: -PUB [/move_base/current_goal] /move_base http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:39:14,953: -PUB [/move_base/goal] /move_base http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:39:14,954: -SUB [/tf] /move_base http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:39:14,954: -SUB [/tf_static] /move_base http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:39:14,955: -SUB [/move_base_simple/goal] /move_base http://mdas-Meerkat:39425/
+[rosmaster.master][INFO] 2017-11-04 14:39:14,955: -SERVICE [/move_base/get_loggers] /move_base rosrpc://mdas-Meerkat:58443
+[rosmaster.master][INFO] 2017-11-04 14:39:14,956: -SERVICE [/move_base/set_logger_level] /move_base rosrpc://mdas-Meerkat:58443
+[rosmaster.master][INFO] 2017-11-04 14:39:14,970: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:39:14,972: +PARAM [/move_base/global_costmap/obstacle_layer/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:14,972: -PARAM [/move_base/global_costmap/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:14,974: +PARAM [/move_base/global_costmap/obstacle_layer/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:14,975: -PARAM [/move_base/global_costmap/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:14,978: +PARAM [/move_base/global_costmap/obstacle_layer/laser_scan_sensor] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:14,979: -PARAM [/move_base/global_costmap/laser_scan_sensor] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:14,980: +PARAM [/move_base/global_costmap/obstacle_layer/observation_sources] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:14,981: -PARAM [/move_base/global_costmap/observation_sources] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:14,983: +PARAM [/move_base/global_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:14,984: -PARAM [/move_base/global_costmap/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:14,984: +PARAM [/move_base/global_costmap/plugins] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,024: +PARAM [/move_base/global_costmap/static_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,024: +PARAM [/move_base/global_costmap/static_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,040: +PARAM [/move_base/global_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,040: +PARAM [/move_base/global_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,041: +PARAM [/move_base/global_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,041: +PARAM [/move_base/global_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,042: +PARAM [/move_base/global_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,043: +PARAM [/move_base/global_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,043: +PARAM [/move_base/global_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,044: +PARAM [/move_base/global_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,046: +PARAM [/move_base/global_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,047: +PARAM [/move_base/global_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,048: +PARAM [/move_base/global_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,048: +PARAM [/move_base/global_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,049: +PARAM [/move_base/global_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,050: -PUB [/rosout] /navigation_goals http://mdas-Meerkat:41437/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,050: -PUB [/rosout] /base_laser1_broadcaster http://mdas-Meerkat:44677/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,051: -PUB [/rosout] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,052: -PUB [/rosout] /odom_tf http://mdas-Meerkat:39427/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,052: -PUB [/rosout] /robot_state_publisher http://mdas-Meerkat:38603/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,053: +PARAM [/move_base/global_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,053: -SUB [/clicked_point] /navigation_goals http://mdas-Meerkat:41437/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,054: -PUB [/tf] /base_laser1_broadcaster http://mdas-Meerkat:44677/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,054: -PUB [/tf] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,055: -PUB [/rosout] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,056: -PUB [/tf] /odom_tf http://mdas-Meerkat:39427/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,064: -PUB [/tf] /robot_state_publisher http://mdas-Meerkat:38603/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,065: -SERVICE [/navigation_goals/get_loggers] /navigation_goals rosrpc://mdas-Meerkat:44301
+[rosmaster.master][INFO] 2017-11-04 14:39:15,066: -SERVICE [/base_laser1_broadcaster/get_loggers] /base_laser1_broadcaster rosrpc://mdas-Meerkat:38469
+[rosmaster.master][INFO] 2017-11-04 14:39:15,066: -PUB [/desState] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,067: -PUB [/tf] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,067: -SUB [/tf] /odom_tf http://mdas-Meerkat:39427/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,068: -PUB [/tf_static] /robot_state_publisher http://mdas-Meerkat:38603/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,069: -SERVICE [/navigation_goals/set_logger_level] /navigation_goals rosrpc://mdas-Meerkat:44301
+[rosmaster.master][INFO] 2017-11-04 14:39:15,069: -SERVICE [/base_laser1_broadcaster/set_logger_level] /base_laser1_broadcaster rosrpc://mdas-Meerkat:38469
+[rosmaster.master][INFO] 2017-11-04 14:39:15,070: -PUB [/desPsi] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,070: -PUB [/slam_gmapping/entropy] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,071: -SUB [/tf_static] /odom_tf http://mdas-Meerkat:39427/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,071: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,072: -SUB [/joint_states] /robot_state_publisher http://mdas-Meerkat:38603/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,076: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,075: +PARAM [/move_base/global_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,072: publisherUpdate[/tf] -> http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,076: -PUB [/motion_mode] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,087: -PUB [/map] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,088: -SERVICE [/odom_tf/get_loggers] /odom_tf rosrpc://mdas-Meerkat:44381
+[rosmaster.master][INFO] 2017-11-04 14:39:15,088: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://mdas-Meerkat:49669
+[rosmaster.master][INFO] 2017-11-04 14:39:15,087: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,086: +PARAM [/move_base/global_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,089: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,089: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,090: publisherUpdate[/tf] -> http://mdas-Meerkat:39427/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,090: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:39:15,091: publisherUpdate[/tf] -> http://mdas-Meerkat:41183/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,091: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:39:15,091: publisherUpdate[/tf] -> http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,092: -SUB [/tf] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,095: -SERVICE [/odom_tf/set_logger_level] /odom_tf rosrpc://mdas-Meerkat:44381
+[rosmaster.master][INFO] 2017-11-04 14:39:15,096: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://mdas-Meerkat:49669
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,095: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:39:15,096: -PUB [/map_metadata] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,093: +PARAM [/move_base/global_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,100: -SUB [/tf_static] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,100: -SUB [/tf] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,101: +PARAM [/move_base/global_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,099: publisherUpdate[/tf] -> http://mdas-Meerkat:39427/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,102: -SUB [/odom] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,103: +PARAM [/move_base/global_costmap/width] by /move_base
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,103: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:39:15,104: publisherUpdate[/tf] -> http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,104: -SUB [/tf_static] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,104: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:39:15,105: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,106: -SUB [/cmd_mode] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,107: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:39:15,108: +PARAM [/move_base/global_costmap/height] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,108: -SUB [/sensor_msgs/LaserScan] /slam_gmapping http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,108: publisherUpdate[/tf] -> http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,109: publisherUpdate[/tf] -> http://mdas-Meerkat:39427/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,109: -SUB [/go_home] /pub_des_state_startup http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,110: +PARAM [/move_base/global_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,112: -SERVICE [/slam_gmapping/get_loggers] /slam_gmapping rosrpc://mdas-Meerkat:33223
+[rosmaster.master][INFO] 2017-11-04 14:39:15,113: -SERVICE [/pub_des_state_startup/get_loggers] /pub_des_state_startup rosrpc://mdas-Meerkat:53887
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,114: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:39:15,115: publisherUpdate[/tf] -> http://mdas-Meerkat:41183/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,114: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:39:15,114: -SERVICE [/slam_gmapping/set_logger_level] /slam_gmapping rosrpc://mdas-Meerkat:33223
+[rosmaster.master][INFO] 2017-11-04 14:39:15,114: +PARAM [/move_base/global_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,115: publisherUpdate[/tf] -> http://mdas-Meerkat:36189/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,116: -SERVICE [/pub_des_state_startup/set_logger_level] /pub_des_state_startup rosrpc://mdas-Meerkat:53887
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,120: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,120: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:39:15,120: publisherUpdate[/tf] -> http://mdas-Meerkat:39427/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,120: -SERVICE [/dynamic_map] /slam_gmapping rosrpc://mdas-Meerkat:33223
+[rosmaster.master][INFO] 2017-11-04 14:39:15,120: publisherUpdate[/tf] -> http://mdas-Meerkat:41183/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,121: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:39:15,121: -SERVICE [/estop_service] /pub_des_state_startup rosrpc://mdas-Meerkat:53887
+[rosmaster.master][INFO] 2017-11-04 14:39:15,121: publisherUpdate[/tf] -> http://mdas-Meerkat:36189/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,122: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:39:15,122: publisherUpdate[/tf] -> http://mdas-Meerkat:39427/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,123: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:39:15,123: publisherUpdate[/tf_static] -> http://mdas-Meerkat:36189/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,123: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:39:15,123: publisherUpdate[/tf_static] -> http://mdas-Meerkat:39427/
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,124: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,124: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:39:15,124: publisherUpdate[/tf] -> http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,125: -SERVICE [/clear_estop_service] /pub_des_state_startup rosrpc://mdas-Meerkat:53887
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,125: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:39:15,126: -SERVICE [/lidar_alarm_service] /pub_des_state_startup rosrpc://mdas-Meerkat:53887
+[rosmaster.master][INFO] 2017-11-04 14:39:15,126: publisherUpdate[/tf_static] -> http://mdas-Meerkat:41183/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,127: -SERVICE [/pop_path_queue_service] /pub_des_state_startup rosrpc://mdas-Meerkat:53887
+[rosmaster.threadpool][ERROR] 2017-11-04 14:39:15,127: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-11-04 14:39:15,128: -SERVICE [/flush_path_queue_service] /pub_des_state_startup rosrpc://mdas-Meerkat:53887
+[rosmaster.master][INFO] 2017-11-04 14:39:15,131: +PARAM [/move_base/global_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,132: -SERVICE [/append_path_queue_service] /pub_des_state_startup rosrpc://mdas-Meerkat:53887
+[rosmaster.master][INFO] 2017-11-04 14:39:15,132: +PARAM [/move_base/global_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,133: +PARAM [/move_base/global_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,134: +PARAM [/move_base/global_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,136: +PARAM [/move_base/global_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,137: +PARAM [/move_base/global_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,138: +PARAM [/move_base/global_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,138: +PARAM [/move_base/global_costmap/width] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,139: +PARAM [/move_base/global_costmap/height] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,140: +PARAM [/move_base/global_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,140: +PARAM [/move_base/global_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,141: +PARAM [/move_base/global_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,142: +PARAM [/move_base/global_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,142: +PARAM [/move_base/global_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,143: +PARAM [/move_base/global_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,187: +PARAM [/move_base/local_costmap/obstacle_layer/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,187: -PARAM [/move_base/local_costmap/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,189: +PARAM [/move_base/local_costmap/obstacle_layer/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,189: -PARAM [/move_base/local_costmap/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,192: +PARAM [/move_base/local_costmap/obstacle_layer/laser_scan_sensor] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,192: -PARAM [/move_base/local_costmap/laser_scan_sensor] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,193: +PARAM [/move_base/local_costmap/obstacle_layer/observation_sources] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,194: -PARAM [/move_base/local_costmap/observation_sources] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,195: +PARAM [/move_base/local_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,196: -PARAM [/move_base/local_costmap/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,196: +PARAM [/move_base/local_costmap/plugins] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,228: +PARAM [/move_base/local_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,228: +PARAM [/move_base/local_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,228: +PARAM [/move_base/local_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,229: +PARAM [/move_base/local_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,229: +PARAM [/move_base/local_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,229: +PARAM [/move_base/local_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,230: +PARAM [/move_base/local_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,230: +PARAM [/move_base/local_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,232: +PARAM [/move_base/local_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,232: +PARAM [/move_base/local_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,232: +PARAM [/move_base/local_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,233: +PARAM [/move_base/local_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,233: +PARAM [/move_base/local_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,234: +PARAM [/move_base/local_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,236: +PARAM [/move_base/local_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,240: +PARAM [/move_base/local_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,241: +PARAM [/move_base/local_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,241: +PARAM [/move_base/local_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,242: +PARAM [/move_base/local_costmap/width] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,242: +PARAM [/move_base/local_costmap/height] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,242: +PARAM [/move_base/local_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,243: +PARAM [/move_base/local_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,243: +PARAM [/move_base/local_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,244: +PARAM [/move_base/local_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,244: +PARAM [/move_base/local_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,244: +PARAM [/move_base/local_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,245: +PARAM [/move_base/local_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,245: +PARAM [/move_base/local_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,246: +PARAM [/move_base/local_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,246: +PARAM [/move_base/local_costmap/width] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,246: +PARAM [/move_base/local_costmap/height] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,247: +PARAM [/move_base/local_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,247: +PARAM [/move_base/local_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,248: +PARAM [/move_base/local_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,248: +PARAM [/move_base/local_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,248: +PARAM [/move_base/local_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,249: +PARAM [/move_base/local_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2017-11-04 14:39:15,850: -PUB [/rosout] /usb_cam_1 http://mdas-Meerkat:35167/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,851: -PUB [/usb_cam_1/image_raw] /usb_cam_1 http://mdas-Meerkat:35167/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,852: -PUB [/usb_cam_1/camera_info] /usb_cam_1 http://mdas-Meerkat:35167/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,853: -SERVICE [/usb_cam_1/get_loggers] /usb_cam_1 rosrpc://mdas-Meerkat:39193
+[rosmaster.master][INFO] 2017-11-04 14:39:15,853: -SERVICE [/usb_cam_1/set_logger_level] /usb_cam_1 rosrpc://mdas-Meerkat:39193
+[rosmaster.master][INFO] 2017-11-04 14:39:15,854: -SERVICE [/usb_cam_1/set_camera_info] /usb_cam_1 rosrpc://mdas-Meerkat:39193
+[rosmaster.master][INFO] 2017-11-04 14:39:15,855: -SERVICE [/usb_cam_1/start_capture] /usb_cam_1 rosrpc://mdas-Meerkat:39193
+[rosmaster.master][INFO] 2017-11-04 14:39:15,855: -SERVICE [/usb_cam_1/stop_capture] /usb_cam_1 rosrpc://mdas-Meerkat:39193
+[rosmaster.master][INFO] 2017-11-04 14:39:15,925: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,950: -PUB [/rosout] /novatel_node http://mdas-Meerkat:38055/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,951: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:38857/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,951: -PUB [/gps_odom] /novatel_node http://mdas-Meerkat:38055/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,952: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:38857/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,952: -PUB [/gps_fix] /novatel_node http://mdas-Meerkat:38055/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,952: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:38857/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,953: -PUB [/ephemeris] /novatel_node http://mdas-Meerkat:38055/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,953: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:53397
+[rosmaster.master][INFO] 2017-11-04 14:39:15,954: -PUB [/range] /novatel_node http://mdas-Meerkat:38055/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,954: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:53397
+[rosmaster.master][INFO] 2017-11-04 14:39:15,955: -PUB [/gps_fix_psr] /novatel_node http://mdas-Meerkat:38055/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,955: -PUB [/novatel_node/gps_fix_ecef] /novatel_node http://mdas-Meerkat:38055/
+[rosmaster.master][INFO] 2017-11-04 14:39:15,956: -SERVICE [/novatel_node/get_loggers] /novatel_node rosrpc://mdas-Meerkat:50665
+[rosmaster.master][INFO] 2017-11-04 14:39:15,956: -SERVICE [/novatel_node/set_logger_level] /novatel_node rosrpc://mdas-Meerkat:50665
+[rosmaster.master][INFO] 2017-11-04 14:39:16,026: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:39:16,027: publisherUpdate[/rosout] -> http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:39:17,231: -PUB [/rosout_agg] /rosout http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:39:17,232: -SUB [/rosout] /rosout http://mdas-Meerkat:46335/
+[rosmaster.master][INFO] 2017-11-04 14:39:17,232: -SERVICE [/rosout/get_loggers] /rosout rosrpc://mdas-Meerkat:60953
+[rosmaster.master][INFO] 2017-11-04 14:39:17,232: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://mdas-Meerkat:60953
+[rosmaster.main][INFO] 2017-11-04 14:39:17,334: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-11-04 14:39:17,334: stopping master...
+[rospy.core][INFO] 2017-11-04 14:39:17,335: signal_shutdown [atexit]

@@ -1,0 +1,8 @@
+prefix=/home/mdas/ros_ws/install
+
+Name: odom_tf
+Description: Description of odom_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mdas/ros_ws/install/lib 
+Requires: roscpp tf nav_msgs geometry_msgs

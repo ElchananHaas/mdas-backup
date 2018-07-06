@@ -1,0 +1,45 @@
+[0m[ INFO] [1509820405.911242333]: main: instantiating an object of type OdomTf[0m
+[0m[ INFO] [1509820405.913576438]: in class constructor of DemoTfListener[0m
+[0m[ INFO] [1509820405.941141009]: waiting for tf between base_link and odom...[0m
+[33m[ WARN] [1509820405.941238332]: "odom" passed to lookupTransform argument target_frame does not exist. ; retrying!...[0m
+[33m[ WARN] [1509820406.441426022]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820406.941621273]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820407.441793278]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820407.941975514]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820408.442114396]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820408.942261393]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820409.442410654]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820409.942559494]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820410.442709594]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820410.942885896]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820411.443046813]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820411.943199504]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820412.443358186]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820412.943516920]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820413.443703936]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820413.943882622]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820414.444073310]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820414.944241765]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820415.444402072]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820415.944580143]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820416.444828497]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820416.945001761]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820417.445211916]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820417.945447766]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820418.445682795]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820418.945871902]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820419.446038911]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820419.946223909]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820420.446416207]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820420.946672790]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820421.446865923]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820421.947086056]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820422.447313646]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820422.947496959]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820423.447667148]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820423.947848943]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820424.448059829]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820424.948258998]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820425.448423305]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [1509820425.948604881]: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.; retrying!...[0m
+[33m[ WARN] [15

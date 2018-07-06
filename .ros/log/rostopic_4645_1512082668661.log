@@ -1,0 +1,18 @@
+[rospy.client][INFO] 2017-11-30 17:57:48,679: init_node, name[/rostopic_4645_1512082668661], pid[4645]
+[xmlrpc][INFO] 2017-11-30 17:57:48,680: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-11-30 17:57:48,680: Started XML-RPC server [http://mdas-Meerkat:40883/]
+[rospy.init][INFO] 2017-11-30 17:57:48,680: ROS Slave URI: [http://mdas-Meerkat:40883/]
+[rospy.impl.masterslave][INFO] 2017-11-30 17:57:48,680: _ready: http://mdas-Meerkat:40883/
+[rospy.registration][INFO] 2017-11-30 17:57:48,680: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-11-30 17:57:48,680: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-11-30 17:57:48,780: registered with master
+[rospy.rosout][INFO] 2017-11-30 17:57:48,781: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-11-30 17:57:48,786: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-11-30 17:57:48,789: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-11-30 17:57:48,847: topic[/received_messages] adding connection to [http://mdas-Meerkat:44251/], count 0
+[rospy.internal][INFO] 2017-11-30 17:57:49,007: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2017-11-30 17:57:55,657: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-11-30 17:57:55,666: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-11-30 17:57:55,668: topic[/received_messages] removing connection to http://mdas-Meerkat:44251/
+[rospy.impl.masterslave][INFO] 2017-11-30 17:57:55,669: signal-2
+[rospy.core][INFO] 2017-11-30 17:57:56,286: signal_shutdown [atexit]

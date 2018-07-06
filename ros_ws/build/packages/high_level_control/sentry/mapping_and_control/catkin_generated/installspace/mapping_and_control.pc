@@ -1,0 +1,8 @@
+prefix=/home/mdas/ros_ws/install
+
+Name: mapping_and_control
+Description: Description of mapping_and_control
+Version: 0.0.0
+Cflags: -I/home/mdas/ros_ws/install/include
+Libs: -L/home/mdas/ros_ws/install/lib -lsentry_pub_des_state_lib
+Requires: tf roscpp std_msgs geometry_msgs nav_msgs sentry_traj_builder message_runtime

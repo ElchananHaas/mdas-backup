@@ -1,0 +1,205 @@
+[rosmaster.main][INFO] 2017-11-04 12:34:17,923: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-11-04 12:34:17,923: Starting ROS Master Node
+[xmlrpc][INFO] 2017-11-04 12:34:17,923: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-11-04 12:34:17,924: Started XML-RPC server [http://mdas-Meerkat:11311/]
+[xmlrpc][INFO] 2017-11-04 12:34:17,924: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-11-04 12:34:17,924: Master initialized: port[11311], uri[http://mdas-Meerkat:11311/]
+[rosmaster.master][INFO] 2017-11-04 12:34:17,949: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 12:34:17,950: +PARAM [/roslaunch/uris/host_mdas_meerkat__46883] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 12:34:18,007: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 12:34:18,008: +PARAM [/base_laser1/baud] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 12:34:18,008: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 12:34:18,008: +PARAM [/base_laser1/resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 12:34:18,008: +PARAM [/base_laser1/port] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 12:34:18,008: +PARAM [/base_laser1/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-04 12:34:18,013: +SERVICE [/rosout/get_loggers] /rosout http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,015: +SERVICE [/rosout/set_logger_level] /rosout http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,016: +PUB [/rosout_agg] /rosout http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,019: +SUB [/rosout] /rosout http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,019: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:39727/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,020: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:39727/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,020: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:39727/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,023: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,025: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:39727/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,026: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:39727/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,030: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:39727/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,031: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:39727/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,127: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:39727/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,130: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:37889
+[rosmaster.master][INFO] 2017-11-04 12:34:18,133: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:37889
+[rosmaster.master][INFO] 2017-11-04 12:34:18,224: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,372: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:39711/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,374: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:39711/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,375: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:39711/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,383: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:39711/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,385: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:39711/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,391: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:39711/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,392: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:39711/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,425: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,529: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:39711/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,532: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:56621
+[rosmaster.master][INFO] 2017-11-04 12:34:18,535: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:56621
+[rosmaster.master][INFO] 2017-11-04 12:34:18,626: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,683: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:46337/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,685: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:46337/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,686: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:46337/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,694: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:46337/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,695: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:46337/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,703: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:46337/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,703: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:46337/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,728: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,832: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:46337/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,835: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:44199
+[rosmaster.master][INFO] 2017-11-04 12:34:18,838: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:44199
+[rosmaster.master][INFO] 2017-11-04 12:34:18,929: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,994: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:39887/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,995: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:39887/
+[rosmaster.master][INFO] 2017-11-04 12:34:18,996: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:39887/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,004: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:39887/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,006: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:39887/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,012: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:39887/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,013: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:39887/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,030: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,133: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:39887/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,136: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:43405
+[rosmaster.master][INFO] 2017-11-04 12:34:19,138: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:43405
+[rosmaster.master][INFO] 2017-11-04 12:34:19,231: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,409: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:39823/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,410: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:39823/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,411: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:39823/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,420: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:39823/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,423: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:39823/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,433: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,437: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:39823/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,438: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:39823/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,538: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:39823/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,541: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:51729
+[rosmaster.master][INFO] 2017-11-04 12:34:19,544: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:51729
+[rosmaster.master][INFO] 2017-11-04 12:34:19,635: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,820: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:42299/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,821: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:42299/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,822: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:42299/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,829: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:42299/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,831: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:42299/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,836: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,839: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:42299/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,839: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:42299/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,940: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:42299/
+[rosmaster.master][INFO] 2017-11-04 12:34:19,943: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:37431
+[rosmaster.master][INFO] 2017-11-04 12:34:19,946: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:37431
+[rosmaster.master][INFO] 2017-11-04 12:34:20,037: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,133: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:42031/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,134: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:42031/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,135: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:42031/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,139: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,144: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:42031/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,145: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:42031/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,152: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:42031/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,152: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:42031/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,243: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:42031/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,246: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:37445
+[rosmaster.master][INFO] 2017-11-04 12:34:20,248: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:37445
+[rosmaster.master][INFO] 2017-11-04 12:34:20,340: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,529: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:36113/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,530: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:36113/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,530: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:36113/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,534: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:36113/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,536: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:36113/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,542: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:36113/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,542: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,543: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:36113/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,645: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:36113/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,648: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:44593
+[rosmaster.master][INFO] 2017-11-04 12:34:20,651: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:44593
+[rosmaster.master][INFO] 2017-11-04 12:34:20,743: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,933: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:35291/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,934: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:35291/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,935: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:35291/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,941: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:35291/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,942: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:35291/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,945: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,952: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:35291/
+[rosmaster.master][INFO] 2017-11-04 12:34:20,953: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:35291/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,050: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:35291/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,053: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:43815
+[rosmaster.master][INFO] 2017-11-04 12:34:21,056: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:43815
+[rosmaster.master][INFO] 2017-11-04 12:34:21,146: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,367: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:39059/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,368: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:39059/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,369: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:39059/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,377: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:39059/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,380: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:39059/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,387: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:39059/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,387: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:39059/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,448: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,552: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:39059/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,554: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:51615
+[rosmaster.master][INFO] 2017-11-04 12:34:21,558: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:51615
+[rosmaster.master][INFO] 2017-11-04 12:34:21,649: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,779: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:43047/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,780: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:43047/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,782: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:43047/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,790: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:43047/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,793: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:43047/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,804: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:43047/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,805: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:43047/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,851: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,955: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:43047/
+[rosmaster.master][INFO] 2017-11-04 12:34:21,958: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:54307
+[rosmaster.master][INFO] 2017-11-04 12:34:21,961: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:54307
+[rosmaster.master][INFO] 2017-11-04 12:34:22,053: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,293: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:39605/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,295: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:39605/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,296: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:39605/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,303: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:39605/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,305: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:39605/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,313: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:39605/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,313: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:39605/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,355: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,459: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:39605/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,462: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:33857
+[rosmaster.master][INFO] 2017-11-04 12:34:22,465: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:33857
+[rosmaster.master][INFO] 2017-11-04 12:34:22,556: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,704: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:35673/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,706: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:35673/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,707: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:35673/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,715: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:35673/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,716: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:35673/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,724: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:35673/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,725: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:35673/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,758: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,861: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:35673/
+[rosmaster.master][INFO] 2017-11-04 12:34:22,865: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:54417
+[rosmaster.master][INFO] 2017-11-04 12:34:22,868: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:54417
+[rosmaster.master][INFO] 2017-11-04 12:34:22,959: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,115: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:42669/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,116: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:42669/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,117: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:42669/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,125: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:42669/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,126: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:42669/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,132: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:42669/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,133: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:42669/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,161: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,265: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:42669/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,268: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:33607
+[rosmaster.master][INFO] 2017-11-04 12:34:23,270: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:33607
+[rosmaster.master][INFO] 2017-11-04 12:34:23,362: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,527: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:36501/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,528: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:36501/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,529: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:36501/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,536: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:36501/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,538: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:36501/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,546: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:36501/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,547: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:36501/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,563: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,667: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:36501/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,670: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:35353
+[rosmaster.master][INFO] 2017-11-04 12:34:23,673: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:35353
+[rosmaster.master][INFO] 2017-11-04 12:34:23,765: publisherUpdate[/rosout] -> http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,967: -PUB [/rosout_agg] /rosout http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,968: -SUB [/rosout] /rosout http://mdas-Meerkat:39599/
+[rosmaster.master][INFO] 2017-11-04 12:34:23,968: -SERVICE [/rosout/get_loggers] /rosout rosrpc://mdas-Meerkat:41097
+[rosmaster.master][INFO] 2017-11-04 12:34:23,968: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://mdas-Meerkat:41097
+[rosmaster.main][INFO] 2017-11-04 12:34:24,009: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-11-04 12:34:24,009: stopping master...
+[rospy.core][INFO] 2017-11-04 12:34:24,009: signal_shutdown [atexit]

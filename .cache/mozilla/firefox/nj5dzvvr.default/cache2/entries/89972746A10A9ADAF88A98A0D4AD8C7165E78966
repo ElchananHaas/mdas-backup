@@ -1,0 +1,232 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Other Downloads | www.dd-wrt.com</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/site//sites/all/themes/ddwrt/favicon.ico" type="image/x-icon" />
+<meta name="description" content="The router database is the preferred source for firmwares and related files. In this section you can find test-builds and other downloads that might be of interest." />
+<meta name="keywords" content="gw2348-2,gw2348-4,gw2347,ubnt,ubiquity,XR2,XtremeRange2,XR3,XtremeRange3,XR5,XtremeRange5,XR7,XtremeRange7,XR9,XtremeRange9,PS2,PowerStation2,PS5,PowerStation5,ls2,LiteStation2,ls5,LiteStation5" />
+<link rel="canonical" href="http://www.dd-wrt.com/site/support/other-downloads" />
+<meta name="revisit-after" content="1 day" />
+    <link type="text/css" rel="stylesheet" media="all" href="/site/modules/node/node.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/site/modules/system/defaults.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/site/modules/system/system.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/site/modules/system/system-menus.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/site/modules/user/user.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/site/sites/all/modules/fckeditor/fckeditor.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/site/sites/all/modules/simplenews/simplenews.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/site/sites/all/modules/views/css/views.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/site/sites/all/modules/dd_releases/dd_releases.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/site/sites/all/modules/dd_downloads/dd_downloads.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/site/sites/all/themes/ddwrt/style.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/site/sites/all/themes/ddwrt/style_content.css?d" />
+    <script type="text/javascript" src="/site/misc/jquery.js?d"></script>
+<script type="text/javascript" src="/site/misc/drupal.js?d"></script>
+<script type="text/javascript" src="/site/sites/all/modules/dd_downloads/dd_downloads.js?d"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/site/", "dd_downloads": { "json_url": "http://www.dd-wrt.com/site/dd_downloads.json" } });
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <!--?php print phptemplate_get_ie_styles(); ?-->
+    <![endif]-->
+  </head>
+  <body class="sidebar-left">
+
+    <div id="main">
+    
+    <div id="header">
+      
+      <div id="logo"></div>
+      
+      <div id="jumpmenu">
+        <ul class="menu"><li class="leaf first"><a href="/site/index" title="Home Link">HOME</a><span></span></li>
+<li class="leaf"><a href="/site/support/router-database" title="">DOWNLOADS</a><span></span></li>
+<li class="leaf"><a href="http://shop.dd-wrt.com" title="" target="_blank">SHOP</a><span></span></li>
+<li class="leaf"><a href="/site/professional/activation" title="">ACTIVATION CENTER</a><span></span></li>
+<li class="leaf last"><a href="/site/content/partners" title="Partners">PARTNERS</a><span></span></li>
+</ul>      </div>
+      
+      <div id="login_block"></div>
+      
+            <div id="ad_block">
+        <div id="block-ad-0" class="clear-block block block-ad">
+
+
+  <div class="content">
+<div class="advertisement group-tids-0" id="group-id-tids-0"><script type='text/javascript' src='http://www.dd-wrt.com/site/sites/all/modules/ad/serve.php?q=1&amp;t=0&amp;u=node%2F14&amp;l=support%2Fother-downloads'></script></div>
+</div>
+</div>
+      </div>
+      
+      
+    </div>
+    
+    <div id="navigation">
+    
+      <div style="position: absolute; width: 1000px; top: 149px;">
+        <div id="left"></div>
+        <div id="middle"></div>
+        <div id="right"></div>
+      </div>
+      
+      <ul id="main">
+        <div class="menu-block-1 menu-name-menu-mainnavigation parent-mlid-0 menu-level-1">
+  <li class=""><a href="/site/professional" title="Professional"><span><span>Professional</span></span></a></li>
+<li class=" active"><a href="/site/support" title="Support" class="active-trail"><span><span>Support</span></span></a></li>
+<li class=""><a href="/site/community" title="Community"><span><span>Community</span></span></a></li>
+<li class=""><a href="/site/contact" title=""><span><span>Contact</span></span></a></li>
+</div>
+      </ul>
+      
+      <div id="sub">
+        <div id="block-menu_block-2" class="clear-block block block-menu_block">
+
+
+  <div class="content"><div class="menu-block-2 menu-name-menu-mainnavigation parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class=""><a href="/site/support/router-database" title="Check Router Support &amp; Downloads"><span><span>Router Database</span></span></a></li>
+<li class=""><a href="/site/support/documentation" title="Learn How To Setup &amp; Configure"><span><span>Documentation</span></span></a></li>
+<li class=""><a href="/site/support/faq" title="Get Answers For Common Issues"><span><span>FAQ</span></span></a></li>
+<li class=" active"><a href="/site/support/other-downloads" title="" class="active-trail active"><span><span>Other Downloads</span></span></a></li>
+</ul></div>
+</div>
+</div>
+        <div style="clear: both;"></div>
+      </div>
+      
+      <div class="frame_bottom">
+        <div class="corner_left"></div>
+        <div class="corner_right"></div>
+      </div>
+      
+    </div>
+    
+    <div id="content">
+    
+      <div id="top" class="frame_bottom">
+        <div class="corner_left"></div>
+        <div class="corner_right"></div>
+      </div>
+      
+            
+      <div id="middle"  class="middle-left">
+        
+        <div id="content">
+                              <h1><span><span>Other Downloads</span></span></h1>                                                  
+          <div class="node">
+        <span class="submitted"></span>
+    <div class="taxonomy"></div>
+    <div class="content"><p>The router database is the preferred source for firmwares and related files. In this section you can find test-builds and other downloads that might be of interest.</p>
+</div>
+    </div>
+<div id="block-dd_downloads-0" class="clear-block block block-dd_downloads">
+
+
+  <div class="content">    <div id="dd_downloads">
+      <input type="hidden" name="dd_downloads_order" id="dd_downloads_order" value="filename:asc">
+<table class="list">
+  <tr>
+   <td colspan="4" class="breadcrumb"><strong>Path:</strong> <a href="/site/support/other-downloads?path=betas" onclick="ddDownloadsDirContents('');return false;">Downloads</a> â€º <a href="/site/support/other-downloads?path=betas?path=betas%2F" onclick="ddDownloadsDirContents('betas/');return false;">betas</a></td>
+  </tr>
+  <tr>
+   <th style="width: 400px;"><a href="#" onclick="ddDownloadsDirContents('betas/', 'filename');return false;">Name</a><span class="control asc_active">&nbsp;</span><a href="" onclick="ddDownloadsDirContents('betas/', 'filename', 'desc' );return false;" class="control desc">&nbsp;</a></th>
+   <th style="width: 65px; text-align: center;"><a href="#" onclick="ddDownloadsDirContents('betas/', 'type');return false;">Type</a><a href="" onclick="ddDownloadsDirContents('betas/', 'type', 'asc' );return false;" class="control asc">&nbsp;</a><a href="" onclick="ddDownloadsDirContents('betas/', 'type', 'desc' );return false;" class="control desc">&nbsp;</a></th>
+   <th><a href="#" onclick="ddDownloadsDirContents('betas/', 'size');return false;">Size</a><a href="" onclick="ddDownloadsDirContents('betas/', 'size', 'asc' );return false;" class="control asc">&nbsp;</a><a href="" onclick="ddDownloadsDirContents('betas/', 'size', 'desc' );return false;" class="control desc">&nbsp;</a></td></th>
+   <th style="width: 60px;"><a href="#" onclick="ddDownloadsDirContents('betas/', 'changed');return false;">Date</a><a href="" onclick="ddDownloadsDirContents('betas/', 'changed', 'asc' );return false;" class="control asc">&nbsp;</a><a href="" onclick="ddDownloadsDirContents('betas/', 'changed', 'desc' );return false;" class="control desc">&nbsp;</a></th>
+  </tr>
+  <tr class="even">
+    <td><a href="/site/support/other-downloads?path=betas?path=%2F" onclick="ddDownloadsDirContents('/');return false;">..</a></td>    <td align="center">&lt;DIR&gt;</td>    <td></td>
+    <td>1970-01-01</td>
+  </tr>
+  <tr class="odd">
+    <td><a href="/site/support/other-downloads?path=betas?path=betas%2F2010%2F" onclick="ddDownloadsDirContents('betas/2010/');return false;">2010</a></td>    <td align="center">&lt;DIR&gt;</td>    <td>26 items</td>
+    <td>2011-02-17</td>
+  </tr>
+  <tr class="even">
+    <td><a href="/site/support/other-downloads?path=betas?path=betas%2F2011%2F" onclick="ddDownloadsDirContents('betas/2011/');return false;">2011</a></td>    <td align="center">&lt;DIR&gt;</td>    <td>10 items</td>
+    <td>2017-04-05</td>
+  </tr>
+  <tr class="odd">
+    <td><a href="/site/support/other-downloads?path=betas?path=betas%2F2012%2F" onclick="ddDownloadsDirContents('betas/2012/');return false;">2012</a></td>    <td align="center">&lt;DIR&gt;</td>    <td>9 items</td>
+    <td>2017-04-05</td>
+  </tr>
+  <tr class="even">
+    <td><a href="/site/support/other-downloads?path=betas?path=betas%2F2013%2F" onclick="ddDownloadsDirContents('betas/2013/');return false;">2013</a></td>    <td align="center">&lt;DIR&gt;</td>    <td>16 items</td>
+    <td>2017-04-05</td>
+  </tr>
+  <tr class="odd">
+    <td><a href="/site/support/other-downloads?path=betas?path=betas%2F2014%2F" onclick="ddDownloadsDirContents('betas/2014/');return false;">2014</a></td>    <td align="center">&lt;DIR&gt;</td>    <td>23 items</td>
+    <td>2014-12-22</td>
+  </tr>
+  <tr class="even">
+    <td><a href="/site/support/other-downloads?path=betas?path=betas%2F2015%2F" onclick="ddDownloadsDirContents('betas/2015/');return false;">2015</a></td>    <td align="center">&lt;DIR&gt;</td>    <td>64 items</td>
+    <td>2015-12-24</td>
+  </tr>
+  <tr class="odd">
+    <td><a href="/site/support/other-downloads?path=betas?path=betas%2F2016%2F" onclick="ddDownloadsDirContents('betas/2016/');return false;">2016</a></td>    <td align="center">&lt;DIR&gt;</td>    <td>54 items</td>
+    <td>2016-12-15</td>
+  </tr>
+  <tr class="even">
+    <td><a href="/site/support/other-downloads?path=betas?path=betas%2F2017%2F" onclick="ddDownloadsDirContents('betas/2017/');return false;">2017</a></td>    <td align="center">&lt;DIR&gt;</td>    <td>26 items</td>
+    <td>2017-10-25</td>
+  </tr>
+</table>    </div>
+</div>
+</div>
+        </div>
+        
+        <div id="content_right">
+          <div id="block-dd_releases-0" class="clear-block block block-dd_releases">
+
+
+  <div class="content">
+        <div id="dd_releases" style="font-size: 11px; text-align: left; margin-bottom: 20px;">
+      <h2><span><span>Latest DD-WRT Releases</span></span></h2>
+      <!--p id="stable">
+      	<span class="headline">Latest stable release</span>
+      	<span class="release">v24 SP1 <span class="build">(Build 10020)</span></span>
+      </p>
+      <p id="develop">
+        <span class="headline">Latest development release</span>
+      	<span class="release">v24 preSP2 <span class="build">(Build 21061)</span></span>
+      </p-->
+            <p class="info">
+        To obtain the matching version for your router please use the Router Database:
+      </p>
+      <a href="../support/router-database" class="routerdb_button"><span>Router-Database</span></a>
+          </div>
+    <div id="router_db_notes"></div>
+  </div>
+</div>        </div>
+        
+        <div style="clear: both;"></div>
+      
+      </div>
+      
+      <div id="bottom" class="frame_bottom">
+        <div class="corner_left"></div>
+        <div class="corner_right"></div>
+      </div>
+    
+    </div>
+    
+    <div id="footer">
+      <div id="copyright">Copyright &copy; 2017 embeDD GmbH</div>
+      <div id="menu"><ul class="menu"><li class="leaf first last"><a href="/site/imprint" title="Imprint">Imprint</a><span></span></li>
+</ul></div>
+      <div style="clear: both;"></div>
+    </div>
+  
+  </div>
+
+    </body>
+</html>
+h<z(Jâ      Yós`Yósc>Yi›       >    :http://www.dd-wrt.com/site/support/other-downloads?path=betas necko:classified 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Fri, 27 Oct 2017 17:56:48 GMT
+Server: Apache
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 27 Oct 2017 17:56:48 GMT
+Cache-Control: store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Type: text/html; charset=utf-8
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 51 predictor::http://www.dd-wrt.com/site/modules/node/node.css?d 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/modules/system/defaults.css?d 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/modules/system/system.css?d 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/modules/system/system-menus.css?d 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/modules/user/user.css?d 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/modules/fckeditor/fckeditor.css?d 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/modules/simplenews/simplenews.css?d 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/modules/views/css/views.css?d 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/modules/dd_releases/dd_releases.css?d 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/modules/dd_downloads/dd_downloads.css?d 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/style.css?d 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/style_content.css?d 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/misc/jquery.js?d 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/misc/drupal.js?d 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/modules/dd_downloads/dd_downloads.js?d 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/modules/ad/serve.php?q=1&t=0&u=node%2F14&l=support%2Fother-downloads 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/admin.css 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_header.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/default/files/ASUS_DD-WRT_728x90_0.jpg 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/logo.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_nav_main_left.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_nav_main_middle.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_nav_main_right.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_nav_main_button_left.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_nav_main_button_right.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_nav_main_button_middle.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_nav_main_button_active_left.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_nav_main_button_active_right.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_nav_main_button_active_middle.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_nav_sub.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_nav_sub_button_left.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_nav_sub_button_right.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_nav_sub_button_middle.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_nav_bottom_middle.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_nav_bottom_left.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_nav_bottom_right.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_content_top.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_content_corner_ol.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_content_corner_or.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_content_middle_left.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_heading_left.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_heading_right.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_heading_middle.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/modules/dd_downloads/images/bg_button_asc_inactive.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/modules/dd_downloads/images/bg_button_desc_active.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/modules/dd_downloads/images/bg_button_asc_active.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/shop_button_bg_right.gif 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/shop_button_bg_left.gif 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_content_bottom.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_content_corner_ul.png 1,1,1509127008,0 predictor::http://www.dd-wrt.com/site/sites/all/themes/ddwrt/images/bg_content_corner_ur.png 1,1,1509127008,0   0;

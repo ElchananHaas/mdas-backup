@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>	
+<!-- Meta info -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!-- Title -->
+<title>Page not found - Linux Solutions</title>
+
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="shortcut icon" href="http://linux.cloudypoint.com/wp-content/uploads/2017/03/Linux-Cloudypoint-1-e1489316645619.png" /> <link rel="pingback" href="http://linux.cloudypoint.com/xmlrpc.php" />
+
+<!-- CSS + jQuery + JavaScript --> 
+
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+
+
+<!-- This site is optimized with the Yoast SEO plugin v5.0.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noindex,follow"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Page not found - Linux Solutions" />
+<meta property="og:site_name" content="Linux Solutions" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Page not found - Linux Solutions" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Linux Solutions &raquo; Feed" href="http://linux.cloudypoint.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Linux Solutions &raquo; Comments Feed" href="http://linux.cloudypoint.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/linux.cloudypoint.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bbp-default-css'  href='http://linux.cloudypoint.com/wp-content/plugins/bbpress/templates/default/css/bbpress.css?ver=2.5.12-6148' type='text/css' media='screen' />
+<link rel='stylesheet' id='wabtn-style-css'  href='http://linux.cloudypoint.com/wp-content/plugins/whatsapp/style.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bsp-css'  href='http://linux.cloudypoint.com/wp-content/plugins/bbp-style-pack/css/bspstyle.css?ver=3.5.8' type='text/css' media='screen' />
+<link rel='stylesheet' id='dashicons-css'  href='http://linux.cloudypoint.com/wp-includes/css/dashicons.min.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='google-web-font0-css'  href='http://fonts.googleapis.com/css?family=Open+Sans' type='text/css' media='all' />
+<link rel='stylesheet' id='google-web-font1-css'  href='http://fonts.googleapis.com/css?family=Ubuntu' type='text/css' media='all' />
+<link rel='stylesheet' id='google-web-font2-css'  href='http://fonts.googleapis.com/css?family=Bitter' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://linux.cloudypoint.com/wp-content/themes/madura_pro/style.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tpcrnskin-css'  href='http://linux.cloudypoint.com/wp-content/themes/madura_pro/css/skins/turquoise.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font_awe-css'  href='http://linux.cloudypoint.com/wp-content/themes/madura_pro/css/font-awesome.min.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css'  href='http://linux.cloudypoint.com/wp-content/themes/madura_pro/css/flexslider.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='skeleton-css'  href='http://linux.cloudypoint.com/wp-content/themes/madura_pro/css/skeleton.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='camera-css'  href='http://linux.cloudypoint.com/wp-content/themes/madura_pro/css/camera.css?ver=4.7.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/themes/madura_pro/js/modernizr-2.6.2.min.js?ver=4.7.2'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/themes/madura_pro/js/mouseDelay.js?ver=2.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tpcrn_ajax = {"ajaxurl":"http:\/\/linux.cloudypoint.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/themes/madura_pro/js/re_ajax_menu.js?ver=4.7.2'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/themes/madura_pro/js/jquery.easing.1.3.js?ver=4.7.2'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/themes/madura_pro/js/jquery.backstretch.min.js?ver=4.7.2'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/themes/madura_pro/js/jquery.inview.min.js?ver=4.7.2'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/themes/madura_pro/js/re_ajax.js?ver=4.7.2'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/themes/madura_pro/js/camera.min.js?ver=2.0'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/themes/madura_pro/js/jquery.mobile.customized.min.js?ver=2.0'></script>
+<link rel='https://api.w.org/' href='http://linux.cloudypoint.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://linux.cloudypoint.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://linux.cloudypoint.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.2" />
+<style type="text/css" media="screen"> 
+ 
+body {font-family:"HelveticaNeue", "Helvetica", Arial, sans-serif;
+background-color:#fff;
+background-repeat: repeat;background-image: url('http://linux.cloudypoint.com/wp-content/themes/madura_pro/images/bg/bg6.png');
+
+}
+#logo{margin-top:8px;}
+body{ color: #000;font-family: arial;font-weight: 400;font-size: 12px;}
+#topnav ul a{ color: #ffffff;font-family: Open Sans;font-weight: 400;font-size: 13px;}
+#catnav ul a,#maganav ul a{ color: #000211;font-family: Ubuntu;font-weight: 400;font-size: 13px;}
+h2.blogpost-wrapper-title{ font-family: arial;font-weight: 400;font-size: 15px;}
+.blog-lists-blog .recent-lists h2 a{ font-family: arial;font-weight: 400;font-size: 20px;}
+ .blog-lists h3 a{ font-family: arial;font-weight: 400;font-size: 14px;}
+.widget-head{ font-family: arial;font-weight: 400;font-size: 14px;}
+h3.widget-title{ font-family: arial;font-weight: 400;font-size: 18px;}
+.post-title h1{ font-family: arial;font-weight: 400;font-size: 40px;}
+#post-meta ,.post-meta-blog{ font-family: arial;font-weight: 400;font-size: 10px;}
+.post_content{ font-family: arial;font-weight: 400;font-size: 13px;}
+.single-navigation, .comment-nav-above, .comment-nav-below{ font-family: Bitter;font-weight: 400;font-size: 14px;}
+.comment-content{ font-family: arial;font-weight: 400;font-size: 13px;}
+.post_content h1{ font-family: arial;font-weight: 400;font-size: 32px;}
+.post_content h2{ font-family: arial;font-weight: 400;font-size: 28px;}
+.post_content h3{ font-family: arial;font-weight: 400;font-size: 24px;}
+.post_content h4{ font-family: arial;font-weight: 400;font-size: 20px;}
+.post_content h5{ font-family: arial;font-weight: 400;font-size: 16px;}
+.post_content h6{ font-family: arial;font-weight: 400;font-size: 12px;}
+
+.post_content p {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: century Gothic;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.lists-excerpt p
+{
+    font-family: century Gothic;
+}
+#catnav ul a, #maganav ul a {
+    font-family: century gothic;
+    font-size: 14px;
+    font-weight: 700;
+}
+.post_content h2 {
+    font-family: Century Gothic;
+    font-size: 28px;
+}
+.post-title h1 {
+    font-family: Lucida Fax;
+    font-size: 34px;
+    font-weight: 700;
+}
+.blog-lists-blog .recent-lists h2 a {
+    font-family: Lucida Fax;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.post-content .post-title h1 {
+    font-family: Lucida Fax;
+    font-size: 36px;
+    position: relative;
+    margin-left: -5px;
+    margin-bottom: 40px;
+    font-weight:normal;
+} 
+.post_content {
+    color: #444;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+   /* margin: -25px 0;*/
+    position: relative;
+}
+#bbpress-forums div.bbp-topic-content pre code, #bbpress-forums div.bbp-reply-content pre code {
+    background-color: transparent;
+    border: medium none;
+    display: block;
+    margin: 0;
+    max-width: 100%;
+    overflow: auto;
+    padding: 0;
+    color: red;
+}
+.post_content h3 {
+    background: none repeat scroll 0 0 rgb(5, 84, 163);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(5, 84, 163, 0.25) inset;
+    color: rgb(255, 255, 255);
+    font: 700 1.1em/1.2 "Courier 10 Pitch",Courier,monospace;
+    overflow: auto;
+    padding: 12px;
+    white-space: pre;
+    margin: 20px 0px;
+    line-height: 12px;
+} 
+</style>
+
+ <!--[if lt IE 9]> 
+<link rel='stylesheet' href='http://linux.cloudypoint.com/wp-content/themes/madura_pro/css/ie8.css' type='text/css' media='all' />
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> 
+<script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<!--[if  IE 9]>
+<link rel='stylesheet' href='http://linux.cloudypoint.com/wp-content/themes/madura_pro/css/ie9.css' type='text/css' media='all' /> 
+<![endif]-->
+
+</head>
+
+<body class="error404 wp-custom-logo"> 
+ <div id="outer-wrap">
+  <div id="inner-wrap">
+    <div id="sideslidemenu">
+        <a id="close-sideslidemenu" href="#top"><i class="icon-remove-circle"></i></a>
+    </div><!-- Sidebar in Mobile View -->
+
+<!-- Top Navigation -->
+
+<!-- /#Header --> 
+<header id="header" class="container logo_big" role="banner">	
+	<div id="head-content" class="clearfix ">
+ 		 
+			<!-- Logo --> 
+			<div id="logo">   
+				  <a href="http://linux.cloudypoint.com/" title="Linux Solutions" rel="home"><img src="http://linux.cloudypoint.com/wp-content/uploads/2017/03/Linux-Cloudypoint-1-e1489316645619.png" alt="Linux Solutions" /></a>    
+				   
+			</div>	 	
+			<!-- /#Logo -->
+				
+		<!-- Header Ad -->
+			
+					
+		<div id="header-banner468">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- linux_cloudypoint_leaderboard_728*90 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-7903971127380553"
+     data-ad-slot="2133415626"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>		</div>	
+			
+		<!-- /#Header Ad -->
+	</div>	
+ </header>
+ 
+<!-- /#Header --> 
+
+<!-- #wrapper -->	
+<div id="wrapper" class="container clearfix"> 
+   	<!-- #CatNav -->  
+	<nav id="catnav">	
+		<ul id="catmenu" class="catnav clearfix"><li id="menu-item-18" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-18"><a href="http://linux.cloudypoint.com/">HOME</a></li>
+<li id="menu-item-8464" class="menu-item menu-item-type-post_type_archive menu-item-object-forum menu-item-8464"><a href="http://linux.cloudypoint.com/forums/">Discussions</a></li>
+<li id="menu-item-8452" class="menu-item menu-item-type-post_type menu-item-object-forum menu-item-8452"><a href="http://linux.cloudypoint.com/forums/forum/firewall/">Firewall</a></li>
+<li id="menu-item-8453" class="menu-item menu-item-type-post_type menu-item-object-forum menu-item-8453"><a href="http://linux.cloudypoint.com/forums/forum/nginx/">Nginx</a></li>
+<li id="menu-item-8454" class="menu-item menu-item-type-post_type menu-item-object-forum menu-item-8454"><a href="http://linux.cloudypoint.com/forums/forum/embedded-linux/">Embedded Linux</a></li>
+</ul>	</nav> 
+	<!-- /#CatNav -->  
+	 
+	<!-- .breaking-ticker-->
+<script>
+ jQuery(document).ready(function () {
+ 	jQuery.fn.ticker.defaults = {
+		speed: 0.10,			
+		ajaxFeed: false,
+		feedUrl: '',
+		feedType: 'xml',
+		displayType: 'fade',
+		htmlFeed: true,
+		debugMode: true,
+		controls: true,
+		titleText: 'Breaking',
+		direction: 'ltr',	
+		pauseOnItems: 3000,
+		fadeInSpeed: 600,
+		fadeOutSpeed: 300
+	};	
+ jQuery('#js-news').ticker();
+ });
+ </script>
+	<aside class="breaking-ticker">
+		<article class="container">
+		
+		<ul id="js-news" class="js-hidden">
+													<li><a  class="news-item" href="http://linux.cloudypoint.com/linux/how-to-use-linux-permissions/" title="How to use Â Linux Permissions ?" rel="bookmark">How to use Â Linux Permissions ?</a></li>
+									
+							
+		</ul>
+		</article>
+	</aside>
+		<!-- /.breaking-ticker-->
+	
+	<!--[if lt IE 8]>
+		<div class="msgnote"> 
+			Your browser is <em>too old!</em> <a rel="nofollow" href="http://browsehappy.com/">Upgrade to a different browser</a> to experience this site. 
+		</div>
+	<![endif]-->
+	<!--#blocks-wrapper--><div id="blocks-wrapper" class="clearfix"><!--#blocks-left-or-right-->	<div id="blocks-left" class=" thirteen columns clearfix">	 				<div class="post-content">				<div class="post-title clearfix">					<h1>Page Not Found</h1>				</div>				<div class="post-columns clearfix">					<div class='post_content'><!-- Begin post entry -->						 							<!-- Search form--><form method="get" class="searchform" action="http://linux.cloudypoint.com/">	<input class="searchfield" type="text" name="s" id="s" value="Search here.." onfocus="if (this.value == 'Search here..') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search here..';}">	 </form>								<div class="clear"></div>					</div>					 						<div class='clear'></div>				</div> 		</div><!--Post Content ends--> 	</div>	<!-- /Left-right -->						<!-- BEGIN SIDEBAR --> <!--#Sidebar-->
+<aside id="sidebar" class="six columns  clearfix" itemscope="itemscope" itemtype="http://schema.org/WPSideBar" role="complementary">
+<div id="tpcrn-160x600-ad-widget-3" class="sidebar-widget tpcrn_160x600_ad_widget"><div class="tpcrnbanner160x600 tpcrnadvert"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- linux_cloudypoint_160*600 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-7903971127380553"
+     data-ad-slot="3610148825"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div><div id="bsp_activity_widget-2" class="sidebar-widget widget_display_topics"><span class="bsp-la-title"><h3 class="widget-head">Latest Activity</h3></span>		
+		<ul>
+
+			
+				<li>
+									<a class="bsp-la-reply-topic-title" href="http://linux.cloudypoint.com/forums/topic/unix-solved-unix-loop-through-plink-files-with-same-names-but-different-chromosome-numbers-produce-output/">Unix [SOLVED]: Unix. Loop through Plink files with same names but different chromosome numbers. Produce output</a>
+								
+										
+
+																<div class = "bsp-activity-freshness"><span class="bsp-la-freshness">1 day, 15 hours ago</span></div>
+					
+										
+									
+						
+
+					
+
+				</li>
+
+			
+				<li>
+									<a class="bsp-la-reply-topic-title" href="http://linux.cloudypoint.com/forums/topic/unix-solved-how-to-add-java-library-reference-to-a-shell-script/">Unix [SOLVED]: How to add java library reference to a shell script</a>
+								
+										
+
+																<div class = "bsp-activity-freshness"><span class="bsp-la-freshness">1 day, 15 hours ago</span></div>
+					
+										
+									
+						
+
+					
+
+				</li>
+
+			
+				<li>
+									<a class="bsp-la-reply-topic-title" href="http://linux.cloudypoint.com/forums/topic/unix-solved-un-comment-a-specific-line-in-a-file/">Unix [SOLVED]: un-comment a specific line in a file</a>
+								
+										
+
+																<div class = "bsp-activity-freshness"><span class="bsp-la-freshness">1 day, 15 hours ago</span></div>
+					
+										
+									
+						
+
+					
+
+				</li>
+
+			
+				<li>
+									<a class="bsp-la-reply-topic-title" href="http://linux.cloudypoint.com/forums/topic/unix-solved-error-configuring-mod_wsgi-from-source-code/">Unix [SOLVED]: Error configuring mod_wsgi from source code</a>
+								
+										
+
+																<div class = "bsp-activity-freshness"><span class="bsp-la-freshness">1 day, 15 hours ago</span></div>
+					
+										
+									
+						
+
+					
+
+				</li>
+
+			
+				<li>
+									<a class="bsp-la-reply-topic-title" href="http://linux.cloudypoint.com/forums/topic/unix-solved-curl-surpress-progress-stats-after-curl-download-has-finished/">Unix [SOLVED]: cURL surpress progress stats after cURL download has finished</a>
+								
+										
+
+																<div class = "bsp-activity-freshness"><span class="bsp-la-freshness">1 day, 15 hours ago</span></div>
+					
+										
+									
+						
+
+					
+
+				</li>
+
+			
+		</ul>
+
+		</div><div id="bbp_forums_widget-2" class="sidebar-widget widget_display_forums"><h3 class="widget-head">Forums</h3>
+		<ul>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/active-directory/">Active Directory</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/apache2/">Apache2</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/centos/">Centos</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/drivers/">Drivers</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/dual-boot/">Dual Boot</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/embedded-linux/">Embedded Linux</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/firewall/">Firewall</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/gnome/">GNOME</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/htaccess/">htaccess</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/iptables/">Iptables</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/networking/">Networking</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/nginx/">Nginx</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/partitioning/">Partitioning</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/redhat/">Redhat</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/security/">Security</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/ssh/">SSH</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/ssh-2/">SSH</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/ssl/">SSL</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/tomcat/">Tomcat</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/ubuntu/">Ubuntu</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/ubuntu-12-04/">Ubuntu 12.04</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/ubuntu-14-04/">Ubuntu 14.04</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/ubuntu-16-04-2/">Ubuntu 16.04</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/ubuntu-16-04/">Ubuntu 16.04</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/unix/">Unix</a></li>
+
+			
+				<li><a class="bbp-forum-title" href="http://linux.cloudypoint.com/forums/forum/xubuntu/">Xubuntu</a></li>
+
+			
+		</ul>
+
+		</div><div id="bsp_activity_widget-3" class="sidebar-widget widget_display_topics"><span class="bsp-la-title"><h3 class="widget-head">Popular Solutions</h3></span>		
+		<ul>
+
+			
+				<li>
+				<a class="bsp-la-reply-topic-title " href="http://linux.cloudypoint.com/forums/topic/ubuntu-16-04-solved-how-do-i-get-logitech-mx-anywhere-2-to-work-in-16-04-bluetooth-smart/#post-11797" title="Answer
+
+Hope this helps&#8230;. My device is a Su&hellip;">Ubuntu-16.04 [SOLVED]: How do I get Logitech MX Anywhere 2 to work in 16.04 (Bluetooth smart)</a>				
+										
+
+																<div class = "bsp-activity-freshness"><span class="bsp-la-freshness">5 months ago</span></div>
+					
+										
+									
+						
+
+					
+
+				</li>
+
+			
+				<li>
+				<a class="bsp-la-reply-topic-title " href="http://linux.cloudypoint.com/forums/topic/ubuntu_14-04-solved-clementine-wont-play-wma-with-your-gstreamer-installation-is-missing-a-plugin-error/#post-11798" title="Answer
+
+14.04 and later
+I&#8217;ve checked the cl&hellip;">Ubuntu_14.04 [SOLVED]: Clementine won&#039;t play .wma, with &quot;Your GStreamer installation is missing a plugin&quot; error</a>				
+										
+
+																<div class = "bsp-activity-freshness"><span class="bsp-la-freshness">5 months ago</span></div>
+					
+										
+									
+						
+
+					
+
+				</li>
+
+			
+				<li>
+				<a class="bsp-la-reply-topic-title " href="http://linux.cloudypoint.com/forums/topic/ubuntu-16-04-solved-do-held-kernel-packages-upgrade-when-hw-specificused-updates-are-present-in-the-changes-list/#post-11809" title="Answer
+
+If you need to stick to a specific kernel&hellip;">Ubuntu-16.04 [SOLVED]: Do held kernel packages upgrade when HW specific/used updates are present in the changes list?</a>				
+										
+
+																<div class = "bsp-activity-freshness"><span class="bsp-la-freshness">5 months ago</span></div>
+					
+										
+									
+						
+
+					
+
+				</li>
+
+			
+				<li>
+				<a class="bsp-la-reply-topic-title " href="http://linux.cloudypoint.com/forums/topic/ubuntu_14-04-solved-setting-up-a-send-only-mail-server/#post-11837" title="Answer
+
+Simple example to setup postfix with sate&hellip;">Ubuntu_14.04 [SOLVED]: Setting up a send-only mail server</a>				
+										
+
+																<div class = "bsp-activity-freshness"><span class="bsp-la-freshness">5 months ago</span></div>
+					
+										
+									
+						
+
+					
+
+				</li>
+
+			
+				<li>
+				<a class="bsp-la-reply-topic-title " href="http://linux.cloudypoint.com/forums/topic/ubuntu-16-04-solved-codeblocks-on-xenial-beta/#post-11838" title="Answer
+
+To get Code::Blocks installing you have t&hellip;">Ubuntu-16.04 [SOLVED]: code::blocks on Xenial Beta</a>				
+										
+
+																<div class = "bsp-activity-freshness"><span class="bsp-la-freshness">5 months ago</span></div>
+					
+										
+									
+						
+
+					
+
+				</li>
+
+			
+		</ul>
+
+		</div>	
+</aside> 
+<!-- /#Sidebar-->						
+<!--/.cat_box_container--><!--/.cat_box_container-->	</div><!--/#blocks-wrapper--></div> <!--/#Wrapper --><!--#footer-blocks--><div id="footer-blocks" class="clearfix"><!-- footer top Ad Banner--><!-- /footer top Ad banner-->	 	<div class="container clearfix"> 		<div class="footer-block1">  				 		</div>				 		<div class="footer-block2">  				   		</div> 		<div class="footer-block3"> 						</div> 				<div class="footer-block4"> 						</div>	</div><!--/#footer container--></div><!--/#footer-blocks--> <!-- #footer--><div id="footer" class="  clearfix">  <div class="container clearfix">  	<div class="foot-wrap"> 		 <p class="copyright">Linux Solutions&nbsp; &copy;&nbsp;2017</p>			 <p class="credit">Created by Pix. </p>			  	</div>  </div></div><!--/#Footer --><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46808936-12', 'auto');
+  ga('send', 'pageview');
+
+</script></div><!--#inner-wrap--><script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/plugins/bbpress/templates/default/js/editor.js?ver=2.5.12-6148'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/themes/madura_pro/js/sb_menu.js?ver=1.0'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/themes/madura_pro/js/cookie.js?ver=2.0'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/themes/madura_pro/js/selectivizr-min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/themes/madura_pro/js/jquery.ticker.js?ver=2.0'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/themes/madura_pro/js/maga.js?ver=1.0'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/themes/madura_pro/js/jquery.flexslider-min.js?ver=2.0'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-content/themes/madura_pro/js/tpcrn_scripts.js?ver=1.0'></script>
+<script type='text/javascript' src='http://linux.cloudypoint.com/wp-includes/js/wp-embed.min.js?ver=4.7.2'></script>
+</div><!--#outer-wrap-->	<div id="gotop" class="icon-chevron-sign-up"></div> </body></html>
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 1790/1809 objects using disk
+Page Caching using disk: enhanced (Requested URI contains query)
+Database Caching 17/24 queries in 0.003 seconds using disk
+
+ Served from: linux.cloudypoint.com @ 2017-10-27 17:35:13 by W3 Total Cache -->ÃSÇ¦ù      YónQYónR>Yf       Z    :http://linux.cloudypoint.com/wp-content/plugins/bbp-style-pack/css/bspstyle.css?ver=3.5.8 necko:classified 1 request-method GET request-Accept-Encoding gzip, deflate response-head HTTP/1.1 404 Not Found
+Date: Fri, 27 Oct 2017 17:35:13 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.5.9-1ubuntu4.22
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Link: <http://linux.cloudypoint.com/wp-json/>; rel="https://api.w.org/"
+Content-Type: text/html; charset=UTF-8
+ uncompressed-len 0   p)

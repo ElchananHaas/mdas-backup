@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2018-07-06 12:49:17,389: init_node, name[/rostopic_3539_1530895757371], pid[3539]
+[xmlrpc][INFO] 2018-07-06 12:49:17,389: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-07-06 12:49:17,390: Started XML-RPC server [http://mdas-Meerkat:37485/]
+[rospy.init][INFO] 2018-07-06 12:49:17,390: ROS Slave URI: [http://mdas-Meerkat:37485/]
+[rospy.impl.masterslave][INFO] 2018-07-06 12:49:17,390: _ready: http://mdas-Meerkat:37485/
+[rospy.registration][INFO] 2018-07-06 12:49:17,390: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-07-06 12:49:17,390: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-07-06 12:49:17,490: registered with master
+[rospy.rosout][INFO] 2018-07-06 12:49:17,491: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-07-06 12:49:17,496: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-07-06 12:49:17,500: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2018-07-06 12:49:17,557: topic[/gps_fix] adding connection to [http://mdas-Meerkat:45845/], count 0
+[rospy.internal][INFO] 2018-07-06 12:49:17,757: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2018-07-06 12:53:07,840: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-07-06 12:53:07,850: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-07-06 12:53:07,851: topic[/gps_fix] removing connection to http://mdas-Meerkat:45845/
+[rospy.impl.masterslave][INFO] 2018-07-06 12:53:07,851: signal-2
+[rospy.internal][WARNING] 2018-07-06 12:53:07,855: Unknown error initiating TCP/IP socket to mdas-Meerkat:54267 (http://mdas-Meerkat:45845/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2018-07-06 12:53:08,470: signal_shutdown [atexit]

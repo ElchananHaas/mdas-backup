@@ -1,0 +1,43 @@
+
+
+1511975808.405754392  Node Startup
+1511975808.451869561 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Serial port: /dev/sensor-gps opened successfully.
+
+1511975808.476864806 INFO [/home/mdas/ros_ws/src/packages/usb_cams/nodes/usb_cam_node.cpp:138(UsbCamNode::UsbCamNode) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] Starting 'head_camera' (/dev/video0) at 640x480 via mmap (yuyv) at 10 FPS
+1511975809.086120272 INFO [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:253(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Setting variant to (0, 1.000000)
+1511975809.086346576 WARN [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:266(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Unable to set scan angle. Using 180 instead of 0.
+1511975809.086424993 WARN [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:270(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Unable to set resolution. Using 5.000000e-01 instead of 1.000000e+00.
+1511975809.086529424 INFO [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:283(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Measuring units setup not requested or identical to actual ('Centimeters (cm)')
+1511975809.402685842 WARN [/home/mdas/ros_ws/src/packages/usb_cams/src/usb_cam.cpp:1206(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] sh: 1: v4l2-ctl: not found
+
+1511975809.406354167 WARN [/home/mdas/ros_ws/src/packages/usb_cams/src/usb_cam.cpp:1206(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] sh: 1: v4l2-ctl: not found
+
+1511975809.452107577 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1511975810.099883703 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Found Novatel receiver.
+	Model: "WAASHPB"
+	Serial Number: "SAS06209044"
+	Hardware version: "LBg2-3.04-X2T"
+	Software version: "2.312"
+
+Receiver capabilities:
+	L2: -
+	Raw measurements: -
+	RTK: -
+	SPAN: -
+	GLONASS: -
+
+1511975810.100131504 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:491(run) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Requesting default GPS messages: BESTUTMB, BESTVELB
+1511975810.100299610 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Started read thread.
+1511975810.100448744 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] LOG BESTUTMB ONTIME 1.00
+
+1511975810.837571359 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] RECEIVED AN ACK.
+1511975810.837746351 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Ack received for requested log: BESTUTMB ONTIME 1.00
+1511975810.837856840 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] LOG BESTVELB ONTIME 1.00
+
+1511975811.573337338 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] RECEIVED AN ACK.
+1511975811.573485487 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Ack received for requested log: BESTVELB ONTIME 1.00
+1511975811.573632221 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] LOG PSRPOSB ONTIME 1.00
+
+1511975812.304634463 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] RECEIVED AN ACK.
+1511975812.304828628 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Ack received for requested log: PSRPOSB ONTIME 1.00

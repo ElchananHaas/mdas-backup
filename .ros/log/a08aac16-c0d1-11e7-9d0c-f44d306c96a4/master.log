@@ -1,0 +1,51 @@
+[rosmaster.main][INFO] 2017-11-03 16:00:23,458: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-11-03 16:00:23,458: Starting ROS Master Node
+[xmlrpc][INFO] 2017-11-03 16:00:23,458: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-11-03 16:00:23,458: Started XML-RPC server [http://mdas-Meerkat:11311/]
+[xmlrpc][INFO] 2017-11-03 16:00:23,458: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-11-03 16:00:23,459: Master initialized: port[11311], uri[http://mdas-Meerkat:11311/]
+[rosmaster.master][INFO] 2017-11-03 16:00:23,483: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 16:00:23,484: +PARAM [/roslaunch/uris/host_mdas_meerkat__38517] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 16:00:23,544: +PARAM [/novatel_node/psrpos_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 16:00:23,544: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 16:00:23,544: +PARAM [/novatel_node/baudrate] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 16:00:23,544: +PARAM [/novatel_node/log_commands] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 16:00:23,544: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 16:00:23,544: +PARAM [/novatel_node/psrpos_topic] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 16:00:23,545: +PARAM [/novatel_node/odom_topic] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 16:00:23,545: +PARAM [/novatel_node/port] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 16:00:23,545: +PARAM [/novatel_node/span_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 16:00:23,545: +PARAM [/novatel_node/ephem_log] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 16:00:23,545: +PARAM [/novatel_node/range_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 16:00:23,545: +PARAM [/novatel_node/gps_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 16:00:23,548: +SERVICE [/rosout/get_loggers] /rosout http://mdas-Meerkat:38123/
+[rosmaster.master][INFO] 2017-11-03 16:00:23,549: +SERVICE [/rosout/set_logger_level] /rosout http://mdas-Meerkat:38123/
+[rosmaster.master][INFO] 2017-11-03 16:00:23,550: +PUB [/rosout_agg] /rosout http://mdas-Meerkat:38123/
+[rosmaster.master][INFO] 2017-11-03 16:00:23,553: +SUB [/rosout] /rosout http://mdas-Meerkat:38123/
+[rosmaster.master][INFO] 2017-11-03 16:00:23,558: +PUB [/rosout] /novatel_node http://mdas-Meerkat:36711/
+[rosmaster.master][INFO] 2017-11-03 16:00:23,558: publisherUpdate[/rosout] -> http://mdas-Meerkat:38123/
+[rosmaster.master][INFO] 2017-11-03 16:00:23,559: +SERVICE [/novatel_node/get_loggers] /novatel_node http://mdas-Meerkat:36711/
+[rosmaster.master][INFO] 2017-11-03 16:00:23,560: +SERVICE [/novatel_node/set_logger_level] /novatel_node http://mdas-Meerkat:36711/
+[rosmaster.master][INFO] 2017-11-03 16:00:23,569: +PUB [/gps_odom] /novatel_node http://mdas-Meerkat:36711/
+[rosmaster.master][INFO] 2017-11-03 16:00:23,570: +PUB [/gps_fix] /novatel_node http://mdas-Meerkat:36711/
+[rosmaster.master][INFO] 2017-11-03 16:00:23,570: +PUB [/ephemeris] /novatel_node http://mdas-Meerkat:36711/
+[rosmaster.master][INFO] 2017-11-03 16:00:23,571: +PUB [/range] /novatel_node http://mdas-Meerkat:36711/
+[rosmaster.master][INFO] 2017-11-03 16:00:23,571: +PUB [/gps_fix_psr] /novatel_node http://mdas-Meerkat:36711/
+[rosmaster.master][INFO] 2017-11-03 16:00:23,572: +PUB [/novatel_node/gps_fix_ecef] /novatel_node http://mdas-Meerkat:36711/
+[rosmaster.master][INFO] 2017-11-03 16:01:19,784: -PUB [/rosout] /novatel_node http://mdas-Meerkat:36711/
+[rosmaster.master][INFO] 2017-11-03 16:01:19,785: -PUB [/gps_odom] /novatel_node http://mdas-Meerkat:36711/
+[rosmaster.master][INFO] 2017-11-03 16:01:19,787: -PUB [/gps_fix] /novatel_node http://mdas-Meerkat:36711/
+[rosmaster.master][INFO] 2017-11-03 16:01:19,788: -PUB [/ephemeris] /novatel_node http://mdas-Meerkat:36711/
+[rosmaster.master][INFO] 2017-11-03 16:01:19,790: -PUB [/range] /novatel_node http://mdas-Meerkat:36711/
+[rosmaster.master][INFO] 2017-11-03 16:01:19,791: -PUB [/gps_fix_psr] /novatel_node http://mdas-Meerkat:36711/
+[rosmaster.master][INFO] 2017-11-03 16:01:19,792: -PUB [/novatel_node/gps_fix_ecef] /novatel_node http://mdas-Meerkat:36711/
+[rosmaster.master][INFO] 2017-11-03 16:01:19,794: -SERVICE [/novatel_node/get_loggers] /novatel_node rosrpc://mdas-Meerkat:33273
+[rosmaster.master][INFO] 2017-11-03 16:01:19,795: -SERVICE [/novatel_node/set_logger_level] /novatel_node rosrpc://mdas-Meerkat:33273
+[rosmaster.master][INFO] 2017-11-03 16:01:19,800: publisherUpdate[/rosout] -> http://mdas-Meerkat:38123/
+[rosmaster.master][INFO] 2017-11-03 16:01:20,302: -PUB [/rosout_agg] /rosout http://mdas-Meerkat:38123/
+[rosmaster.master][INFO] 2017-11-03 16:01:20,303: -SUB [/rosout] /rosout http://mdas-Meerkat:38123/
+[rosmaster.master][INFO] 2017-11-03 16:01:20,303: -SERVICE [/rosout/get_loggers] /rosout rosrpc://mdas-Meerkat:60315
+[rosmaster.master][INFO] 2017-11-03 16:01:20,304: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://mdas-Meerkat:60315
+[rosmaster.main][INFO] 2017-11-03 16:01:20,397: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-11-03 16:01:20,398: stopping master...
+[rospy.core][INFO] 2017-11-03 16:01:20,398: signal_shutdown [atexit]

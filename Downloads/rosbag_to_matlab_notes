@@ -1,0 +1,101 @@
+CONVERSION OF NUMERICAL DATA IN ROSBAGS:
+Wyatt Newman, 11/10/17
+
+process:
+
+clone cwru_scripts:
+git clone https://github.com/cwru-robotics/cwru_scripts.git
+  drag the package "rosbag_to_matlab" to the ros_ws/src directory
+  from ros_ws, run: catkin_make
+  
+may need to install scipy:
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+(not sure if this is needed for bag_to_csv)
+
+download the bagfile of interest. Note the directory.  E.g., if the directory is:
+/home/data, then (in a terminal window) cd to this directory: cd /home/data
+
+run the conversion command on the file of interest.  
+
+   rosrun rosbag_to_matlab bag_to_mat.py ./circle1.bag .
+
+   this produces: circle1__gps_fix_psr.mat and circle1__received_messages.mat
+   
+  run this matlab script, analyze_circles.m (from data directory):
+  
+  clear all
+load circle1__gps_fix_psr.mat
+deg_lat_2_m = 111064;
+deg_lon_2_m = 83490;
+[npts,cols] = size(data);
+lat = data(2:npts,7);
+lon = data(2:npts,8);
+
+lat_start = mean(lat(2:10))
+lon_start = mean(lon(2:10))
+dx = (lon - lon_start)*deg_lon_2_m;
+dy = (lat - lat_start)*deg_lat_2_m;
+figure(1)
+clf
+plot(dx,dy)
+xlabel('dx')
+ylabel('dy')
+title('circle1')
+grid
+
+ this produces the plot shown in "circle1.jpg"
+
+   
+Also tried alternative CSV file conversion, which also worked.
+
+ Run CSV file conversion.  E.g., with file "circle1.bag", after navigating to the directory in which
+ this file resides, run:
+ 
+   rosrun rosbag_to_matlab bag_to_csv.sh  ./circle1.bag .
+ 
+ This produces output files: gps_fix_psr.csv  received_messages.csv
+ (since only these 2 topics were recorded for the circle move)
+ 
+ The gps latitude is in column 7, and the longitude is in column 8
+ NOTE: first row of data is invalid; need to ignore it
+ 
+ --------interpretation-------------
+
+lat/lon of CWRU: 41.504607, -81.609735
+
+per: https://msi.nga.mil/MSISiteContent/StaticFiles/Calculators/degree.html
+
+111064 meters per degree latitude
+83490 meters per degree of longitude (at 41.5-deg north)
+
+rosbag has 10 decimal places of lat/lon (requires 7 decimal places for 1cm resolution)
+
+Ran the following matlab file (actually, only attempted in QtOctave, which is typically consistent with Matlab)
+See the file: analyze_circles_csv.m
+text of which is below:
+
+x = csvread ("gps_fix_psr.csv")
+deg_lat_2_m = 111064;
+deg_lon_2_m = 83490;
+[npts,cols] = size(x);
+lat = x(2:npts,7);
+lon = x(2:npts,8);
+
+lat_start = mean(lat(2:10))
+lon_start = mean(lon(2:10))
+dx = (lon - lon_start)*deg_lon_2_m;
+dy = (lat - lat_start)*deg_lat_2_m;
+figure(1)
+clf
+plot(dx,dy)
+xlabel('dx')
+ylabel('dy')
+title('circle1')
+grid
+
+This strips off the first row of data, establishes a start point (lat/lon), converts lat/lon to delta lat/lon
+from this start point, then converts these to dx,dy in meters and plots the result.
+
+
+
+

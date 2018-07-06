@@ -1,0 +1,25 @@
+
+	*** Attempting to initialize the Sick LMS...
+	Attempting to open device @ /dev/sensor-sick_lidar
+		Device opened!
+	Attempting to start buffer monitor...
+		Buffer monitor started!
+	Attempting to set requested baud rate...
+		Operating @ 500Kbps
+	Attempting to sync driver...
+		Driver synchronized!
+	*** Init. complete: Sick LMS is online and ready!
+	Sick Type: Sick LMS 291-S05
+	Scan Angle: 180 (deg)
+	Scan Resolution: 0.5 (deg)
+	Measuring Mode: 8m/80m; 3 reflector bits
+	Measuring Units: Centimeters (cm)
+
+[0m[ INFO] [1509819756.612869345]: Setting variant to (0, 1.000000)[0m
+[33m[ WARN] [1509819756.612952225]: Unable to set scan angle. Using 180 instead of 0.[0m
+[33m[ WARN] [1509819756.612981620]: Unable to set resolution. Using 5.000000e-01 instead of 1.000000e+00.[0m
+[0m[ INFO] [1509819756.612998402]: Measuring units setup not requested or identical to actual ('Centimeters (cm)')[0m
+	Requesting partial scan data stream...
+		Data stream started!
+[33m[ WARN] [1509819769.339639549]: Shutdown request received.[0m
+[33m[ WARN] [1509819769.339660848]: Reason given for shutdown: [new node registered with same name][0m

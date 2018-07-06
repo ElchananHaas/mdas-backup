@@ -1,0 +1,8 @@
+prefix=/home/mdas/ros_ws/devel
+
+Name: gps_msgs
+Description: Description of gps_msgs
+Version: 0.0.1
+Cflags: -I/home/mdas/ros_ws/devel/include
+Libs: -L/home/mdas/ros_ws/devel/lib 
+Requires: message_runtime sensor_msgs std_msgs

@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Information Technology Services at Case - setup.case.edu</title>
+<!--Links to stylesheets-->
+		<link rel="stylesheet" href="/its/stylesheet/cwruheader.css" type="text/css" media="screen" /><!--can link out to UMC-->
+		<link rel="stylesheet" href="/its/stylesheet/main.css" type="text/css" media="screen" /><!--link to the new css-->
+<!-- for relink later if needed  04-17-2010 <link rel="stylesheet" href="css/home.css" type="text/css" media="screen" /><link rel="stylesheet" href="css/print.css" type="text/css" media="print" />-->
+
+</head>
+
+
+<body>
+<!--include file for CWRU header and ITS header.  Change header information below will change the whole site-->
+<!--cwru main header begins here-->
+	<div id="cwruHeader">
+<!--cwru main header content-->
+		<div id="cwruHeaderContent">
+<!--cwru logo holder-->
+			<div class="logo"><a href="http://case.edu/"><img src="http://www.case.edu/its/images/cwru-logo.png" alt="cwru logo" name="logoImg" width="235" height="50" border="0" id="logoImg" /> </a>
+			</div>
+<!--end of cwru logo holder-->
+<!--cwru main navigation-->
+			<div id="cwruMainNav">
+				<ul>
+  					<li><a href="http://case.edu">Home</a></li>
+  					<li><a href="http://www.case.edu/apply.html">Apply</a></li>
+  					<li><a href="http://giving.case.edu">Give</a></li>
+  					<li><a href="http://www.case.edu/visit/">Visit</a></li>
+					<li><a href="http://www.case.edu/dir/?nw_view=1259686643&amp;">Find</a></li>
+  				</ul>
+			</div>
+<!--end of cwru main navigation-->
+<!--cwru search box-->
+			<div class="cwruSearch">
+  				<form action="http://www.google.com/u/cw" method="get" name="searchForm">
+    				<input name="q" type="text"  value="search cwru..." onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;" />
+    				<input name="sa" class="btn" src="http://case.edu/webdev/umc_test/images/searchIcon.jpg" type="image" />
+  				</form>
+			</div>
+<!--end of search box-->
+		</div>
+<!--end of cwruHeaderContent-->
+	</div>
+<!--end of cwruHeader-->
+
+<!--ITS content begins here-->
+<!--ITS header begins here-->
+	<div id="ITSheader">
+<!--ITS header holder starts here-->	
+		<div id="ITSheaderHolder2">
+<!--ITS top navigation !keep text links below the same as the image (i.e. a-z = a-z) for SEO reason!--> 	
+<!--ITS nav1 !bottom up to left to right ordering!-->
+				<ul id="ITS-Nav1">
+<!--					<li id="ITS-Nav1-01"><a href="http://www.case.edu/its/coreservices.html"><span>a-z</span></a></li> -->
+                    <li id="ITS-Nav1-01"></li>
+					<li id="ITS-Nav1-02"><a href="http://www.case.edu/its/e-store.html"><span>e-store</span></a></li>
+					<li id="ITS-Nav1-03"><a href="http://softwarecenter.case.edu/"><span>software</span></a></li>
+					<li id="ITS-Nav1-04"><a href="http://www.case.edu/its/infosecurity.html"><span>information security</span></a></li>
+				</ul>
+<!--ITS nav2 image navigation-->
+				<ul id="ITS-Nav3">
+					<li id="ITS-Nav3-01"><a href="http://www.case.edu/its/newtocwru.html"><span>new to cwru</span></a></li>
+<!--					<li id="ITS-Nav3-02"><a href="http://www.case.edu/its/coreservices.html"><span>core services</span></a></li> -->
+					<li id="ITS-Nav3-02"><a href="#"><span>core services</span></a></li>
+					<li id="ITS-Nav3-03"><a href="http://help.case.edu/"><span>24/7 help desk</span></a></li>
+					<li id="ITS-Nav3-04"><a href="http://www.case.edu/its/dashboard/servicestatus.html"><span>service status</span></a></li>
+				</ul>
+		</div>
+<!--end of ITS header holder-->
+	</div>
+<!--end of ITS header--> 
+
+<!--IMPORTANT-The line above pull in CWRU header and ITS header in from mainheader.html file.  Please maintain header content from /navigation/mainheader.html-->
+<!--Page content begins here -->
+<div id="contentWrapper">
+	<div id="contentContainer">
+<!--left column begins here-->
+		<div id="leftCol">
+			<div id="leftColContent">
+<!--[if IE]><style type="text/css">.topNav ul ul {position:absolute; left:0; top:31px;}</style><![endif]-->
+<!--include file for ITS left navigation.  Change left navigation information below will change the whole site-->
+<!--ITS left navigation begins here-->
+<div id="leftnavWrapper"><!--change to leftnavWrapper?-->
+  <div id="ITSsearchHolder">
+    <div class="ITSnavSearch">
+      <form action="http://www.google.com/u/cw" target="_parent" method="get" name="searchForm" class="searchForm" id="searchForm">
+        <input type="hidden" name="hq" value="inurl:www.case.edu/its" /> 
+        <input name="q" id="searchtext" type="text" />
+        <input name="submit" type="image" class="btn" src="http://www.case.edu/its/images/searchIcon.jpg" />
+      </form>
+    </div>
+  </div>
+  <ul id="leftnav">
+    <li><a href="http://www.case.edu/its/index.html" class="ITS Home">ITS home</a></li>
+	<li><a href="http://www.case.edu/its/about/" class="about ITS">about ITS</a></li>
+<!--    <li><a href="http://www.case.edu/its/coreservices.html" class="sec1">service catalog</a></li> -->
+    <li><a href="http://www.case.edu/its/currentprojects.html" class="sec2">current projects</a></li>
+    <li><a href="http://www.case.edu/its/infosecurity.html" class="sec3">information security</a></li>
+    <li><a href="http://www.case.edu/its/itac/index.html" class="sec6">academic technology</a></li>
+    <li><a href="http://www.case.edu/its/policies.html" class="sec4">policies</a></li>
+    <li>
+      <a href="#" class="sec5">reports and publications<span class="arrowL">&raquo;</span></a>
+      <ul>
+        <li><a href="http://www.case.edu/its/annual-report.html">annual report</a></li>
+        <li><a href="http://www.case.edu/its/strategic-plan.html">strategic plan</a></li>
+        <li><a href="http://www.case.edu/its/division-literature.html">division literature</a></li>
+        <li><a href="http://www.case.edu/its/division-metrics.html">division metrics</a></li>
+        <li><a href="http://www.case.edu/its/division-news-events.html">division news &amp; events</a></li>
+      </ul>
+    </li>
+    <li><a href="http://www.case.edu/its/campus_partners.html" class="sec5">campus partners</a></li>
+<!--
+    <li>
+      <a href="#" class="sec5">about ITS<span class="arrowL">&raquo;</span></a>
+      <ul>
+        <li><a href="#">Subpage one</a></li>
+        <li><a href="#">Subpage two</a></li>
+        <li><a href="#">Subpage three</a></li>
+        <li><a href="#">Subpage four</a></li>
+        <li><a href="#">Subpage five</a></li>
+      </ul>
+    </li>
+-->
+    <li><a href="http://www.case.edu/its/e-store.html" class="sec5">e-store<!--<span class="arrowL">&raquo;</span>--></a></li>
+  </ul>
+<!--google translate starts here-->
+  <div id="google_translate_element">
+    <div><h5><strong>translate this page</strong></h5></div>
+  </div>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en'
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!--end google translate-->          
+<!--end topnav wrapper-->
+</div>
+<!--end of leftcolcontent-->
+<!--IMPORTANT-The line above pull in ITS left navigation in from leftnavigation.html file.  Please maintain left navigation content from /navigation/leftnavigation.html-->
+
+<!--end of leftcolcontent-->		
+			</div>
+<!--.end of leftcol-->
+		</div>
+<!--middle column begins here-->
+	  <div id="mid2Col">
+<!--blanking out conner outline effect-->			
+			<div class="blankH"><img src="/its/images/blank.gif" width="10" height="180" alt="frame image" /></div>
+			<div class="blankH"><img src="/its/images/blank.gif" width="180" height="10" alt="frame image" /></div>
+<!--end blanking out conner outline effect-->	
+<!--.intro header-->
+			<div class="introH">
+			<h2>setup.case.edu:</h2>
+      </div>
+			
+			<div class="story">
+			<p>
+			Setup.case.edu is used to register a new computer on the campus network.
+			</p>
+			<p>
+			If you are seeing this page, the computer you are currently using is already registered or is not on the campus network.  
+			</p>
+			<p>
+			To modify registration information, follow the instructions located at <a href="http://help.case.edu">http://help.case.edu</a> under "Campus Network."
+			</p>
+			<p>
+			If you are attempting to register a computer other than the one you are using now, please connect that computer to the wired campus network and access http://setup.case.edu.
+			</p>
+			<p>
+			If you are attempting to register a non-computer network device, such as a printer, please contact the ITS Help Desk at (216) 368-HELP.
+			</p>
+			</div>	
+<!--end of middle column-->
+	  </div>
+<!--end of content container-->	
+	</div>
+<!--end of content wrapper-->
+</div>
+<!--include file for ITS footer.  Change ITS footer information below will change the whole site-->
+<!--footer begins here-->
+<div id="footer">
+<!--footer content begins here-->
+  <div class="footerContent">
+<!--footer leftcol begins here-->  
+    <div class="footerLeftCol">
+<!--footer search begins here-->    
+      <div class="footerSearch">
+        <form action="http://www.google.com/u/cw" target="_parent" method="get" name="searchForm" class="searchForm" id="searchForm">
+          <input type="hidden" name="hq" value="inurl:www.case.edu/its" /> 
+          <input name="q" value="search ITS..." id="searchtext" type="text" />    
+          <input name="submit" type="image" class="btn" src="http://www.case.edu/its/images/searchIcon.jpg" />
+        </form>
+<!--end of footer search-->    
+      </div>
+<!--footer text under ITS search-->
+      <div class="footerLeftC"><span class="footerhelp">Need Help? Contact our <a href="mailto:help@case.edu">help desk</a> Now!</span><br/>
+        <br/>&copy; 2011 Case Western Reserve University<br />Cleveland, Ohio 44106, 216-368-2000<br />Information Technology Services (<a href="http://www.case.edu/legal.html">legal notice</a>)<br/>
+        <a href="mailto:its-web@case.edu">Contact website owner</a><!--end footer text under ITS search-->        
+      </div>
+<!--end of footer leftCol-->
+    </div>
+<!--footer middle column begins here-->
+    <div class="footerMiddleCol">
+      <div class="footerHeader">Follow Us on:</div>
+      <ul>
+        <li><img src="http://www.case.edu/its/images/facebook.png" alt="facebook" align="left" style="margin-right:5px;" /> <a href="http://www.facebook.com/pages/CWRU-Information-Technology-Services/236396152713">Facebook</a></li>
+        <li><img src="http://www.case.edu/its/images/twitter.png" alt="ITS twitter" /> <a href="http://twitter.com/CWRUITS">ITS Twitter</a></li>
+        <li><img src="http://www.case.edu/its/images/twitter.png" alt="ITS status twitter" /> <a href="http://twitter.com/CWRUITS_status">ITS status Twitter</a></li>
+        <li><span><img src="http://www.case.edu/its/images/youtube.png" alt="youtube" /></span> <a href="http://www.youtube.com/user/case">Youtube</a></li>
+      </ul>
+    </div>
+<!--end of footer middle column-->
+<!--footer right column begins here-->
+    <div class="footerRightCol">
+      <div class="footerHeader">ITS Information</div>
+      <ul>
+        <li><a href="http://www.case.edu/its/newtocwru.html">New to CWRU</a></li>
+<!--        <li><a href="http://www.case.edu/its/coreservices.html">Core Services</a></li> -->
+        <li><a href="#">Core Services</a></li>
+        <li><a href="http://help.cwru.edu">24/7 Help</a></li>
+        <li><a href="http://www.case.edu/its/servicestatus.html">Service Status</a></li>
+      </ul>
+    </div>
+    <div class="footerRightCol">
+      <div class="footerHeader">ITS Resources</div>
+      <ul>
+        <li><a href="http://www.case.edu/its/infosecurity.html">Information Security</a></li>
+        <li><a href="https://softwarecenter.case.edu">Software Center</a></li>
+        <li><a href="http://www.case.edu/its/e-store.html">e-store</a></li>
+<!--        <li><a href="http://www.case.edu/its/coreservices.html#core2">a-z</a></li> -->
+      </ul>
+<!--end of footer right column-->
+    </div>
+<!--end of footerRight Col-->  
+  </div>
+<!--end of footer-->
+</div>
+<!--IMPORTANT-The line above pull in ITS footer in from footer.html file.  Please maintain footer content from /navigation/footer.html-->
+</body>
+</html>
+
+
+
+~UØr0ÿ      Yóm—Yóm—>Yh       #    :https://setup.case.edu/favicon.ico security-info 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 request-method GET response-head HTTP/1.1 403 Forbidden
+Date: Fri, 27 Oct 2017 17:32:07 GMT
+Server: Apache
+Accept-Ranges: bytes
+Content-Type: text/html
+ uncompressed-len 0   1‚

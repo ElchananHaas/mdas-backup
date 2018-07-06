@@ -1,0 +1,12 @@
+[rospy.client][INFO] 2017-11-02 16:09:33,530: init_node, name[/imu_node], pid[11436]
+[rospy.core][WARNING] 2017-11-02 16:09:33,530: add_shutdown_hook called after shutdown
+[rospy.core][WARNING] 2017-11-02 16:09:33,530: add_shutdown_hook called after shutdown
+[rospy.init][INFO] 2017-11-02 16:09:33,530: ROS Slave URI: [None]
+[rospy.init][INFO] 2017-11-02 16:09:33,530: registered with master
+[rospy.core][WARNING] 2017-11-02 16:09:33,530: add_shutdown_hook called after shutdown
+[xmlrpc][INFO] 2017-11-02 16:09:33,531: XML-RPC server binding to 0.0.0.0:0
+[rospy.client][WARNING] 2017-11-02 16:09:33,531: aborting node initialization as shutdown has been triggered
+[xmlrpc][INFO] 2017-11-02 16:09:33,531: Started XML-RPC server [http://mdas-Meerkat:40639/]
+[rospy.impl.masterslave][INFO] 2017-11-02 16:09:33,532: _ready: http://mdas-Meerkat:40639/
+[rospy.core][INFO] 2017-11-02 16:09:33,534: signal_shutdown [atexit]
+[xmlrpc][INFO] 2017-11-02 16:09:33,534: xml rpc node: starting XML-RPC server

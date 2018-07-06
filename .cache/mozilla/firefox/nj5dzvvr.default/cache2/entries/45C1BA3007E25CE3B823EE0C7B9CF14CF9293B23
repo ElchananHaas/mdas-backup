@@ -1,0 +1,573 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<meta name="google-site-verification" content="CjkdY6BqKWAVmQ78_iSq6J7ZZ9AoL7-CjFVBYGg9FU4" />
+<link rel="shortcut icon" href="/custom/favicon.ico" type="image/ico" />
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/custom/js/sorttable.js"></script>
+<script type="text/javascript" src="/custom/libraries/jquery.min.js"></script>                         
+<script type="text/javascript" src="/custom/js/seesaw.js"></script> 
+<script type="text/javascript" src="/custom/js/rosversion.js"></script> 
+<!--script type="text/javascript" src="/custom/libraries/RGraph.common.core.js" ></script Used for metrics only, should be conditional, not at the top-->
+<!--script type="text/javascript" src="/custom/libraries/RGraph.bar.js" ></script same as above -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17821189-2']);
+  _gaq.push(['_setDomainName', 'wiki.ros.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"4c8610d177","agent":"","transactionName":"NFZaMEVUV0ZVBkBeCQ0cbRZeGktaRxdRVAkRVw==","applicationID":"3371695","errorBeacon":"bam.nr-data.net","applicationTime":279}</script>
+<meta name="robots" content="index,nofollow">
+
+<title>rosrecord - ROS Wiki</title>
+<script type="text/javascript" src="/moin_static197/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static197/rostheme/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static197/rostheme/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static197/rostheme/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static197/rostheme/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static197/rostheme/css/msie.css">
+<![endif]-->
+
+
+
+
+<link rel="canonical" href="http://wiki.ros.org/rosrecord" />
+
+<link rel="Start" href="/Documentation">
+<link rel="Alternate" title="Wiki Markup" href="/rosrecord?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/rosrecord?action=print">
+<link rel="Appendix" title="combined_md5s.fixed" href="/rosrecord?action=AttachFile&amp;do=view&amp;target=combined_md5s.fixed">
+<link rel="Search" href="/FindPage">
+<link rel="Index" href="/TitleIndex">
+<link rel="Glossary" href="/WordIndex">
+<link rel="Help" href="/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5950817-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+if(f) f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+if(e) {
+  searchChange(e);
+  searchBlur(e);
+}
+
+function handleSubmit() {
+  var f = document.getElementById('searchform');
+  var t = document.getElementById('searchinput');
+  var r = document.getElementById('real_searchinput');
+
+  //alert("handleSubmit "+ t.value);
+  if(t.value.match(/review/)) {
+    r.value = t.value;
+  } else {
+    //r.value = t.value + " -PackageReviewCategory -StackReviewCategory -M3Review -DocReview -ApiReview -HelpOn -BadContent -LocalSpellingWords";
+    r.value = t.value + " -PackageReviewCategory -StackReviewCategory -DocReview -ApiReview";
+  }
+  //return validate(f);
+}
+//-->
+</script>
+
+<div id="dpage">
+  <div id="dpage-inner">
+    <div id="header"><div id="topnav">
+
+<!-- Alert box -->
+<!-- To enable/disable the alert box, uncomment/comment the block below and update the content below the button. -->
+<!--
+    <div class="alert alert-info alert-dismissable" style="text-align: center;">
+<script>
+jQuery(function( $ ){
+    alert_box_name = 'roswiki_roscon'
+    state = localStorage.getItem(alert_box_name);
+    if (!state) {
+      localStorage.setItem(alert_box_name, 'open');
+    }
+    state = localStorage.getItem(alert_box_name);
+    if (state == 'closed') {
+        $( '#topnav .alert' ).hide();
+    }
+    $( '.close' ).click(function () {
+	console.log('in .close.click');
+        localStorage.setItem(alert_box_name, 'closed');
+        $( '#topnav .alert' ).hide();
+  });
+});
+</script>
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      <a href="http://roscon.ros.org">ROSCon 2017</a> will be in Vancouver, September 21-22! <br>
+      The last few years have sold out: register now and take advantage of discounted hotel rates</a>.
+    </div>
+-->
+<!-- End Alert box -->
+
+      <table id="topnav-table">
+        <tr>
+          <td width="300" valign="top"><a href="/"><img border="0" src="/custom/images/ros_org.png" alt="ros.org" width="238" height="51"/></a></td>
+          <td width="500" valign="middle">
+            <a href="http://www.ros.org/about-ros">About</a>
+            |
+            <a href="/Support">Support</a>
+            |
+            <a href="http://discourse.ros.org/">Discussion Forum</a>
+            |
+            <a href="http://status.ros.org/">Service Status</a>
+            |
+            <a href="http://answers.ros.org/">Q&A answers.ros.org</a>
+
+<!--<a href="http://roscon.ros.org/2016/"><img align="middle" style="padding-left: 15px;" src="http://ros.org/images/roscon_wiki_header.jpg" width="133" height="65" alt="ROSCon 2016" /></a>
+-->
+
+<!-- <a href="https://events.osrfoundation.org/ros-kong-2014/"><img align="middle" style="padding-left: 15px;" src="http://ros.org/images/ros_kong_2014_badge.png" width="133" height="38" alt="roskong" /></a>
+-->
+<!--a href="https://events.osrfoundation.org/ros-kong-2014/"><img align="middle" style="padding-left: 15px;" src="http://imgur.com/eMzUJVe.png" width="133" height="38" alt="roskong" /></a-->
+          </td>
+
+          <td valign="middle" align="right">
+
+<script language="Javascript">
+
+function Searchy(theButton){
+
+theForm = theButton.form;
+newID = theForm.input.value;
+theForm.q.value = newID;
+theForm.input.value=theForm.input.value
+
+}
+</script>
+
+
+<form action="http://www.ros.org/search/index.html" id="cse">
+  <div>
+    <label>Search:</label>
+    <input type="hidden" name="cx" value="018259903093183594226:txvzw9fat6w" />
+    <input type="hidden" name="cof" value="FORID:11;NB:1" />
+    <input type="hidden" name="filter" value="0" />
+    <input type="hidden" name="num" value="10" />
+
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="input" id="input" autocomplete="on" style="width: 35%"/>
+    <input type="hidden" name="q" value="" />
+    <input type="submit" name="sa" value="Submit" onClick="Searchy(this)"/>
+
+  </div>
+</form>
+
+         </td>
+      </tr>
+      <tr>
+        <td colspan="3" height="53" width="1024"><nobr><img src="/custom/images/menu_left.png" width="17" height="53" alt=""/><a href="/"><img
+        border="0" src="/custom/images/menu_documentation.png" width="237" height="53" alt="Documentation" /></a><img
+        src="/custom/images/menu_spacer.png" width="69" height="53" /><a href="http://www.ros.org/browse/"><img border="0"
+        src="/custom/images/menu_browse_software.png" width="268" height="53" alt="Browse Software" /></a><img
+        src="/custom/images/menu_spacer.png" width="69" height="53" /><a href="http://www.ros.org/news"><img border="0"
+        src="/custom/images/menu_news.png" width="84" height="53" alt="News" /></a><img
+        src="/custom/images/menu_spacer.png" width="69" height="53" /><a href="/ROS/Installation"><img border="0"
+        src="/custom/images/menu_download.png" width="151" height="53" alt="Download" /></a><img
+        src="/custom/images/menu_right.png" width="60" height="53" /></nobr></td>
+
+      </tr>
+    </table> <!-- topnav-table -->
+
+    </div> <!-- /#topav -->
+  </div> <!-- /#header -->
+
+
+<div id="header2">
+
+<ul id="pagelocation">
+<li><a class="backlink" href="/action/fullsearch/rosrecord?action=fullsearch&amp;context=180&amp;value=linkto%3A%22rosrecord%22" rel="nofollow" title="Click to do a full-text search for this title">rosrecord</a></li>
+</ul>
+
+<div id="locationline">
+</div>
+</div>
+
+<div id="sidebar">
+<div class="sidepanel">
+<h1>Wiki</h1>
+
+<ul id="navibar">
+<li class="wikilink"><a href="/Distributions">Distributions</a></li><li class="wikilink"><a href="/ROS/Installation">ROS/Installation</a></li><li class="wikilink"><a href="/ROS/Tutorials">ROS/Tutorials</a></li><li class="wikilink"><a href="/RecentChanges">RecentChanges</a></li><li class="current"><a href="/rosrecord">rosrecord</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="/action/info/rosrecord?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="/action/AttachFile/rosrecord?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="/rosrecord">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="show" disabled class="disabled">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="CopyPage">Copy Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="MyPages">My Pages</option>
+<option value="show" disabled class="disabled">Subscribe User</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="PackagePages">Package Pages</option>
+<option value="SyncPages">Sync Pages</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="CreatePdfDocument">CreatePdfDocument</option>
+<option value="Load">Load</option>
+<option value="RawFile">RawFile</option>
+<option value="Save">Save</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="/action/login/rosrecord?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><p class="line867"><span id="rosversion_selector" class="btn-group">
+
+
+
+
+
+
+
+
+</span><span style="text-align:left">&nbsp;&nbsp;<a href="javascript:toggleDocStatus()">Documentation Status</a></span><div id="doc_status" style="background:#CCCCCC;display:none;margin-top:0px;margin-bottom:0px;padding-top:0px"><ul style="padding-top:5px;margin-top:0px;margin-bottom:0px;padding-bottom:5px;"><li><b>electric:</b> Cannot load information on <strong>name: rosrecord, distro: electric</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</li><br><li><b>fuerte:</b> Cannot load information on <strong>name: rosrecord, distro: fuerte</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</li><br><li><b>groovy:</b> Cannot load information on <strong>name: rosrecord, distro: groovy</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</li><br><li><b>hydro:</b> Cannot load information on <strong>name: rosrecord, distro: hydro</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</li><br><li><b>indigo:</b> Cannot load information on <strong>name: rosrecord, distro: indigo</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</li><br><li><b>jade:</b> Cannot load information on <strong>name: rosrecord, distro: jade</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</li><br><li><b>kinetic:</b> Cannot load information on <strong>name: rosrecord, distro: kinetic</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</li><br><li><b>lunar:</b> Cannot load information on <strong>name: rosrecord, distro: lunar</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</li><br></div><div class="version electric">Cannot load information on <strong>name: rosrecord, distro: electric</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</div>
+<div class="version fuerte">Cannot load information on <strong>name: rosrecord, distro: fuerte</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</div>
+<div class="version groovy">Cannot load information on <strong>name: rosrecord, distro: groovy</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</div>
+<div class="version hydro">Cannot load information on <strong>name: rosrecord, distro: hydro</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</div>
+<div class="version indigo">Cannot load information on <strong>name: rosrecord, distro: indigo</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</div>
+<div class="version jade">Cannot load information on <strong>name: rosrecord, distro: jade</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</div>
+<div class="version kinetic">Cannot load information on <strong>name: rosrecord, distro: kinetic</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</div>
+<div class="version lunar">Cannot load information on <strong>name: rosrecord, distro: lunar</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</div> <span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><p class="line867"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="#Status">Status</a></li><li>
+<a href="#Code_API">Code API</a><ol><li>
+<a href="#ros::record::Recorder">ros::record::Recorder</a></li><li>
+<a href="#ros::record::Player">ros::record::Player</a></li><li>
+<a href="#rosrecord.py">rosrecord.py</a></li></ol></li><li>
+<a href="#Bag_File_Maintenance">Bag File Maintenance</a><ol><li>
+<a href="#Updating_bag_files_after_a_msg_change">Updating bag files after a msg change</a></li><li>
+<a href="#Fixing_md5sums_after_a_move_or_rename">Fixing md5sums after a move or rename</a></li><li>
+<a href="#Fixing_bag_ordering">Fixing bag ordering</a></li><li>
+<a href="#ROS_0.6:_Fixing_md5sums_after_the_md5sum_algorithm_has_been_changed">ROS 0.6: Fixing md5sums after the md5sum algorithm has been changed</a></li></ol></li><li>
+<a href="#Technical_Details">Technical Details</a></li><li>
+<a href="#Command-Line_Tools">Command-Line Tools</a><ol><li>
+<a href="#rosrecord-1">rosrecord</a></li><li>
+<a href="#rosplay">rosplay</a></li><li>
+<a href="#rosrebag">rosrebag</a></li></ol></li></ol></li></ol></div><p class="line874"> <span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><div><table><tbody><tr>  <td style="background-color: #FFFF00"><p class="line862"> <strong>As of ROS 1.1.5, rosrecord has been deprecated.</strong></td>
+</tr>
+<tr>  <td style="background-color: #FFFF00"><span class="anchor" id="line-8"></span><p class="line862"> <strong>For C Turtle, see <a href="/rosbag">rosbag</a></strong></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-9"></span><span class="anchor" id="line-10"></span><p class="line867">
+<h2 id="Status">Status</h2>
+<span class="anchor" id="line-11"></span><p class="line862">rosrecord was phased out in favor of a more unified interface, <a href="/rosbag">rosbag</a>.  rosrecord has been deprecated as of ROS 1.1.5. <span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><p class="line862">All of its functionality is now contained in rosbag.  In fact, rosrecord is now simply a wrapper around the underlying <a href="/rosbag">rosbag</a> API. <span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span><p class="line867">
+<h2 id="Code_API">Code API</h2>
+<span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span><p class="line862">The rosrecord programmatic API does not yet have a <a href="/rosbag">rosbag</a> equivalent.  It is still the main way to interact with bagfiles programmatically.  However, this API is expected to change somewhat substantially in the move to rosbag and is slated for eventual deprecation. <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span><p class="line867">
+<h3 id="ros::record::Recorder">ros::record::Recorder</h3>
+<span class="anchor" id="line-20"></span><p class="line862">The <tt class="backtick">ros::record::Recorder</tt> allows you to populate a bag file without going through ros. <span class="anchor" id="line-21"></span><span class="anchor" id="line-22"></span><p class="line862">The <tt class="backtick">Recorder</tt> has a fairly simpe interface for pushing messages into a bag file.  <tt class="backtick">open</tt> is used to open the file.  Messages can then be added with sequential calls to <tt class="backtick">record</tt>.  When the bag file is complete, close it using <tt class="backtick">close</tt>. <span class="anchor" id="line-23"></span><span class="anchor" id="line-24"></span><p class="line867"><strong>Example:</strong> To put your own message into a bag file <span class="anchor" id="line-25"></span><ul><li style="list-style-type:none"><span class="anchor" id="line-26"></span><span class="anchor" id="line-27"></span><span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span><span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span><span class="anchor" id="line-34"></span><span class="anchor" id="line-35"></span><span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span><span class="anchor" id="line-40"></span><span class="anchor" id="line-41"></span><span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><span class="anchor" id="line-44"></span><span class="anchor" id="line-1-1"></span><div class="highlight cpp"><div class="codearea" dir="ltr" lang="en">
+<script type="text/javascript">
+function isnumbered(obj) {
+  return obj.childNodes.length && obj.firstChild.childNodes.length && obj.firstChild.firstChild.className == 'LineNumber';
+}
+function nformat(num,chrs,add) {
+  var nlen = Math.max(0,chrs-(''+num).length), res = '';
+  while (nlen>0) { res += ' '; nlen-- }
+  return res+num+add;
+}
+function addnumber(did, nstart, nstep) {
+  var c = document.getElementById(did), l = c.firstChild, n = 1;
+  if (!isnumbered(c)) {
+    if (typeof nstart == 'undefined') nstart = 1;
+    if (typeof nstep  == 'undefined') nstep = 1;
+    var n = nstart;
+    while (l != null) {
+      if (l.tagName == 'SPAN') {
+        var s = document.createElement('SPAN');
+        var a = document.createElement('A');
+        s.className = 'LineNumber';
+        a.appendChild(document.createTextNode(nformat(n,4,'')));
+        a.href = '#' + did + '_' + n;
+        s.appendChild(a);
+        s.appendChild(document.createTextNode(' '));
+        n += nstep;
+        if (l.childNodes.length) {
+          l.insertBefore(s, l.firstChild);
+        }
+        else {
+          l.appendChild(s);
+        }
+      }
+      l = l.nextSibling;
+    }
+  }
+  return false;
+}
+function remnumber(did) {
+  var c = document.getElementById(did), l = c.firstChild;
+  if (isnumbered(c)) {
+    while (l != null) {
+      if (l.tagName == 'SPAN' && l.firstChild.className == 'LineNumber') l.removeChild(l.firstChild);
+      l = l.nextSibling;
+    }
+  }
+  return false;
+}
+function togglenumber(did, nstart, nstep) {
+  var c = document.getElementById(did);
+  if (isnumbered(c)) {
+    remnumber(did);
+  } else {
+    addnumber(did,nstart,nstep);
+  }
+  return false;
+}
+</script>
+
+<script type="text/javascript">
+document.write('<a href="#" onclick="return togglenumber(\'CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24\', 1, 1);" \
+                class="codenumbers">Toggle line numbers<\/a>');
+</script>
+<pre dir="ltr" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24" lang="en"><span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_1">   1</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_1"></span><span class="anchor" id="line-1-2"></span><span class="Preprc">#</span><span class="Preprc">include "rosrecord</span><span class="Preprc">/</span><span class="Preprc">Recorder.h"</span><span class="Preprc"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_2">   2</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_2"></span><span class="anchor" id="line-2-1"></span><span class="Preprc"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_3">   3</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_3"></span><span class="anchor" id="line-3-1"></span><span class="Comment">//...</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_4">   4</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_4"></span><span class="anchor" id="line-4-1"></span><span class="Comment"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_5">   5</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_5"></span><span class="anchor" id="line-5-1"></span><span class="ResWord">int</span> <span class="ID">main</span>()</span>
+<span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_6">   6</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_6"></span><span class="anchor" id="line-6-1"></span>{</span>
+<span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_7">   7</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_7"></span><span class="anchor" id="line-7-1"></span>    <span class="ID">ros</span>::<span class="ID">record</span>::<span class="ID">Recorder</span> <span class="ID">recorder</span>;</span>
+<span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_8">   8</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_8"></span><span class="anchor" id="line-8-1"></span>    <span class="ID">recorder</span>.<span class="ID">open</span>(<span class="String">"</span><span class="String">my.bag</span><span class="String">"</span>);</span>
+<span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_9">   9</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_9"></span><span class="anchor" id="line-9-1"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_10">  10</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_10"></span><span class="anchor" id="line-10-1"></span>    <span class="ID">my_msgs</span>::<span class="ID">MyMsg</span> <span class="ID">msg</span>;</span>
+<span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_11">  11</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_11"></span><span class="anchor" id="line-11-1"></span>    <span class="ID">msg</span>.<span class="ID">foo</span> = <span class="Number">123</span>;</span>
+<span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_12">  12</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_12"></span><span class="anchor" id="line-12-1"></span>    <span class="ID">msg</span>.<span class="ID">bar</span> = <span class="String">"</span><span class="String">abc</span><span class="String">"</span>;</span>
+<span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_13">  13</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_13"></span><span class="anchor" id="line-13-1"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_14">  14</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_14"></span><span class="anchor" id="line-14-1"></span>    <span class="ID">recorder</span>.<span class="ID">record</span>(<span class="String">"</span><span class="String">my_topic</span><span class="String">"</span>, <span class="ID">msg</span>, <span class="ID">ros</span>::<span class="ID">Time</span>::<span class="ID">now</span>());</span>
+<span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_15">  15</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_15"></span><span class="anchor" id="line-15-1"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_16">  16</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_16"></span><span class="anchor" id="line-16-1"></span>    <span class="ID">recorder</span>.<span class="ID">close</span>();</span>
+<span class="line"><span class="LineNumber"><a href="#CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_17">  17</a> </span><span class="LineAnchor" id="CA-d09fb76442a8970b3d5bfab9027e050a9a90bf24_17"></span><span class="anchor" id="line-17-1"></span>}</span>
+</pre></div></div><span class="anchor" id="line-45"></span></li></ul><p class="line862">For more information see the <a class="http" href="http://www.ros.org/doc/api/rosrecord/html/c++/classros_1_1record_1_1Recorder.html">C++ Code API</a>. <span class="anchor" id="line-46"></span><span class="anchor" id="line-47"></span><p class="line867">
+<h3 id="ros::record::Player">ros::record::Player</h3>
+<span class="anchor" id="line-48"></span><p class="line862">The <tt>ros::record::Player</tt> class enables parsing of bag files without going through ros.  This is very useful for converting .bag files to different formats.   <span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span><p class="line862">The <tt class="backtick">Player</tt> has an unfortunately complicated API at the moment.  A <span class="anchor" id="line-51"></span>set of callbacks can be registered on the Player using the <span class="anchor" id="line-52"></span><tt class="backtick">addHandler</tt> call.  This call takes a topic (which may be specified as <span class="anchor" id="line-53"></span>"*"), and is templated on a particular type.  The corresponding <span class="anchor" id="line-54"></span>callback will be invoked when a message matching this topic and type <span class="anchor" id="line-55"></span>is extracted from the bag through a call to <tt class="backtick">player.nextMsg()</tt>. <span class="anchor" id="line-56"></span><span class="anchor" id="line-57"></span><p class="line867"><em>NOTE:</em> The Player also has the ability to optionally construct a <span class="anchor" id="line-58"></span>shifted and scaled time-line for your messages.  This is what the <span class="anchor" id="line-59"></span><tt class="backtick">start_time</tt> in the open call corresponds to.  When the The callback <span class="anchor" id="line-60"></span>is invoked it is passed TWO times.  The first is a shifted and scaled <span class="anchor" id="line-61"></span>representation of time, the second is the original timestamp stored in <span class="anchor" id="line-62"></span>the bag.  Internally rosplay does a remapping from the first <span class="anchor" id="line-63"></span>time-stamp in your bag to whatever time is passed in as <tt class="backtick">start_time</tt> <span class="anchor" id="line-64"></span>to the open call.  Additionally, if you have constructed your bag with <span class="anchor" id="line-65"></span>a time_scale, the Player will scale the duration beween subsequent <span class="anchor" id="line-66"></span>messages appropriately. For example, supposing your bag contains 3 <span class="anchor" id="line-67"></span>messages with times: 30, 40, 50.  If start_time is specified as 100 <span class="anchor" id="line-68"></span>and time_scale is specified as 5, the shifted/scaled times passed into your callback <span class="anchor" id="line-69"></span>would be 100, 102, 104. <span class="anchor" id="line-70"></span><span class="anchor" id="line-71"></span><p class="line867"><strong>Example:</strong> Iterating through a bag file programmatically <span class="anchor" id="line-72"></span><ul><li style="list-style-type:none"><span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span><span class="anchor" id="line-75"></span><span class="anchor" id="line-76"></span><span class="anchor" id="line-77"></span><span class="anchor" id="line-78"></span><span class="anchor" id="line-79"></span><span class="anchor" id="line-80"></span><span class="anchor" id="line-81"></span><span class="anchor" id="line-82"></span><span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span><span class="anchor" id="line-85"></span><span class="anchor" id="line-86"></span><span class="anchor" id="line-87"></span><span class="anchor" id="line-88"></span><span class="anchor" id="line-89"></span><span class="anchor" id="line-90"></span><span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span><span class="anchor" id="line-93"></span><span class="anchor" id="line-94"></span><span class="anchor" id="line-95"></span><span class="anchor" id="line-96"></span><span class="anchor" id="line-97"></span><span class="anchor" id="line-98"></span><span class="anchor" id="line-99"></span><span class="anchor" id="line-100"></span><span class="anchor" id="line-101"></span><span class="anchor" id="line-102"></span><span class="anchor" id="line-103"></span><span class="anchor" id="line-104"></span><span class="anchor" id="line-105"></span><span class="anchor" id="line-106"></span><span class="anchor" id="line-107"></span><span class="anchor" id="line-108"></span><span class="anchor" id="line-109"></span><span class="anchor" id="line-110"></span><span class="anchor" id="line-111"></span><span class="anchor" id="line-112"></span><span class="anchor" id="line-113"></span><span class="anchor" id="line-114"></span><span class="anchor" id="line-115"></span><span class="anchor" id="line-116"></span><span class="anchor" id="line-117"></span><span class="anchor" id="line-118"></span><span class="anchor" id="line-119"></span><span class="anchor" id="line-120"></span><span class="anchor" id="line-121"></span><span class="anchor" id="line-122"></span><span class="anchor" id="line-1-3"></span><div class="highlight cpp"><div class="codearea" dir="ltr" lang="en">
+<script type="text/javascript">
+document.write('<a href="#" onclick="return togglenumber(\'CA-badc96de3dbee31d4451172c906aeb1c702c5ec4\', 1, 1);" \
+                class="codenumbers">Toggle line numbers<\/a>');
+</script>
+<pre dir="ltr" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4" lang="en"><span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_1">   1</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_1"></span><span class="anchor" id="line-1-4"></span><span class="Preprc">#</span><span class="Preprc">include "ros</span><span class="Preprc">/</span><span class="Preprc">ros.h"</span><span class="Preprc"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_2">   2</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_2"></span><span class="anchor" id="line-2-2"></span><span class="Preprc"></span><span class="Preprc">#</span><span class="Preprc">include &lt;string&gt;</span><span class="Preprc"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_3">   3</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_3"></span><span class="anchor" id="line-3-2"></span><span class="Preprc"></span><span class="Preprc">#</span><span class="Preprc">include "rosrecord</span><span class="Preprc">/</span><span class="Preprc">Player.h"</span><span class="Preprc"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_4">   4</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_4"></span><span class="anchor" id="line-4-2"></span><span class="Preprc"></span><span class="Preprc">#</span><span class="Preprc">include "rosrecord</span><span class="Preprc">/</span><span class="Preprc">AnyMsg.h"</span><span class="Preprc"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_5">   5</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_5"></span><span class="anchor" id="line-5-2"></span><span class="Preprc"></span><span class="Preprc">#</span><span class="Preprc">include "std_msgs</span><span class="Preprc">/</span><span class="Preprc">String.h"</span><span class="Preprc"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_6">   6</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_6"></span><span class="anchor" id="line-6-2"></span><span class="Preprc"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_7">   7</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_7"></span><span class="anchor" id="line-7-2"></span><span class="Comment">// Generic callback to be invoked for any message</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_8">   8</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_8"></span><span class="anchor" id="line-8-2"></span><span class="Comment"></span><span class="ResWord">void</span> <span class="ID">all_handler</span>(<span class="ID">std</span>::<span class="ID">string</span> <span class="ID">name</span>,         <span class="Comment">// Topic name</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_9">   9</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_9"></span><span class="anchor" id="line-9-2"></span><span class="Comment"></span>                 <span class="ID">ros</span>::<span class="ID">Message</span>* <span class="ID">m</span>,          <span class="Comment">// Message pointer</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_10">  10</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_10"></span><span class="anchor" id="line-10-2"></span><span class="Comment"></span>                 <span class="ID">ros</span>::<span class="ID">Time</span> <span class="ID">t</span>,              <span class="Comment">// Shifted and scaled time</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_11">  11</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_11"></span><span class="anchor" id="line-11-2"></span><span class="Comment"></span>                 <span class="ID">ros</span>::<span class="ID">Time</span> <span class="ID">t_orig</span>,         <span class="Comment">// Message timestamp</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_12">  12</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_12"></span><span class="anchor" id="line-12-2"></span><span class="Comment"></span>                 <span class="ResWord">void</span>* <span class="ID">n</span>)                  <span class="Comment">// Void pointer     </span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_13">  13</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_13"></span><span class="anchor" id="line-13-2"></span><span class="Comment"></span>{</span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_14">  14</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_14"></span><span class="anchor" id="line-14-2"></span>  <span class="Comment">// Do something that doesn't require understanding the message contents</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_15">  15</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_15"></span><span class="anchor" id="line-15-2"></span><span class="Comment"></span>}</span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_16">  16</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_16"></span><span class="anchor" id="line-16-2"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_17">  17</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_17"></span><span class="anchor" id="line-17-2"></span><span class="ResWord">void</span> <span class="ID">string_handler</span>(<span class="ID">std</span>::<span class="ID">string</span> <span class="ID">name</span>,      <span class="Comment">// Topic name       </span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_18">  18</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_18"></span><span class="anchor" id="line-18-1"></span><span class="Comment"></span>                    <span class="ID">std_msgs</span>::<span class="ID">String</span>* <span class="ID">str</span>, <span class="Comment">// Message pointer  </span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_19">  19</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_19"></span><span class="anchor" id="line-19-1"></span><span class="Comment"></span>                    <span class="ID">ros</span>::<span class="ID">Time</span> <span class="ID">t</span>,           <span class="Comment">// Shifted and scaled time     </span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_20">  20</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_20"></span><span class="anchor" id="line-20-1"></span><span class="Comment"></span>                    <span class="ID">ros</span>::<span class="ID">Time</span> <span class="ID">t_orig</span>,      <span class="Comment">// Message timestamp</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_21">  21</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_21"></span><span class="anchor" id="line-21-1"></span><span class="Comment"></span>                    <span class="ResWord">void</span>* <span class="ID">n</span>)               <span class="Comment">// Void pointer     </span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_22">  22</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_22"></span><span class="anchor" id="line-22-1"></span><span class="Comment"></span>{</span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_23">  23</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_23"></span><span class="anchor" id="line-23-1"></span>  <span class="Comment">// Do something with the std_msgs::String</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_24">  24</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_24"></span><span class="anchor" id="line-24-1"></span><span class="Comment"></span>}</span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_25">  25</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_25"></span><span class="anchor" id="line-25-1"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_26">  26</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_26"></span><span class="anchor" id="line-26-1"></span><span class="ResWord">int</span> <span class="ID">main</span>(<span class="ResWord">int</span> <span class="ID">argc</span>, <span class="ResWord">char</span> **<span class="ID">argv</span>)</span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_27">  27</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_27"></span><span class="anchor" id="line-27-1"></span>{</span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_28">  28</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_28"></span><span class="anchor" id="line-28-1"></span>  <span class="ID">ros</span>::<span class="ID">record</span>::<span class="ID">Player</span> <span class="ID">player</span>;</span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_29">  29</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_29"></span><span class="anchor" id="line-29-1"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_30">  30</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_30"></span><span class="anchor" id="line-30-1"></span>  <span class="ResWord">if</span> (<span class="ID">player</span>.<span class="ID">open</span>(<span class="ID">std</span>::<span class="ID">string</span>(<span class="String">"</span><span class="String">my.bag</span><span class="String">"</span>), <span class="ID">ros</span>::<span class="ID">Time</span>()))</span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_31">  31</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_31"></span><span class="anchor" id="line-31-1"></span>  {</span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_32">  32</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_32"></span><span class="anchor" id="line-32-1"></span>    <span class="ID">player</span>.<span class="ID">addHandler</span>&lt;<span class="ID">AnyMsg</span>&gt;(<span class="ID">std</span>::<span class="ID">string</span>(<span class="String">"</span><span class="String">*</span><span class="String">"</span>), <span class="Comment">// Topic name</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_33">  33</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_33"></span><span class="anchor" id="line-33-1"></span><span class="Comment"></span>                              &amp;<span class="ID">all_handler</span>,     <span class="Comment">// Handler</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_34">  34</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_34"></span><span class="anchor" id="line-34-1"></span><span class="Comment"></span>                              <span class="ResWord">NULL</span>,             <span class="Comment">// void*</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_35">  35</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_35"></span><span class="anchor" id="line-35-1"></span><span class="Comment"></span>                              <span class="ConsWord">false</span>);           <span class="Comment">// Don't deserialize</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_36">  36</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_36"></span><span class="anchor" id="line-36-1"></span><span class="Comment"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_37">  37</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_37"></span><span class="anchor" id="line-37-1"></span>    <span class="Comment">// NOTE: serialization is required by the signature of the</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_38">  38</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_38"></span><span class="anchor" id="line-38-1"></span><span class="Comment"></span>    <span class="Comment">// handler above</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_39">  39</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_39"></span><span class="anchor" id="line-39-1"></span><span class="Comment"></span>    <span class="ID">player</span>.<span class="ID">addHandler</span>&lt;<span class="ID">std_msgs</span>::<span class="ID">String</span>&gt;(<span class="ID">std</span>::<span class="ID">string</span>(<span class="String">"</span><span class="String">chatter</span><span class="String">"</span>),</span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_40">  40</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_40"></span><span class="anchor" id="line-40-1"></span>                                        &amp;<span class="ID">string_handler</span>,</span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_41">  41</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_41"></span><span class="anchor" id="line-41-1"></span>                                        <span class="ResWord">NULL</span>);</span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_42">  42</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_42"></span><span class="anchor" id="line-42-1"></span>  }</span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_43">  43</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_43"></span><span class="anchor" id="line-43-1"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_44">  44</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_44"></span><span class="anchor" id="line-44-1"></span>  <span class="Comment">// Spin until we have consumed the bag</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_45">  45</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_45"></span><span class="anchor" id="line-45-1"></span><span class="Comment"></span>  <span class="ResWord">while</span>(<span class="ID">player</span>.<span class="ID">nextMsg</span>())  {}</span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_46">  46</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_46"></span><span class="anchor" id="line-46-1"></span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_47">  47</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_47"></span><span class="anchor" id="line-47-1"></span>  <span class="ResWord">return</span> <span class="Number">0</span>;</span>
+<span class="line"><span class="LineNumber"><a href="#CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_48">  48</a> </span><span class="LineAnchor" id="CA-badc96de3dbee31d4451172c906aeb1c702c5ec4_48"></span><span class="anchor" id="line-48-1"></span>}</span>
+</pre></div></div><span class="anchor" id="line-123"></span><span class="anchor" id="line-124"></span><span class="anchor" id="line-125"></span><span class="anchor" id="line-126"></span></li></ul><p class="line862">For more information see the <a class="http" href="http://www.ros.org/doc/api/rosrecord/html/c++/classros_1_1record_1_1Player.html">C++ Code API</a>. <span class="anchor" id="line-127"></span><span class="anchor" id="line-128"></span><p class="line867">
+<h3 id="rosrecord.py">rosrecord.py</h3>
+<span class="anchor" id="line-129"></span><span class="anchor" id="line-130"></span><p class="line862">The <tt class="backtick">rosrecord</tt> module provides a simple API for iterating through messages in a bag file. By default, it will automatically deserialize each message for you into the appropriate <tt class="backtick">Message</tt> instance. For higher performance, it can also operate in 'raw' mode, which returns the serialized bytes for each message. <span class="anchor" id="line-131"></span><span class="anchor" id="line-132"></span><p class="line874">Iterating over messages: <span class="anchor" id="line-133"></span><ul><li style="list-style-type:none"><span class="anchor" id="line-134"></span><span class="anchor" id="line-135"></span><span class="anchor" id="line-136"></span><span class="anchor" id="line-137"></span><span class="anchor" id="line-1-5"></span><div class="highlight python"><div class="codearea" dir="ltr" lang="en">
+<script type="text/javascript">
+document.write('<a href="#" onclick="return togglenumber(\'CA-17a064927955f1c91c158446b834c0b9d64c378b\', 1, 1);" \
+                class="codenumbers">Toggle line numbers<\/a>');
+</script>
+<pre dir="ltr" id="CA-17a064927955f1c91c158446b834c0b9d64c378b" lang="en"><span class="line"><span class="LineNumber"><a href="#CA-17a064927955f1c91c158446b834c0b9d64c378b_1">   1</a> </span><span class="LineAnchor" id="CA-17a064927955f1c91c158446b834c0b9d64c378b_1"></span><span class="anchor" id="line-1-6"></span><span class="ResWord">from</span> <span class="ID">ros</span> <span class="ResWord">import</span> <span class="ID">rosrecord</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-17a064927955f1c91c158446b834c0b9d64c378b_2">   2</a> </span><span class="LineAnchor" id="CA-17a064927955f1c91c158446b834c0b9d64c378b_2"></span><span class="anchor" id="line-2-3"></span><span class="ResWord">for</span> <span class="ID">topic</span>, <span class="ID">msg</span>, <span class="ID">t</span> <span class="ResWord">in</span> <span class="ID">rosrecord</span>.<span class="ID">logplayer</span>(<span class="String">'</span><span class="String">input.bag</span><span class="String">'</span>):</span>
+<span class="line"><span class="LineNumber"><a href="#CA-17a064927955f1c91c158446b834c0b9d64c378b_3">   3</a> </span><span class="LineAnchor" id="CA-17a064927955f1c91c158446b834c0b9d64c378b_3"></span><span class="anchor" id="line-3-3"></span>  <span class="ResWord">print</span> <span class="ID">topic</span>, <span class="ID">msg</span>, <span class="ID">t</span></span>
+</pre></div></div><span class="anchor" id="line-138"></span><span class="anchor" id="line-139"></span></li></ul><p class="line874">Rebagging messages: <span class="anchor" id="line-140"></span><ul><li style="list-style-type:none"><span class="anchor" id="line-141"></span><span class="anchor" id="line-142"></span><span class="anchor" id="line-143"></span><span class="anchor" id="line-1-7"></span><div class="highlight python"><div class="codearea" dir="ltr" lang="en">
+<script type="text/javascript">
+document.write('<a href="#" onclick="return togglenumber(\'CA-45a5dda997fa119383dbb2796ae5d1f5d0e7108c\', 1, 1);" \
+                class="codenumbers">Toggle line numbers<\/a>');
+</script>
+<pre dir="ltr" id="CA-45a5dda997fa119383dbb2796ae5d1f5d0e7108c" lang="en"><span class="line"><span class="LineNumber"><a href="#CA-45a5dda997fa119383dbb2796ae5d1f5d0e7108c_1">   1</a> </span><span class="LineAnchor" id="CA-45a5dda997fa119383dbb2796ae5d1f5d0e7108c_1"></span><span class="anchor" id="line-1-8"></span><span class="ResWord">from</span> <span class="ID">ros</span> <span class="ResWord">import</span> <span class="ID">rosrecord</span></span>
+<span class="line"><span class="LineNumber"><a href="#CA-45a5dda997fa119383dbb2796ae5d1f5d0e7108c_2">   2</a> </span><span class="LineAnchor" id="CA-45a5dda997fa119383dbb2796ae5d1f5d0e7108c_2"></span><span class="anchor" id="line-2-4"></span><span class="ID">rosrecord</span>.<span class="ID">rebag</span>(<span class="String">'</span><span class="String">input.bag</span><span class="String">'</span>, <span class="String">'</span><span class="String">modified.bag</span><span class="String">'</span>, <span class="ResWord">lambda</span> <span class="ID">topic</span>, <span class="ID">msg</span>, <span class="ID">t</span>: <span class="ResWord">True</span>)</span>
+</pre></div></div><span class="anchor" id="line-144"></span><span class="anchor" id="line-145"></span></li></ul><p class="line862">For more information see the <a class="http" href="http://www.ros.org/doc/api/rosrecord/html/python/">Python Code API</a> <span class="anchor" id="line-146"></span><span class="anchor" id="line-147"></span><p class="line867">
+<h2 id="Bag_File_Maintenance">Bag File Maintenance</h2>
+<span class="anchor" id="line-148"></span><p class="line862">The following maintenance approaches should rarely be necessary except with particularly old bags.  Going forward, the <a href="/rosbag#fix">rosbag fix</a> command should be all that is necessary. <span class="anchor" id="line-149"></span><span class="anchor" id="line-150"></span><p class="line867">
+<h3 id="Updating_bag_files_after_a_msg_change">Updating bag files after a msg change</h3>
+<span class="anchor" id="line-151"></span><span class="anchor" id="line-152"></span><p class="line862">When messages change md5sums will change.  To update bags use the <a href="/rosbag#fix">rosbag fix</a> tool  <span class="anchor" id="line-153"></span><span class="anchor" id="line-154"></span><p class="line867">
+<h3 id="Fixing_md5sums_after_a_move_or_rename">Fixing md5sums after a move or rename</h3>
+<span class="anchor" id="line-155"></span><p class="line874">If you have moved or renamed a message but not changed the content, it is possible to convert old bag files to the new name.   <span class="anchor" id="line-156"></span>To do this you must generate a file with the old and new names as well as the old and new md5sums.   <span class="anchor" id="line-157"></span><span class="anchor" id="line-158"></span><span class="anchor" id="line-159"></span><pre><span class="anchor" id="line-1-9"></span>old/name OLDMD5 new/name NEWMD5</pre><span class="anchor" id="line-160"></span><span class="anchor" id="line-161"></span><p class="line862">It is up to the user to generate these.  I've attached an example file for our recent changes for ros release 0.4 <a class="attachment" href="/rosrecord?action=AttachFile&amp;do=view&amp;target=combined_md5s.fixed" title="">combined_md5s.fixed</a>  <span class="anchor" id="line-162"></span><span class="anchor" id="line-163"></span><p class="line874">To generate this we used a combination of checking out old versions of the messages in their old position and the roslib script  <span class="anchor" id="line-164"></span><span class="anchor" id="line-165"></span><span class="anchor" id="line-166"></span><pre><span class="anchor" id="line-1-10"></span>roslib/scripts/gendeps.py -m "message/filename.msg"</pre><span class="anchor" id="line-167"></span><p class="line874">This will return the md5sum for that message (it is not necessary for the messages to have been autogenerated) <span class="anchor" id="line-168"></span><span class="anchor" id="line-169"></span><p class="line874">Use this file with the script  <span class="anchor" id="line-170"></span><span class="anchor" id="line-171"></span><span class="anchor" id="line-172"></span><pre><span class="anchor" id="line-1-11"></span>rosrecord/scripts/fixed_moved_messages.py combined_md5s.fixed old.bag new.bag</pre><span class="anchor" id="line-173"></span><span class="anchor" id="line-174"></span><span class="anchor" id="line-175"></span><p class="line867">
+<h3 id="Fixing_bag_ordering">Fixing bag ordering</h3>
+<span class="anchor" id="line-176"></span><p class="line874">When logging incoming messages are buffered but there is a race condition for getting a lock on the output file.  Depending on how things work out this may mean that the order of items in the bag is out of order(up to seconds off, which can't be easily buffered).  There is a script bagsort.py which will sort the bag to be in chronological order.  This will get rid of dropped packets due to this.   <span class="anchor" id="line-177"></span><span class="anchor" id="line-178"></span><p class="line867"><span class="anchor" id="line-179"></span><span class="anchor" id="line-180"></span><pre><span class="anchor" id="line-1-12"></span>rosrecord/scripts/bagsort.py old.bag new.bag</pre><span class="anchor" id="line-181"></span><span class="anchor" id="line-182"></span><p class="line867">
+<h3 id="ROS_0.6:_Fixing_md5sums_after_the_md5sum_algorithm_has_been_changed">ROS 0.6: Fixing md5sums after the md5sum algorithm has been changed</h3>
+<span class="anchor" id="line-183"></span><span class="anchor" id="line-184"></span><p class="line862">ROS 0.6 included a change to the md5sum generation algorithm.  This, unfortunately, breaks all current bags in the system.  To bring your bags up to date use the python script: <tt>fix_md5sums.py</tt> in the rosrecord package. <span class="anchor" id="line-185"></span><span class="anchor" id="line-186"></span><p class="line874">The standard invocation is: <span class="anchor" id="line-187"></span><span class="anchor" id="line-188"></span><span class="anchor" id="line-189"></span><pre><span class="anchor" id="line-1-13"></span>rosrun rosrecord fix_md5sums.py mybagfile.bag</pre><span class="anchor" id="line-190"></span><p class="line862">When this completes, <tt>mybagfile.bag</tt> will have the new md5sum, and the original will be stored in <tt>mybagfile.bag.old</tt> <span class="anchor" id="line-191"></span><span class="anchor" id="line-192"></span><p class="line874">Other useful invocations are: <span class="anchor" id="line-193"></span><span class="anchor" id="line-194"></span><span class="anchor" id="line-195"></span><pre><span class="anchor" id="line-1-14"></span>rosrun rosrecord fix_md5sums.py *.bag</pre><span class="anchor" id="line-196"></span><span class="anchor" id="line-197"></span><p class="line867"><span class="anchor" id="line-198"></span><span class="anchor" id="line-199"></span><pre><span class="anchor" id="line-1-15"></span>find . -name *.bag | xargs rosrun rosrecord fix_md5sums.py</pre><span class="anchor" id="line-200"></span><span class="anchor" id="line-201"></span><p class="line874">(NOTE: you may have to chmod the fix_md5sums.py file so that it is executable before you can rosrun it) <span class="anchor" id="line-202"></span><span class="anchor" id="line-203"></span><p class="line867">
+<h2 id="Technical_Details">Technical Details</h2>
+<span class="anchor" id="line-204"></span><span class="anchor" id="line-205"></span><p class="line862">Please see <a href="/Bags/Format">bag format</a>. <span class="anchor" id="line-206"></span><span class="anchor" id="line-207"></span><p class="line867">
+<h2 id="Command-Line_Tools">Command-Line Tools</h2>
+<span class="anchor" id="line-208"></span><p class="line862">The following command-line tools are being phased out.  Please try to avoid using them.  Instead use the corresponding <a href="/rosbag">rosbag</a> utilities. <span class="anchor" id="line-209"></span><span class="anchor" id="line-210"></span><p class="line867">
+<h3 id="rosrecord-1">rosrecord</h3>
+<span class="anchor" id="line-211"></span><p class="line862">This command has been replaced by <a href="/rosbag#record">rosbag record</a> <span class="anchor" id="line-212"></span><span class="anchor" id="line-213"></span><p class="line867"><span class="anchor" id="line-214"></span><span class="anchor" id="line-215"></span><span class="anchor" id="line-216"></span><span class="anchor" id="line-217"></span><span class="anchor" id="line-218"></span><span class="anchor" id="line-219"></span><span class="anchor" id="line-220"></span><span class="anchor" id="line-221"></span><span class="anchor" id="line-222"></span><span class="anchor" id="line-223"></span><span class="anchor" id="line-224"></span><span class="anchor" id="line-225"></span><span class="anchor" id="line-226"></span><span class="anchor" id="line-227"></span><pre><span class="anchor" id="line-1-16"></span>Usage: rosrecord [options] TOPIC1 [TOPIC2 TOPIC3...]
+<span class="anchor" id="line-2-5"></span>  rosrecord logs ROS message data to a file.
+<span class="anchor" id="line-3-4"></span>Options:
+<span class="anchor" id="line-4-3"></span> -c &lt;num&gt;    : Only receive &lt;num&gt; messages on each topic
+<span class="anchor" id="line-5-3"></span> -f &lt;prefix&gt; : Prepend file prefix to beginning of bag name (name will always end with date stamp)
+<span class="anchor" id="line-6-3"></span> -F &lt;fname&gt;  : Record to a file named exactly &lt;fname&gt;.bag
+<span class="anchor" id="line-7-3"></span> -a          : Record all published messages.
+<span class="anchor" id="line-8-3"></span> -v          : Display a message every time a message is received on a topic
+<span class="anchor" id="line-9-3"></span> -m          : Maximize internal buffer size in MB (Default: 256MB)  0 = infinite.
+<span class="anchor" id="line-10-3"></span> -s          : (EXPERIMENTAL) Enable snapshot recording (don't write to file unless triggered)
+<span class="anchor" id="line-11-3"></span> -t          : (EXPERIMENTAL) Trigger snapshot recording
+<span class="anchor" id="line-12-3"></span> -h          : Display this help message</pre><span class="anchor" id="line-228"></span><span class="anchor" id="line-229"></span><p class="line867"><tt class="backtick">rosrecord</tt> will generate a ".bag" file (so named for historical reasons) with the contents of all topics that you pass to it.  The file simply contains interlaced, serialized ros messages dumped directly to a single file as they come in over the wire.  This is the most performance and disk-friendly recording format possible.  If you are recording messages at a high-bandwidth, such as from cameras, it is strongly recommended you run rosrecord on the same machine as the camera, and specify the file destination as being on the local machine disk. <span class="anchor" id="line-230"></span><span class="anchor" id="line-231"></span><p class="line862">If you run <tt class="backtick">rosrecord</tt> with the "-a" option, it will attempt to record ALL messages available in the system.  However, since this information requires polling the master periodically, it will likely miss the first several messages published on any topic. <span class="anchor" id="line-232"></span><span class="anchor" id="line-233"></span><p class="line862">As of ROS-0.10, rosrecord contains an experimental snapshot recorder.  This will keep a rolling buffer (the size of the maximum internal buffer), which can be triggered by calling <tt>rosrecord&nbsp;-t</tt>.  The API for using rosrecord in snapshot mode will likely change in ROS-0.11 based on feedback about 0.10.  <span class="anchor" id="line-234"></span><span class="anchor" id="line-235"></span><p class="line867"><tt class="backtick">rosrecord</tt> is installed to the <tt>$ROS_ROOT/bin</tt> directory and so can be used without needing rosrun. <span class="anchor" id="line-236"></span><span class="anchor" id="line-237"></span><p class="line867">
+<h4 id="Example_usages">Example usages</h4>
+<span class="anchor" id="line-238"></span><ul><li>Record all messages in the system. <span class="anchor" id="line-239"></span><span class="anchor" id="line-240"></span><span class="anchor" id="line-241"></span><pre><span class="anchor" id="line-1-17"></span>rosrecord -a</pre><span class="anchor" id="line-242"></span><span class="anchor" id="line-243"></span></li><li class="gap"><p class="line862">Record all messages on the topics <tt class="backtick">chatter</tt> and <tt class="backtick">babble</tt> <span class="anchor" id="line-244"></span><span class="anchor" id="line-245"></span><span class="anchor" id="line-246"></span><pre><span class="anchor" id="line-1-18"></span>rosrecord chatter babble</pre><span class="anchor" id="line-247"></span><span class="anchor" id="line-248"></span><span class="anchor" id="line-249"></span></li></ul><p class="line867">
+<h3 id="rosplay">rosplay</h3>
+<span class="anchor" id="line-250"></span><p class="line862">This command has been replaced by <a href="/rosbag#play">rosbag play</a> and <a href="/rosbag#info">rosbag info</a> <span class="anchor" id="line-251"></span><span class="anchor" id="line-252"></span><p class="line867"><span class="anchor" id="line-253"></span><span class="anchor" id="line-254"></span><span class="anchor" id="line-255"></span><span class="anchor" id="line-256"></span><span class="anchor" id="line-257"></span><span class="anchor" id="line-258"></span><span class="anchor" id="line-259"></span><span class="anchor" id="line-260"></span><span class="anchor" id="line-261"></span><span class="anchor" id="line-262"></span><span class="anchor" id="line-263"></span><pre><span class="anchor" id="line-1-19"></span>usage: rosplay [-a][-p][-t &lt;sec&gt;] BAG1 [BAG2]
+<span class="anchor" id="line-2-6"></span> -c     check the contents of the bag without playing back
+<span class="anchor" id="line-3-5"></span> -a     playback all messages without waiting
+<span class="anchor" id="line-4-4"></span> -p     start in paused mode
+<span class="anchor" id="line-5-4"></span> -s sec sleep &lt;sec&gt; sleep duration after every advertise call (to allow subscribers to connect)
+<span class="anchor" id="line-6-4"></span> -t     start &lt;sec&gt; seconds into the files
+<span class="anchor" id="line-7-4"></span> -b     publish the time at which the bag was recorded on the /time topic, at a frequency of &lt;freq&gt; Hz. 
+<span class="anchor" id="line-8-4"></span> -r     increase the publishing rate with a factor &lt;rate_change&gt;
+<span class="anchor" id="line-9-4"></span> -q sz  Use an outgoing queue of size sz (defaults to 0)
+<span class="anchor" id="line-10-4"></span> -h     display this help message</pre><span class="anchor" id="line-264"></span><p class="line867"><tt class="backtick">rosplay</tt> will take the contents of 1 or more bag file, and play them back in a time-synchronized fashion.  Time synchronization occurs based on the global time-stamps at which messages were received.  Playing will begin immediately, and then future messages will be published according to the relative offset times.  If two separate bag files are used, they are treated as a single bag with interlaced times according to the timestamps.  This means if you record 1 bag, wait an hour, and record a second bag, when you play them back together you will have an hour-long dead period in the middle of your playback. <span class="anchor" id="line-265"></span><span class="anchor" id="line-266"></span><p class="line874">If you do not want to observe playback timing, the "-a" option will playback all messages from the file as fast as possible.  Note that for large files this will often lead to exceeding your incoming buffers. <span class="anchor" id="line-267"></span><span class="anchor" id="line-268"></span><p class="line874">Additionally, during playing, you can pause at any time by hitting space.  When paused, you can step through messages by pressing s. <span class="anchor" id="line-269"></span><span class="anchor" id="line-270"></span><p class="line874">To check the contents of a bag, run with the "-c" option.  This will not play back the logfile, but will instead determine the count of each type of message in the file. <span class="anchor" id="line-271"></span><span class="anchor" id="line-272"></span><p class="line867"><tt class="backtick">rosplay</tt> is installed to the <tt>$ROS_ROOT/bin</tt> directory and so can be used without needing rosrun. <span class="anchor" id="line-273"></span><span class="anchor" id="line-274"></span><p class="line874">Example usage: <span class="anchor" id="line-275"></span><span class="anchor" id="line-276"></span><span class="anchor" id="line-277"></span><span class="anchor" id="line-278"></span><span class="anchor" id="line-279"></span><pre><span class="anchor" id="line-1-20"></span>rosplay demo_log.bag
+<span class="anchor" id="line-2-7"></span>rosplay topics1.bag topics2.bag
+<span class="anchor" id="line-3-6"></span>rosplay -a demo_log.bag</pre><span class="anchor" id="line-280"></span><span class="anchor" id="line-281"></span><span class="anchor" id="line-282"></span><p class="line867">
+<h3 id="rosrebag">rosrebag</h3>
+<span class="anchor" id="line-283"></span><p class="line862">This command has been replaced by <a href="/rosbag#filter">rosbag filter</a> <span class="anchor" id="line-284"></span><span class="anchor" id="line-285"></span><span class="anchor" id="line-286"></span><p class="line867"><tt class="backtick">rosrebag</tt> is a command-line tool for converting bag files using Python expressions. The Python expression can access any of the Python builtins plus: <span class="anchor" id="line-287"></span><ul><li><p class="line891"><tt class="backtick">topic</tt>: the topic of the message <span class="anchor" id="line-288"></span></li><li><p class="line891"><tt class="backtick">m</tt>: the message <span class="anchor" id="line-289"></span></li><li><p class="line891"><tt class="backtick">t</tt>: time of message. The time is represented as a <a href="/rospy">rospy</a> <a class="http" href="http://pr.willowgarage.com/pr-docs/ros-packages/rospy/html/classrospy_1_1msg_1_1Time.html">Time</a> object (<tt class="backtick">t.secs</tt>, <tt class="backtick">t.nsecs</tt>) <span class="anchor" id="line-290"></span><span class="anchor" id="line-291"></span></li></ul><p class="line867"><span class="anchor" id="line-292"></span><span class="anchor" id="line-293"></span><span class="anchor" id="line-294"></span><span class="anchor" id="line-295"></span><span class="anchor" id="line-296"></span><span class="anchor" id="line-297"></span><span class="anchor" id="line-298"></span><span class="anchor" id="line-299"></span><pre><span class="anchor" id="line-1-21"></span>Usage: rosrebag in.bag out.bag filter-expression
+<span class="anchor" id="line-2-8"></span>
+<span class="anchor" id="line-3-7"></span>filter-expression can be any Python-legal expression.
+<span class="anchor" id="line-4-5"></span>The following variables are available:
+<span class="anchor" id="line-5-5"></span> * topic: name of topic
+<span class="anchor" id="line-6-5"></span> * m: message
+<span class="anchor" id="line-7-5"></span> * t: time of message (t.secs, t.nsecs)</pre><span class="anchor" id="line-300"></span><span class="anchor" id="line-301"></span><p class="line874">Example: <span class="anchor" id="line-302"></span><span class="anchor" id="line-303"></span><p class="line867"><span class="anchor" id="line-304"></span><span class="anchor" id="line-305"></span><pre><span class="anchor" id="line-1-22"></span>rosrebag chatter.bag rebag.bag "'1' in m.data"</pre><span class="anchor" id="line-306"></span><span class="anchor" id="line-307"></span><p class="line874">In order to test the filter pattern that you pass in, you can also pass in a print expression. For example: <span class="anchor" id="line-308"></span><span class="anchor" id="line-309"></span><p class="line867"><span class="anchor" id="line-310"></span><span class="anchor" id="line-311"></span><pre><span class="anchor" id="line-1-23"></span>rosrebag --print "m.data" chatter.bag rebag.bag "'1' in m.data"</pre><span class="anchor" id="line-312"></span><span class="anchor" id="line-313"></span><p class="line874">Example output: <span class="anchor" id="line-314"></span><span class="anchor" id="line-315"></span><span class="anchor" id="line-316"></span><span class="anchor" id="line-317"></span><span class="anchor" id="line-318"></span><span class="anchor" id="line-319"></span><span class="anchor" id="line-320"></span><span class="anchor" id="line-321"></span><pre><span class="anchor" id="line-1-24"></span>NO MATCH hello world 68
+<span class="anchor" id="line-2-9"></span>NO MATCH hello world 69
+<span class="anchor" id="line-3-8"></span>NO MATCH hello world 70
+<span class="anchor" id="line-4-6"></span>MATCH hello world 71
+<span class="anchor" id="line-5-6"></span>NO MATCH hello world 72
+<span class="anchor" id="line-6-6"></span>NO MATCH hello world 73</pre><span class="anchor" id="line-322"></span><span class="anchor" id="line-323"></span><span class="anchor" id="line-324"></span><span class="anchor" id="line-325"></span><span class="anchor" id="line-326"></span><p class="line867"><span class="anchor" id="line-327"></span><p class="line867"><span class="anchor" id="line-328"></span><p class="line867"><span class="anchor" id="line-329"></span><span class="anchor" id="bottom"></span></div></div>
+<div id="pagebottom"></div>
+</div>
+
+<p id="pageinfo" class="info" lang="en" dir="ltr">Wiki: rosrecord  (last edited 2011-07-16 22:19:49 by <span title="KenConley @ c-67-188-178-53.hsd1.ca.comcast.net[67.188.178.53]"><a href="/KenConley" title="KenConley @ c-67-188-178-53.hsd1.ca.comcast.net[67.188.178.53]">KenConley</a></span>)</p>
+
+
+
+
+<div style="margin-top: 9px;" class="footer">
+Except where otherwise noted, the ROS wiki is licensed under the <br /><a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a> | <a href="https://plus.google.com/113789706402978299308" rel="publisher">Find us on Google+</a>
+<hr style="margin-top: 10px;">
+<div class="row">
+  <div class="col-md-4 col-md-offset-4">
+<a href="http://www.osrfoundation.org"><img style="margin-top: -1px;" src="/custom/images/brought_by_horiz.png"></p></a>
+  </div>
+</div>
+</div>
+
+  </div></div> <!-- /#dpage-inner, /#dpage -->
+
+
+</body>
+</html>
+
+FÎ¸'x˜      Yýù„Yýù„>`µ
+           :http://wiki.ros.org/rosrecord necko:classified 1 request-method GET request-Cookie Yg2KeeR39tP1j3HM8xQEC9F/0CM= request-User-Agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0 request-Accept-Language en-US,en;q=0.5 response-head HTTP/1.1 200 OK
+Date: Sat, 04 Nov 2017 17:31:48 GMT
+Server: Apache
+Vary: Cookie,User-Agent,Accept-Language
+Content-Length: 85134
+Content-Type: text/html; charset=utf-8
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 16 predictor::http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css 1,1,1509816708,0 predictor::http://code.jquery.com/jquery-1.11.0.min.js 1,1,1509816708,0 predictor::http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js 1,1,1509816708,0 predictor::http://wiki.ros.org/custom/js/sorttable.js 1,1,1509816708,0 predictor::http://wiki.ros.org/custom/libraries/jquery.min.js 1,1,1509816708,0 predictor::http://wiki.ros.org/custom/js/seesaw.js 1,1,1509816708,0 predictor::http://wiki.ros.org/custom/js/rosversion.js 1,1,1509816708,0 predictor::http://wiki.ros.org/moin_static197/common/js/common.js 1,1,1509816708,0 predictor::http://wiki.ros.org/moin_static197/rostheme/css/common.css 1,1,1509816708,0 predictor::http://wiki.ros.org/moin_static197/rostheme/css/screen.css 1,1,1509816708,0 predictor::http://wiki.ros.org/moin_static197/rostheme/css/print.css 1,1,1509816708,0 predictor::http://wiki.ros.org/moin_static197/rostheme/css/projection.css 1,1,1509816708,0 predictor::http://www.google-analytics.com/ga.js 1,1,1509816708,0 predictor::http://wiki.ros.org/moin_static197/rostheme/img/moin-attach.png 1,1,1509816708,0 predictor::https://js-agent.newrelic.com/nr-1044.min.js 1,1,1509816708,0 predictor::https://bam.nr-data.net/1/4c8610d177?a=3371695&v=1044.a6554e7&to=NFZaMEVUV0ZVBkBeCQ0cbRZeGktaRxdRVAkRVw%3D%3D&rst=618&ref=http://wiki.ros.org/rosrecord&ap=279&be=455&fe=608&dc=564&perf=%7B%22timing%22:%7B%22of%22:1509816708142,%22n%22:0,%22u%22:355,%22ue%22:358,%22f%22:2,%22dn%22:2,%22dne%22:2,%22c%22:2,%22ce%22:2,%22rq%22:3,%22rp%22:354,%22rpe%22:354,%22dl%22:355,%22di%22:550,%22ds%22:552,%22de%22:564,%22dc%22:605,%22l%22:605,%22le%22:608%7D,%22navigation%22:%7B%7D%7D&jsonp=NREUM.setToken 1,1,1509816708,0  LŽ

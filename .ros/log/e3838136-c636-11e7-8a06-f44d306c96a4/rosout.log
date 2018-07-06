@@ -1,0 +1,90 @@
+
+
+1510332470.893322802  Node Startup
+1510332470.832404187 INFO [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic_node.cpp:54(main) [topics: /rosout] Successfully connected to can0.
+1510332470.937853853 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Serial port: /dev/sensor-gps opened successfully.
+
+1510332470.972205256 INFO [/home/mdas/ros_ws/src/packages/usb_cams/nodes/usb_cam_node.cpp:138(UsbCamNode::UsbCamNode) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] Starting 'head_camera' (/dev/video0) at 640x480 via mmap (yuyv) at 10 FPS
+1510332471.897627892 WARN [/home/mdas/ros_ws/src/packages/usb_cams/src/usb_cam.cpp:1206(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] sh: 1: v4l2-ctl: not found
+
+1510332471.900383660 WARN [/home/mdas/ros_ws/src/packages/usb_cams/src/usb_cam.cpp:1206(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] sh: 1: v4l2-ctl: not found
+
+1510332471.938089765 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1510332472.586015991 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Found Novatel receiver.
+	Model: "WAASHPB"
+	Serial Number: "SAS06209044"
+	Hardware version: "LBg2-3.04-X2T"
+	Software version: "2.312"
+
+Receiver capabilities:
+	L2: -
+	Raw measurements: -
+	RTK: -
+	SPAN: -
+	GLONASS: -
+
+1510332472.586266291 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:491(run) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Requesting default GPS messages: BESTUTMB, BESTVELB
+1510332472.586428935 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Started read thread.
+1510332472.586588726 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] LOG BESTUTMB ONTIME 1.00
+
+1510332473.331226492 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] RECEIVED AN ACK.
+1510332473.331371242 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Ack received for requested log: BESTUTMB ONTIME 1.00
+1510332473.331468122 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] LOG BESTVELB ONTIME 1.00
+
+1510332474.101564906 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] RECEIVED AN ACK.
+1510332474.101711458 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Ack received for requested log: BESTVELB ONTIME 1.00
+1510332474.101835062 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] LOG PSRPOSB ONTIME 1.00
+
+1510332474.839830562 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] RECEIVED AN ACK.
+1510332474.839945291 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Ack received for requested log: PSRPOSB ONTIME 1.00
+1510332480.921723191 INFO [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:253(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Setting variant to (0, 1.000000)
+1510332480.921844307 WARN [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:266(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Unable to set scan angle. Using 180 instead of 0.
+1510332480.921880982 WARN [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:270(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Unable to set resolution. Using 5.000000e-01 instead of 1.000000e+00.
+1510332480.921920026 INFO [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:283(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Measuring units setup not requested or identical to actual ('Centimeters (cm)')
+1510332495.770842535 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:394(Recorder::startWriting) [topics: /rosout] Recording to 2017-11-10-11-48-15.bag.
+1510332542.582065872 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:394(Recorder::startWriting) [topics: /rosout] Recording to 2017-11-10-11-49-02.bag.
+1510333262.851051070 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:394(Recorder::startWriting) [topics: /rosout] Recording to 2017-11-10-12-01-02.bag.
+1510333775.047913835 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:394(Recorder::startWriting) [topics: /rosout] Recording to 2017-11-10-12-09-35.bag.
+1510334620.974412790 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:394(Recorder::startWriting) [topics: /rosout] Recording to 2017-11-10-12-23-40.bag.
+1510334865.060319551 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:394(Recorder::startWriting) [topics: /rosout] Recording to 2017-11-10-12-27-45.bag.
+1510334952.030526812 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:394(Recorder::startWriting) [topics: /rosout] Recording to 2017-11-10-12-29-12.bag.
+1510335113.394411729 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:394(Recorder::startWriting) [topics: /rosout] Recording to 2017-11-10-12-31-53.bag.
+1510335221.556189090 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:394(Recorder::startWriting) [topics: /rosout] Recording to 2017-11-10-12-33-41.bag.
+1510335336.726557504 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:394(Recorder::startWriting) [topics: /rosout] Recording to straight_2017-11-10-12-35-36.bag.
+1510335518.049694894 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /novatel_node/gps_fix_ecef
+1510335663.488707833 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:394(Recorder::startWriting) [topics: /rosout] Recording to arc2_2017-11-10-12-41-03.bag.
+1510335755.526500782 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:394(Recorder::startWriting) [topics: /rosout] Recording to arc3_2017-11-10-12-42-35.bag.
+1510335811.058876542 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:394(Recorder::startWriting) [topics: /rosout] Recording to arc4_2017-11-10-12-43-31.bag.
+1510335940.609589833 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:394(Recorder::startWriting) [topics: /rosout] Recording to tripback_2017-11-10-12-45-40.bag.
+1510336709.229053979 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /novatel_node/gps_fix_ecef
+1510336751.399802674 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:394(Recorder::startWriting) [topics: /rosout] Recording to tripback2_2017-11-10-12-59-11.bag.
+1510337231.304434759 ERROR [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:93(SocketCANToTopic::stateCallback) [topics: /rosout, /received_messages] Error: protocol violations;, asio: Success
+1510337231.304639156 ERROR [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:93(SocketCANToTopic::stateCallback) [topics: /rosout, /received_messages] Error: protocol violations;, asio: Success
+1510337231.304891668 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000020000000000
+1510337231.305373812 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.305452150 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.305522332 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.305584925 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.305656391 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.305727218 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.305791716 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.305884789 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.306082300 ERROR [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:93(SocketCANToTopic::stateCallback) [topics: /rosout, /received_messages] Error: controller problems;protocol violations;, asio: Success
+1510337231.306304028 ERROR [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:93(SocketCANToTopic::stateCallback) [topics: /rosout, /received_messages] Error: protocol violations;, asio: Success
+1510337231.306465382 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.306560350 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.306642657 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.306717579 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.306786130 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.306967282 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.307039968 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0030120000000000
+1510337231.307208467 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.307293105 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.307366686 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.307436325 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.307501197 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.307572453 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000120000000000
+1510337231.307748840 WARN [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic.cpp:68(SocketCANToTopic::frameCallback) [topics: /rosout, /received_messages] Received frame is error: 20000000#0000040000000000
+1510337452.296502471 ERROR [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:404(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Unknown error.
+1510337456.500862769 ERROR [/home/mdas/ros_ws/src/packages/usb_cams/src/usb_cam.cpp:63(errno_exit) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] VIDIOC_DQBUF error 19, No such device

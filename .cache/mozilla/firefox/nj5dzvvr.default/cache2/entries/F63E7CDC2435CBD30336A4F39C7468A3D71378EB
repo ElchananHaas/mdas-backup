@@ -1,0 +1,712 @@
+/* 
+ * ----------------------------------------------------------------------------
+ * 'gumax' style sheet for CSS2-capable browsers.
+ *       Loosely based on the monobook style
+ *
+ * @Version 3.1
+ * @Author Paul Y. Gu, <gu.paul@gmail.com>
+ * @Copyright paulgu.com 2006 - http://www.paulgu.com/
+ * @License: GPL (http://www.gnu.org/copyleft/gpl.html)
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+ * http://www.gnu.org/copyleft/gpl.html
+ *
+ * ----------------------------------------------------------------------------
+ */
+
+/* Basic Structure
+-----------------------------------------------------------------------------*/
+
+/**
+ ** Setting for the Website: font style, font size
+ **/ 
+
+    body, td, th, input, textarea, pre, h1, h2, h3, h4, h5, h6 { color: #222; }
+
+    body, td, th, input, textarea, pre {
+        font-family:  Verdana, Sans-serif, Arial, 'Trebuchet MS', 'Times New Roman'; 
+        }
+
+    body {
+        font-size: 11px;
+        margin: 0; padding: 0;
+        min-width:  740px;
+        }
+
+    /* content width, excluding shadow */
+    #gumax-page,
+    #gumax-page-actions,
+    #gumax-page-footer {
+		/* border:  1px solid #000; /* for testing */
+        max-width:  740px !important;  /* need for Firefox */
+        width:      740px;  /* need for IE6 win */
+		padding: 0 20px; /* 20px for page shadow width, real width is 780 */
+		margin:     0 auto;
+        }
+
+    body, #gumax-page-footer {
+        background: #fff;
+        /* background: transparent url('images/classic-gumaxbg.jpg') repeat; /* body background */
+        }
+    #gumax-header {
+        background: #000 url('images/logo.gif') left 25px no-repeat ; /* header background */
+        }
+    #gumax-page {
+        background: #fff;
+        /* background: transparent url('images/classic-gumaxbgwide.jpg') center top repeat-y; /* page side background */
+        }
+    #gumax-page-actions {
+        background: #fff;
+        /* background: transparent url('images/classic-gumaxfooter.jpg') center bottom no-repeat; /* footer background */
+        padding-bottom: 8px; /* 20px for page shadow width */
+        margin: 0 auto;
+        }
+
+
+/* 
+ * Don't display the Home title on Home page
+ */
+    .page-Home .firstHeading {
+        display: none;
+    }
+
+
+/* 
+ * main content style
+ */
+    #content,
+    #gumax-content {
+        border-top:    1px solid #ddd;
+        border-right:  1px solid #bbb;
+        border-left:   1px solid #bbb;
+        background: #f7f7f7; /* content background color */
+        /* border:  1px solid #ccc;  /* for testing */
+        }
+    #content,
+    #gumax-content {
+        margin: 0;
+        padding: 20px 35px 30px 35px;  /* margin of the main content */
+        position: relative !important; 
+        position: static; /* need for IE positioning problem */
+        z-index: 2;
+        clear: both;
+        color: black;
+        line-height: 1.4em; /* value other than 'normal' needed for WinIE */
+        overflow-x: visible;    /* need for Firefox, extreme long string :( */
+        }
+
+/* 
+ * content page title format 
+ */
+    #content .firstHeading,
+    #gumax-content .firstHeading { 
+        position: relative;
+        font-size: 150%;
+        color: #2277DD;
+        font-weight: bolder;
+        padding: 0 0 .2em 0;    /* position of the title */
+        border: none;    /* No border for page title */
+        text-transform: capitalize;
+        }
+
+    #bodyContent {
+        /* border:  1px solid #ddd;  /* for testing */
+        width: 100%;
+        }
+
+/* 
+ * AJax search style 
+ */
+    div#searchTargetContainer {
+        left:       0px;
+        top:        0px;
+        width:      100%;
+        background: white;
+    }
+
+    div#searchTarget {
+        padding:    10px;
+        margin:     5px;
+        background: #fefefe;
+        border:     solid 1px #FFCC00;
+    }
+
+    div#searchTarget h2 {
+        padding-top: 1em;
+        margin-bottom: .5em;
+    }
+
+    div#searchTarget a {
+        position: relative;
+        z-index: 300; /* fix the hide link button */
+    }
+
+/* Logo properties and style
+-----------------------------------------------------------------------------*/
+    #gumax-p-logo {
+        /* border:  1px solid #000; /* for testing */
+        /* background: transparent url("paulgulogo.png") center center no-repeat; */
+        display: none;
+        }
+
+    #gumax-p-logo,
+    #gumax-p-logo a, 
+    #gumax-p-logo a:hover { width:  180px; height: 72px; }
+
+    #gumax-p-logo {
+        z-index: 200;
+        position: absolute; /*needed to use z-index */
+        top:  25px;
+        left: 10px; /* left margin of the logo, which is same as content margin */
+        overflow: visible;
+        }
+    #gumax-p-logo h5 { display: none; }
+    #gumax-p-logo a,
+    #gumax-p-logo a:hover {
+        display: block;
+        background-repeat: no-repeat;
+        background-position: 35% 50% !important;
+        text-decoration: none;
+        }
+
+/* Header Style
+-----------------------------------------------------------------------------*/
+/* 
+** gumax-header 
+*/
+    #gumax-header {
+        /* border:  1px solid #000; /* for testing */
+        border-bottom:  2px solid #ddd;
+        }
+
+    #gumax-header {
+        /* background: #fff url("header_bg.gif") top left repeat-x; */
+        position: relative;
+        z-index: 100;     /* make logo visible over content*/
+        min-height: 202px; /* height of header */
+        height:     202px; /* need for IE */
+        margin: 0 auto;
+        padding: 0;
+        } 
+
+/* 
+** Login 
+*/
+    #gumax-p-login {
+        /* border:  1px solid #fff; /* for testing */
+        }
+
+    #gumax-p-login {
+        /* background: transparent url(user.gif) bottom left no-repeat; */
+        /* margin-left: 10px; /* left margin reserved for icon */
+        background: none;
+        margin-left: 0;
+        padding-left: 0;
+        text-transform: none;
+        }
+
+    #gumax-p-login {
+        position: absolute;
+        top: 0;    /* located at bottom right of header */
+        left: 0;  /* located at bottom right of header, same as content margin */
+        /* height:         20px; /* need for IE */
+        /* min-height:     20px;  */
+        }
+
+    #gumax-p-login ul {
+        position: relative;
+        width: auto;
+        list-style: none;
+        z-index: 90; /* below the H1 */
+        margin-left: 7px; /* left margin of the list */
+        }
+
+    #gumax-p-login li {
+        position: relative;
+        display: inline;    /* display in line  */
+        margin: 0;  
+        color: #777; /* color of "|" */
+        font-size: 90%; /* font size of items */
+        }
+    #gumax-p-login ul li a {
+        margin: 0;
+        padding: 0 2px; /* margin betwen items */
+        }
+
+/* 
+** Search 
+*/
+    #gumax-p-search {
+        /* border:  1px solid #CC6633; /* for testing */
+        }
+
+    #gumax-p-search {
+        position: absolute; 
+        z-index: 3;
+        right:0;        /* located at top right of header */
+        top: 5px;      /* located at top right of header */
+        }
+
+    #gumax-p-search .gumax-pBody,
+    #gumax-searchBody {
+        background: none;
+        /* border: 1px solid #000;;  /* testing */
+        position: relative;
+        padding: 0;
+        margin-right:  10px;   /* right side margin of search, same as content margin */
+        margin-top:  0;
+        text-align: left;    
+        white-space: nowrap;    /* for Opera */
+        }
+
+    #gumax-p-search form #searchInput {
+        font-size: 100%;
+        width: 8em;   /* text field width */
+        text-align: left;
+        vertical-align: middle;
+        border: 1px solid #F1ECE7; /* text field border style */
+        background: #FFFFEE; /* background color of the text field */
+        padding: 0;
+        margin: 0;   /* fix the position, align with button image */
+        }
+
+    #gumax-p-search form #searchGoButton,
+    #gumax-p-search form #mw-searchButton {
+        font-family: Verdana, Sans-serif, Arial;
+        vertical-align: middle;
+        background: #000; /* button background */
+        color: #ccc;  /* font color */
+        border: 1px outset #777; /* border: 1px inset #777; */
+        text-decoration: none;
+        }
+
+/* 
+** Navigation 
+*/
+    #gumax {
+        clear: both;
+        overflow: hidden;
+        white-space: nowrap;
+        border-collapse: collapse;
+        }
+    
+    #gumax-p-navigation-wrapper {
+        /* border: 1px solid red; /* for testing */
+        height: 25px;  /* for testing */
+        position: absolute;
+        bottom: 0;
+        left:   0;  /* located at the bottom of the header */
+        width: 100%;
+        }
+
+    #gumax-p-navigation ul {
+        background: #000; /* Mac blue: #98C8FF */
+        z-index: 90; /* below the H1 */
+        position: absolute;
+        bottom: 0;
+        left:   0;  /* located at the bottom of the header */
+        padding: 5px 0;   /* padding inside the tab */
+        margin-left: 1px; /* left margin of the main menu */
+        width: auto;
+        }
+
+    #gumax-p-navigation li {
+        position: relative; /* need for IE */
+        float: left; /* fix the gap between <li> list */
+        margin: 0;
+        padding: 0;
+        font-weight: bold; /* the font weight of '|' */
+        font-size: 100%;   /* the font size of the navigation menu */
+        color: #7FBAFF;    /* the font color of '|' */
+        list-style: none;
+        }
+
+    #gumax-p-navigation ul li a {
+        padding: 7px 15px 7px 15px; /* padding inside the tab */
+        margin: 0;
+        font-weight: bold;
+        position: relative; /* need for IE */
+        }
+
+/* table of content styles
+-----------------------------------------------------------------------------*/
+    #toc, .toc, .mw-warning {
+        font-size: 100%;
+        border: 1px solid #AAAAAA;
+        background-color: #FBFBFB;
+        padding: .5em;
+        margin-bottom: 1.2em;
+        }
+
+    #toc h2, .toc h2 { 
+        font-size: 110%;
+        border: none; 
+        margin: 0;  /* fix toc top margin */
+        padding-right: .2em; /* margin between title and hide/show link */
+        display: inline;  /* display the hide/show link after Contents */
+        }
+    
+    #toc #toctitle,
+    .toc #toctitle,
+    #toc .toctitle,
+    .toc .toctitle {
+        text-align: left; /* left adjust of title */
+        }
+
+    #toc ul, .toc ul {
+        list-style-type: none;
+        list-style-image: none;
+        margin:  0; 
+        padding: .3em 0 0 .7em; /* margin of the item list */
+        text-align: left;
+        }
+    #toc ul ul, .toc ul ul,
+    #toc ul ul ul, .toc ul ul ul {
+        margin: 0 0 0 .7em; /* toclevel-2 margin */
+        }
+
+    #toc .tocindent   { margin-left: 1em; }
+    #toc .tocline     { margin-bottom: 0; }
+    #toc p            { margin: 0 }
+    #toc .toctoggle   { font-size: 90%; }
+
+    #toc .editsection {
+        margin-top: .3em;
+        font-size: 90%;
+        }
+
+/* main content
+-----------------------------------------------------------------------------*/
+
+    h1, h2 {
+        padding: .3em 0;
+        border-bottom: 3px solid #ccc;
+        }
+
+    ul {
+        list-style-image: url(yellowbullet.gif);
+        }
+    li {
+        margin-left: .5em;
+        margin-bottom: .1em;
+        padding: 0; /* margin between bullet and content */
+        }
+
+    #editform {
+        width: 100%; /* prevent overflow in IE when editing */
+        }
+
+    textarea {
+        font-size: 100%;
+        width: 99%;     /* fix the textarea oversize in IE */
+        padding: 5px 0 0 5px;
+        margin: 0;
+        border: 1px solid #3399FF;
+        }
+
+/* pre{ */
+    /* white-space: pre;            /* CSS2 */
+    /* white-space: -moz-pre-wrap;  /* Mozilla */
+    /* white-space: -hp-pre-wrap;   /* HP printers */
+    /* white-space: -o-pre-wrap;    /* Opera 7 */
+    /* white-space: -pre-wrap;      /* Opera 4-6 */
+    /* white-space: pre-wrap;       /* CSS 2.1 */
+    /* white-space: pre-line;       /* CSS 3 (and 2.1 as well, actually) */
+    /* word-wrap: break-word;       /* IE */
+    /* } */
+
+    pre {
+        white-space: -moz-pre-wrap;     /* need for Firefox */
+        overflow-x: auto;    /* need for Firefox, extreme long string :( */
+        font-size: 90%;
+        padding: 1em 2em;
+        border: 1px solid #2f6fab;
+        color: black;
+        background: #fefefe;
+        line-height: 1.2em;
+        }
+    .visualClear { clear: both;}
+
+    .errorbox, .successbox {
+        margin-top:     .2em;
+        margin-bottom:  1em;
+        }
+
+    #contentSub, #contentSub2 {
+        font-size: 90%;
+        line-height: 1.2em;
+        margin: 0.5em 0 1.4em 0;
+        color: #7d7d7d;
+        width: auto;
+        }
+
+	.backToTop {
+		/* border: 1px solid #aaa; /* for testing */
+		float: right;
+		width: 45px;
+		background: transparent url('images/top.gif') center left no-repeat ;
+		margin: .6em 0 0 0;
+	}
+	.backToTop a,
+	.backToTop a:hover {
+		display: block;
+		width: 45px;
+		text-decoration: none;
+	}
+
+    table {
+        /* border-collapse: collapse; */
+        }
+
+
+/* edit section
+-----------------------------------------------------------------------------*/
+    * html div.editsection { 
+        font-size: 90%;
+        }
+    .editsection {
+        font-size: 90%;
+        margin-top: 2px;
+        padding-left: 20px;
+        background: transparent url('pencil.gif') center left no-repeat ;
+        }
+
+/* category style
+-----------------------------------------------------------------------------*/
+    #catlinks {
+        border: 1px solid #aaa;
+        background-color: #f9f9f9;
+        padding: .3em;
+        margin-top: 1em;
+        clear: both;
+        }
+    #catlinks p, .catlinks {
+        margin:  0;
+        padding: 0;
+        }
+
+/* 
+ * -- content actions  -- 
+ */
+    #gumax-content-actions {
+         /* border:  1px solid #000; /* for testing */
+         border-top:    2px solid #aaa;
+         border-bottom: 2px solid #aaa;
+         background: #000;
+        }
+
+    #gumax-content-actions {
+        text-align: center;
+        position: relative;
+        height: 1.5em;   /* need for IE win */
+        font-size: 100%; /* font size of content actions */
+        padding: 3px;
+        }
+
+    #gumax-content-actions ul { 
+        position: relative;
+        list-style: none;
+        margin: 0;
+        }
+    #gumax-content-actions li { 
+        position: relative;
+        display: inline;  /* display in line */
+        margin: 0;
+        overflow: visible;
+        color: #777; /* the font color of '|' */
+        }
+
+    #gumax-content-actions ul li a {
+        padding: 4px 6px; /* padding of the menu item */
+        }
+
+/* Page footer
+-----------------------------------------------------------------------------*/
+    #gumax-page-footer {
+        /* border:  1px solid #000; /* for testing */
+        }
+
+    #gumax-page-footer {
+        text-align: center;
+        position: relative;
+        padding-top:  0;
+        }
+    #gumax-page-footer li {
+        display: inline;
+        margin: 0;
+        }
+
+    #gumax-personal-tools,
+    #gumax-personal-tools ul li,
+    #gumax-footer,
+    #gumax-footer ul li,
+    #gumax-f-message,
+    #gumax-f-message ul li{
+        font-size: 90%; /* font size of page footer */
+        }
+
+    #gumax-personal-tools {
+        margin: 0;
+        padding-bottom: .3em;
+        }
+    #gumax-personal-tools ul { 
+        list-style: none;
+        margin: 0;
+        }
+    #gumax-personal-tools li { 
+        display: inline;
+        margin: 0;
+        overflow: visible;
+        color: #aaa; /* the font color of '|' */
+        }
+
+    #gumax-personal-tools ul li a {
+        padding: 0 2px; /* padding of the menu item */
+        }
+
+/* 
+ * -- gumax-footer -- 
+ */
+    #gumax-footer {
+        clear: both;
+        border: 0; /* 1px solid #999; */
+        padding-top:    .2em;
+        padding-bottom: 1.5em;
+        }
+    #gumax-footer ul {
+        list-style: none;
+        margin: 0;
+        }
+    #gumax-footer li {
+        display: inline;
+        margin: 0;
+        white-space: nowrap;
+        color: #aaa; /* the font color of '|' */
+        }
+    #gumax-footer ul li a {
+        padding: 0 2px; /* padding of the menu item */
+        }
+
+
+    #gumax-f-message {
+        padding-bottom: .2em;
+        }
+
+/* breadcrumbs 
+-----------------------------------------------------------------------------*/
+    div.breadcrumbs {
+        border: solid #FFCC00 1px;
+        padding: 3px 5px 5px 5px;
+        background: #FFF5CF;
+        margin: 5px 0px 10px 0px;
+        }
+    div.breadcrumbs a.breadcrumbs {
+        text-decoration: none;
+        }
+    div.breadcrumbs span.breadcrumbs {
+        font-weight: bold;
+        }
+
+/* Special:Specialpages
+-----------------------------------------------------------------------------*/
+    #allmessagestable { /* system message table fix */
+        table-layout: fixed;
+        width:     100%;
+        max-width: 100%;
+        margin-top: 20px;
+        }
+    #allmessagestable.left td {
+        width: 30%;
+        }
+
+    .imagelist_nav, .TablePager_nav {
+        margin-top: 0.5em;
+        }
+
+
+/* Random HTML Style 
+-----------------------------------------------------------------------------*/
+    hr {
+        height: 1px;
+        color: #aaa;
+        background-color: #aaa;
+        border: 0;
+        margin: .2em 0 .2em 0;
+        }
+
+    input[type="submit"] { font-weight: bold; }
+
+    /* for margin between paragraphs */
+    .cc {
+        font-size: 10%;
+        padding: 0.2em 0 0.2em 0;
+        margin: 0;
+        }
+    /*-------------------------------------
+        <div class="cc">&nbsp;</div>
+    -------------------------------------*/
+
+/* 
+ * Force Opera / Moz / Netscape 
+ * to display an _IN_active vertical scrollbar 
+ * (like IE).
+ */
+
+    html {
+        overflow-y: scroll;
+    }
+
+/* -----------------------------------------------------------
+   -- make a few corners round --
+   only supported by moz/firefox/other gecko browsers for now
+   -----------------------------------------------------------
+ */
+    div.breadcrumbs {  
+        -moz-border-radius-topleft: 0.5em;
+        -moz-border-radius-topright: 0.5em;
+        -moz-border-radius-bottomleft: 0.5em;
+        -moz-border-radius-bottomright: 0.5em;
+        }
+
+/* IE/Mac fixes
+-----------------------------------------------------------------------------*/
+    /* fix for position of image inside table */
+    table {
+        /* position: none !important;  /* positioning, except IE */
+        /* position: relative;         /* positioning for IE */
+        }
+
+    /* the positioning of preferences */
+    /* float/negative margin brokenness */
+    * html #preferences {
+        width: 90%;
+        }
+
+    /* login form fix */
+    div#userloginForm form,
+    form#userlogin2 {
+        width: 500px;
+        }
+
+/* The end 
+-----------------------------------------------------------------------------*/	±Y£&M      YósTYósT>YoYü­   <    :https://www.dd-wrt.com/wiki/skins/sgumax/gumax_template.css necko:classified 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Date: Fri, 27 Oct 2017 17:53:18 GMT
+Server: Apache
+Last-Modified: Thu, 19 Jul 2007 17:52:15 GMT
+Etag: "dc0016-4e9e-435a1788791c0"
+Accept-Ranges: bytes
+Content-Length: 20126
+Content-Type: text/css
+ uncompressed-len 0   Nž

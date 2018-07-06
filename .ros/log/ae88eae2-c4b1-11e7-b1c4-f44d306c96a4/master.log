@@ -1,0 +1,201 @@
+[rosmaster.main][INFO] 2017-11-08 13:21:47,684: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-11-08 13:21:47,684: Starting ROS Master Node
+[xmlrpc][INFO] 2017-11-08 13:21:47,684: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-11-08 13:21:47,685: Started XML-RPC server [http://mdas-Meerkat:11311/]
+[xmlrpc][INFO] 2017-11-08 13:21:47,685: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-11-08 13:21:47,685: Master initialized: port[11311], uri[http://mdas-Meerkat:11311/]
+[rosmaster.master][INFO] 2017-11-08 13:21:47,713: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,713: +PARAM [/roslaunch/uris/host_mdas_meerkat__42815] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,770: +PARAM [/usb_cam_1/image_width] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,770: +PARAM [/usb_cam_1/video_device] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,770: +PARAM [/base_laser1/baud] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,770: +PARAM [/novatel_node/psrpos_topic] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,770: +PARAM [/novatel_node/port] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,770: +PARAM [/base_laser1/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,770: +PARAM [/novatel_node/ephem_log] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,770: +PARAM [/novatel_node/baudrate] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,770: +PARAM [/usb_cam_1/framerate] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,770: +PARAM [/base_laser1/resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,770: +PARAM [/novatel_node/range_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,770: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,770: +PARAM [/usb_cam_1/pixel_format] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,770: +PARAM [/novatel_node/log_commands] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,770: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,771: +PARAM [/novatel_node/gps_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,771: +PARAM [/novatel_node/psrpos_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,771: +PARAM [/usb_cam_1/camera_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,771: +PARAM [/usb_cam_1/io_method] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,771: +PARAM [/novatel_node/odom_topic] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,771: +PARAM [/base_laser1/port] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,771: +PARAM [/novatel_node/span_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,771: +PARAM [/usb_cam_1/image_height] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:47,772: +SERVICE [/rosout/get_loggers] /rosout http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,773: +SERVICE [/rosout/set_logger_level] /rosout http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,774: +PUB [/rosout_agg] /rosout http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,777: +SUB [/rosout] /rosout http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,782: +PUB [/rosout] /base_laser1 http://mdas-Meerkat:45435/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,784: publisherUpdate[/rosout] -> http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,785: +SERVICE [/base_laser1/get_loggers] /base_laser1 http://mdas-Meerkat:45435/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,786: +SERVICE [/base_laser1/set_logger_level] /base_laser1 http://mdas-Meerkat:45435/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,790: +PUB [/rosout] /usb_cam_1 http://mdas-Meerkat:41479/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,791: +PUB [/rosout] /novatel_node http://mdas-Meerkat:44145/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,792: +SERVICE [/usb_cam_1/get_loggers] /usb_cam_1 http://mdas-Meerkat:41479/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,792: +SERVICE [/novatel_node/get_loggers] /novatel_node http://mdas-Meerkat:44145/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,793: +SERVICE [/usb_cam_1/set_logger_level] /usb_cam_1 http://mdas-Meerkat:41479/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,794: +SERVICE [/novatel_node/set_logger_level] /novatel_node http://mdas-Meerkat:44145/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,795: +PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:45435/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,801: +PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:45435/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,815: +PUB [/gps_odom] /novatel_node http://mdas-Meerkat:44145/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,815: +PUB [/gps_fix] /novatel_node http://mdas-Meerkat:44145/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,815: +PUB [/ephemeris] /novatel_node http://mdas-Meerkat:44145/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,816: +PUB [/range] /novatel_node http://mdas-Meerkat:44145/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,816: +PUB [/gps_fix_psr] /novatel_node http://mdas-Meerkat:44145/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,817: +PUB [/novatel_node/gps_fix_ecef] /novatel_node http://mdas-Meerkat:44145/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,841: +PUB [/usb_cam_1/image_raw] /usb_cam_1 http://mdas-Meerkat:41479/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,842: +PUB [/usb_cam_1/camera_info] /usb_cam_1 http://mdas-Meerkat:41479/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,851: +SERVICE [/usb_cam_1/set_camera_info] /usb_cam_1 http://mdas-Meerkat:41479/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,851: +SERVICE [/usb_cam_1/start_capture] /usb_cam_1 http://mdas-Meerkat:41479/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,851: +SERVICE [/usb_cam_1/stop_capture] /usb_cam_1 http://mdas-Meerkat:41479/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,885: publisherUpdate[/rosout] -> http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,886: publisherUpdate[/rosout] -> http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,988: -PUB [/rosout] /usb_cam_1 http://mdas-Meerkat:41479/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,990: -PUB [/usb_cam_1/image_raw] /usb_cam_1 http://mdas-Meerkat:41479/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,993: -PUB [/usb_cam_1/camera_info] /usb_cam_1 http://mdas-Meerkat:41479/
+[rosmaster.master][INFO] 2017-11-08 13:21:47,995: -SERVICE [/usb_cam_1/get_loggers] /usb_cam_1 rosrpc://mdas-Meerkat:41873
+[rosmaster.master][INFO] 2017-11-08 13:21:47,997: -SERVICE [/usb_cam_1/set_logger_level] /usb_cam_1 rosrpc://mdas-Meerkat:41873
+[rosmaster.master][INFO] 2017-11-08 13:21:47,999: -SERVICE [/usb_cam_1/set_camera_info] /usb_cam_1 rosrpc://mdas-Meerkat:41873
+[rosmaster.master][INFO] 2017-11-08 13:21:48,001: -SERVICE [/usb_cam_1/start_capture] /usb_cam_1 rosrpc://mdas-Meerkat:41873
+[rosmaster.master][INFO] 2017-11-08 13:21:48,002: -SERVICE [/usb_cam_1/stop_capture] /usb_cam_1 rosrpc://mdas-Meerkat:41873
+[rosmaster.master][INFO] 2017-11-08 13:21:48,086: publisherUpdate[/rosout] -> http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:21:59,977: +PARAM [/roslaunch/uris/host_mdas_meerkat__33811] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:59,980: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:59,980: +PARAM [/usb_cam_1/video_device] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:59,980: +PARAM [/usb_cam_1/camera_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:59,980: +PARAM [/usb_cam_2/video_device] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:59,980: +PARAM [/usb_cam_1/image_width] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:59,980: +PARAM [/usb_cam_1/io_method] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:59,980: +PARAM [/usb_cam_1/framerate] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:59,980: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:59,980: +PARAM [/usb_cam_2/framerate] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:59,980: +PARAM [/usb_cam_1/pixel_format] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:59,980: +PARAM [/usb_cam_2/pixel_format] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:59,980: +PARAM [/usb_cam_2/image_height] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:59,980: +PARAM [/usb_cam_2/io_method] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:59,980: +PARAM [/usb_cam_2/image_width] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:59,980: +PARAM [/usb_cam_2/camera_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:21:59,980: +PARAM [/usb_cam_1/image_height] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:00,044: +PUB [/rosout] /usb_cam_1 http://mdas-Meerkat:42183/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,044: +SERVICE [/usb_cam_1/get_loggers] /usb_cam_1 http://mdas-Meerkat:42183/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,045: +SERVICE [/usb_cam_1/set_logger_level] /usb_cam_1 http://mdas-Meerkat:42183/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,047: +PUB [/rosout] /usb_cam_2 http://mdas-Meerkat:36827/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,047: +SERVICE [/usb_cam_2/get_loggers] /usb_cam_2 http://mdas-Meerkat:36827/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,048: +SERVICE [/usb_cam_2/set_logger_level] /usb_cam_2 http://mdas-Meerkat:36827/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,090: +PUB [/usb_cam_1/image_raw] /usb_cam_1 http://mdas-Meerkat:42183/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,091: +PUB [/usb_cam_1/camera_info] /usb_cam_1 http://mdas-Meerkat:42183/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,093: +PUB [/usb_cam_2/image_raw] /usb_cam_2 http://mdas-Meerkat:36827/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,093: +PUB [/usb_cam_2/camera_info] /usb_cam_2 http://mdas-Meerkat:36827/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,106: publisherUpdate[/rosout] -> http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,106: publisherUpdate[/rosout] -> http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,108: +SERVICE [/usb_cam_1/set_camera_info] /usb_cam_1 http://mdas-Meerkat:42183/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,109: +SERVICE [/usb_cam_1/start_capture] /usb_cam_1 http://mdas-Meerkat:42183/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,110: +SERVICE [/usb_cam_1/stop_capture] /usb_cam_1 http://mdas-Meerkat:42183/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,111: +SERVICE [/usb_cam_2/set_camera_info] /usb_cam_2 http://mdas-Meerkat:36827/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,112: +SERVICE [/usb_cam_2/start_capture] /usb_cam_2 http://mdas-Meerkat:36827/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,112: +SERVICE [/usb_cam_2/stop_capture] /usb_cam_2 http://mdas-Meerkat:36827/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,209: -PUB [/rosout] /usb_cam_1 http://mdas-Meerkat:42183/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,210: publisherUpdate[/rosout] -> http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,211: -PUB [/rosout] /usb_cam_2 http://mdas-Meerkat:36827/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,212: publisherUpdate[/rosout] -> http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,214: -PUB [/usb_cam_1/image_raw] /usb_cam_1 http://mdas-Meerkat:42183/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,216: -PUB [/usb_cam_1/camera_info] /usb_cam_1 http://mdas-Meerkat:42183/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,218: -PUB [/usb_cam_2/image_raw] /usb_cam_2 http://mdas-Meerkat:36827/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,220: -SERVICE [/usb_cam_1/get_loggers] /usb_cam_1 rosrpc://mdas-Meerkat:49123
+[rosmaster.master][INFO] 2017-11-08 13:22:00,221: -PUB [/usb_cam_2/camera_info] /usb_cam_2 http://mdas-Meerkat:36827/
+[rosmaster.master][INFO] 2017-11-08 13:22:00,223: -SERVICE [/usb_cam_1/set_logger_level] /usb_cam_1 rosrpc://mdas-Meerkat:49123
+[rosmaster.master][INFO] 2017-11-08 13:22:00,225: -SERVICE [/usb_cam_2/get_loggers] /usb_cam_2 rosrpc://mdas-Meerkat:39295
+[rosmaster.master][INFO] 2017-11-08 13:22:00,226: -SERVICE [/usb_cam_1/set_camera_info] /usb_cam_1 rosrpc://mdas-Meerkat:49123
+[rosmaster.master][INFO] 2017-11-08 13:22:00,228: -SERVICE [/usb_cam_2/set_logger_level] /usb_cam_2 rosrpc://mdas-Meerkat:39295
+[rosmaster.master][INFO] 2017-11-08 13:22:00,230: -SERVICE [/usb_cam_1/start_capture] /usb_cam_1 rosrpc://mdas-Meerkat:49123
+[rosmaster.master][INFO] 2017-11-08 13:22:00,231: -SERVICE [/usb_cam_2/set_camera_info] /usb_cam_2 rosrpc://mdas-Meerkat:39295
+[rosmaster.master][INFO] 2017-11-08 13:22:00,233: -SERVICE [/usb_cam_1/stop_capture] /usb_cam_1 rosrpc://mdas-Meerkat:49123
+[rosmaster.master][INFO] 2017-11-08 13:22:00,234: -SERVICE [/usb_cam_2/start_capture] /usb_cam_2 rosrpc://mdas-Meerkat:39295
+[rosmaster.master][INFO] 2017-11-08 13:22:00,236: -SERVICE [/usb_cam_2/stop_capture] /usb_cam_2 rosrpc://mdas-Meerkat:39295
+[rosmaster.master][INFO] 2017-11-08 13:22:10,240: +PARAM [/roslaunch/uris/host_mdas_meerkat__39997] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:10,242: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:10,242: +PARAM [/usb_cam_2/video_device] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:10,242: +PARAM [/usb_cam_2/image_width] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:10,242: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:10,243: +PARAM [/usb_cam_2/image_height] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:10,243: +PARAM [/usb_cam_2/framerate] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:10,243: +PARAM [/usb_cam_2/io_method] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:10,243: +PARAM [/usb_cam_2/camera_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:10,243: +PARAM [/usb_cam_2/pixel_format] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:10,305: +PUB [/rosout] /usb_cam_2 http://mdas-Meerkat:45995/
+[rosmaster.master][INFO] 2017-11-08 13:22:10,305: +SERVICE [/usb_cam_2/get_loggers] /usb_cam_2 http://mdas-Meerkat:45995/
+[rosmaster.master][INFO] 2017-11-08 13:22:10,306: +SERVICE [/usb_cam_2/set_logger_level] /usb_cam_2 http://mdas-Meerkat:45995/
+[rosmaster.master][INFO] 2017-11-08 13:22:10,322: publisherUpdate[/rosout] -> http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:22:10,350: +PUB [/usb_cam_2/image_raw] /usb_cam_2 http://mdas-Meerkat:45995/
+[rosmaster.master][INFO] 2017-11-08 13:22:10,351: +PUB [/usb_cam_2/camera_info] /usb_cam_2 http://mdas-Meerkat:45995/
+[rosmaster.master][INFO] 2017-11-08 13:22:10,359: +SERVICE [/usb_cam_2/set_camera_info] /usb_cam_2 http://mdas-Meerkat:45995/
+[rosmaster.master][INFO] 2017-11-08 13:22:10,360: +SERVICE [/usb_cam_2/start_capture] /usb_cam_2 http://mdas-Meerkat:45995/
+[rosmaster.master][INFO] 2017-11-08 13:22:10,360: +SERVICE [/usb_cam_2/stop_capture] /usb_cam_2 http://mdas-Meerkat:45995/
+[rosmaster.master][INFO] 2017-11-08 13:22:10,425: -PUB [/rosout] /usb_cam_2 http://mdas-Meerkat:45995/
+[rosmaster.master][INFO] 2017-11-08 13:22:10,427: -PUB [/usb_cam_2/image_raw] /usb_cam_2 http://mdas-Meerkat:45995/
+[rosmaster.master][INFO] 2017-11-08 13:22:10,428: -PUB [/usb_cam_2/camera_info] /usb_cam_2 http://mdas-Meerkat:45995/
+[rosmaster.master][INFO] 2017-11-08 13:22:10,430: -SERVICE [/usb_cam_2/get_loggers] /usb_cam_2 rosrpc://mdas-Meerkat:38893
+[rosmaster.master][INFO] 2017-11-08 13:22:10,432: -SERVICE [/usb_cam_2/set_logger_level] /usb_cam_2 rosrpc://mdas-Meerkat:38893
+[rosmaster.master][INFO] 2017-11-08 13:22:10,432: publisherUpdate[/rosout] -> http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:22:10,435: -SERVICE [/usb_cam_2/set_camera_info] /usb_cam_2 rosrpc://mdas-Meerkat:38893
+[rosmaster.master][INFO] 2017-11-08 13:22:10,437: -SERVICE [/usb_cam_2/start_capture] /usb_cam_2 rosrpc://mdas-Meerkat:38893
+[rosmaster.master][INFO] 2017-11-08 13:22:10,439: -SERVICE [/usb_cam_2/stop_capture] /usb_cam_2 rosrpc://mdas-Meerkat:38893
+[rosmaster.master][INFO] 2017-11-08 13:22:13,840: +PARAM [/roslaunch/uris/host_mdas_meerkat__33899] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:13,842: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:13,843: +PARAM [/usb_cam_1/video_device] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:13,843: +PARAM [/usb_cam_1/camera_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:13,843: +PARAM [/usb_cam_1/image_width] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:13,843: +PARAM [/usb_cam_1/io_method] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:13,843: +PARAM [/usb_cam_1/framerate] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:13,843: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:13,843: +PARAM [/usb_cam_1/pixel_format] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:13,843: +PARAM [/usb_cam_1/image_height] by /roslaunch
+[rosmaster.master][INFO] 2017-11-08 13:22:13,906: +PUB [/rosout] /usb_cam_1 http://mdas-Meerkat:33111/
+[rosmaster.master][INFO] 2017-11-08 13:22:13,907: +SERVICE [/usb_cam_1/get_loggers] /usb_cam_1 http://mdas-Meerkat:33111/
+[rosmaster.master][INFO] 2017-11-08 13:22:13,907: +SERVICE [/usb_cam_1/set_logger_level] /usb_cam_1 http://mdas-Meerkat:33111/
+[rosmaster.master][INFO] 2017-11-08 13:22:13,929: publisherUpdate[/rosout] -> http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:22:13,951: +PUB [/usb_cam_1/image_raw] /usb_cam_1 http://mdas-Meerkat:33111/
+[rosmaster.master][INFO] 2017-11-08 13:22:13,952: +PUB [/usb_cam_1/camera_info] /usb_cam_1 http://mdas-Meerkat:33111/
+[rosmaster.master][INFO] 2017-11-08 13:22:13,960: +SERVICE [/usb_cam_1/set_camera_info] /usb_cam_1 http://mdas-Meerkat:33111/
+[rosmaster.master][INFO] 2017-11-08 13:22:13,961: +SERVICE [/usb_cam_1/start_capture] /usb_cam_1 http://mdas-Meerkat:33111/
+[rosmaster.master][INFO] 2017-11-08 13:22:13,961: +SERVICE [/usb_cam_1/stop_capture] /usb_cam_1 http://mdas-Meerkat:33111/
+[rosmaster.master][INFO] 2017-11-08 13:22:14,031: -PUB [/rosout] /usb_cam_1 http://mdas-Meerkat:33111/
+[rosmaster.master][INFO] 2017-11-08 13:22:14,033: -PUB [/usb_cam_1/image_raw] /usb_cam_1 http://mdas-Meerkat:33111/
+[rosmaster.master][INFO] 2017-11-08 13:22:14,035: -PUB [/usb_cam_1/camera_info] /usb_cam_1 http://mdas-Meerkat:33111/
+[rosmaster.master][INFO] 2017-11-08 13:22:14,037: -SERVICE [/usb_cam_1/get_loggers] /usb_cam_1 rosrpc://mdas-Meerkat:57293
+[rosmaster.master][INFO] 2017-11-08 13:22:14,040: -SERVICE [/usb_cam_1/set_logger_level] /usb_cam_1 rosrpc://mdas-Meerkat:57293
+[rosmaster.master][INFO] 2017-11-08 13:22:14,042: -SERVICE [/usb_cam_1/set_camera_info] /usb_cam_1 rosrpc://mdas-Meerkat:57293
+[rosmaster.master][INFO] 2017-11-08 13:22:14,042: publisherUpdate[/rosout] -> http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:22:14,045: -SERVICE [/usb_cam_1/start_capture] /usb_cam_1 rosrpc://mdas-Meerkat:57293
+[rosmaster.master][INFO] 2017-11-08 13:22:14,047: -SERVICE [/usb_cam_1/stop_capture] /usb_cam_1 rosrpc://mdas-Meerkat:57293
+[rosmaster.master][INFO] 2017-11-08 13:23:06,808: -PUB [/rosout] /novatel_node http://mdas-Meerkat:44145/
+[rosmaster.master][INFO] 2017-11-08 13:23:06,808: -PUB [/gps_odom] /novatel_node http://mdas-Meerkat:44145/
+[rosmaster.master][INFO] 2017-11-08 13:23:06,809: -PUB [/gps_fix] /novatel_node http://mdas-Meerkat:44145/
+[rosmaster.master][INFO] 2017-11-08 13:23:06,809: -PUB [/ephemeris] /novatel_node http://mdas-Meerkat:44145/
+[rosmaster.master][INFO] 2017-11-08 13:23:06,810: -PUB [/range] /novatel_node http://mdas-Meerkat:44145/
+[rosmaster.master][INFO] 2017-11-08 13:23:06,810: -PUB [/gps_fix_psr] /novatel_node http://mdas-Meerkat:44145/
+[rosmaster.master][INFO] 2017-11-08 13:23:06,811: -PUB [/novatel_node/gps_fix_ecef] /novatel_node http://mdas-Meerkat:44145/
+[rosmaster.master][INFO] 2017-11-08 13:23:06,811: -SERVICE [/novatel_node/get_loggers] /novatel_node rosrpc://mdas-Meerkat:51213
+[rosmaster.master][INFO] 2017-11-08 13:23:06,811: -SERVICE [/novatel_node/set_logger_level] /novatel_node rosrpc://mdas-Meerkat:51213
+[rosmaster.master][INFO] 2017-11-08 13:23:06,820: publisherUpdate[/rosout] -> http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:23:06,909: -PUB [/rosout] /base_laser1 http://mdas-Meerkat:45435/
+[rosmaster.master][INFO] 2017-11-08 13:23:06,912: -PUB [/diagnostics] /base_laser1 http://mdas-Meerkat:45435/
+[rosmaster.master][INFO] 2017-11-08 13:23:06,913: -PUB [/sensor_msgs/LaserScan] /base_laser1 http://mdas-Meerkat:45435/
+[rosmaster.master][INFO] 2017-11-08 13:23:06,915: -SERVICE [/base_laser1/get_loggers] /base_laser1 rosrpc://mdas-Meerkat:53299
+[rosmaster.master][INFO] 2017-11-08 13:23:06,917: -SERVICE [/base_laser1/set_logger_level] /base_laser1 rosrpc://mdas-Meerkat:53299
+[rosmaster.master][INFO] 2017-11-08 13:23:06,920: publisherUpdate[/rosout] -> http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:23:07,522: -PUB [/rosout_agg] /rosout http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:23:07,523: -SUB [/rosout] /rosout http://mdas-Meerkat:34619/
+[rosmaster.master][INFO] 2017-11-08 13:23:07,523: -SERVICE [/rosout/get_loggers] /rosout rosrpc://mdas-Meerkat:34769
+[rosmaster.master][INFO] 2017-11-08 13:23:07,524: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://mdas-Meerkat:34769
+[rosmaster.main][INFO] 2017-11-08 13:23:07,590: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-11-08 13:23:07,590: stopping master...
+[rospy.core][INFO] 2017-11-08 13:23:07,590: signal_shutdown [atexit]

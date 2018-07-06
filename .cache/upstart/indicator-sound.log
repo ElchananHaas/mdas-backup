@@ -1,0 +1,3 @@
+
+** (process:2051): CRITICAL **: indicator_sound_service_name_lost: assertion 'connection != NULL' failed
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.

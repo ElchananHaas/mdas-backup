@@ -1,0 +1,8 @@
+prefix=/home/mdas/ros_ws/install
+
+Name: sentry_traj_builder
+Description: Description of sentry_traj_builder
+Version: 0.0.0
+Cflags: -I/home/mdas/ros_ws/install/include
+Libs: -L/home/mdas/ros_ws/install/lib -lsentry_traj_builder
+Requires: roscpp nav_msgs geometry_msgs

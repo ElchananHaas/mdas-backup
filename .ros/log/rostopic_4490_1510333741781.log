@@ -1,0 +1,32 @@
+[rospy.client][INFO] 2017-11-10 12:09:01,800: init_node, name[/rostopic_4490_1510333741781], pid[4490]
+[xmlrpc][INFO] 2017-11-10 12:09:01,801: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-11-10 12:09:01,801: Started XML-RPC server [http://mdas-Meerkat:43621/]
+[rospy.init][INFO] 2017-11-10 12:09:01,801: ROS Slave URI: [http://mdas-Meerkat:43621/]
+[rospy.impl.masterslave][INFO] 2017-11-10 12:09:01,801: _ready: http://mdas-Meerkat:43621/
+[rospy.registration][INFO] 2017-11-10 12:09:01,801: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-11-10 12:09:01,801: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-11-10 12:09:01,901: registered with master
+[rospy.rosout][INFO] 2017-11-10 12:09:01,902: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-11-10 12:09:01,906: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-11-10 12:09:01,909: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-11-10 12:09:01,967: topic[/usb_cam_1/image_raw] adding connection to [http://mdas-Meerkat:34355/], count 0
+[rospy.internal][INFO] 2017-11-10 12:09:02,114: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2017-11-10 12:09:06,874: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-11-10 12:09:06,879: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-11-10 12:09:06,880: topic[/usb_cam_1/image_raw] removing connection to http://mdas-Meerkat:34355/
+[rospy.internal][WARNING] 2017-11-10 12:09:06,881: Unknown error initiating TCP/IP socket to mdas-Meerkat:53821 (http://mdas-Meerkat:34355/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2017-11-10 12:09:06,882: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2017-11-10 12:09:06,882: signal-2
+[rospy.core][INFO] 2017-11-10 12:09:07,497: signal_shutdown [atexit]

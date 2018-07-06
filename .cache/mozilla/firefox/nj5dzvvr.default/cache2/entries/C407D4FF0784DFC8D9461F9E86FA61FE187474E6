@@ -1,0 +1,587 @@
+/****************** Overall page ************************/
+body, html {
+  margin: 0;
+  height: 100%;
+  text-align: left;
+  font-family: Arial,Helvetica, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:link {
+  color: #0A304E;
+ /* text-decoration: none;*/
+}
+a:visited {
+  color: #0A304E;
+ /* text-decoration: none;*/
+}
+a:hover {
+  color: #999999;
+  text-decoration: none;
+}
+
+/****************** Header area ************************/
+#ITSheader    {
+  width: 100%;
+  height: 368px;
+  width: 100%;
+  position: relative;
+  background: #626262; /*light gray*/
+  border-top: 1px solid #b5b5b5;
+  border-bottom: 1px solid #999999;
+  margin: 0;
+  overflow: hidden;
+  clear: both; /*to center it*/
+  z-index: 0;
+}
+
+#ITSSubPrimaryHeader {
+  width: 100%;
+/*  height: 250px; */
+  height: 238px;
+  width: 100%;
+  position: relative;
+  background: #626262; /*light gray*/
+  border-top: 1px solid #b5b5b5;
+/*  border-bottom: 1px solid #999999; */
+  margin: 0;
+  overflow: hidden;
+  clear: both; /*to center it*/
+  z-index: 0;
+}
+
+#ITSSubPrimaryTitle {
+  width: 100%;
+/*  height: 250px; */
+  height: 60px;
+  width: 100%;
+  position: relative;
+  background: #626262; /*light gray*/
+/*  border-top: 1px solid #b5b5b5; */
+  border-bottom: 1px solid #999999;
+  margin: 0;
+  overflow: hidden;
+  clear: both; /*to center it*/
+  z-index: 0;
+}
+
+#ITSHeaderHolder{  
+  position: relative;
+  width: 1000px;
+  background: #ffffff;
+  margin: auto;
+  z-index: 10;
+  margin: auto;
+}
+
+#ITSSubHeaderHolder{  
+  position: relative;
+  width: 1000px;
+  background: #ffffff;
+  margin: auto;
+  z-index: 10;
+  margin: auto;
+}
+
+#ITSHeaderHolder2 {  
+  position: relative;
+  /*  width: 1000px; */
+  /*  background: #ffffff;  */
+  /*  margin: auto; */
+  /*  height: 82px; */
+  /*  z-index: 10; */
+  z-index: 20;
+  background-image: url(https://www.case.edu/its/images/mainheader.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 154px;
+  margin: 0 auto 0 42px;
+  padding: 42px 0 42px 0;    /* changed for new ITS Pictures-jms */
+}
+
+#ITSheaderBlurb {
+  background-color: rgb(224, 226, 229);
+  height: 130px;
+  width: 100%;
+  position: relative;
+}
+
+/****************** ITS Four Pictures hover ************************/
+#ITSHeader_Pic1 {
+  width: 200px;
+  height: 154px;
+  float: left;
+}
+
+#ITSHeader_Pic2 {
+  width: 200px;
+  height: 154px;
+  float: left;
+  margin-left: 40px;
+}
+
+#ITSHeader_Pic3 {
+  width: 200px;
+  height: 154px;
+  float: left;
+  margin-left: 41px;
+}
+
+#ITSHeader_Pic4 {
+  position: relative; 
+  width: 200px; 
+  height: 154px;
+  float: left;
+  margin-left: 40px;
+/* margin-left: 678px; */
+}
+
+#ITSHeader_Pic1 a, #ITSHeader_Pic2 a, #ITSHeader_Pic3 a, #ITSHeader_Pic4 a {
+  width: 200px;
+  height: 154px;
+  float: left;
+}
+
+/* note: ITSheader_pic4's span needs to display (for the service status thingy) so
+         it is not listed here.
+#ITSHeader_Pic1 span, #ITSHeader_Pic2 span, #ITSHeader_Pic3 span {
+  display: none;
+} */
+
+#ITSHeader_Pic1 span, #ITSHeader_Pic2 span, #ITSHeader_Pic3 span, #ITSHeader_Pic4 span  {
+  display: none;
+}
+
+#ITSHeader_Pic1 a:hover {
+  background: url(https://www.case.edu/its/images/mainheader_over.png) 0px 0px no-repeat; 
+}
+
+#ITSHeader_Pic2 a:hover {
+  background: url(https://www.case.edu/its/images/mainheader_over.png) -240px 0px no-repeat; 
+}
+
+#ITSHeader_Pic3 a:hover {
+  background: url(https://www.case.edu/its/images/mainheader_over.png) -481px -0px no-repeat; 
+}
+
+#ITSHeader_Pic4 a:hover {
+  background: url(https://www.case.edu/its/images/mainheader_over.png) -721px -0px no-repeat; 
+}
+
+/****************** Sub Page Header area (SCK Version) ************************/
+#ITSSubheader {
+  width: 100%;
+  position: relative;
+  background: #626262; /*light gray*/
+  border-top: 1px solid #b5b5b5;
+  margin: 0;
+  overflow: hidden;
+  clear: both; /*to center it*/
+  z-index: 0;
+}
+
+#ITSSubheaderDynamic {
+  width: 100%;
+  position: relative;
+  background: #626262; /*light gray*/
+  border-top: 1px solid #b5b5b5;
+  border-bottom: 1px solid #999999;
+  margin: 0;
+  overflow: hidden;
+  clear: both; /*to center it*/
+  z-index: 0;
+}
+
+#ITSSubheaderHolder {
+  position: relative;
+  width: 1000px;
+  background: #ffffff;
+  margin: auto;
+  z-index: 10;
+  margin: auto;
+}
+
+#ITSSubheaderHolder2 {  
+  position: relative;
+  /*  width: 1000px; */
+  /*  background: #ffffff;  */
+  /*  margin: auto; */
+  /*  height: 82px; */
+  /*  z-index: 10; */
+  z-index: 20;
+  background: url(https://www.case.edu/its/images/mainheader-sub.png) 0px 30px no-repeat; 
+  height: 30px;
+  margin: 0 auto 0 42px;
+  padding: 28px 0 28px 0;    /* changed for new ITS Pictures-jms */
+}
+
+#ITSSubheader_Title {
+  background-color: rgb(224, 226, 229);
+  width: 100%;
+  position: relative;
+  padding: 0;
+  font-size: 180%;
+  padding: 15px 0 15px 0;
+  color: #626262;
+}
+
+#ITSSubheader_Title span {
+  padding-left: 24px;
+}
+
+#ITSSubPrimaryHeader_area {
+  background: #626262;
+  clear: both;
+  height: 65px;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+#ITSSubPrimaryHeaderHolder{  
+  position: relative;
+  width: 1000px;
+  background: #ffffff;
+  margin: auto;
+  z-index: 10;
+  margin: auto;
+}
+
+#ITSSubPrimaryHeader_title {
+  background-color: rgb(224, 226, 229);
+  width: 1000px;
+  position: relative;
+  padding: 0;
+  font-size: 220%;
+  padding: 13px 0 13px 0;
+  color: #626262;
+}
+
+#ITSSubPrimaryHeader_title span {
+  padding-left: 24px;
+}
+
+/****************** Sub Page ITS Four Pictures hover (SCK Version) ************************/
+#ITSSubheader_Pic1 {
+  padding-top: 2px;
+  width: 200px;
+  height: 30px;
+  float: left;
+}
+
+#ITSSubheader_Pic2 {
+  padding-top: 2px;
+  width: 200px;
+  height: 30px;
+  float: left;
+  margin-left: 40px;
+}
+
+#ITSSubheader_Pic3 {
+  padding-top: 2px;
+  width: 200px;
+  height: 30px;
+  float: left;
+  margin-left: 41px;
+}
+
+#ITSSubheader_Pic4 {
+  padding-top: 2px;
+  width: 200px; 
+  height: 30px;
+  float: left;
+  margin-left: 40px;
+/* margin-left: 678px; */
+}
+
+#ITSSubheader_Pic1 a, #ITSSubheader_Pic2 a, #ITSSubheader_Pic3 a, #ITSSubheader_Pic4 a {
+  width: 200px;
+  height: 30px;
+  float: left;
+}
+
+#ITSSubheader_Pic1 span, #ITSSubheader_Pic2 span, #ITSSubheader_Pic3 span, #ITSSubheader_Pic4 span {
+  display: none;
+}
+
+#ITSSubheader_Pic1 a:hover {
+  background: url(https://www.case.edu/its/images/mainheader-sub_over.png) 0px 0px no-repeat; 
+}
+
+#ITSSubheader_Pic2 a:hover {
+  background: url(https://www.case.edu/its/images/mainheader-sub_over.png) -240px 0px no-repeat; 
+}
+
+#ITSSubheader_Pic3 a:hover {
+  background: url(https://www.case.edu/its/images/mainheader-sub_over.png) -481px -0px no-repeat; 
+}
+
+#ITSSubheader_Pic4 a:hover {
+  background: url(https://www.case.edu/its/images/mainheader-sub_over.png) -721px -0px no-repeat; 
+}
+
+/****************** Content area ************************/
+#contentWrapper {
+  margin: 0 0 10px 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  clear: both;
+  font-size: 12px;
+}
+
+#contentContainer {
+  width: 1000px;
+  margin: 15px auto 15px auto;
+  position: relative;
+  padding-left: 42px;
+}
+
+.contentMain {
+  width: 1000px;
+/*  height: 100%;*/
+  margin: 0 auto;
+  position: relative;
+}
+
+.contentAreaLeft {
+  width: 22%;
+  float: left;
+  position: relative;
+  padding: 0 5px;
+ /* height: 100%;*/
+  min-height: 275px;
+}
+
+.contentArea {
+  width: 22%;
+  float: left;
+  position: relative;
+  padding: 0 5px;
+  border-left: 1px solid #666666;
+  height: 100%;
+  min-height: 275px;
+}
+
+.columnHeader {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+
+.navFeature a {
+  padding-left: 3px;
+  font-weight: bold;
+  background: url(https://www.case.edu/its/images/navButton.png) no-repeat left center;
+  width: 180px;
+  margin-bottom: 3px;
+  display: block;
+  height: 20px;
+  line-height: 20px;
+}
+
+.navFeature a:hover {
+  color: #ffffff;
+  display: block;
+  background: url(https://www.case.edu/its/images/navButton_over.png) no-repeat center center;
+}
+
+.navItem {
+  width: 180px;
+  padding: 3px 0 3px 3px;
+  border-bottom: 1px solid #000000;
+}
+
+.navSearch {
+  height: 20px;
+  width: 180px;
+  float: left;
+  position: relative;
+  margin-bottom: 20px;
+ /* padding-left:14px;*/
+}
+
+/*
+.navItem {
+  width: 80%;
+  padding: 3px;
+  border-bottom: 1px solid #666666;
+}
+
+.navSearch {
+  height: 20px;
+  width: 80%;
+  float: left;
+  position: relative;
+  margin-bottom: 20px;
+}
+*/
+
+.navSearch input {
+  border: none;
+  background-color: #999999;
+  position: absolute;
+  width: 100%;
+  height: 20px; 
+  top: 10px;
+ /* float: right;*/
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  padding: 0 0 0 5px;
+  font-weight: normal;
+  font-size: .8em;
+  line-height: 1.3;
+}
+
+.navSearch form .btn {
+  width: 30px;
+  position: absolute;
+  margin-right: -5px;
+  float: right;
+  right: 0;
+}
+
+.serviceNav {
+  position: relative;
+  float: left;
+  width: 180px;
+}
+
+.serviceNavItem {
+  width: 180px;
+  padding: 3px 0 3px 3px;
+  border-bottom: 1px solid #999999;
+  background-color: #0A304E;
+}
+
+.serviceNavItem a:link {
+  color: #ffffff;
+}
+
+.serviceNavItem a:visited {
+  color: #ffffff;
+}
+
+.serviceNavItem a:hover {
+  color: #c0c0c0;
+}
+
+.quickLinks {
+  padding: 3px 0;
+}
+
+.quickLinksItem {
+  padding: 3px 0;
+}
+
+.quickLinksMore {
+  padding: 3px 20px 3px 0;
+  font-size: 90%;
+  text-align: right;
+}
+
+/*
+.quickLinksMore {
+  padding: 3px 3px;
+  font-size: 90%;
+  text-align: right;
+}
+*/
+
+/*************** Subpage Content Area ************************/
+
+.SubpageNavigation {
+  width: 22%;
+  float: left;
+  position: relative;
+  padding: 0 5px;
+  height: 100%;
+  min-height: 275px;
+  border: solid 1px green;
+}
+
+.SubpageContentContainer {
+  width: 70%;
+  float: left;
+  position: relative;
+  padding: 0px 5px 0 5px;
+ /* height: 100%;*/
+  min-height: 275px;
+  text-align: justify;
+}
+
+.SubpageContentContainer h1 {
+  margin: 0;
+}
+
+.SubpageContentContainer a {
+  font-weight:bold;
+}
+/****************** Footer area ************************/
+.footerArea {
+  background-color: #0A304E;
+  font-size: 11px;
+  height: 200px;
+  width: 100%;
+  color: #c0c0c0;
+}
+
+.footerArea a:link {
+  color: #c0c0c0;
+}
+.footerArea a:visited {
+  color: #c0c0c0;
+}
+.footerArea a:hover {
+  color: #ffffff;
+}
+
+.footercontentMain {
+  width: 1000px;
+  margin: auto;
+  padding-left: 42px;
+  padding-top: 20px;
+}
+
+.footerColumn {
+  width: 22%;
+  float: left;
+  position: relative;
+  padding: 0 5px;
+}
+
+.footerTitle {
+  color: #ffffff;
+  font-size: 110%;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+ .footerSocialItem {
+  margin-bottom: 5px;
+ }
+  
+ .footerSocialItem img {
+   border: 0;
+   height: 20px;
+   width: 20px;
+   vertical-align: middle;
+ }
+ 
+ .footerSocialItem a {
+  margin-left: 8px;
+}
+.clearIt{
+	clear:both;
+}›	Š5      Yóm—Yóm—>Ye˜Yü¨   5    :https://setup.case.edu/its/stylesheet/main_style.css necko:classified 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Date: Fri, 27 Oct 2017 17:32:07 GMT
+Server: Apache
+Last-Modified: Thu, 06 Mar 2014 20:20:54 GMT
+Etag: "10341ad17-295f-4f3f5dfcaf580"
+Accept-Ranges: bytes
+Content-Length: 10591
+Content-Type: text/css
+ uncompressed-len 0   )_

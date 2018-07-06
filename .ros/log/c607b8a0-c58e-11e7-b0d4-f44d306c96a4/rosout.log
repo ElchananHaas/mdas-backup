@@ -1,0 +1,18 @@
+
+
+1510260265.958149646  Node Startup
+1510260320.980164072 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/player.cpp:125(Player::publish) [topics: /rosout, /clock] Opening 2017-11-09-15-39-00.bag
+1510259940.808804469 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /rosout
+1510259940.810890273 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /rosout_agg
+1510259940.812930598 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /gps_fix_psr
+1510259940.815024649 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /sensor_msgs/LaserScan
+1510259940.817118776 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /range
+1510259940.819320899 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /diagnostics
+1510259940.821383759 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /novatel_node/gps_fix_ecef
+1510259855.780780009 WARN [/home/mdas/ros_ws/src/packages/usb_cams/src/usb_cam.cpp:1206(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] sh: 1: v4l2-ctl: not found
+
+1510259855.508404740 INFO [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:283(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Measuring units setup not requested or identical to actual ('Centimeters (cm)')
+1510259858.703377058 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] RECEIVED AN ACK.
+1510260329.219545471 INFO [/tmp/binarydeb/ros-indigo-rviz-1.11.18/src/rviz/ogre_helpers/render_system.cpp:438(RenderWindow* rviz::RenderSystem::makeRenderWindow) [topics: /rosout] Stereo is NOT SUPPORTED
+1510260329.219628068 INFO [/tmp/binarydeb/ros-indigo-rviz-1.11.18/src/rviz/ogre_helpers/render_system.cpp:211(RenderSystem::detectGlVersion) [topics: /rosout] OpenGl version: 3 (GLSL 1.3).
+1510260371.807396334 WARN [/opt/ros/indigo/include/tf/message_filter.h:496(MessageFilter<M>::checkFailures) [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] MessageFilter [target=map ]: Dropped 100.00% of messages so far. Please turn the [ros.rviz.message_notifier] rosconsole logger to DEBUG for more information.

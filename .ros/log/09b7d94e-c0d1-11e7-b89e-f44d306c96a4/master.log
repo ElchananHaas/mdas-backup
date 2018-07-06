@@ -1,0 +1,41 @@
+[rosmaster.main][INFO] 2017-11-03 15:56:10,433: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-11-03 15:56:10,433: Starting ROS Master Node
+[xmlrpc][INFO] 2017-11-03 15:56:10,434: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-11-03 15:56:10,434: Started XML-RPC server [http://mdas-Meerkat:11311/]
+[xmlrpc][INFO] 2017-11-03 15:56:10,434: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-11-03 15:56:10,434: Master initialized: port[11311], uri[http://mdas-Meerkat:11311/]
+[rosmaster.master][INFO] 2017-11-03 15:56:10,459: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 15:56:10,459: +PARAM [/roslaunch/uris/host_mdas_meerkat__46013] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 15:56:10,517: +PARAM [/novatel_node/psrpos_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 15:56:10,517: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 15:56:10,517: +PARAM [/novatel_node/baudrate] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 15:56:10,517: +PARAM [/novatel_node/log_commands] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 15:56:10,517: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 15:56:10,517: +PARAM [/novatel_node/psrpos_topic] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 15:56:10,517: +PARAM [/novatel_node/odom_topic] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 15:56:10,517: +PARAM [/novatel_node/port] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 15:56:10,517: +PARAM [/novatel_node/span_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 15:56:10,518: +PARAM [/novatel_node/ephem_log] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 15:56:10,518: +PARAM [/novatel_node/range_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 15:56:10,518: +PARAM [/novatel_node/gps_default_logs_period] by /roslaunch
+[rosmaster.master][INFO] 2017-11-03 15:56:10,522: +SERVICE [/rosout/get_loggers] /rosout http://mdas-Meerkat:44879/
+[rosmaster.master][INFO] 2017-11-03 15:56:10,522: +SERVICE [/rosout/set_logger_level] /rosout http://mdas-Meerkat:44879/
+[rosmaster.master][INFO] 2017-11-03 15:56:10,523: +PUB [/rosout_agg] /rosout http://mdas-Meerkat:44879/
+[rosmaster.master][INFO] 2017-11-03 15:56:10,527: +SUB [/rosout] /rosout http://mdas-Meerkat:44879/
+[rosmaster.master][INFO] 2017-11-03 15:56:10,535: +PUB [/rosout] /novatel_node http://mdas-Meerkat:36431/
+[rosmaster.master][INFO] 2017-11-03 15:56:10,535: +SERVICE [/novatel_node/get_loggers] /novatel_node http://mdas-Meerkat:36431/
+[rosmaster.master][INFO] 2017-11-03 15:56:10,536: +SERVICE [/novatel_node/set_logger_level] /novatel_node http://mdas-Meerkat:36431/
+[rosmaster.master][INFO] 2017-11-03 15:56:10,545: +PUB [/gps_odom] /novatel_node http://mdas-Meerkat:36431/
+[rosmaster.master][INFO] 2017-11-03 15:56:10,545: +PUB [/gps_fix] /novatel_node http://mdas-Meerkat:36431/
+[rosmaster.master][INFO] 2017-11-03 15:56:10,546: +PUB [/ephemeris] /novatel_node http://mdas-Meerkat:36431/
+[rosmaster.master][INFO] 2017-11-03 15:56:10,546: +PUB [/range] /novatel_node http://mdas-Meerkat:36431/
+[rosmaster.master][INFO] 2017-11-03 15:56:10,546: +PUB [/gps_fix_psr] /novatel_node http://mdas-Meerkat:36431/
+[rosmaster.master][INFO] 2017-11-03 15:56:10,547: +PUB [/novatel_node/gps_fix_ecef] /novatel_node http://mdas-Meerkat:36431/
+[rosmaster.master][INFO] 2017-11-03 15:56:10,634: publisherUpdate[/rosout] -> http://mdas-Meerkat:44879/
+[rosmaster.master][INFO] 2017-11-03 15:56:10,837: -PUB [/rosout_agg] /rosout http://mdas-Meerkat:44879/
+[rosmaster.master][INFO] 2017-11-03 15:56:10,840: -SUB [/rosout] /rosout http://mdas-Meerkat:44879/
+[rosmaster.master][INFO] 2017-11-03 15:56:10,842: -SERVICE [/rosout/get_loggers] /rosout rosrpc://mdas-Meerkat:52677
+[rosmaster.master][INFO] 2017-11-03 15:56:10,844: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://mdas-Meerkat:52677
+[rosmaster.main][INFO] 2017-11-03 15:56:10,852: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-11-03 15:56:10,853: stopping master...
+[rospy.core][INFO] 2017-11-03 15:56:10,853: signal_shutdown [atexit]

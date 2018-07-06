@@ -1,0 +1,13 @@
+[rospy.client][INFO] 2017-11-09 18:34:44,815: init_node, name[/rostopic_9153_1510270484796], pid[9153]
+[xmlrpc][INFO] 2017-11-09 18:34:44,815: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-11-09 18:34:44,815: Started XML-RPC server [http://mdas-Meerkat:33239/]
+[rospy.init][INFO] 2017-11-09 18:34:44,815: ROS Slave URI: [http://mdas-Meerkat:33239/]
+[rospy.impl.masterslave][INFO] 2017-11-09 18:34:44,815: _ready: http://mdas-Meerkat:33239/
+[rospy.registration][INFO] 2017-11-09 18:34:44,816: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-11-09 18:34:44,816: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-11-09 18:34:44,916: registered with master
+[rospy.rosout][INFO] 2017-11-09 18:34:44,916: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-11-09 18:34:44,921: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-11-09 18:34:44,924: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-11-09 18:34:44,984: topic[/received_messages] adding connection to [http://mdas-Meerkat:41647/], count 0
+[rospy.internal][INFO] 2017-11-09 18:34:45,131: topic[/rosout] adding connection to [/rosout], count 0

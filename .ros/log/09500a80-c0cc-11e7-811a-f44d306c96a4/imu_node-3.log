@@ -1,0 +1,17 @@
+[rospy.client][INFO] 2017-11-03 15:20:22,556: init_node, name[/imu_node], pid[4758]
+[xmlrpc][INFO] 2017-11-03 15:20:22,556: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-11-03 15:20:22,557: Started XML-RPC server [http://mdas-Meerkat:46143/]
+[rospy.init][INFO] 2017-11-03 15:20:22,557: ROS Slave URI: [http://mdas-Meerkat:46143/]
+[rospy.impl.masterslave][INFO] 2017-11-03 15:20:22,557: _ready: http://mdas-Meerkat:46143/
+[xmlrpc][INFO] 2017-11-03 15:20:22,557: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-11-03 15:20:22,558: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2017-11-03 15:20:22,657: registered with master
+[rospy.rosout][INFO] 2017-11-03 15:20:22,658: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-11-03 15:20:22,667: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-11-03 15:20:22,671: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2017-11-03 15:20:22,695: Reconfigure request for yaw_calibration: 0
+[rosout][INFO] 2017-11-03 15:20:22,695: Set imu_yaw_calibration to 0
+[rosout][INFO] 2017-11-03 15:20:22,719: Opening /dev/sensor-imu...
+[rosout][ERROR] 2017-11-03 15:20:22,719: IMU not found at port /dev/sensor-imu. Did you specify the correct port in the launch file?
+[rospy.core][INFO] 2017-11-03 15:20:22,720: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2017-11-03 15:20:22,723: atexit

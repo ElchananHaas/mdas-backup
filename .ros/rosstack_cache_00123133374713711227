@@ -1,0 +1,6 @@
+#ROS_PACKAGE_PATH=/home/mdas/ros_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks
+/opt/ros/indigo/share/baxter_simulator
+/opt/ros/indigo/share/baxter_common
+/opt/ros/indigo/share/slam_gmapping
+/opt/ros/indigo/share/baxter_sdk
+/home/mdas/ros_ws/src/stdr_simulator/stdr_simulator

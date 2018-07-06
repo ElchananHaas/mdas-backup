@@ -1,0 +1,8 @@
+prefix=/home/mdas/ros_ws/devel
+
+Name: sentry_urdf
+Description: Description of sentry_urdf
+Version: 0.0.0
+Cflags: -I/home/mdas/ros_ws/devel/include
+Libs: -L/home/mdas/ros_ws/devel/lib 
+Requires: roscpp geometry_msgs std_msgs sensor_msgs actionlib message_runtime nav_msgs

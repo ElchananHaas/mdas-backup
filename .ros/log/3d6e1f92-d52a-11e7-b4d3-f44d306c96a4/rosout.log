@@ -1,0 +1,80 @@
+
+
+1511976305.685363462  Node Startup
+1511976254.151787108 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /novatel_node/gps_fix_ecef
+1511976155.917332960 WARN [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:270(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Unable to set resolution. Using 5.000000e-01 instead of 1.000000e+00.
+1511976159.167214556 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Ack received for requested log: PSRPOSB ONTIME 1.00
+1511976156.272255805 WARN [/home/mdas/ros_ws/src/packages/usb_cams/src/usb_cam.cpp:1206(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] sh: 1: v4l2-ctl: not found
+
+1511976254.151787108 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /novatel_node/gps_fix_ecef
+1511976155.917332960 WARN [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:270(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Unable to set resolution. Using 5.000000e-01 instead of 1.000000e+00.
+1511976159.167214556 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Ack received for requested log: PSRPOSB ONTIME 1.00
+1511976156.272255805 WARN [/home/mdas/ros_ws/src/packages/usb_cams/src/usb_cam.cpp:1206(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] sh: 1: v4l2-ctl: not found
+
+1511976254.139573515 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /rosout
+1511976254.141613363 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /rosout_agg
+1511976254.143581382 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /gps_fix_psr
+1511976254.145481941 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /sensor_msgs/LaserScan
+1511976254.147714189 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /range
+1511976254.149745866 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /diagnostics
+1511976254.151787108 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /novatel_node/gps_fix_ecef
+1511976155.917332960 WARN [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:270(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Unable to set resolution. Using 5.000000e-01 instead of 1.000000e+00.
+1511976159.167214556 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Ack received for requested log: PSRPOSB ONTIME 1.00
+1511976156.272255805 WARN [/home/mdas/ros_ws/src/packages/usb_cams/src/usb_cam.cpp:1206(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] sh: 1: v4l2-ctl: not found
+
+1511976254.139573515 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /rosout
+1511976254.141613363 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /rosout_agg
+1511976254.143581382 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /gps_fix_psr
+1511976254.145481941 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /sensor_msgs/LaserScan
+1511976254.147714189 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /range
+1511976254.149745866 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /diagnostics
+1511976254.151787108 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /novatel_node/gps_fix_ecef
+1511976155.917332960 WARN [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:270(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Unable to set resolution. Using 5.000000e-01 instead of 1.000000e+00.
+1511976159.167214556 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Ack received for requested log: PSRPOSB ONTIME 1.00
+1511976156.272255805 WARN [/home/mdas/ros_ws/src/packages/usb_cams/src/usb_cam.cpp:1206(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] sh: 1: v4l2-ctl: not found
+
+1511976254.139573515 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /rosout
+1511976254.141613363 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /rosout_agg
+1511976254.143581382 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /gps_fix_psr
+1511976254.145481941 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /sensor_msgs/LaserScan
+1511976254.147714189 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /range
+1511976254.149745866 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /diagnostics
+1511976254.151787108 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /novatel_node/gps_fix_ecef
+1511976155.917332960 WARN [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:270(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Unable to set resolution. Using 5.000000e-01 instead of 1.000000e+00.
+1511976159.167214556 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Ack received for requested log: PSRPOSB ONTIME 1.00
+1511976156.272255805 WARN [/home/mdas/ros_ws/src/packages/usb_cams/src/usb_cam.cpp:1206(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] sh: 1: v4l2-ctl: not found
+
+1511976401.831723046 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/player.cpp:125(Player::publish) [topics: /rosout, /clock] Opening alldata_2017-11-10-12-38-37.bag
+1510335518.011815178 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /rosout
+1510335518.018326170 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /rosout_agg
+1510335518.020646220 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /received_messages
+1510335518.022835190 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /initialpose
+1510335518.029018067 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /sensor_msgs/LaserScan
+1510335518.031145049 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /selected_points
+1510335518.037160985 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /range
+1510335518.039530338 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /diagnostics
+1510335518.041548623 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /clicked_point
+1510335518.047550872 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /gps_fix_psr
+1510335518.049694894 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /novatel_node/gps_fix_ecef
+1510332470.832404187 INFO [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic_node.cpp:54(main) [topics: /rosout] Successfully connected to can0.
+1510332480.921920026 INFO [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:283(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Measuring units setup not requested or identical to actual ('Centimeters (cm)')
+1510332474.839945291 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Ack received for requested log: PSRPOSB ONTIME 1.00
+1510332471.900383660 WARN [/home/mdas/ros_ws/src/packages/usb_cams/src/usb_cam.cpp:1206(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] sh: 1: v4l2-ctl: not found
+
+1511976408.733555769 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/player.cpp:125(Player::publish) [topics: /rosout, /clock] Opening alldata_2017-11-10-12-38-37.bag
+1510335518.011815178 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /rosout
+1510335518.018326170 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /rosout_agg
+1510335518.020646220 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /received_messages
+1510335518.022835190 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /initialpose
+1510335518.029018067 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /sensor_msgs/LaserScan
+1510335518.031145049 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /selected_points
+1510335518.037160985 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /range
+1510335518.039530338 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /diagnostics
+1510335518.041548623 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /clicked_point
+1510335518.047550872 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /gps_fix_psr
+1510335518.049694894 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/recorder.cpp:211(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /novatel_node/gps_fix_ecef
+1510332470.832404187 INFO [/tmp/binarydeb/ros-indigo-socketcan-bridge-0.6.8/src/socketcan_to_topic_node.cpp:54(main) [topics: /rosout] Successfully connected to can0.
+1510332480.921920026 INFO [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:283(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Measuring units setup not requested or identical to actual ('Centimeters (cm)')
+1510332474.839945291 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Ack received for requested log: PSRPOSB ONTIME 1.00
+1510332471.900383660 WARN [/home/mdas/ros_ws/src/packages/usb_cams/src/usb_cam.cpp:1206(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] sh: 1: v4l2-ctl: not found
+

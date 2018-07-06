@@ -1,0 +1,11 @@
+terminal 1:
+roscore
+====================
+terminal 2: 
+roslaunch sentry_urdf start_rviz.launch 
+====================
+terminal 3:
+roslaunch usb_cam both_cams.launch //camera 
+roslaunch novatel novatel_for_psr.launch//gps
+
+

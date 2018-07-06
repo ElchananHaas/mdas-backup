@@ -1,0 +1,14 @@
+
+
+1510183626.167204047  Node Startup
+1510183626.249839029 INFO [/tmp/binarydeb/ros-indigo-camera-info-manager-1.11.12/src/camera_info_manager.cpp:220(CameraInfoManager::loadCalibration) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] camera calibration URL: file:///home/mdas/.ros/camera_info/head_camera.yaml
+1510183626.249886664 INFO [/tmp/binarydeb/ros-indigo-camera-calibration-parsers-1.11.12/src/parse_yml.cpp:231(readCalibrationYml) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] Unable to open camera calibration file [/home/mdas/.ros/camera_info/head_camera.yaml]
+1510183626.249904098 WARN [/tmp/binarydeb/ros-indigo-camera-info-manager-1.11.12/src/camera_info_manager.cpp:293(CameraInfoManager::loadCalibrationFile) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] Camera calibration file /home/mdas/.ros/camera_info/head_camera.yaml not found.
+1510183626.249925377 INFO [/home/mdas/ros_ws/src/packages/usb_cams/nodes/usb_cam_node.cpp:138(UsbCamNode::UsbCamNode) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] Starting 'head_camera' (/dev/video0) at 640x480 via mmap (yuyv) at 10 FPS
+1510183627.177076968 WARN [/home/mdas/ros_ws/src/packages/usb_cams/src/usb_cam.cpp:1206(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] sh: 1: v4l2-ctl: not found
+
+1510183627.181538832 WARN [/home/mdas/ros_ws/src/packages/usb_cams/src/usb_cam.cpp:1206(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam_1/image_raw, /usb_cam_1/camera_info] sh: 1: v4l2-ctl: not found
+
+1510183969.214126348 INFO [/tmp/binarydeb/ros-indigo-rviz-1.11.18/src/rviz/ogre_helpers/render_system.cpp:438(RenderWindow* rviz::RenderSystem::makeRenderWindow) [topics: /rosout] Stereo is NOT SUPPORTED
+1510184353.386834087 INFO [/tmp/binarydeb/ros-indigo-rviz-1.11.14/src/rviz/ogre_helpers/render_system.cpp:431(RenderWindow* rviz::RenderSystem::makeRenderWindow) [topics: /rosout] Stereo is NOT SUPPORTED
+1510184438.661828895 INFO [/tmp/binarydeb/ros-indigo-rviz-1.11.14/src/rviz/ogre_helpers/render_system.cpp:431(RenderWindow* rviz::RenderSystem::makeRenderWindow) [topics: /rosout] Stereo is NOT SUPPORTED

@@ -1,0 +1,28 @@
+
+	*** Attempting to initialize the Sick LMS...
+	Attempting to open device @ /dev/sensor-sick_lidar
+		Device opened!
+	Attempting to start buffer monitor...
+		Buffer monitor started!
+	Attempting to set requested baud rate...
+		Operating @ 500Kbps
+	Attempting to sync driver...
+		Driver synchronized!
+	*** Init. complete: Sick LMS is online and ready!
+	Sick Type: Sick LMS 291-S05
+	Scan Angle: 180 (deg)
+	Scan Resolution: 0.5 (deg)
+	Measuring Mode: 8m/80m; 3 reflector bits
+	Measuring Units: Centimeters (cm)
+
+[0m[ INFO] [1510329946.898363321]: Setting variant to (0, 1.000000)[0m
+[33m[ WARN] [1510329946.898661783]: Unable to set scan angle. Using 180 instead of 0.[0m
+[33m[ WARN] [1510329946.898723493]: Unable to set resolution. Using 5.000000e-01 instead of 1.000000e+00.[0m
+[0m[ INFO] [1510329946.898809284]: Measuring units setup not requested or identical to actual ('Centimeters (cm)')[0m
+	Requesting partial scan data stream...
+		Data stream started!
+
+	*** Attempting to uninitialize the Sick LMS...
+	Attempting to stop buffer monitor...
+		Buffer monitor stopped!
+	*** Uninit. complete - Sick LMS is now offline!

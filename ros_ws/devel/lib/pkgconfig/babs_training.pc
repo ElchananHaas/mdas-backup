@@ -1,0 +1,8 @@
+prefix=/home/mdas/ros_ws/devel
+
+Name: babs_training
+Description: Description of babs_training
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mdas/ros_ws/devel/lib 
+Requires: pcl_ros pcl_conversions pcl_msgs sensor_msgs std_msgs tf xform_utils roscpp

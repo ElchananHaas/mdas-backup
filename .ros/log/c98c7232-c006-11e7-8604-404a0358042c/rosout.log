@@ -1,0 +1,5 @@
+
+
+1509652104.526689788  Node Startup
+1509652105.228673091 INFO [/tmp/binarydeb/ros-indigo-rviz-1.11.18/src/rviz/ogre_helpers/render_system.cpp:438(RenderWindow* rviz::RenderSystem::makeRenderWindow) [topics: /rosout] Stereo is NOT SUPPORTED
+1509652105.228713458 INFO [/tmp/binarydeb/ros-indigo-rviz-1.11.18/src/rviz/ogre_helpers/render_system.cpp:211(RenderSystem::detectGlVersion) [topics: /rosout] OpenGl version: 3 (GLSL 1.3).

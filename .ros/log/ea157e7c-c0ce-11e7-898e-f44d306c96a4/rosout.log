@@ -1,0 +1,4 @@
+
+
+1509738058.480267740  Node Startup
+1509738156.287582564 ERROR [/home/mdas/ros_ws/src/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:352(main) [topics: /rosout, /diagnostics, /sensor_msgs/LaserScan] Initialize failed! are you using the correct device path?

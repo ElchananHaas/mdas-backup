@@ -1,0 +1,8 @@
+prefix=/home/mdas/ros_ws/install
+
+Name: odom_filters
+Description: Description of odom_filters
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mdas/ros_ws/install/lib 
+Requires: 

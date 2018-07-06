@@ -1,0 +1,93 @@
+[rosmaster.main][INFO] 2017-11-09 18:07:50,560: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-11-09 18:07:50,560: Starting ROS Master Node
+[xmlrpc][INFO] 2017-11-09 18:07:50,561: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-11-09 18:07:50,561: Started XML-RPC server [http://mdas-Meerkat:11311/]
+[xmlrpc][INFO] 2017-11-09 18:07:50,561: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-11-09 18:07:50,561: Master initialized: port[11311], uri[http://mdas-Meerkat:11311/]
+[rosmaster.master][INFO] 2017-11-09 18:07:50,582: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-09 18:07:50,583: +PARAM [/roslaunch/uris/host_mdas_meerkat__42997] by /roslaunch
+[rosmaster.master][INFO] 2017-11-09 18:07:50,644: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-11-09 18:07:50,644: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-11-09 18:07:50,648: +SERVICE [/rosout/get_loggers] /rosout http://mdas-Meerkat:41021/
+[rosmaster.master][INFO] 2017-11-09 18:07:50,649: +SERVICE [/rosout/set_logger_level] /rosout http://mdas-Meerkat:41021/
+[rosmaster.master][INFO] 2017-11-09 18:07:50,650: +PUB [/rosout_agg] /rosout http://mdas-Meerkat:41021/
+[rosmaster.master][INFO] 2017-11-09 18:07:50,652: +SUB [/rosout] /rosout http://mdas-Meerkat:41021/
+[rosmaster.master][INFO] 2017-11-09 18:11:56,773: +PUB [/rosout] /socketcan_to_topic_node http://mdas-Meerkat:41647/
+[rosmaster.master][INFO] 2017-11-09 18:11:56,773: +SERVICE [/socketcan_to_topic_node/get_loggers] /socketcan_to_topic_node http://mdas-Meerkat:41647/
+[rosmaster.master][INFO] 2017-11-09 18:11:56,774: +SERVICE [/socketcan_to_topic_node/set_logger_level] /socketcan_to_topic_node http://mdas-Meerkat:41647/
+[rosmaster.master][INFO] 2017-11-09 18:11:56,775: +PUB [/received_messages] /socketcan_to_topic_node http://mdas-Meerkat:41647/
+[rosmaster.master][INFO] 2017-11-09 18:11:56,831: publisherUpdate[/rosout] -> http://mdas-Meerkat:41021/
+[rosmaster.master][INFO] 2017-11-09 18:14:33,160: +PUB [/rosout] /rostopic_7319_1510269273038 http://mdas-Meerkat:34993/
+[rosmaster.master][INFO] 2017-11-09 18:14:33,169: +SERVICE [/rostopic_7319_1510269273038/get_loggers] /rostopic_7319_1510269273038 http://mdas-Meerkat:34993/
+[rosmaster.master][INFO] 2017-11-09 18:14:33,173: +SERVICE [/rostopic_7319_1510269273038/set_logger_level] /rostopic_7319_1510269273038 http://mdas-Meerkat:34993/
+[rosmaster.master][INFO] 2017-11-09 18:14:33,186: +SUB [/received_messages] /rostopic_7319_1510269273038 http://mdas-Meerkat:34993/
+[rosmaster.master][INFO] 2017-11-09 18:14:33,196: publisherUpdate[/rosout] -> http://mdas-Meerkat:41021/
+[rosmaster.master][INFO] 2017-11-09 18:21:21,107: +PUB [/rosout] /record_1510269681105928996 http://mdas-Meerkat:46363/
+[rosmaster.master][INFO] 2017-11-09 18:21:21,108: +SERVICE [/record_1510269681105928996/get_loggers] /record_1510269681105928996 http://mdas-Meerkat:46363/
+[rosmaster.master][INFO] 2017-11-09 18:21:21,108: +SERVICE [/record_1510269681105928996/set_logger_level] /record_1510269681105928996 http://mdas-Meerkat:46363/
+[rosmaster.master][INFO] 2017-11-09 18:21:21,110: +SUB [/received_messages] /record_1510269681105928996 http://mdas-Meerkat:46363/
+[rosmaster.master][INFO] 2017-11-09 18:21:21,146: publisherUpdate[/rosout] -> http://mdas-Meerkat:41021/
+[rosmaster.master][INFO] 2017-11-09 18:23:17,403: +PUB [/rosout] /record_1510269797401571161 http://mdas-Meerkat:34423/
+[rosmaster.master][INFO] 2017-11-09 18:23:17,403: +SERVICE [/record_1510269797401571161/get_loggers] /record_1510269797401571161 http://mdas-Meerkat:34423/
+[rosmaster.master][INFO] 2017-11-09 18:23:17,405: +SERVICE [/record_1510269797401571161/set_logger_level] /record_1510269797401571161 http://mdas-Meerkat:34423/
+[rosmaster.master][INFO] 2017-11-09 18:23:17,408: +SUB [/comd_vel] /record_1510269797401571161 http://mdas-Meerkat:34423/
+[rosmaster.master][INFO] 2017-11-09 18:23:17,410: +SUB [/rosout] /record_1510269797401571161 http://mdas-Meerkat:34423/
+[rosmaster.master][INFO] 2017-11-09 18:23:17,412: +SUB [/tf] /record_1510269797401571161 http://mdas-Meerkat:34423/
+[rosmaster.master][INFO] 2017-11-09 18:23:17,455: publisherUpdate[/rosout] -> http://mdas-Meerkat:41021/
+[rosmaster.master][INFO] 2017-11-09 18:29:09,425: -PUB [/rosout] /record_1510269797401571161 http://mdas-Meerkat:34423/
+[rosmaster.master][INFO] 2017-11-09 18:29:09,426: -SUB [/comd_vel] /record_1510269797401571161 http://mdas-Meerkat:34423/
+[rosmaster.master][INFO] 2017-11-09 18:29:09,426: -SUB [/rosout] /record_1510269797401571161 http://mdas-Meerkat:34423/
+[rosmaster.master][INFO] 2017-11-09 18:29:09,427: -SUB [/tf] /record_1510269797401571161 http://mdas-Meerkat:34423/
+[rosmaster.master][INFO] 2017-11-09 18:29:09,428: -SERVICE [/record_1510269797401571161/get_loggers] /record_1510269797401571161 rosrpc://mdas-Meerkat:36507
+[rosmaster.master][INFO] 2017-11-09 18:29:09,428: -SERVICE [/record_1510269797401571161/set_logger_level] /record_1510269797401571161 rosrpc://mdas-Meerkat:36507
+[rosmaster.master][INFO] 2017-11-09 18:29:09,484: publisherUpdate[/rosout] -> http://mdas-Meerkat:41021/
+[rosmaster.master][INFO] 2017-11-09 18:29:09,484: publisherUpdate[/rosout] -> http://mdas-Meerkat:34423/
+[rosmaster.threadpool][ERROR] 2017-11-09 18:29:09,488: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2017-11-09 18:30:57,514: +PUB [/rosout] /record_1510270257513227817 http://mdas-Meerkat:45863/
+[rosmaster.master][INFO] 2017-11-09 18:30:57,515: +SERVICE [/record_1510270257513227817/get_loggers] /record_1510270257513227817 http://mdas-Meerkat:45863/
+[rosmaster.master][INFO] 2017-11-09 18:30:57,517: +SERVICE [/record_1510270257513227817/set_logger_level] /record_1510270257513227817 http://mdas-Meerkat:45863/
+[rosmaster.master][INFO] 2017-11-09 18:30:57,519: +SUB [/received_messages] /record_1510270257513227817 http://mdas-Meerkat:45863/
+[rosmaster.master][INFO] 2017-11-09 18:30:57,581: publisherUpdate[/rosout] -> http://mdas-Meerkat:41021/
+[rosmaster.master][INFO] 2017-11-09 18:31:51,722: +PUB [/rosout] /record_1510270311721004571 http://mdas-Meerkat:37381/
+[rosmaster.master][INFO] 2017-11-09 18:31:51,723: +SERVICE [/record_1510270311721004571/get_loggers] /record_1510270311721004571 http://mdas-Meerkat:37381/
+[rosmaster.master][INFO] 2017-11-09 18:31:51,723: +SERVICE [/record_1510270311721004571/set_logger_level] /record_1510270311721004571 http://mdas-Meerkat:37381/
+[rosmaster.master][INFO] 2017-11-09 18:31:51,727: +SUB [/received_messages] /record_1510270311721004571 http://mdas-Meerkat:37381/
+[rosmaster.master][INFO] 2017-11-09 18:31:51,780: publisherUpdate[/rosout] -> http://mdas-Meerkat:41021/
+[rosmaster.master][INFO] 2017-11-09 18:34:44,919: +PUB [/rosout] /rostopic_9153_1510270484796 http://mdas-Meerkat:33239/
+[rosmaster.master][INFO] 2017-11-09 18:34:44,925: publisherUpdate[/rosout] -> http://mdas-Meerkat:41021/
+[rosmaster.master][INFO] 2017-11-09 18:34:44,929: +SERVICE [/rostopic_9153_1510270484796/get_loggers] /rostopic_9153_1510270484796 http://mdas-Meerkat:33239/
+[rosmaster.master][INFO] 2017-11-09 18:34:44,932: +SERVICE [/rostopic_9153_1510270484796/set_logger_level] /rostopic_9153_1510270484796 http://mdas-Meerkat:33239/
+[rosmaster.master][INFO] 2017-11-09 18:34:44,946: +SUB [/received_messages] /rostopic_9153_1510270484796 http://mdas-Meerkat:33239/
+[rosmaster.master][INFO] 2017-11-09 18:34:57,157: -PUB [/rosout_agg] /rosout http://mdas-Meerkat:41021/
+[rosmaster.master][INFO] 2017-11-09 18:34:57,157: -SUB [/rosout] /rosout http://mdas-Meerkat:41021/
+[rosmaster.master][INFO] 2017-11-09 18:34:57,158: -SERVICE [/rosout/get_loggers] /rosout rosrpc://mdas-Meerkat:34731
+[rosmaster.master][INFO] 2017-11-09 18:34:57,158: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://mdas-Meerkat:34731
+[rosmaster.main][INFO] 2017-11-09 18:34:57,267: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-11-09 18:34:57,267: stopping master...
+[rospy.core][INFO] 2017-11-09 18:34:57,268: signal_shutdown [atexit]

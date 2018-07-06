@@ -1,0 +1,64 @@
+
+
+1509817143.197992028  Node Startup
+1509817143.235285283 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Serial port: /dev/ttyUSB0 opened successfully.
+
+1509817144.235671141 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1509817144.669890118 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Error reading version info from receiver: SerialException device reports readiness to read but returned no data (device disconnected?) failed.
+1509817144.669989989 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1509817145.107026891 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Error reading version info from receiver: SerialException device reports readiness to read but returned no data (device disconnected?) failed.
+1509817173.866626394 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Serial port: /dev/ttyUSB0 opened successfully.
+
+1509817174.867138475 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1509817175.304996455 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Error reading version info from receiver: SerialException device reports readiness to read but returned no data (device disconnected?) failed.
+1509817175.305107599 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1509817175.739576954 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Error reading version info from receiver: SerialException device reports readiness to read but returned no data (device disconnected?) failed.
+1509817175.739702481 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1509817176.202055509 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Error reading version info from receiver: SerialException device reports readiness to read but returned no data (device disconnected?) failed.
+1509817176.202134175 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1509817176.663413049 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Error reading version info from receiver: SerialException device reports readiness to read but returned no data (device disconnected?) failed.
+1509817176.663505527 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1509817177.103550422 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Error reading version info from receiver: SerialException device reports readiness to read but returned no data (device disconnected?) failed.
+1509817177.103668323 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Novatel GPS not found on port: /dev/ttyUSB0 at baudrate 115200
+
+1509817177.103857406 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for receiver with baudrate: 1200
+1509817177.104437397 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Serial port: /dev/ttyUSB0 opened successfully.
+
+1509817178.105047295 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1509817178.122451380 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Error reading version info from receiver: SerialException device reports readiness to read but returned no data (device disconnected?) failed.
+1509817178.122594897 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1509817178.143497526 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Error reading version info from receiver: SerialException device reports readiness to read but returned no data (device disconnected?) failed.
+1509817178.143605037 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1509817178.145437772 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Error reading version info from receiver: SerialException device reports readiness to read but returned no data (device disconnected?) failed.
+1509817178.145551093 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1509817178.149407394 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Error reading version info from receiver: SerialException device reports readiness to read but returned no data (device disconnected?) failed.
+1509817178.149488727 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1509817178.169458329 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Error reading version info from receiver: SerialException device reports readiness to read but returned no data (device disconnected?) failed.
+1509817178.169540735 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Novatel GPS not found on port: /dev/ttyUSB0 at baudrate 1200
+
+1509817178.169650092 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for receiver with baudrate: 2400
+1509817178.170214864 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Serial port: /dev/ttyUSB0 opened successfully.
+
+1509817179.170795754 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1509817179.171610649 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Error reading version info from receiver: SerialException device reports readiness to read but returned no data (device disconnected?) failed.
+1509817179.171705644 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1509817179.182604200 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Error reading version info from receiver: SerialException device reports readiness to read but returned no data (device disconnected?) failed.
+1509817179.182688774 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+
+1509817179.194625119 ERROR [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:57(handleErrorMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Error reading version info from receiver: SerialException device reports readiness to read but returned no data (device disconnected?) failed.
+1509817179.194752396 INFO [/home/mdas/ros_ws/src/packages/novatel/src/novatel_node.cpp:55(handleInfoMessages) [topics: /rosout, /gps_odom, /gps_fix, /ephemeris, /range, /gps_fix_psr, /novatel_node/gps_fix_ecef] Searching for Novatel receiver...
+

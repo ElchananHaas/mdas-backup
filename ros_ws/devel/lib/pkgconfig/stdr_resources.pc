@@ -1,0 +1,8 @@
+prefix=/home/mdas/ros_ws/devel
+
+Name: stdr_resources
+Description: Description of stdr_resources
+Version: 0.3.2
+Cflags: 
+Libs: -L/home/mdas/ros_ws/devel/lib 
+Requires: 

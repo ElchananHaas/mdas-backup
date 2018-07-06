@@ -1,0 +1,8 @@
+prefix=/home/mdas/ros_ws/install
+
+Name: sticky_fingers
+Description: Description of sticky_fingers
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/mdas/ros_ws/install/lib -lsticky_fingers
+Requires: roscpp gazebo_ros roscpp gazebo_ros

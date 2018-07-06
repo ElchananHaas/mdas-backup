@@ -1,0 +1,26 @@
+2017-10-26 23:00:21,237 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2017-10-26 23:00:21,711 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2017-10-26 23:00:21,759 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2017-10-26 23:00:21,760 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2017-10-26 23:00:21,794 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2017-10-26 23:00:21,888 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats']'
+2017-10-26 23:00:21,888 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2017-10-26 23:00:22,645 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'exhibits', '{"lang": "en", "series": "trusty"}']'
+2017-10-26 23:00:22,645 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2017-10-26 23:00:22,935 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterRecommenderAPI', 'recommend_app', '{"pkgname": "b43-fwcutter"}']'
+2017-10-26 23:00:22,935 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2017-10-26 23:00:22,935 - softwarecenter.db.categories - WARNING - Error while accessing the recommender service: WARNING:__main__:no data
+
+2017-10-26 23:00:22,935 - softwarecenter.ui.gtk3.widgets.recommendations - WARNING - Error while accessing the recommender agent: WARNING:__main__:no data
+
+2017-10-26 23:00:25,011 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'available_apps', '{"lang": "en", "series": "trusty", "arch": "amd64"}']'
+2017-10-26 23:00:25,011 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2017-10-26 23:00:25,011 - softwarecenter.db.update - WARNING - update_from_software_center_agent: error: 'WARNING:__main__:no data\n'
+2017-10-26 23:00:25,021 - softwarecenter.db.utils - INFO - software-center-agent finished with status 1
+2017-10-26 23:00:35,740 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2017-10-26 23:00:35,883 - softwarecenter.utils - WARNING - Could not determine the installed desktop file path for app-install desktop file: ''
+2017-10-26 23:00:35,883 - softwarecenter.backend.zeitgeist_logger - WARNING - Invalid desktop file provided, impossible to log event

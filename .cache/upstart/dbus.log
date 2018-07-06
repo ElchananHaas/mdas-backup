@@ -1,0 +1,11 @@
+module-cache-reaper-Message: Reaping abandoned data directories
+module-cache-reaper-Message: Reaping abandoned cache directories
+
+(indicator-keyboard-service:2039): Gdk-WARNING **: indicator-keyboard-service: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(notify-osd:2137): Gdk-WARNING **: notify-osd: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(bamfdaemon:1963): Gdk-WARNING **: bamfdaemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+

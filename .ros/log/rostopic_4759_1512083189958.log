@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2017-11-30 18:06:29,976: init_node, name[/rostopic_4759_1512083189958], pid[4759]
+[xmlrpc][INFO] 2017-11-30 18:06:29,977: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-11-30 18:06:29,977: Started XML-RPC server [http://mdas-Meerkat:46671/]
+[rospy.init][INFO] 2017-11-30 18:06:29,977: ROS Slave URI: [http://mdas-Meerkat:46671/]
+[rospy.impl.masterslave][INFO] 2017-11-30 18:06:29,977: _ready: http://mdas-Meerkat:46671/
+[rospy.registration][INFO] 2017-11-30 18:06:29,977: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-11-30 18:06:29,977: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-11-30 18:06:30,077: registered with master
+[rospy.rosout][INFO] 2017-11-30 18:06:30,078: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-11-30 18:06:30,084: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-11-30 18:06:30,089: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-11-30 18:06:30,145: topic[/received_messages] adding connection to [http://mdas-Meerkat:44251/], count 0
+[rospy.internal][INFO] 2017-11-30 18:06:30,290: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2017-11-30 18:06:35,353: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-11-30 18:06:35,361: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-11-30 18:06:35,363: topic[/received_messages] removing connection to http://mdas-Meerkat:44251/
+[rospy.impl.masterslave][INFO] 2017-11-30 18:06:35,364: signal-2
+[rospy.internal][ERROR] 2017-11-30 18:06:35,367: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 698, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+  File "/usr/lib/python2.7/socket.py", line 170, in _dummy
+    raise error(EBADF, 'Bad file descriptor')
+error: [Errno 9] Bad file descriptor
+
+[rospy.core][INFO] 2017-11-30 18:06:35,981: signal_shutdown [atexit]

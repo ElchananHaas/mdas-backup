@@ -1,0 +1,9 @@
+<launch> 
+
+	<include file="$(find babs_lidar_wobbler)/launch/hokuyo_drivers.launch" />
+	<include file="$(find babs_lidar_wobbler)/launch/cloud_transformers.launch" />
+	<include file="$(find babs_lidar_wobbler)/launch/pcl_stitchers.launch" />
+	<include file="$(find babs_lidar_wobbler)/launch/wobbler_transforms.launch" />
+	<include file="$(find babs_lidar_wobbler)/launch/motors.launch" />\
+
+</launch>

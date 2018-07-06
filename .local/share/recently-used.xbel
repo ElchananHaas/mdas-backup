@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/mdas/ros_ws/src/launchers/launch/start_lidar.launch" added="2017-11-04T17:16:34Z" modified="2017-11-04T17:46:42Z" visited="2017-11-04T17:16:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-04T17:46:42Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/ros_ws/src/launchers/full_launch.launch" added="2017-11-04T17:17:26Z" modified="2017-11-07T14:46:44Z" visited="2017-11-04T17:17:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-07T14:46:44Z" count="8"/>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2017-11-04T17:43:22Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/Pictures/Nov_4_liadr_working.png" added="2017-11-04T17:23:14Z" modified="2017-11-04T17:23:14Z" visited="2017-11-04T17:23:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2017-11-04T17:23:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/Pictures/Screenshot%20from%202017-11-04%2013%3A25%3A24.png" added="2017-11-04T17:25:29Z" modified="2017-11-04T17:25:29Z" visited="2017-11-04T17:25:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2017-11-04T17:25:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/Pictures/Screenshot%20from%202017-11-04%2013%3A25%3A37.png" added="2017-11-04T17:25:39Z" modified="2017-11-04T17:25:39Z" visited="2017-11-04T17:25:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2017-11-04T17:25:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/ros_ws/src/packages/novatel/launch/novatel_for_psr.launch" added="2017-11-04T17:40:25Z" modified="2017-11-04T17:40:55Z" visited="2017-11-04T17:40:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-04T17:40:55Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/ros_ws/src/packages/usb_cams/launch/both_cams.launch" added="2017-11-04T17:47:11Z" modified="2017-11-04T17:47:11Z" visited="2017-11-04T17:47:11Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-04T17:47:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/Pictures/Screenshot%20from%202017-11-10%2013%3A41%3A00.png" added="2017-11-10T18:41:02Z" modified="2017-11-10T18:41:02Z" visited="2017-11-10T18:41:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2017-11-10T18:41:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/Pictures/Screenshot%20from%202017-11-10%2013%3A42%3A12.png" added="2017-11-10T18:42:13Z" modified="2017-11-10T18:42:13Z" visited="2017-11-10T18:42:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2017-11-10T18:42:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/Pictures/Screenshot%20from%202017-11-10%2013%3A42%3A30.png" added="2017-11-10T18:42:34Z" modified="2017-11-10T18:42:34Z" visited="2017-11-10T18:42:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2017-11-10T18:42:34Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/Pictures/Screenshot%20from%202017-11-10%2013:41:00.png" added="2017-11-10T18:42:46Z" modified="2017-11-10T18:42:46Z" visited="2017-11-10T18:42:46Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2017-11-10T18:42:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/Pictures/Screenshot%20from%202017-11-10%2013:42:12.png" added="2017-11-10T18:42:53Z" modified="2017-11-10T19:06:21Z" visited="2017-11-10T18:42:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2017-11-10T19:06:13Z" count="2"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-10T19:06:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/Pictures/Screenshot%20from%202017-11-10%2013:42:30.png" added="2017-11-10T18:42:56Z" modified="2017-11-10T19:06:21Z" visited="2017-11-10T18:42:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2017-11-10T18:42:56Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-10T19:06:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/Pictures/Screenshot%20from%202017-11-10%2013%3A44%3A20.png" added="2017-11-10T18:44:23Z" modified="2017-11-10T18:44:23Z" visited="2017-11-10T18:44:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2017-11-10T18:44:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/Pictures/Screenshot%20from%202017-11-10%2013%3A46%3A51.png" added="2017-11-10T18:46:53Z" modified="2017-11-10T18:46:53Z" visited="2017-11-10T18:46:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2017-11-10T18:46:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/Pictures/Screenshot%20from%202017-11-10%2013:46:51.png" added="2017-11-10T18:57:32Z" modified="2017-11-10T18:57:44Z" visited="2017-11-10T18:57:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-10T18:57:32Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2017-11-10T18:57:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/Pictures/Screenshot%20from%202017-11-10%2014%3A02%3A19.png" added="2017-11-10T19:02:21Z" modified="2017-11-10T19:02:21Z" visited="2017-11-10T19:02:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2017-11-10T19:02:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/Pictures/Screenshot%20from%202017-11-10%2014:02:19.png" added="2017-11-10T19:02:29Z" modified="2017-11-10T19:07:12Z" visited="2017-11-10T19:02:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2017-11-10T19:04:57Z" count="3"/>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2017-11-10T19:07:01Z" count="2"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-10T19:07:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/Downloads/rosbag_to_matlab_notes" added="2017-11-16T21:34:41Z" modified="2017-11-16T21:34:49Z" visited="2017-11-16T21:34:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-11-16T21:34:41Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-11-16T21:34:49Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/data_runs/11-10-2017/home/mdas/data_runs/arc1/gps_fix_psr.csv" added="2017-11-16T21:47:17Z" modified="2017-11-16T21:47:36Z" visited="2017-11-16T21:47:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;libreoffice --calc %U&apos;" modified="2017-11-16T21:47:17Z" count="1"/>
+          <bookmark:application name="LibreOffice 4.2" exec="&apos;soffice %u&apos;" modified="2017-11-16T21:47:36Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/data_runs/11-10-2017/data_runs/straight_2017-11-10-12-35-36/gps_fix_psr.csv" added="2017-11-16T21:58:52Z" modified="2017-11-16T21:58:52Z" visited="2017-11-16T21:58:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;libreoffice --calc %U&apos;" modified="2017-11-16T21:58:52Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/data_runs/11-10-2017/data_runs_csv_gpsdata/circle2/received_messages.csv" added="2017-11-16T22:07:49Z" modified="2017-11-16T22:07:58Z" visited="2017-11-16T22:07:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;libreoffice --calc %U&apos;" modified="2017-11-16T22:07:49Z" count="1"/>
+          <bookmark:application name="LibreOffice 4.2" exec="&apos;soffice %u&apos;" modified="2017-11-16T22:07:58Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/wpa_supplicant/ifupdown.sh" added="2017-12-01T19:47:28Z" modified="2017-12-01T19:47:28Z" visited="2017-12-01T19:47:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-12-01T19:47:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/wpa_supplicant/action_wpa.sh" added="2017-12-01T19:50:16Z" modified="2017-12-01T19:50:16Z" visited="2017-12-01T19:50:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-12-01T19:50:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/dbus-1/system.d/wpa_supplicant.conf" added="2017-12-01T19:57:51Z" modified="2017-12-01T19:57:51Z" visited="2017-12-01T19:57:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-12-01T19:57:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/wodim.conf" added="2017-12-01T20:00:14Z" modified="2017-12-01T20:00:14Z" visited="2017-12-01T20:00:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-12-01T20:00:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mdas/wpa_supplicant.conf" added="2017-12-01T20:05:56Z" modified="2017-12-01T20:43:23Z" visited="2017-12-01T20:05:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-12-01T20:43:23Z" count="13"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/matplotlibrc" added="2017-12-01T20:06:34Z" modified="2017-12-01T20:06:34Z" visited="2017-12-01T20:06:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-matlab"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-12-01T20:06:34Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/wpa_supplicant.conf" added="2017-12-01T20:06:55Z" modified="2017-12-01T20:21:29Z" visited="2017-12-01T20:06:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-12-01T20:21:29Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

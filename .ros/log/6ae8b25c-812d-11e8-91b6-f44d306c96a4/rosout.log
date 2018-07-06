@@ -1,0 +1,4 @@
+
+
+1530889270.478651335  Node Startup
+1530889293.842882551 INFO [/tmp/binarydeb/ros-indigo-gpsd-client-0.2.0/src/client.cpp:53(start) [topics: /rosout, /extended_fix, /fix] GPSd opened

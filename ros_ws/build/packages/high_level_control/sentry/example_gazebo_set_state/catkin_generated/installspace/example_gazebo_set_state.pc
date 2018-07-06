@@ -1,0 +1,8 @@
+prefix=/home/mdas/ros_ws/install
+
+Name: example_gazebo_set_state
+Description: Description of example_gazebo_set_state
+Version: 0.0.0
+Cflags: -I/home/mdas/ros_ws/install/include
+Libs: -L/home/mdas/ros_ws/install/lib 
+Requires: message_runtime roscpp gazebo_msgs geometry_msgs std_msgs

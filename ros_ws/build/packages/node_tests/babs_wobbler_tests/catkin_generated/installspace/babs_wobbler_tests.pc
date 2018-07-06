@@ -1,0 +1,8 @@
+prefix=/home/mdas/ros_ws/install
+
+Name: babs_wobbler_tests
+Description: Description of babs_wobbler_tests
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mdas/ros_ws/install/lib 
+Requires: pcl_ros pcl_conversions tf roscpp std_msgs xform_utils

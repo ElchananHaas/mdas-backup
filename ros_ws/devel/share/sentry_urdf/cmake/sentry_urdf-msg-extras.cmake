@@ -1,0 +1,2 @@
+set(sentry_urdf_MESSAGE_FILES "/home/mdas/ros_ws/devel/share/sentry_urdf/msg/pathAction.msg;/home/mdas/ros_ws/devel/share/sentry_urdf/msg/pathActionGoal.msg;/home/mdas/ros_ws/devel/share/sentry_urdf/msg/pathActionResult.msg;/home/mdas/ros_ws/devel/share/sentry_urdf/msg/pathActionFeedback.msg;/home/mdas/ros_ws/devel/share/sentry_urdf/msg/pathGoal.msg;/home/mdas/ros_ws/devel/share/sentry_urdf/msg/pathResult.msg;/home/mdas/ros_ws/devel/share/sentry_urdf/msg/pathFeedback.msg")
+set(sentry_urdf_SERVICE_FILES "")

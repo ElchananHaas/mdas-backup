@@ -1,0 +1,133 @@
+[rosmaster.main][INFO] 2017-11-29 12:02:54,063: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-11-29 12:02:54,063: Starting ROS Master Node
+[xmlrpc][INFO] 2017-11-29 12:02:54,064: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-11-29 12:02:54,064: Started XML-RPC server [http://mdas-Meerkat:11311/]
+[xmlrpc][INFO] 2017-11-29 12:02:54,064: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-11-29 12:02:54,064: Master initialized: port[11311], uri[http://mdas-Meerkat:11311/]
+[rosmaster.master][INFO] 2017-11-29 12:02:54,089: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-11-29 12:02:54,089: +PARAM [/roslaunch/uris/host_mdas_meerkat__46629] by /roslaunch
+[rosmaster.master][INFO] 2017-11-29 12:02:54,157: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-11-29 12:02:54,157: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-11-29 12:02:54,191: +SERVICE [/rosout/get_loggers] /rosout http://mdas-Meerkat:42445/
+[rosmaster.master][INFO] 2017-11-29 12:02:54,194: +SERVICE [/rosout/set_logger_level] /rosout http://mdas-Meerkat:42445/
+[rosmaster.master][INFO] 2017-11-29 12:02:54,198: +PUB [/rosout_agg] /rosout http://mdas-Meerkat:42445/
+[rosmaster.master][INFO] 2017-11-29 12:02:54,209: +SUB [/rosout] /rosout http://mdas-Meerkat:42445/
+[rosmaster.master][INFO] 2017-11-29 12:05:01,049: +PUB [/rosout] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:05:01,050: +SERVICE [/play_1511975101048118939/get_loggers] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:05:01,050: +SERVICE [/play_1511975101048118939/set_logger_level] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:05:01,051: +PUB [/clock] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:05:01,110: publisherUpdate[/rosout] -> http://mdas-Meerkat:42445/
+[rosmaster.master][INFO] 2017-11-29 12:05:01,398: +PUB [/received_messages] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:05:01,398: +PUB [/usb_cam_1/camera_info] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:05:01,399: +PUB [/usb_cam_1/image_raw] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:05:01,399: +PUB [/sensor_msgs/LaserScan] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:05:01,400: +PUB [/diagnostics] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:05:01,400: +PUB [/gps_fix] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:05:01,401: +PUB [/gps_fix_psr] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:05:01,401: +PUB [/gps_odom] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:05:27,599: +PUB [/rosout] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:05:27,599: +SERVICE [/rviz_1511975127596366374/get_loggers] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:05:27,600: +SERVICE [/rviz_1511975127596366374/set_logger_level] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:05:27,662: publisherUpdate[/rosout] -> http://mdas-Meerkat:42445/
+[rosmaster.master][INFO] 2017-11-29 12:05:28,221: +SUB [/tf] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:05:28,224: +SUB [/tf_static] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:05:28,317: +PUB [/initialpose] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:05:28,318: +PUB [/goal] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:05:28,342: -PUB [/goal] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:05:28,343: -PUB [/initialpose] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:05:28,346: +PUB [/initialpose] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:05:28,347: +PUB [/goal] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:05:28,347: +PUB [/move_base_simple/goal] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:05:28,348: -PUB [/goal] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:05:28,348: +PUB [/clicked_point] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:05:28,381: +SERVICE [/rviz_1511975127596366374/reload_shaders] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:05:40,506: +SUB [/usb_cam_1/image_raw] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:06:17,119: +SUB [/sensor_msgs/LaserScan] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:06:57,278: -SUB [/usb_cam_1/image_raw] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:06:57,359: -SUB [/sensor_msgs/LaserScan] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:06:57,360: -PUB [/clicked_point] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:06:57,361: -PUB [/move_base_simple/goal] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:06:57,361: -PUB [/initialpose] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:06:57,366: -SUB [/tf_static] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:06:57,367: -SUB [/tf] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:06:57,369: -SERVICE [/rviz_1511975127596366374/reload_shaders] /rviz_1511975127596366374 rosrpc://mdas-Meerkat:45857
+[rosmaster.master][INFO] 2017-11-29 12:06:57,402: -PUB [/rosout] /rviz_1511975127596366374 http://mdas-Meerkat:46501/
+[rosmaster.master][INFO] 2017-11-29 12:06:57,403: -SERVICE [/rviz_1511975127596366374/get_loggers] /rviz_1511975127596366374 rosrpc://mdas-Meerkat:45857
+[rosmaster.master][INFO] 2017-11-29 12:06:57,403: -SERVICE [/rviz_1511975127596366374/set_logger_level] /rviz_1511975127596366374 rosrpc://mdas-Meerkat:45857
+[rosmaster.master][INFO] 2017-11-29 12:06:57,423: publisherUpdate[/rosout] -> http://mdas-Meerkat:42445/
+[rosmaster.master][INFO] 2017-11-29 12:07:09,222: -PUB [/rosout] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:07:09,223: -PUB [/clock] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:07:09,224: -PUB [/received_messages] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:07:09,225: -PUB [/usb_cam_1/camera_info] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:07:09,225: -PUB [/usb_cam_1/image_raw] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:07:09,226: -PUB [/sensor_msgs/LaserScan] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:07:09,227: -PUB [/diagnostics] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:07:09,228: -PUB [/gps_fix] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:07:09,229: -PUB [/gps_fix_psr] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:07:09,229: -PUB [/gps_odom] /play_1511975101048118939 http://mdas-Meerkat:43537/
+[rosmaster.master][INFO] 2017-11-29 12:07:09,230: -SERVICE [/play_1511975101048118939/get_loggers] /play_1511975101048118939 rosrpc://mdas-Meerkat:39233
+[rosmaster.master][INFO] 2017-11-29 12:07:09,232: -SERVICE [/play_1511975101048118939/set_logger_level] /play_1511975101048118939 rosrpc://mdas-Meerkat:39233
+[rosmaster.master][INFO] 2017-11-29 12:07:09,246: publisherUpdate[/rosout] -> http://mdas-Meerkat:42445/
+[rosmaster.master][INFO] 2017-11-29 12:07:29,627: +PUB [/rosout] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:07:29,627: +SERVICE [/play_1511975249625618592/get_loggers] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:07:29,628: +SERVICE [/play_1511975249625618592/set_logger_level] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:07:29,629: +PUB [/clock] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:07:29,680: +PUB [/received_messages] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:07:29,680: +PUB [/sensor_msgs/LaserScan] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:07:29,681: +PUB [/usb_cam_1/camera_info] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:07:29,681: +PUB [/usb_cam_1/image_raw] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:07:29,682: +PUB [/diagnostics] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:07:29,682: +PUB [/gps_odom] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:07:29,683: +PUB [/gps_fix_psr] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:07:29,683: +PUB [/gps_fix] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:07:29,706: publisherUpdate[/rosout] -> http://mdas-Meerkat:42445/
+[rosmaster.master][INFO] 2017-11-29 12:07:33,284: +PUB [/rosout] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:07:33,285: +SERVICE [/rviz_1511975253282703242/get_loggers] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:07:33,285: +SERVICE [/rviz_1511975253282703242/set_logger_level] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:07:33,313: publisherUpdate[/rosout] -> http://mdas-Meerkat:42445/
+[rosmaster.master][INFO] 2017-11-29 12:07:33,858: +SUB [/tf] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:07:33,862: +SUB [/tf_static] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:07:33,936: +PUB [/initialpose] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:07:33,937: +PUB [/goal] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:07:33,962: -PUB [/goal] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:07:33,963: -PUB [/initialpose] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:07:33,965: +PUB [/initialpose] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:07:33,967: +PUB [/goal] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:07:33,967: +PUB [/move_base_simple/goal] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:07:33,968: -PUB [/goal] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:07:33,969: +PUB [/clicked_point] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:07:33,990: +SERVICE [/rviz_1511975253282703242/reload_shaders] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:07:39,112: +SUB [/usb_cam_1/image_raw] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:08:09,102: +SUB [/sensor_msgs/LaserScan] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:10:51,932: -SUB [/usb_cam_1/image_raw] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:10:52,054: -SUB [/sensor_msgs/LaserScan] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:10:52,056: -PUB [/clicked_point] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:10:52,057: -PUB [/move_base_simple/goal] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:10:52,058: -PUB [/initialpose] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:10:52,065: -SUB [/tf_static] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:10:52,066: -SUB [/tf] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:10:52,068: -SERVICE [/rviz_1511975253282703242/reload_shaders] /rviz_1511975253282703242 rosrpc://mdas-Meerkat:54153
+[rosmaster.master][INFO] 2017-11-29 12:10:52,110: -PUB [/rosout] /rviz_1511975253282703242 http://mdas-Meerkat:40637/
+[rosmaster.master][INFO] 2017-11-29 12:10:52,110: -SERVICE [/rviz_1511975253282703242/get_loggers] /rviz_1511975253282703242 rosrpc://mdas-Meerkat:54153
+[rosmaster.master][INFO] 2017-11-29 12:10:52,111: -SERVICE [/rviz_1511975253282703242/set_logger_level] /rviz_1511975253282703242 rosrpc://mdas-Meerkat:54153
+[rosmaster.master][INFO] 2017-11-29 12:10:52,158: publisherUpdate[/rosout] -> http://mdas-Meerkat:42445/
+[rosmaster.master][INFO] 2017-11-29 12:10:56,526: -PUB [/rosout] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:10:56,528: -PUB [/clock] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:10:56,531: -PUB [/received_messages] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:10:56,533: -PUB [/sensor_msgs/LaserScan] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:10:56,536: -PUB [/usb_cam_1/camera_info] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:10:56,538: -PUB [/usb_cam_1/image_raw] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:10:56,541: -PUB [/diagnostics] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:10:56,543: -PUB [/gps_odom] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:10:56,545: -PUB [/gps_fix_psr] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:10:56,546: -PUB [/gps_fix] /play_1511975249625618592 http://mdas-Meerkat:33937/
+[rosmaster.master][INFO] 2017-11-29 12:10:56,548: -SERVICE [/play_1511975249625618592/get_loggers] /play_1511975249625618592 rosrpc://mdas-Meerkat:33403
+[rosmaster.master][INFO] 2017-11-29 12:10:56,551: -SERVICE [/play_1511975249625618592/set_logger_level] /play_1511975249625618592 rosrpc://mdas-Meerkat:33403
+[rosmaster.master][INFO] 2017-11-29 12:10:56,566: publisherUpdate[/rosout] -> http://mdas-Meerkat:42445/
+[rosmaster.master][INFO] 2017-11-29 12:14:07,495: -PUB [/rosout_agg] /rosout http://mdas-Meerkat:42445/
+[rosmaster.master][INFO] 2017-11-29 12:14:07,495: -SUB [/rosout] /rosout http://mdas-Meerkat:42445/
+[rosmaster.master][INFO] 2017-11-29 12:14:07,496: -SERVICE [/rosout/get_loggers] /rosout rosrpc://mdas-Meerkat:41925
+[rosmaster.master][INFO] 2017-11-29 12:14:07,496: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://mdas-Meerkat:41925
+[rosmaster.main][INFO] 2017-11-29 12:14:07,567: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-11-29 12:14:07,568: stopping master...
+[rospy.core][INFO] 2017-11-29 12:14:07,568: signal_shutdown [atexit]
